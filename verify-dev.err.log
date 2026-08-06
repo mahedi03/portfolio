@@ -1,0 +1,107 @@
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\server\next-font-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\server\\next-font-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\server\next-font-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\server\\next-font-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\routes-manifest.json',
+  page: '/favicon.ico'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\routes-manifest.json',
+  page: '/api/download-cv'
+}
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at (pages-dir-node)/./node_modules/next/dist/shared/lib/constants.js (D:\Website Development Next.js\portfolio\.next\server\vendor-chunks\next.js:590:1)
+    at (pages-dir-node)/./node_modules/next/dist/pages/_document.js (D:\Website Development Next.js\portfolio\.next\server\vendor-chunks\next.js:183:1)
+    at __webpack_exec__ (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:62:39)
+    at <unknown> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:63:192)
+    at <unknown> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:63:47)
+    at Object.<anonymous> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:66:3)
+[Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\routes-manifest.json',
+  page: '/api/download-cv'
+}
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at (pages-dir-node)/./node_modules/next/dist/shared/lib/constants.js (D:\Website Development Next.js\portfolio\.next\server\vendor-chunks\next.js:590:1)
+    at (pages-dir-node)/./node_modules/next/dist/pages/_document.js (D:\Website Development Next.js\portfolio\.next\server\vendor-chunks\next.js:183:1)
+    at __webpack_exec__ (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:62:39)
+    at <unknown> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:63:192)
+    at <unknown> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:63:47)
+    at Object.<anonymous> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:66:3)
+[Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\routes-manifest.json',
+  page: '/api/download-cv'
+}
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at (pages-dir-node)/./node_modules/next/dist/shared/lib/constants.js (D:\Website Development Next.js\portfolio\.next\server\vendor-chunks\next.js:590:1)
+    at (pages-dir-node)/./node_modules/next/dist/pages/_document.js (D:\Website Development Next.js\portfolio\.next\server\vendor-chunks\next.js:183:1)
+    at __webpack_exec__ (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:62:39)
+    at <unknown> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:63:192)
+    at <unknown> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:63:47)
+    at Object.<anonymous> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:66:3)
+[Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\routes-manifest.json',
+  page: '/api/download-cv'
+}
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at (pages-dir-node)/./node_modules/next/dist/shared/lib/constants.js (D:\Website Development Next.js\portfolio\.next\server\vendor-chunks\next.js:590:1)
+    at (pages-dir-node)/./node_modules/next/dist/pages/_document.js (D:\Website Development Next.js\portfolio\.next\server\vendor-chunks\next.js:183:1)
+    at __webpack_exec__ (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:62:39)
+    at <unknown> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:63:192)
+    at <unknown> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:63:47)
+    at Object.<anonymous> (D:\Website Development Next.js\portfolio\.next\server\pages\_document.js:66:3)
+[Error: ENOENT: no such file or directory, open 'D:\Website Development Next.js\portfolio\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Website Development Next.js\\portfolio\\.next\\routes-manifest.json'
+}

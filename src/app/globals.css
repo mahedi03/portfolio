@@ -1,0 +1,195 @@
+@import "tailwindcss";
+
+/* ============================================================================
+   DESIGN SYSTEM — Premium Modern Portfolio
+   Tailwind CSS v4 CSS-first configuration.
+   All colors defined as OKLCH for perceptual consistency and easy contrast
+   tuning. Light mode is default; dark mode via [data-theme="dark"].
+   ============================================================================ */
+
+:root {
+  /* ---- Brand palette --------------------------------------------------- */
+  --color-primary: oklch(0.32 0.19 264);       /* deep indigo */
+  --color-primary-foreground: oklch(0.98 0 0);
+  --color-secondary: oklch(0.96 0.01 264);     /* soft neutral */
+  --color-secondary-foreground: oklch(0.22 0.02 264);
+  --color-accent: oklch(0.72 0.19 40);         /* warm amber accent */
+  --color-accent-foreground: oklch(0.18 0.02 60);
+
+  /* ---- Semantic ---------------------------------------------------------*/
+  --color-success: oklch(0.62 0.17 145);
+  --color-success-foreground: oklch(0.98 0 0);
+  --color-warning: oklch(0.78 0.16 85);
+  --color-warning-foreground: oklch(0.2 0.02 85);
+  --color-error: oklch(0.58 0.22 27);
+  --color-error-foreground: oklch(0.98 0 0);
+
+  /* ---- Surfaces ----------------------------------------------------------*/
+  --color-background: oklch(0.995 0 0);
+  --color-foreground: oklch(0.16 0.01 264);
+  --color-surface: oklch(0.98 0.005 264);
+  --color-surface-foreground: oklch(0.16 0.01 264);
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.16 0.01 264);
+  --color-muted: oklch(0.95 0.005 264);
+  --color-muted-foreground: oklch(0.45 0.01 264);
+  --color-border: oklch(0.9 0.005 264);
+  --color-ring: var(--color-primary);
+
+  /* ---- Radius & shadow scale --------------------------------------------*/
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  --shadow-soft: 0 2px 8px -2px oklch(0.16 0.01 264 / 0.06), 0 4px 24px -8px oklch(0.16 0.01 264 / 0.08);
+  --shadow-elevated: 0 8px 30px -8px oklch(0.16 0.01 264 / 0.16);
+}
+
+[data-theme="dark"] {
+  --color-primary: oklch(0.78 0.15 264);
+  --color-primary-foreground: oklch(0.14 0.02 264);
+  --color-secondary: oklch(0.24 0.015 264);
+  --color-secondary-foreground: oklch(0.95 0.005 264);
+  --color-accent: oklch(0.75 0.17 45);
+  --color-accent-foreground: oklch(0.14 0.02 45);
+
+  --color-success: oklch(0.68 0.17 145);
+  --color-success-foreground: oklch(0.12 0.02 145);
+  --color-warning: oklch(0.8 0.15 85);
+  --color-warning-foreground: oklch(0.14 0.02 85);
+  --color-error: oklch(0.68 0.2 27);
+  --color-error-foreground: oklch(0.12 0.02 27);
+
+  --color-background: oklch(0.14 0.008 264);
+  --color-foreground: oklch(0.95 0.005 264);
+  --color-surface: oklch(0.18 0.01 264);
+  --color-surface-foreground: oklch(0.95 0.005 264);
+  --color-card: oklch(0.19 0.01 264);
+  --color-card-foreground: oklch(0.95 0.005 264);
+  --color-muted: oklch(0.24 0.01 264);
+  --color-muted-foreground: oklch(0.65 0.01 264);
+  --color-border: oklch(0.28 0.01 264);
+  --color-ring: var(--color-primary);
+
+  --shadow-soft: 0 2px 8px -2px oklch(0 0 0 / 0.3), 0 4px 24px -8px oklch(0 0 0 / 0.4);
+  --shadow-elevated: 0 8px 30px -8px oklch(0 0 0 / 0.5);
+}
+
+/* ---- Bind design tokens into Tailwind's theme layer ---------------------*/
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+  --color-accent: var(--color-accent);
+  --color-accent-foreground: var(--color-accent-foreground);
+  --color-success: var(--color-success);
+  --color-success-foreground: var(--color-success-foreground);
+  --color-warning: var(--color-warning);
+  --color-warning-foreground: var(--color-warning-foreground);
+  --color-error: var(--color-error);
+  --color-error-foreground: var(--color-error-foreground);
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-surface: var(--color-surface);
+  --color-surface-foreground: var(--color-surface-foreground);
+  --color-card: var(--color-card);
+  --color-card-foreground: var(--color-card-foreground);
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-border: var(--color-border);
+  --color-ring: var(--color-ring);
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+
+  --font-display: var(--font-display-var, ui-sans-serif, system-ui);
+  --font-sans: var(--font-sans-var, ui-sans-serif, system-ui);
+  --font-mono: var(--font-mono-var, ui-monospace, monospace);
+
+  /* Fluid typography scale using clamp() */
+  --text-hero: clamp(2.75rem, 2rem + 3.5vw, 5.5rem);
+  --text-h1: clamp(2.25rem, 1.75rem + 2.25vw, 3.75rem);
+  --text-h2: clamp(1.875rem, 1.5rem + 1.5vw, 2.75rem);
+  --text-h3: clamp(1.5rem, 1.3rem + 0.8vw, 2rem);
+  --text-h4: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+  --text-body-lg: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem);
+
+  --animate-fade-in: fade-in 0.6s ease-out forwards;
+  --animate-slide-up: slide-up 0.6s ease-out forwards;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---- Base element styles -------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  font-size: 20px;
+}
+
+/* Keep primary reading copy comfortably legible across the site. */
+body p,
+body li,
+body dd,
+body dt,
+body td,
+body th,
+body label,
+body input,
+body textarea,
+body select {
+  font-size: 20px;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ---- Container -----------------------------------------------------------*/
+.container-wide {
+  width: 100%;
+  max-width: 88rem; /* 1408px */
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+@media (min-width: 640px) {
+  .container-wide { padding-inline: 2rem; }
+}
+@media (min-width: 1024px) {
+  .container-wide { padding-inline: 3rem; }
+}
