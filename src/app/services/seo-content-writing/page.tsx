@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema, faqSchema, serviceSchema } from "@/lib/schema";
+import { breadcrumbSchema, faqSchema, serviceArticleSchema, serviceSchema } from "@/lib/schema";
 import { getServiceForPage, getServicePageMetadata } from "@/lib/service-page";
 import { getExpandedServiceFaqs } from "@/data/serviceFaqs";
 import { ServiceHero } from "@/components/services/ServiceHero";
@@ -19,7 +19,7 @@ export default function SeoContentWritingPage() {
   const service = getServiceForPage("seo-content-writing");
   return (
     <>
-      <JsonLd data={[breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, { name: service.title, path: `/services/${service.slug}` }]), serviceSchema(service), faqSchema(getExpandedServiceFaqs(service))]} />
+      <JsonLd data={[breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, { name: service.title, path: `/services/${service.slug}` }]), serviceSchema(service), serviceArticleSchema(service), faqSchema(getExpandedServiceFaqs(service), `/services/${service.slug}`)]} />
       <ServiceHero service={service} />
       <ServiceLongForm service={service} />
       <ServiceBenefits service={service} />

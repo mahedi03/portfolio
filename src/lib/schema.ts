@@ -110,11 +110,12 @@ export function breadcrumbSchema(items: { name: string; path: string }[]) {
   };
 }
 
-/** FAQPage schema */
-export function faqSchema(faqs: FAQItem[]) {
+/** FAQPage schema for visible questions and answers on a page. */
+export function faqSchema(faqs: FAQItem[], path?: string) {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    ...(path ? { "@id": `${absoluteUrl(path)}#faq` } : {}),
     mainEntity: faqs.map((faq) => ({
       "@type": "Question",
       name: faq.question,
@@ -183,6 +184,31 @@ export function serviceWebPageSchema(service: Service) {
     isPartOf: { "@id": `${absoluteUrl("/")}#website` },
     about: { "@id": `${url}#service` },
     breadcrumb: { "@id": `${url}#breadcrumb` },
+    inLanguage: siteConfig.locale.replace("_", "-"),
+  };
+}
+
+/** Article schema for the long-form editorial content on a service page. */
+export function serviceArticleSchema(service: Service) {
+  const url = absoluteUrl(`/services/${service.slug}`);
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${url}#article`,
+    headline: service.title,
+    description: service.metaDescription,
+    image: absoluteUrl(service.image ?? siteConfig.ogImage),
+    author: {
+      "@id": `${absoluteUrl("/about")}#person`,
+    },
+    publisher: {
+      "@id": `${absoluteUrl("/")}#organization`,
+    },
+    mainEntityOfPage: {
+      "@id": `${url}#webpage`,
+    },
+    articleSection: "Services",
     inLanguage: siteConfig.locale.replace("_", "-"),
   };
 }
