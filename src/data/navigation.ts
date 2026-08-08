@@ -1,5 +1,59 @@
 import type { NavItem, SocialLink } from "@/types";
 
+export const serviceMegaMenuGroups = [
+  {
+    label: "Website Marketing",
+    href: "/services/website-marketing",
+    description: "Turn your website into a stronger growth asset",
+    icon: "TrendingUp",
+    items: [
+      { label: "Website Marketing", href: "/services/website-marketing", description: "Integrated website growth strategy" },
+      { label: "Conversion Rate Optimization", href: "/services/cro", description: "Turn more visitors into customers" },
+      { label: "Analytics & Tracking", href: "/services/analytics-tracking", description: "GA4, GTM, and measurement infrastructure" },
+      { label: "Marketing Strategy", href: "/services/marketing-strategy", description: "Full-funnel growth planning" },
+    ],
+  },
+  {
+    label: "SEO",
+    href: "/services/seo",
+    description: "Build durable organic search visibility",
+    icon: "Search",
+    items: [
+      { label: "SEO", href: "/services/seo", description: "Organic growth through search optimization" },
+      { label: "Technical SEO", href: "/services/technical-seo", description: "Crawlability, indexation, and site health" },
+      { label: "Local SEO", href: "/services/local-seo", description: "Rank in local maps and searches" },
+      { label: "Off-Page SEO", href: "/services/off-page-seo", description: "Relevant links, digital PR, and authority growth" },
+      { label: "SEO Content Writing", href: "/services/seo-content-writing", description: "Pages, blogs, and topical authority content" },
+      { label: "Content Marketing", href: "/services/content-marketing", description: "Content clusters that rank and convert" },
+    ],
+  },
+  {
+    label: "Media Buying",
+    href: "/services/media-buying",
+    description: "Put budget behind measurable demand",
+    icon: "BarChart3",
+    items: [
+      { label: "Media Buying", href: "/services/media-buying", description: "Cross-channel paid media planning" },
+      { label: "Google Ads", href: "/services/google-ads", description: "High-intent paid search campaigns" },
+      { label: "Meta Ads", href: "/services/meta-ads", description: "Facebook and Instagram advertising" },
+      { label: "TikTok Ads", href: "/services/tiktok-ads", description: "Short-form video ad campaigns" },
+      { label: "Pinterest Ads", href: "/services/pinterest-ads", description: "Visual discovery advertising" },
+      { label: "ChatGPT Ads", href: "/services/chatgpt-ads", description: "Readiness, GEO alignment, and campaign strategy" },
+    ],
+  },
+  {
+    label: "Website",
+    href: "/services/website-development",
+    description: "Fast, accessible digital experiences",
+    icon: "Code2",
+    items: [
+      { label: "Website Development", href: "/services/website-development", description: "Fast, modern websites built to convert" },
+      { label: "Creative Content", href: "/services/creative-content", description: "Writing for web, search, products, and social" },
+      { label: "Social Media Management", href: "/services/social-media-management", description: "Platform-specific content and community management" },
+    ],
+  },
+] as const;
+
 export const mainNav: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },

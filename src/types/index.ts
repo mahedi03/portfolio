@@ -165,6 +165,13 @@ export interface CaseStudy {
   relatedCaseStudies: string[]; // slugs
   metaTitle: string;
   metaDescription: string;
+  sectionLabels?: {
+    problem: string;
+    research: string;
+    planning: string;
+    strategy: string;
+    execution: string;
+  };
 }
 
 // ---------------------------------------------------------------------------

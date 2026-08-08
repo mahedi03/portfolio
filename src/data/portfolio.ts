@@ -1,6 +1,8 @@
 import type { PortfolioProject } from "@/types";
+import { facebookAdsPortfolioProjects } from "@/data/facebookAdsCaseStudies";
 
 export const portfolioProjects: PortfolioProject[] = [
+  ...facebookAdsPortfolioProjects,
   {
     slug: "alfis-ltd-website",
     title: "Alfis Ltd Website",

@@ -6,6 +6,9 @@ import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/shared/Reveal";
 import { getLucideIcon } from "@/lib/icons";
+import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { serviceWebPageSchema } from "@/lib/schema";
 
 export function ServiceHero({ service }: { service: Service }) {
   const Icon = getLucideIcon(service.icon);
@@ -17,7 +20,10 @@ export function ServiceHero({ service }: { service: Service }) {
         ? "/portfolio/placeholder-cover.jpg"
         : "/blog/placeholder-cover-1.jpg");
   return (
-    <section className="pt-16 pb-16 lg:pt-24 lg:pb-20">
+    <>
+      <JsonLd data={serviceWebPageSchema(service)} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: service.shortTitle }]} />
+      <section className="pt-16 pb-16 lg:pt-24 lg:pb-20">
       <Container className="grid max-w-6xl items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
         <Reveal className="text-center lg:text-left">
           <div className="mx-auto inline-flex size-14 items-center justify-center rounded-xl bg-primary/10 text-primary lg:mx-0">
@@ -39,6 +45,7 @@ export function ServiceHero({ service }: { service: Service }) {
           </div>
         </Reveal>
       </Container>
-    </section>
+      </section>
+    </>
   );
 }

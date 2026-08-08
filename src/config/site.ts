@@ -7,7 +7,7 @@
 
 export const siteConfig = {
   name: "Mahedi Hasan",
-  shortName: "MH",
+  shortName: "MAHEDI",
   title: "Mahedi Hasan — Digital Marketing Specialist & Web Developer",
   description:
     "Digital Marketing Specialist and Full-Stack Developer helping businesses grow through high-performance websites, SEO, and paid advertising.",
@@ -23,8 +23,8 @@ export const siteConfig = {
     phone: "+880-1636407711",
     whatsapp: "https://wa.me/+8801636407711",
     location: {
-      city: "Your City",
-      country: "Your Country",
+      city: "Dhaka",
+      country: "Bangladesh",
     },
   },
 

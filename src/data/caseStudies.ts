@@ -1,11 +1,13 @@
 import type { CaseStudy } from "@/types";
 import { jarixoCaseStudyContent } from "@/data/jarixoCaseStudyContent";
+import { facebookAdsCaseStudies } from "@/data/facebookAdsCaseStudies";
 
 /**
  * Case studies. Metrics must reflect real, verifiable results only.
  * per project convention, never fabricate statistics.
  */
 export const caseStudies: CaseStudy[] = [
+  ...facebookAdsCaseStudies,
   {
     slug: "jarixo-topical-map-seo-visibility",
     title: "Building a Topical Map to Boost SEO Visibility for Jarixo",
@@ -39,40 +41,6 @@ export const caseStudies: CaseStudy[] = [
     metaTitle: "Jarixo Topical Map SEO Case Study",
     metaDescription:
       "How a 10-pillar topical authority framework turned Jarixo's 11-SKU wellness catalog into a structured SEO content and internal-linking system.",
-  },
-  {
-    slug: "example-seo-growth",
-    title: "Organic Traffic Growth Through Technical SEO",
-    client: "Example Client",
-    industry: "E-commerce",
-    category: "seo",
-    summary:
-      "Fixed critical crawlability issues and rebuilt the site's content architecture to drive sustainable organic growth.",
-    coverImage: "/case-studies/placeholder-cover.jpg",
-    timeline: "6 months",
-    tools: ["Google Search Console", "Screaming Frog", "Semrush"],
-    problem:
-      "The site had significant indexation issues caused by duplicate content and a shallow crawl depth on key pages.",
-    research:
-      "A full technical crawl and log file analysis revealed which pages Google was and wasn't discovering.",
-    planning:
-      "Built a prioritized remediation plan covering canonical tags, internal linking, and a topical content structure.",
-    strategy:
-      "Combined technical fixes with a pillar-and-cluster content strategy targeting high-intent commercial keywords.",
-    execution:
-      "Implemented fixes in phases, monitoring crawl stats and indexation in Search Console after each release.",
-    screenshots: ["/case-studies/placeholder-chart-1.jpg"],
-    metrics: [
-      { label: "Indexed pages", before: "Baseline", after: "Improved", change: "Increased" },
-    ],
-    lessonsLearned: [
-      "Technical fixes alone plateau without a supporting content strategy.",
-      "Log file analysis surfaced crawl budget issues invisible in standard audits.",
-    ],
-    relatedCaseStudies: [],
-    metaTitle: "Organic Traffic Growth Case Study",
-    metaDescription:
-      "How technical SEO fixes and a content strategy combined to drive sustainable organic growth for an e-commerce client.",
   },
   {
     slug: "phone-fashion-fix-local-seo",

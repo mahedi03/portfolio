@@ -56,6 +56,7 @@ export function organizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${absoluteUrl("/")}#organization`,
     name: siteConfig.name,
     url: siteConfig.url,
     logo: absoluteUrl("/logo.png"),
@@ -74,6 +75,7 @@ export function websiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${absoluteUrl("/")}#website`,
     name: siteConfig.name,
     url: siteConfig.url,
     potentialAction: {
@@ -92,6 +94,7 @@ export function breadcrumbSchema(items: { name: string; path: string }[]) {
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${absoluteUrl(items.at(-1)?.path ?? "/")}#breadcrumb`,
     itemListElement: items.map((item, index) => ({
       "@type": "ListItem",
       position: index + 1,
@@ -122,16 +125,30 @@ export function serviceSchema(service: Service) {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
+    "@id": `${absoluteUrl(`/services/${service.slug}`)}#service`,
     serviceType: service.title,
     name: service.title,
     description: service.metaDescription,
-    provider: {
-      "@type": "ProfessionalService",
-      name: siteConfig.name,
-      url: siteConfig.url,
-    },
+    provider: { "@id": `${absoluteUrl("/")}#organization` },
     areaServed: "Worldwide",
     url: absoluteUrl(`/services/${service.slug}`),
+  };
+}
+
+/** WebPage schema connecting a service page to the site, service, and breadcrumb entities. */
+export function serviceWebPageSchema(service: Service) {
+  const url = absoluteUrl(`/services/${service.slug}`);
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name: service.metaTitle,
+    description: service.metaDescription,
+    isPartOf: { "@id": `${absoluteUrl("/")}#website` },
+    about: { "@id": `${url}#service` },
+    breadcrumb: { "@id": `${url}#breadcrumb` },
+    inLanguage: siteConfig.locale.replace("_", "-"),
   };
 }
 

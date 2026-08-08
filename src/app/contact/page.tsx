@@ -22,7 +22,7 @@ const contactDetails = [
   { icon: Mail, label: "Email", value: siteConfig.author.email, href: `mailto:${siteConfig.author.email}` },
   { icon: Phone, label: "Phone", value: siteConfig.author.phone, href: `tel:${siteConfig.author.phone}` },
   { icon: MapPin, label: "Location", value: `${siteConfig.author.location.city}, ${siteConfig.author.location.country}` },
-  { icon: Clock, label: "Availability", value: "Mon–Fri, replies within 1 business day" },
+  { icon: Clock, label: "Availability", value: "24/7, replies within 1 business day" },
 ];
 
 export default function ContactPage() {

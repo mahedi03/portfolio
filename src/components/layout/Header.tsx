@@ -3,18 +3,20 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown } from "lucide-react";
-import { mainNav } from "@/data/navigation";
+import { Menu, X, ChevronDown, ChevronRight, ArrowRight } from "lucide-react";
+import { mainNav, serviceMegaMenuGroups } from "@/data/navigation";
 import { siteConfig } from "@/config/site";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { cn } from "@/lib/utils";
+import { getLucideIcon } from "@/lib/icons";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openMobileMenu, setOpenMobileMenu] = useState<string | null>(null);
   const [openMegaMenu, setOpenMegaMenu] = useState<string | null>(null);
+  const [selectedMegaGroup, setSelectedMegaGroup] = useState<(typeof serviceMegaMenuGroups)[number]["label"]>(serviceMegaMenuGroups[0].label);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -58,7 +60,12 @@ export function Header() {
               <li
                 key={item.href}
                 className="relative"
-                onMouseEnter={() => item.children && setOpenMegaMenu(item.label)}
+                onMouseEnter={() => {
+                  if (item.children) {
+                    setOpenMegaMenu(item.label);
+                    setSelectedMegaGroup(serviceMegaMenuGroups[0].label);
+                  }
+                }}
                 onMouseLeave={() => item.children && setOpenMegaMenu(null)}
               >
                 <Link
@@ -85,25 +92,71 @@ export function Header() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 8 }}
                       transition={{ duration: 0.15 }}
-                      className="absolute left-1/2 top-full z-50 mt-2 w-[820px] -translate-x-1/2 rounded-lg border border-border bg-card p-4 shadow-elevated"
+                      className="fixed left-1/2 top-[4.5rem] z-50 w-[min(1120px,calc(100vw-2rem))] -translate-x-1/2 overflow-hidden rounded-2xl border border-border bg-card p-3 shadow-elevated"
                     >
-                      <div className="grid grid-cols-2 gap-1 lg:grid-cols-3">
-                        {item.children.map((child) => (
-                          <Link
-                            key={child.href}
-                            href={child.href}
-                            className="rounded-md p-3 transition-colors hover:bg-muted"
-                          >
-                        <div className="text-base font-semibold text-card-foreground">
-                              {child.label}
-                            </div>
-                            {child.description && (
-                              <div className="mt-0.5 text-sm text-muted-foreground">
-                                {child.description}
+                      <div className="grid min-h-[420px] grid-cols-[0.85fr_1.15fr_0.9fr] gap-3">
+                        <div className="max-h-[min(70vh,620px)] overflow-y-auto rounded-xl bg-muted/50 p-2">
+                          <div className="px-3 pb-2 pt-2 text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">Explore services</div>
+                          <div className="space-y-1">
+                            {serviceMegaMenuGroups.map((group) => {
+                              const Icon = getLucideIcon(group.icon);
+                              const active = selectedMegaGroup === group.label;
+                              return (
+                                <button
+                                  key={group.label}
+                                  type="button"
+                                  onMouseEnter={() => setSelectedMegaGroup(group.label)}
+                                  onFocus={() => setSelectedMegaGroup(group.label)}
+                                  className={cn("flex w-full items-center gap-3 rounded-xl px-4 py-4 text-left transition-colors", active ? "bg-card shadow-soft" : "hover:bg-card/70")}
+                                >
+                                  <Icon className={cn("size-5 shrink-0", active ? "text-primary" : "text-muted-foreground")} />
+                                  <span className="min-w-0 flex-1 text-sm font-semibold text-card-foreground">{group.label}</span>
+                                  <ChevronRight className={cn("size-4 shrink-0", active ? "text-primary" : "text-muted-foreground")} />
+                                </button>
+                              );
+                            })}
+                          </div>
+                        </div>
+
+                        {(() => {
+                          const group = serviceMegaMenuGroups.find((entry) => entry.label === selectedMegaGroup) ?? serviceMegaMenuGroups[0];
+                          return (
+                            <div className="max-h-[min(70vh,620px)] overflow-y-auto px-3 py-2">
+                              <div className="flex items-center justify-between border-b border-border pb-4">
+                                <div>
+                                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary">{group.label}</p>
+                                  <p className="mt-1 text-sm text-muted-foreground">{group.description}</p>
+                                </div>
+                                <Link href={group.href} className="rounded-full p-2 text-muted-foreground hover:bg-muted hover:text-foreground" aria-label={`View all ${group.label} services`}>
+                                  <ArrowRight className="size-4" />
+                                </Link>
                               </div>
-                            )}
-                          </Link>
-                        ))}
+                              <div className="mt-2 divide-y divide-border">
+                                {group.items.map((child) => (
+                                  <Link key={child.href} href={child.href} className="group flex items-center justify-between gap-4 py-4 transition-colors">
+                                    <span>
+                                      <span className="block text-base font-medium text-card-foreground group-hover:text-primary">{child.label}</span>
+                                      <span className="mt-1 block text-sm text-muted-foreground">{child.description}</span>
+                                    </span>
+                                    <ChevronRight className="size-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-primary" />
+                                  </Link>
+                                ))}
+                              </div>
+                            </div>
+                          );
+                        })()}
+
+                        <div className="relative hidden overflow-hidden rounded-xl bg-gradient-to-br from-primary/10 via-primary/5 to-accent/20 p-6 lg:block">
+                          <div className="absolute -right-10 -top-10 size-36 rounded-full bg-primary/15 blur-2xl" />
+                          <div className="relative flex h-full flex-col justify-between">
+                            <div>
+                              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary">Topical growth system</p>
+                              <h3 className="mt-4 text-xl font-display font-bold tracking-tight text-card-foreground">Build a connected marketing engine.</h3>
+                              <p className="mt-3 text-sm leading-6 text-muted-foreground">Start with the service that matches your goal, then connect search, content, paid media, and conversion into one clear growth path.</p>
+                            </div>
+                            <Link href="/services" className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-primary">Explore all services <ArrowRight className="size-4" /></Link>
+                          </div>
+                        </div>
                       </div>
                     </motion.div>
                   )}
@@ -166,19 +219,18 @@ export function Header() {
                       </Link>
                     )}
                     {item.children && openMobileMenu === item.label && (
-                      <ul className="ml-3 border-l border-border pl-3">
-                        {item.children.map((child) => (
-                          <li key={child.href}>
-                            <Link
-                              href={child.href}
-                              onClick={() => setMobileOpen(false)}
-                              className="block rounded-md px-3 py-2.5 text-base text-muted-foreground hover:bg-muted hover:text-foreground"
-                            >
-                              {child.label}
-                            </Link>
-                          </li>
+                      <div className="ml-3 space-y-3 border-l border-border pl-3">
+                        {item.label === "Services" ? serviceMegaMenuGroups.map((group) => (
+                          <div key={group.label} className="rounded-lg bg-muted/50 p-2">
+                            <Link href={group.href} onClick={() => setMobileOpen(false)} className="block rounded-md px-3 py-2 text-sm font-semibold text-foreground">{group.label}</Link>
+                            <div className="grid gap-0.5">
+                              {group.items.map((child) => <Link key={child.href} href={child.href} onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-card hover:text-foreground">{child.label}</Link>)}
+                            </div>
+                          </div>
+                        )) : item.children.map((child) => (
+                          <Link key={child.href} href={child.href} onClick={() => setMobileOpen(false)} className="block rounded-md px-3 py-2.5 text-base text-muted-foreground hover:bg-muted hover:text-foreground">{child.label}</Link>
                         ))}
-                      </ul>
+                      </div>
                     )}
                   </li>
                 ))}

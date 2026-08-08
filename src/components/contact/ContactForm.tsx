@@ -11,6 +11,13 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 
+const serviceGroups = [
+  { label: "Website", categories: ["development"] },
+  { label: "SEO", categories: ["seo"] },
+  { label: "Paid Advertising", categories: ["ads"] },
+  { label: "Strategy & Growth", categories: ["strategy"] },
+] as const;
+
 export function ContactForm() {
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
 
@@ -122,10 +129,16 @@ export function ContactForm() {
             <option value="" disabled>
               Select a service
             </option>
-            {services.map((s) => (
-              <option key={s.slug} value={s.slug}>
-                {s.shortTitle}
-              </option>
+            {serviceGroups.map((group) => (
+              <optgroup key={group.label} label={group.label}>
+                {services
+                  .filter((service) => (group.categories as readonly string[]).includes(service.category))
+                  .map((service) => (
+                    <option key={service.slug} value={service.slug}>
+                      {service.title}
+                    </option>
+                  ))}
+              </optgroup>
             ))}
             <option value="other">Something else</option>
           </Select>

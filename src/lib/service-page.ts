@@ -17,6 +17,5 @@ export function getServicePageMetadata(slug: string): Metadata {
     title: service.metaTitle,
     description: service.metaDescription,
     path: `/services/${service.slug}`,
-    keywords: [service.title, service.shortTitle],
   });
 }

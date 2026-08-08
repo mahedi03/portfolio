@@ -4,7 +4,7 @@ import { breadcrumbSchema, faqSchema, serviceSchema } from "@/lib/schema";
 import { getServiceForPage, getServicePageMetadata } from "@/lib/service-page";
 import { getExpandedServiceFaqs } from "@/data/serviceFaqs";
 import { ServiceHero } from "@/components/services/ServiceHero";
-import { SeoServicesContent } from "@/components/services/SeoServicesContent";
+import { ServiceLongForm } from "@/components/services/ServiceLongForm";
 import { ServiceBenefits } from "@/components/services/ServiceBenefits";
 import { ServiceFeatures } from "@/components/services/ServiceFeatures";
 import { ServiceProcess } from "@/components/services/ServiceProcess";
@@ -13,16 +13,15 @@ import { ServiceFAQ } from "@/components/services/ServiceFAQ";
 import { RelatedServices } from "@/components/services/RelatedServices";
 import { ServiceCTA } from "@/components/services/ServiceCTA";
 
-export const metadata: Metadata = getServicePageMetadata("seo");
+export const metadata: Metadata = getServicePageMetadata("seo-content-writing");
 
-export default function SeoPage() {
-  const service = getServiceForPage("seo");
-
+export default function SeoContentWritingPage() {
+  const service = getServiceForPage("seo-content-writing");
   return (
     <>
-      <JsonLd data={[breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, { name: "SEO Services", path: "/services/seo" }]), serviceSchema(service), faqSchema(getExpandedServiceFaqs(service))]} />
+      <JsonLd data={[breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, { name: service.title, path: `/services/${service.slug}` }]), serviceSchema(service), faqSchema(getExpandedServiceFaqs(service))]} />
       <ServiceHero service={service} />
-      <SeoServicesContent />
+      <ServiceLongForm service={service} />
       <ServiceBenefits service={service} />
       <ServiceFeatures service={service} />
       <ServiceProcess service={service} />

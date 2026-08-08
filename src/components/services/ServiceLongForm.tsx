@@ -10,7 +10,7 @@ export function ServiceLongForm({ service }: { service: Service }) {
       <Container className="max-w-3xl">
         <Reveal>
           <p className="text-sm font-semibold uppercase tracking-wide text-primary">A considered approach</p>
-          <h2 className="mt-3 text-[length:var(--text-h2)] font-display font-bold tracking-tight">More than a checklist — a growth system built around your business</h2>
+          <h2 className="mt-3 text-[length:var(--text-h2)] font-display font-bold tracking-tight">How {service.title} supports sustainable growth</h2>
         </Reveal>
         <div className="mt-10 space-y-12">
           {sections.map((section, index) => (

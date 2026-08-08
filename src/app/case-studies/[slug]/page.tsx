@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { getCaseStudyBySlug, caseStudies } from "@/data/caseStudies";
-import type { CaseStudy } from "@/types";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbSchema, caseStudySchema } from "@/lib/schema";
@@ -111,7 +110,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-const sections: { key: keyof CaseStudy; label: string }[] = [
+const sections: { key: "problem" | "research" | "planning" | "strategy" | "execution"; label: string }[] = [
   { key: "problem", label: "Problem" },
   { key: "research", label: "Research" },
   { key: "planning", label: "Planning" },
@@ -309,7 +308,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
           {sections.map((s, i) => (
             <Reveal key={s.key} delay={i * 0.05}>
               <h2 className="text-[length:var(--text-h3)] font-display font-bold">
-                {s.label}
+                {cs.sectionLabels?.[s.key] ?? s.label}
               </h2>
               <p className="mt-3 text-muted-foreground">
                 {cs[s.key] as string}

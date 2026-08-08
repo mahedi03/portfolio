@@ -65,11 +65,11 @@ export const services: Service[] = [
   },
   {
     slug: "seo",
-    title: "Search Engine Optimization",
-    shortTitle: "SEO",
-    tagline: "Sustainable organic growth through search",
+    title: "SEO Services That Drive Sustainable Business Growth",
+    shortTitle: "SEO Services",
+    tagline: "Search visibility built around your business goals",
     overview:
-      "Comprehensive SEO strategy combining technical foundations, content, and authority building to grow qualified organic traffic over time.",
+      "Data-driven SEO services combining technical foundations, search intent, content, internal linking, local visibility, and authority building to grow qualified organic traffic and leads over time.",
     icon: "Search",
     category: "seo",
     benefits: [
@@ -94,15 +94,16 @@ export const services: Service[] = [
     ],
     technologies: ["Google Search Console", "Ahrefs", "Semrush", "GA4"],
     faqs: [
-      {
-        question: "How long until I see SEO results?",
-        answer: "Most sites see meaningful movement within 3 to 6 months, with compounding gains after that.",
-      },
+      { question: "How long does SEO take to produce results?", answer: "SEO timing depends on competition, website authority, technical condition, content quality, and implementation speed. Many businesses need several months of consistent work before meaningful growth becomes visible." },
+      { question: "What does your SEO process include?", answer: "The process can include technical audits, keyword research, competitor analysis, content strategy, on-page optimization, internal linking, authority building, and performance monitoring." },
+      { question: "Do you provide local SEO services?", answer: "Yes. Local SEO can include Google Business Profile optimization, local keyword research, location pages, citations, reviews, and local authority building." },
+      { question: "Can SEO help increase leads and sales?", answer: "Yes, when search visibility is connected to useful landing pages, clear offers, trustworthy content, conversion tracking, and a sales process that can follow up with qualified demand." },
+      { question: "How much do SEO services cost?", answer: "SEO pricing depends on the market, site size, competition, technical condition, content requirements, and execution scope. A tailored scope is more useful than a generic package price." },
     ],
-    relatedServices: ["technical-seo", "local-seo", "content-marketing"],
-    metaTitle: "SEO Services",
+    relatedServices: ["technical-seo", "local-seo", "off-page-seo", "seo-content-writing", "content-marketing"],
+    metaTitle: "SEO Services for Business Growth",
     metaDescription:
-      "Data-driven SEO services to grow organic traffic sustainably — keyword strategy, on-page optimization, and content clusters that rank.",
+      "Grow organic traffic and qualified leads with data-driven SEO services built for sustainable search visibility and business growth.",
   },
   {
     slug: "technical-seo",
@@ -143,6 +144,80 @@ export const services: Service[] = [
     metaTitle: "Technical SEO Services",
     metaDescription:
       "Technical SEO audits and fixes for crawlability, indexation, and Core Web Vitals — the foundation your rankings depend on.",
+  },
+  {
+    slug: "off-page-seo",
+    title: "Off-Page SEO Services",
+    shortTitle: "Off-Page SEO",
+    tagline: "Build the authority and trust your rankings need",
+    overview: "A sustainable off-page SEO programme focused on digital PR, relevant link acquisition, citations, brand mentions, and authority signals that support long-term organic visibility.",
+    icon: "Link2",
+    category: "seo",
+    benefits: [
+      { title: "Relevant authority", description: "Earn references from websites and communities that make sense for your market.", icon: "BadgeCheck" },
+      { title: "Safer link growth", description: "Build a diversified backlink profile without relying on spammy shortcuts.", icon: "ShieldCheck" },
+      { title: "Stronger brand discovery", description: "Increase the number of places where customers and search engines encounter your brand.", icon: "Globe2" },
+    ],
+    features: [
+      { title: "Link opportunity research", description: "Find relevant publishers, directories, partners, and editorial opportunities.", icon: "Search" },
+      { title: "Digital PR and outreach", description: "Create useful angles and outreach campaigns that can earn genuine mentions.", icon: "Send" },
+      { title: "Citation and profile cleanup", description: "Improve consistency across business profiles, directories, and branded properties.", icon: "ClipboardCheck" },
+    ],
+    process: [
+      { step: 1, title: "Audit", description: "Review backlink quality, referring domains, competitors, brand mentions, and risks." },
+      { step: 2, title: "Map opportunities", description: "Prioritise link, PR, partnership, citation, and content-led authority opportunities." },
+      { step: 3, title: "Build", description: "Run targeted outreach and publish assets designed to earn relevant attention." },
+      { step: 4, title: "Monitor", description: "Track new links, lost links, brand mentions, referral quality, and ranking movement." },
+    ],
+    deliverables: [
+      { title: "Off-page SEO audit", description: "Backlink, competitor, citation, mention, and risk analysis with priorities." },
+      { title: "Authority building roadmap", description: "A channel-by-channel plan for outreach, digital PR, partnerships, and citations." },
+    ],
+    technologies: ["Ahrefs", "Semrush", "Google Search Console", "Google Business Profile", "Digital PR"],
+    faqs: [
+      { question: "Do you buy backlinks?", answer: "The focus is on relevant, earned, and editorially defensible authority signals. I do not recommend bulk link packages or manipulative schemes that can put a site at risk." },
+      { question: "How long does off-page SEO take?", answer: "Authority building is cumulative. Early improvements may appear within a few months, while stronger competitive gains usually require consistent work over a longer period." },
+    ],
+    relatedServices: ["seo", "content-marketing", "seo-content-writing", "local-seo"],
+    metaTitle: "Off-Page SEO Services | Link Building & Digital PR",
+    metaDescription: "Sustainable off-page SEO services covering relevant link building, digital PR, citations, brand mentions, and authority growth.",
+  },
+  {
+    slug: "seo-content-writing",
+    title: "SEO Content Writing Services",
+    shortTitle: "SEO Content Writing",
+    tagline: "Content that earns visibility and moves readers to act",
+    overview: "Research-led SEO content writing for service pages, landing pages, blog articles, topical clusters, product content, and local pages that connect search intent with business goals.",
+    icon: "FilePenLine",
+    category: "seo",
+    benefits: [
+      { title: "Intent-led content", description: "Match each page to the question, problem, or decision behind the search.", icon: "Target" },
+      { title: "Topical authority", description: "Build connected content clusters instead of isolated articles with no strategic role.", icon: "Network" },
+      { title: "Useful and persuasive copy", description: "Make content easy to understand while giving qualified readers a clear next step.", icon: "PenLine" },
+    ],
+    features: [
+      { title: "Service and landing pages", description: "Commercial pages structured around relevance, trust, differentiation, and conversion.", icon: "LayoutTemplate" },
+      { title: "SEO blog articles", description: "Helpful, well-researched articles built for long-tail visibility and internal linking.", icon: "Newspaper" },
+      { title: "Topical authority maps", description: "Pillar, cluster, entity, and internal-link plans that create a coherent search footprint.", icon: "Network" },
+    ],
+    process: [
+      { step: 1, title: "Understand", description: "Clarify the audience, offer, competitors, search intent, and desired action." },
+      { step: 2, title: "Research", description: "Map keywords, entities, customer language, evidence, and content gaps." },
+      { step: 3, title: "Write", description: "Draft structured, original content with natural keyword coverage and clear information hierarchy." },
+      { step: 4, title: "Optimise", description: "Refine headings, metadata, internal links, readability, calls to action, and on-page trust signals." },
+    ],
+    deliverables: [
+      { title: "SEO content brief", description: "Intent, audience, outline, entities, internal links, evidence, and conversion guidance." },
+      { title: "Publication-ready content", description: "Original copy formatted for the final page type and brand voice." },
+    ],
+    technologies: ["Google Search Console", "Ahrefs", "Semrush", "Google Docs", "Internal Linking"],
+    faqs: [
+      { question: "What kind of SEO content do you write?", answer: "Service pages, landing pages, blog articles, topical clusters, local SEO pages, product content, and supporting website copy." },
+      { question: "Do you use AI to write content?", answer: "Research, judgment, accuracy, originality, and usefulness come first. Any tools are treated as assistants, not substitutes for subject understanding and editorial review." },
+    ],
+    relatedServices: ["seo", "content-marketing", "off-page-seo", "creative-content"],
+    metaTitle: "SEO Content Writing Services | Pages, Blogs & Topic Clusters",
+    metaDescription: "Research-led SEO content writing for service pages, blogs, topical authority clusters, local pages, and conversion-focused website content.",
   },
   {
     slug: "local-seo",
