@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema, itemListSchema } from "@/lib/schema";
+import { breadcrumbSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { services } from "@/data/services";
 import { PageHero } from "@/components/shared/PageHero";
 import { ServicesGrid } from "@/components/services/ServicesGrid";
@@ -26,6 +26,7 @@ export default function ServicesPage() {
           itemListSchema(
             services.map((s) => ({ name: s.title, path: `/services/${s.slug}` }))
           ),
+          webPageSchema({ name: "Services | Mahedi Hasan", description: "Digital marketing, SEO, advertising, analytics, content, and website development services.", path: "/services", breadcrumbPath: "/services" }),
         ]}
       />
       <PageHero

@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 import { getCaseStudyBySlug, caseStudies } from "@/data/caseStudies";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema, caseStudySchema } from "@/lib/schema";
+import { breadcrumbSchema, caseStudySchema, webPageSchema } from "@/lib/schema";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/shared/Reveal";
@@ -133,6 +133,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
             { name: cs.title, path: `/case-studies/${cs.slug}` },
           ]),
           caseStudySchema(cs),
+          webPageSchema({ name: cs.metaTitle, description: cs.metaDescription, path: `/case-studies/${cs.slug}`, breadcrumbPath: `/case-studies/${cs.slug}` }),
         ]}
       />
 

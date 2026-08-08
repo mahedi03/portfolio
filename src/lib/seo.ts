@@ -53,7 +53,7 @@ export function buildMetadata(page: PageSEO): Metadata {
           },
         },
     openGraph: {
-      type: "website",
+      type: page.openGraphType ?? "website",
       locale: siteConfig.locale,
       url,
       title,
@@ -72,8 +72,8 @@ export function buildMetadata(page: PageSEO): Metadata {
       card: "summary_large_image",
       title,
       description: page.description,
-      images: [ogImage],
-      creator: "@yourhandle",
+      images: [{ url: ogImage, alt: page.title }],
+      creator: "@mahedi_perves",
     },
   };
 }

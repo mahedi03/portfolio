@@ -1,10 +1,11 @@
 import type { BlogPost } from "@/types";
+import { siteConfig } from "@/config/site";
 import { calculateReadingTime } from "@/lib/utils";
 
 const author = {
-  name: "Mahedi Hasan",
-  avatar: "/authors/placeholder-avatar.jpg",
-  bio: "Digital Marketing Specialist and Full-Stack Developer.",
+  name: siteConfig.author.name,
+  avatar: siteConfig.author.image,
+  bio: siteConfig.author.bio,
 };
 
 const post1Content = `

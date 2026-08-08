@@ -9,7 +9,7 @@ import {
 } from "@/data/portfolio";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema, projectSchema } from "@/lib/schema";
+import { breadcrumbSchema, projectSchema, webPageSchema } from "@/lib/schema";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/shared/Reveal";
@@ -50,6 +50,7 @@ export default async function ProjectDetailPage({ params }: Props) {
             { name: project.title, path: `/portfolio/${project.slug}` },
           ]),
           projectSchema(project),
+          webPageSchema({ name: project.metaTitle, description: project.metaDescription, path: `/portfolio/${project.slug}`, breadcrumbPath: `/portfolio/${project.slug}` }),
         ]}
       />
 

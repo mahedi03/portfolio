@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
 import { generalFAQs } from "@/data/faq";
 import { Container } from "@/components/ui/container";
@@ -29,10 +29,13 @@ export default function ContactPage() {
   return (
     <>
       <JsonLd
-        data={breadcrumbSchema([
-          { name: "Home", path: "/" },
-          { name: "Contact", path: "/contact" },
-        ])}
+        data={[
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Contact", path: "/contact" },
+          ]),
+          faqSchema(generalFAQs),
+        ]}
       />
       <PageHero
         eyebrow="Contact"

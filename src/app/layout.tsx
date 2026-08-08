@@ -52,7 +52,13 @@ export default function RootLayout({
   return (
     <html lang={siteConfig.language} suppressHydrationWarning>
       <body className={`${sans.variable} ${display.variable} antialiased`}>
-        <JsonLd data={[personSchema(), organizationSchema(), websiteSchema()]} />
+        <JsonLd
+          data={[
+            personSchema(),
+            organizationSchema(),
+            websiteSchema(),
+          ]}
+        />
         <ThemeProvider>
           <SkipToContent />
           <Header />

@@ -16,18 +16,24 @@ import type {
 
 /** Person schema — used site-wide (root layout) to establish the author entity */
 export function personSchema() {
+  const url = absoluteUrl("/about");
+
   return {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": `${url}#person`,
     name: siteConfig.author.name,
     jobTitle: siteConfig.author.jobTitle,
-    url: siteConfig.url,
+    description: siteConfig.author.bio,
+    url,
+    image: absoluteUrl(siteConfig.author.image),
     email: siteConfig.author.email,
     address: {
       "@type": "PostalAddress",
       addressLocality: siteConfig.author.location.city,
       addressCountry: siteConfig.author.location.country,
     },
+    worksFor: { "@id": `${absoluteUrl("/")}#organization` },
     sameAs: Object.values(siteConfig.social),
   };
 }
@@ -120,6 +126,35 @@ export function faqSchema(faqs: FAQItem[]) {
   };
 }
 
+/** WebPage schema for static and collection pages. */
+export function webPageSchema({
+  name,
+  description,
+  path,
+  breadcrumbPath,
+}: {
+  name: string;
+  description: string;
+  path: string;
+  breadcrumbPath?: string;
+}) {
+  const url = absoluteUrl(path);
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name,
+    description,
+    isPartOf: { "@id": `${absoluteUrl("/")}#website` },
+    ...(breadcrumbPath
+      ? { breadcrumb: { "@id": `${absoluteUrl(breadcrumbPath)}#breadcrumb` } }
+      : {}),
+    inLanguage: siteConfig.locale.replace("_", "-"),
+  };
+}
+
 /** Service schema for individual service pages */
 export function serviceSchema(service: Service) {
   return {
@@ -154,68 +189,66 @@ export function serviceWebPageSchema(service: Service) {
 
 /** BlogPosting schema for blog article pages */
 export function blogPostingSchema(post: BlogPost) {
+  const url = absoluteUrl(`/blog/${post.slug}`);
+
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
+    "@id": `${url}#article`,
     headline: post.title,
     description: post.excerpt,
     image: absoluteUrl(post.coverImage),
     datePublished: post.publishedAt,
     dateModified: post.updatedAt ?? post.publishedAt,
     author: {
-      "@type": "Person",
-      name: post.author.name,
+      "@id": `${absoluteUrl("/about")}#person`,
     },
     publisher: {
-      "@type": "Organization",
-      name: siteConfig.name,
-      logo: {
-        "@type": "ImageObject",
-        url: absoluteUrl("/logo.png"),
-      },
+      "@id": `${absoluteUrl("/")}#organization`,
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": absoluteUrl(`/blog/${post.slug}`),
+      "@id": `${url}#webpage`,
     },
   };
 }
 
 /** CreativeWork/Project schema for portfolio project pages */
 export function projectSchema(project: PortfolioProject) {
+  const url = absoluteUrl(`/portfolio/${project.slug}`);
+
   return {
     "@context": "https://schema.org",
     "@type": "CreativeWork",
+    "@id": `${url}#project`,
     name: project.title,
     description: project.metaDescription,
     image: absoluteUrl(project.coverImage),
-    creator: {
-      "@type": "Person",
-      name: siteConfig.author.name,
-    },
-    url: absoluteUrl(`/portfolio/${project.slug}`),
+    creator: { "@id": `${absoluteUrl("/about")}#person` },
+    url,
   };
 }
 
 /** Article schema for case studies */
 export function caseStudySchema(caseStudy: CaseStudy) {
+  const url = absoluteUrl(`/case-studies/${caseStudy.slug}`);
+
   return {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": `${url}#article`,
     headline: caseStudy.title,
     description: caseStudy.metaDescription,
     image: absoluteUrl(caseStudy.coverImage),
     author: {
-      "@type": "Person",
-      name: siteConfig.author.name,
+      "@id": `${absoluteUrl("/about")}#person`,
     },
     publisher: {
-      "@type": "Organization",
-      name: siteConfig.name,
+      "@id": `${absoluteUrl("/")}#organization`,
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": absoluteUrl(`/case-studies/${caseStudy.slug}`),
+      "@id": `${url}#webpage`,
     },
   };
 }

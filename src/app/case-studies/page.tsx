@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema, itemListSchema } from "@/lib/schema";
+import { breadcrumbSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { caseStudies } from "@/data/caseStudies";
 import { PageHero } from "@/components/shared/PageHero";
 import { Container } from "@/components/ui/container";
@@ -32,6 +32,7 @@ export default function CaseStudiesPage() {
               path: `/case-studies/${c.slug}`,
             }))
           ),
+          webPageSchema({ name: "Case Studies | Mahedi Hasan", description: "In-depth case studies covering the problem, strategy, execution, and measurable results behind real client projects.", path: "/case-studies", breadcrumbPath: "/case-studies" }),
         ]}
       />
       <PageHero

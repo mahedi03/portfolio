@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema, itemListSchema } from "@/lib/schema";
+import { breadcrumbSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { portfolioProjects } from "@/data/portfolio";
 import { PageHero } from "@/components/shared/PageHero";
 import { PortfolioGrid } from "@/components/portfolio/PortfolioGrid";
@@ -29,6 +29,7 @@ export default function PortfolioPage() {
               path: `/portfolio/${p.slug}`,
             }))
           ),
+          webPageSchema({ name: "Portfolio | Mahedi Hasan", description: "A collection of website development, SEO, and paid advertising projects delivered for clients across industries.", path: "/portfolio", breadcrumbPath: "/portfolio" }),
         ]}
       />
       <PageHero

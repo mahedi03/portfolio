@@ -248,6 +248,7 @@ export interface PageSEO {
   path: string; // e.g. "/services/seo"
   ogImage?: string;
   keywords?: string[];
+  openGraphType?: "website" | "article";
   noIndex?: boolean;
 }
 

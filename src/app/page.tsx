@@ -9,7 +9,7 @@ import { Testimonials } from "@/components/home/Testimonials";
 import { FAQ } from "@/components/home/FAQ";
 import { CTA } from "@/components/home/CTA";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { faqSchema } from "@/lib/schema";
+import { faqSchema, webPageSchema } from "@/lib/schema";
 import { generalFAQs } from "@/data/faq";
 
 export const metadata: Metadata = buildMetadata({
@@ -21,7 +21,7 @@ export const metadata: Metadata = buildMetadata({
 export default function HomePage() {
   return (
     <>
-      <JsonLd data={faqSchema(generalFAQs)} />
+      <JsonLd data={[webPageSchema({ name: siteConfig.title, description: siteConfig.description, path: "/" }), faqSchema(generalFAQs)]} />
       <Hero />
       <Services />
       <FeaturedProjects />

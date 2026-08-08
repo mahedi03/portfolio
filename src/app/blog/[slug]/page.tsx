@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 import { getPostBySlug, blogPosts } from "@/data/blogs";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema, blogPostingSchema } from "@/lib/schema";
+import { breadcrumbSchema, blogPostingSchema, webPageSchema } from "@/lib/schema";
 import { formatDate } from "@/lib/utils";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
@@ -31,6 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     path: `/blog/${post.slug}`,
     ogImage: post.coverImage,
     keywords: post.tags,
+    openGraphType: "article",
   });
 }
 
@@ -69,6 +70,7 @@ export default async function BlogPostPage({ params }: Props) {
             { name: post.title, path: `/blog/${post.slug}` },
           ]),
           blogPostingSchema(post),
+          webPageSchema({ name: post.metaTitle, description: post.metaDescription, path: `/blog/${post.slug}`, breadcrumbPath: `/blog/${post.slug}` }),
         ]}
       />
 
@@ -132,6 +134,25 @@ export default async function BlogPostPage({ params }: Props) {
                   #{tag}
                 </span>
               ))}
+            </div>
+
+            <div className="mt-12 rounded-xl border border-border bg-surface p-5">
+              <p className="text-xs font-semibold uppercase tracking-wide text-primary">
+                Written by
+              </p>
+              <div className="mt-2 flex items-start justify-between gap-4">
+                <div>
+                  <Link href="/about" className="font-semibold hover:text-primary">
+                    {post.author.name}
+                  </Link>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {post.author.bio}
+                  </p>
+                </div>
+                <Link href="/about" className="shrink-0 text-sm font-medium text-primary hover:underline">
+                  About the author
+                </Link>
+              </div>
             </div>
           </Container>
         </section>

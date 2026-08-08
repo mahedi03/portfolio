@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema, itemListSchema } from "@/lib/schema";
+import { breadcrumbSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { blogPosts, getFeaturedPosts } from "@/data/blogs";
 import { formatDate } from "@/lib/utils";
 import { PageHero } from "@/components/shared/PageHero";
@@ -33,6 +33,7 @@ export default function BlogPage() {
           itemListSchema(
             blogPosts.map((p) => ({ name: p.title, path: `/blog/${p.slug}` }))
           ),
+          webPageSchema({ name: "Blog | Mahedi Hasan", description: "Articles on SEO, technical SEO, paid advertising, and web development — practical, no-fluff marketing insights.", path: "/blog", breadcrumbPath: "/blog" }),
         ]}
       />
       <PageHero

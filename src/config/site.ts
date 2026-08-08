@@ -19,6 +19,8 @@ export const siteConfig = {
   author: {
     name: "Mahedi Hasan",
     jobTitle: "Digital Marketing Specialist",
+    bio: "Digital Marketing Specialist and Full-Stack Developer helping businesses grow through SEO, content, paid advertising, and high-performance websites.",
+    image: "/logo.png",
     email: "pervesmahedi@gmail.com",
     phone: "+880-1636407711",
     whatsapp: "https://wa.me/+8801636407711",
@@ -32,7 +34,6 @@ export const siteConfig = {
     twitter: "https://x.com/mahedi_perves",
     linkedin: "https://www.linkedin.com/in/mahedi-hasan003/",
     github: "https://github.com/mahedi03",
-    instagram: "https://www.instagram.com/*.mahedi*",
     facebook: "https://www.facebook.com/mahedihasan.perves/",
   },
 
