@@ -11,7 +11,7 @@ export const siteConfig = {
   title: "Mahedi Hasan — Digital Marketing Specialist & Web Developer",
   description:
     "Digital Marketing Specialist and Full-Stack Developer helping businesses grow through high-performance websites, SEO, and paid advertising.",
-  url: "https://www.yourdomain.com", // TODO: replace with production domain
+  url: "https://mahedihasanperves.vercel.app",
   ogImage: "/og/og-default.jpg",
   locale: "en_US",
   language: "en",

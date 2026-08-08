@@ -43,6 +43,6 @@ export function slugify(text: string): string {
 
 /** Absolute URL helper — combines siteConfig.url with a path */
 export function absoluteUrl(path: string): string {
-  const base = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.yourdomain.com";
+  const base = process.env.NEXT_PUBLIC_SITE_URL ?? "https://mahedihasanperves.vercel.app";
   return `${base}${path.startsWith("/") ? path : `/${path}`}`;
 }
