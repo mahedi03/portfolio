@@ -3,6 +3,54 @@ import type { Service, ServiceContentSection } from "@/types";
 type EditorialContent = Pick<ServiceContentSection, "heading" | "paragraphs">[];
 
 const editorial: Record<string, EditorialContent> = {
+  "content-marketing": [
+    {
+      heading: "Content built around customer questions and search intent",
+      paragraphs: [
+        "Effective content marketing starts with the questions customers ask before they contact or buy from a business. We map those questions to the customer journey, then build useful pages and articles that explain the problem, compare options, demonstrate expertise, and make the next step clear.",
+        "For businesses in Bangladesh and international markets, the plan can account for local language, regional terminology, service areas, and different levels of product awareness. A content map connects pillar pages with supporting articles, service pages, and internal links so the website becomes easier for both people and search engines to understand.",
+      ],
+    },
+    {
+      heading: "A sustainable publishing system",
+      paragraphs: [
+        "Publishing cadence should match the team, the available expertise, the sales cycle, and the quality bar. We create an editorial calendar with clear topics, formats, owners, review steps, and distribution plans, so each piece has a role after it goes live instead of becoming an isolated blog post.",
+        "Performance is reviewed through useful signals such as search visibility, engaged visits, assisted conversions, enquiries, and the questions sales or support teams continue to receive. Those insights shape future briefs, updates, repurposing, and new content opportunities without relying on fabricated traffic promises.",
+      ],
+    },
+  ],
+  "marketing-strategy": [
+    {
+      heading: "A marketing strategy connected to the business model",
+      paragraphs: [
+        "A useful marketing strategy starts with the business model, offer, audience, sales cycle, and available capacity. We connect those factors with search demand, paid media, content, conversion improvement, and measurement so the plan reflects how the business actually grows rather than listing every possible channel.",
+        "For Bangladesh-based and international businesses, the strategy can account for local language, market maturity, mobile-first behaviour, regional demand, and cross-border delivery. The result is a clear view of which audiences matter, which messages need testing, and which channels deserve attention first.",
+      ],
+    },
+    {
+      heading: "Priorities, measurement, and practical execution",
+      paragraphs: [
+        "A roadmap is only useful when a team can act on it. We turn research into sequenced priorities with owners, dependencies, expected learning, and measurement requirements. That may mean fixing tracking before increasing ad spend, improving a landing page before sending more traffic, or building a content foundation before expanding keyword targets.",
+        "Progress is reviewed against business outcomes such as qualified enquiries, sales, bookings, revenue, acquisition cost, and conversion quality. Channel metrics provide evidence, but they do not replace commercial judgment. Regular reviews make it easier to keep what works, stop weak activity, and adapt when customer behaviour or market conditions change.",
+      ],
+    },
+  ],
+  "analytics-tracking": [
+    {
+      heading: "Measurement designed around real business decisions",
+      paragraphs: [
+        "Analytics is useful when it helps a team decide what to improve, fund, pause, or test next. We begin with the customer journey and the business outcomes that matter, then map the events, conversions, parameters, and reporting views needed to understand how people move from first visit to enquiry, purchase, booking, or repeat action.",
+        "For Bangladesh-based and international businesses, the implementation can account for multiple domains, local and international campaigns, mobile-heavy journeys, payment or messaging handoffs, and different teams using the data. A clear measurement plan keeps the setup understandable instead of turning the analytics account into a collection of disconnected tags.",
+      ],
+    },
+    {
+      heading: "Reliable tracking with privacy and quality checks",
+      paragraphs: [
+        "Tracking quality depends on more than installing GA4. We review Google Tag Manager structure, event naming, consent requirements, duplicate conversions, attribution limitations, server-side options, and the handoff between advertising platforms and the website. Each important event is tested so reports reflect meaningful actions as closely as the available data allows.",
+        "Ongoing data quality checks help identify broken forms, changed URLs, missing parameters, consent changes, and reporting discrepancies before they create bad decisions. Dashboards are kept focused on useful questions, with clear definitions for metrics and documented ownership so the team knows what the numbers mean and what action they support.",
+      ],
+    },
+  ],
   "local-seo": [
     {
       heading: "Local visibility built for Bangladesh",
@@ -87,7 +135,7 @@ const editorial: Record<string, EditorialContent> = {
     {
       heading: "A realistic readiness plan for ChatGPT Ads",
       paragraphs: [
-        "ChatGPT Ads are a new advertising environment, so eligibility and platform mechanics can change as OpenAI expands the rollout. We begin with a plain eligibility check based on the business location and category. If direct campaign access is not available, the engagement becomes a readiness plan — context-hint strategy, offer positioning, creative direction, measurement preparation, and GEO/AEO work that can make the business discoverable in organic AI answers as well.",
+        "ChatGPT Ads are a new advertising environment, so eligibility and platform mechanics can change as OpenAI expands the rollout. We begin with a plain eligibility check based on the business location and category. If direct campaign access is not available, the engagement becomes a readiness plan covering context-hint strategy, offer positioning, creative direction, measurement preparation, and GEO/AEO work that can make the business discoverable in organic AI answers as well.",
         "Context hints are not a copy of a Google keyword list. They describe the situations, questions, needs, and decision moments that bring someone to ChatGPT. A good plan therefore starts with customer language and use cases, then turns those patterns into useful ad concepts and content signals that can support both paid and organic visibility.",
       ],
     },
@@ -120,7 +168,7 @@ const editorial: Record<string, EditorialContent> = {
       heading: "Consistent social media management with a clear role for every platform",
       paragraphs: [
         "Social media management is most effective when a brand knows what each platform is expected to do. Facebook may support community and local trust, Instagram may lead with visual identity and product proof, Pinterest may capture planning behaviour, and LinkedIn may develop professional authority. We build a channel plan around those differences instead of publishing the same message everywhere.",
-        "The monthly system covers content pillars, captions, creative direction, publishing, community responses, moderation, and performance review. It is designed to make a brand recognisable over time — clear language, repeatable visual cues, helpful answers, and enough flexibility to respond to timely moments without abandoning the strategy.",
+        "The monthly system covers content pillars, captions, creative direction, publishing, community responses, moderation, and performance review. It is designed to make a brand recognisable over time through clear language, repeatable visual cues, helpful answers, and enough flexibility to respond to timely moments without abandoning the strategy.",
       ],
     },
     {

@@ -15,20 +15,22 @@ export function FAQAccordion({ items, large = false }: { items: FAQItem[]; large
         const isOpen = openIndex === index;
         return (
           <div key={item.question}>
-            <button
-              onClick={() => setOpenIndex(isOpen ? null : index)}
-              aria-expanded={isOpen}
-              aria-controls={`faq-panel-${index}`}
-              className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
-            >
-              <span className={cn("font-medium", large && "text-lg")}>{item.question}</span>
-              <ChevronDown
-                className={cn(
-                  "size-4 shrink-0 text-muted-foreground transition-transform",
-                  isOpen && "rotate-180"
-                )}
-              />
-            </button>
+            <h3>
+              <button
+                onClick={() => setOpenIndex(isOpen ? null : index)}
+                aria-expanded={isOpen}
+                aria-controls={`faq-panel-${index}`}
+                className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
+              >
+                <span className={cn("font-medium", large && "text-lg")}>{item.question}</span>
+                <ChevronDown
+                  className={cn(
+                    "size-4 shrink-0 text-muted-foreground transition-transform",
+                    isOpen && "rotate-180"
+                  )}
+                />
+              </button>
+            </h3>
             <AnimatePresence initial={false}>
               {isOpen && (
                 <motion.div

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import Image from "next/image";
 import type { Service } from "@/types";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
@@ -9,16 +8,10 @@ import { getLucideIcon } from "@/lib/icons";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { serviceWebPageSchema } from "@/lib/schema";
+import { AnimatedServiceIcon } from "@/components/services/AnimatedServiceIcon";
 
 export function ServiceHero({ service }: { service: Service }) {
   const Icon = getLucideIcon(service.icon);
-  const image = service.image ?? (service.category === "ads"
-    ? "/og/og-default.jpg"
-    : service.category === "seo"
-      ? "/portfolio/placeholder-1.jpg"
-      : service.category === "development"
-        ? "/portfolio/placeholder-cover.jpg"
-        : "/blog/placeholder-cover-1.jpg");
   return (
     <>
       <JsonLd data={serviceWebPageSchema(service)} />
@@ -37,12 +30,7 @@ export function ServiceHero({ service }: { service: Service }) {
           </Button>
         </Reveal>
         <Reveal delay={0.1}>
-          <div className="relative overflow-hidden rounded-2xl border border-border bg-surface p-3 shadow-elevated">
-            <Image src={image} alt={`${service.title} service illustration`} width={960} height={640} className="aspect-[3/2] w-full rounded-xl object-cover" priority />
-            <div className="absolute bottom-7 left-7 inline-flex items-center gap-2 rounded-full border border-white/20 bg-black/65 px-4 py-2 text-sm font-medium text-white backdrop-blur">
-              <Icon className="size-4" /> {service.shortTitle}
-            </div>
-          </div>
+          <AnimatedServiceIcon icon={service.icon} label={service.shortTitle} />
         </Reveal>
       </Container>
       </section>

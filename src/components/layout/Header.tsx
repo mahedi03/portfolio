@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ChevronDown, ChevronRight, ArrowRight } from "lucide-react";
 import { mainNav, serviceMegaMenuGroups } from "@/data/navigation";
@@ -12,6 +13,7 @@ import { cn } from "@/lib/utils";
 import { getLucideIcon } from "@/lib/icons";
 
 export function Header() {
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openMobileMenu, setOpenMobileMenu] = useState<string | null>(null);
@@ -32,6 +34,13 @@ export function Header() {
       document.body.style.overflow = "";
     };
   }, [mobileOpen]);
+
+  // Close the desktop mega menu as soon as navigation completes. The header
+  // persists across App Router transitions, so this cannot rely on remounting.
+  useEffect(() => {
+    setOpenMegaMenu(null);
+    setSelectedMegaGroup(serviceMegaMenuGroups[0].label);
+  }, [pathname]);
 
   return (
     <header
@@ -70,6 +79,7 @@ export function Header() {
               >
                 <Link
                   href={item.href}
+                  onClick={() => setOpenMegaMenu(null)}
                   className="flex items-center gap-1 rounded-md px-4 py-2 text-base font-medium text-foreground/80 transition-colors hover:bg-muted hover:text-foreground"
                   aria-expanded={item.children ? openMegaMenu === item.label : undefined}
                   aria-haspopup={item.children ? "true" : undefined}
@@ -127,13 +137,13 @@ export function Header() {
                                   <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary">{group.label}</p>
                                   <p className="mt-1 text-sm text-muted-foreground">{group.description}</p>
                                 </div>
-                                <Link href={group.href} className="rounded-full p-2 text-muted-foreground hover:bg-muted hover:text-foreground" aria-label={`View all ${group.label} services`}>
+                                <Link href={group.href} onClick={() => setOpenMegaMenu(null)} className="rounded-full p-2 text-muted-foreground hover:bg-muted hover:text-foreground" aria-label={`View all ${group.label} services`}>
                                   <ArrowRight className="size-4" />
                                 </Link>
                               </div>
                               <div className="mt-2 divide-y divide-border">
                                 {group.items.map((child) => (
-                                  <Link key={child.href} href={child.href} className="group flex items-center justify-between gap-4 py-4 transition-colors">
+                                  <Link key={child.href} href={child.href} onClick={() => setOpenMegaMenu(null)} className="group flex items-center justify-between gap-4 py-4 transition-colors">
                                     <span>
                                       <span className="block text-base font-medium text-card-foreground group-hover:text-primary">{child.label}</span>
                                       <span className="mt-1 block text-sm text-muted-foreground">{child.description}</span>
@@ -154,7 +164,7 @@ export function Header() {
                               <h3 className="mt-4 text-xl font-display font-bold tracking-tight text-card-foreground">Build a connected marketing engine.</h3>
                               <p className="mt-3 text-sm leading-6 text-muted-foreground">Start with the service that matches your goal, then connect search, content, paid media, and conversion into one clear growth path.</p>
                             </div>
-                            <Link href="/services" className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-primary">Explore all services <ArrowRight className="size-4" /></Link>
+                            <Link href="/services" onClick={() => setOpenMegaMenu(null)} className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-primary">Explore all services <ArrowRight className="size-4" /></Link>
                           </div>
                         </div>
                       </div>
