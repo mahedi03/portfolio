@@ -1,6 +1,7 @@
 import type { CaseStudy } from "@/types";
 import { jarixoCaseStudyContent } from "@/data/jarixoCaseStudyContent";
 import { facebookAdsCaseStudies } from "@/data/facebookAdsCaseStudies";
+import { borderLocksmithsCaseStudyContent } from "@/data/borderLocksmithsCaseStudyContent";
 
 /**
  * Case studies. Metrics must reflect real, verifiable results only.
@@ -8,6 +9,38 @@ import { facebookAdsCaseStudies } from "@/data/facebookAdsCaseStudies";
  */
 export const caseStudies: CaseStudy[] = [
   ...facebookAdsCaseStudies,
+  {
+    slug: "border-locksmiths-local-seo",
+    title: "Local Service SEO for an Australian Locksmith Business",
+    client: "Border Locksmiths",
+    industry: "Locksmith Services",
+    category: "seo",
+    summary: "How targeted on-page, technical, and content SEO grew organic visibility for Border Locksmiths from a near-zero footprint to over 2 million monthly search impressions.",
+    coverImage: "/case-studies/border-locksmiths/border-locksmiths-1.png",
+    timeline: "5 months active campaign, with reporting tracked into late 2023",
+    tools: ["Google Search Console", "Semrush", "Google Analytics", "Technical SEO", "On-page SEO", "Content SEO"],
+    problem: "",
+    research: "",
+    planning: "",
+    strategy: "",
+    execution: "",
+    screenshots: [
+      "/case-studies/border-locksmiths/border-locksmiths-1.png",
+      "/case-studies/border-locksmiths/border-locksmiths-2.png",
+      "/case-studies/border-locksmiths/border-locksmiths-3.png",
+      "/case-studies/border-locksmiths/border-locksmiths-4.png",
+      "/case-studies/border-locksmiths/border-locksmiths-5.png",
+      "/case-studies/border-locksmiths/border-locksmiths-6.png",
+      "/case-studies/border-locksmiths/border-locksmiths-7.png",
+      "/case-studies/border-locksmiths/border-locksmiths-8.png",
+    ],
+    metrics: [],
+    lessonsLearned: [],
+    fullContent: borderLocksmithsCaseStudyContent,
+    relatedCaseStudies: ["phone-fashion-fix-local-seo", "pixc-retouch-global-seo"],
+    metaTitle: "Border Locksmiths Local SEO Case Study",
+    metaDescription: "How technical, on-page, content, and off-page SEO grew Border Locksmiths to 2.1M Google Search impressions and 12.2K clicks.",
+  },
   {
     slug: "jarixo-topical-map-seo-visibility",
     title: "Building a Topical Map to Boost SEO Visibility for Jarixo",

@@ -4,63 +4,28 @@
    DESIGN SYSTEM — Premium Modern Portfolio
    Tailwind CSS v4 CSS-first configuration.
    All colors defined as OKLCH for perceptual consistency and easy contrast
-   tuning. Light mode is default; dark mode via [data-theme="dark"].
+   tuning. Dark mode is the single site-wide visual system.
    ============================================================================ */
 
-:root {
+:root,
+[data-theme="dark"] {
   /* ---- Brand palette --------------------------------------------------- */
-  --color-primary: oklch(0.32 0.19 264);       /* deep indigo */
-  --color-primary-foreground: oklch(0.98 0 0);
-  --color-secondary: oklch(0.96 0.01 264);     /* soft neutral */
-  --color-secondary-foreground: oklch(0.22 0.02 264);
-  --color-accent: oklch(0.72 0.19 40);         /* warm amber accent */
-  --color-accent-foreground: oklch(0.18 0.02 60);
+  --color-primary: oklch(0.78 0.15 264);       /* electric indigo */
+  --color-primary-foreground: oklch(0.14 0.02 264);
+  --color-secondary: oklch(0.24 0.015 264);    /* dark soft neutral */
+  --color-secondary-foreground: oklch(0.95 0.005 264);
+  --color-accent: oklch(0.75 0.17 45);         /* warm amber accent */
+  --color-accent-foreground: oklch(0.14 0.02 45);
 
   /* ---- Semantic ---------------------------------------------------------*/
   --color-success: oklch(0.62 0.17 145);
-  --color-success-foreground: oklch(0.98 0 0);
-  --color-warning: oklch(0.78 0.16 85);
-  --color-warning-foreground: oklch(0.2 0.02 85);
-  --color-error: oklch(0.58 0.22 27);
-  --color-error-foreground: oklch(0.98 0 0);
-
-  /* ---- Surfaces ----------------------------------------------------------*/
-  --color-background: oklch(0.995 0 0);
-  --color-foreground: oklch(0.16 0.01 264);
-  --color-surface: oklch(0.98 0.005 264);
-  --color-surface-foreground: oklch(0.16 0.01 264);
-  --color-card: oklch(1 0 0);
-  --color-card-foreground: oklch(0.16 0.01 264);
-  --color-muted: oklch(0.95 0.005 264);
-  --color-muted-foreground: oklch(0.45 0.01 264);
-  --color-border: oklch(0.9 0.005 264);
-  --color-ring: var(--color-primary);
-
-  /* ---- Radius & shadow scale --------------------------------------------*/
-  --radius-sm: 0.375rem;
-  --radius-md: 0.625rem;
-  --radius-lg: 1rem;
-  --radius-xl: 1.5rem;
-
-  --shadow-soft: 0 2px 8px -2px oklch(0.16 0.01 264 / 0.06), 0 4px 24px -8px oklch(0.16 0.01 264 / 0.08);
-  --shadow-elevated: 0 8px 30px -8px oklch(0.16 0.01 264 / 0.16);
-}
-
-[data-theme="dark"] {
-  --color-primary: oklch(0.78 0.15 264);
-  --color-primary-foreground: oklch(0.14 0.02 264);
-  --color-secondary: oklch(0.24 0.015 264);
-  --color-secondary-foreground: oklch(0.95 0.005 264);
-  --color-accent: oklch(0.75 0.17 45);
-  --color-accent-foreground: oklch(0.14 0.02 45);
-
-  --color-success: oklch(0.68 0.17 145);
   --color-success-foreground: oklch(0.12 0.02 145);
-  --color-warning: oklch(0.8 0.15 85);
+  --color-warning: oklch(0.78 0.16 85);
   --color-warning-foreground: oklch(0.14 0.02 85);
-  --color-error: oklch(0.68 0.2 27);
+  --color-error: oklch(0.58 0.22 27);
   --color-error-foreground: oklch(0.12 0.02 27);
 
+  /* ---- Surfaces ----------------------------------------------------------*/
   --color-background: oklch(0.14 0.008 264);
   --color-foreground: oklch(0.95 0.005 264);
   --color-surface: oklch(0.18 0.01 264);
@@ -72,8 +37,17 @@
   --color-border: oklch(0.28 0.01 264);
   --color-ring: var(--color-primary);
 
+  /* ---- Radius & shadow scale --------------------------------------------*/
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  --shadow-soft: 0 2px 8px -2px oklch(0.16 0.01 264 / 0.06), 0 4px 24px -8px oklch(0.16 0.01 264 / 0.08);
+  --shadow-elevated: 0 8px 30px -8px oklch(0.16 0.01 264 / 0.16);
   --shadow-soft: 0 2px 8px -2px oklch(0 0 0 / 0.3), 0 4px 24px -8px oklch(0 0 0 / 0.4);
   --shadow-elevated: 0 8px 30px -8px oklch(0 0 0 / 0.5);
+  color-scheme: dark;
 }
 
 /* ---- Bind design tokens into Tailwind's theme layer ---------------------*/
@@ -167,6 +141,21 @@ body input,
 body textarea,
 body select {
   font-size: 20px;
+}
+
+.case-study-rich-content {
+  font-size: 1rem;
+}
+
+.case-study-rich-content p,
+.case-study-rich-content li,
+.case-study-rich-content span {
+  font-size: inherit;
+}
+
+.case-study-rich-content > p {
+  max-width: 72ch;
+  line-height: 1.85;
 }
 
 ::selection {

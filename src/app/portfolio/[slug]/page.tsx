@@ -85,16 +85,31 @@ export default async function ProjectDetailPage({ params }: Props) {
         </Container>
       </section>
 
+      {project.gallery.length > 1 && (
+        <section className="pb-16">
+          <Container>
+            <h2 className="text-[length:var(--text-h3)] font-display font-bold">Project evidence</h2>
+            <div className="mt-6 grid grid-cols-1 gap-5 md:grid-cols-2">
+              {project.gallery.map((image, index) => (
+                <div key={image} className="relative aspect-[16/10] overflow-hidden rounded-xl border border-border bg-muted shadow-soft">
+                  <Image src={image} alt={`${project.title} project evidence ${index + 1}`} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain" />
+                </div>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
+
       <section className="pb-16">
         <Container className="grid grid-cols-1 gap-10 lg:grid-cols-3">
-          <Reveal className="lg:col-span-2 space-y-8">
-            <div>
+          <Reveal className="lg:col-span-2 space-y-5">
+            <div className="rounded-2xl border border-border bg-card p-6 shadow-soft sm:p-8">
               <h2 className="text-[length:var(--text-h3)] font-display font-bold">
                 The challenge
               </h2>
               <p className="mt-3 text-muted-foreground">{project.challenge}</p>
             </div>
-            <div>
+            <div className="rounded-2xl border border-border bg-card p-6 shadow-soft sm:p-8">
               <h2 className="text-[length:var(--text-h3)] font-display font-bold">
                 The solution
               </h2>

@@ -37,8 +37,7 @@ export const metadata: Metadata = buildMetadata({
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#0a0a0f" },
+    { color: "#0a0a0f" },
   ],
   width: "device-width",
   initialScale: 1,
@@ -50,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang={siteConfig.language} suppressHydrationWarning>
+    <html lang={siteConfig.language} data-theme="dark" suppressHydrationWarning>
       <body className={`${sans.variable} ${display.variable} antialiased`}>
         <JsonLd
           data={[

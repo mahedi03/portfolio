@@ -9,6 +9,7 @@ import { PageHero } from "@/components/shared/PageHero";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/shared/Reveal";
 import { CTA } from "@/components/home/CTA";
+import { ArrowUpRight, BarChart3 } from "lucide-react";
 
 export const metadata: Metadata = buildMetadata({
   title: "Case Studies",
@@ -48,7 +49,7 @@ export default function CaseStudiesPage() {
               <Reveal key={cs.slug} delay={i * 0.06}>
                 <Link
                   href={`/case-studies/${cs.slug}`}
-                  className="group block overflow-hidden rounded-xl border border-border bg-card shadow-soft transition-all hover:-translate-y-1 hover:shadow-elevated"
+                  className="group block overflow-hidden rounded-2xl border border-border bg-card shadow-soft transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-elevated"
                 >
                   <div className="relative aspect-[16/9] overflow-hidden bg-muted">
                     <Image
@@ -60,13 +61,13 @@ export default function CaseStudiesPage() {
                     />
                   </div>
                   <div className="p-6">
-                    <div className="text-xs font-medium uppercase tracking-wide text-primary">
-                      {cs.industry} · {cs.category.replace("-", " ")}
-                    </div>
-                    <h2 className="mt-2 text-lg font-semibold">{cs.title}</h2>
-                    <p className="mt-2 text-sm text-muted-foreground">
+                    <div className="flex items-center justify-between gap-4"><div className="text-xs font-semibold uppercase tracking-[0.16em] text-primary">{cs.industry} · {cs.category.replace("-", " ")}</div><span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-muted transition-colors group-hover:bg-primary group-hover:text-primary-foreground"><ArrowUpRight className="size-4" /></span></div>
+                    <h2 className="mt-3 font-display text-2xl font-bold tracking-tight">{cs.title}</h2>
+                    <p className="mt-3 line-clamp-3 text-sm leading-6 text-muted-foreground">
                       {cs.summary}
                     </p>
+                    {cs.metrics.length > 0 ? <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-4">{cs.metrics.slice(0, 4).map((metric) => <div key={metric.label} className="rounded-lg bg-muted/70 px-3 py-2"><div className="font-display text-lg font-bold text-primary">{metric.change}</div><div className="mt-0.5 line-clamp-2 text-xs text-muted-foreground">{metric.label}</div></div>)}</div> : <div className="mt-6 flex items-center gap-2 text-sm font-medium text-primary"><BarChart3 className="size-4" /> Full campaign breakdown and evidence</div>}
+                    <div className="mt-6 border-t border-border pt-4 text-sm font-semibold text-foreground">Read case study <span className="ml-1 text-primary transition-all group-hover:ml-2">→</span></div>
                   </div>
                 </Link>
               </Reveal>

@@ -8,6 +8,7 @@ import type { PortfolioCategory } from "@/types";
 import { portfolioProjects } from "@/data/portfolio";
 import { Container } from "@/components/ui/container";
 import { cn } from "@/lib/utils";
+import { ArrowUpRight } from "lucide-react";
 
 const categories: { label: string; value: PortfolioCategory | "all" }[] = [
   { label: "All", value: "all" },
@@ -78,7 +79,7 @@ export function PortfolioGrid() {
               >
                 <Link
                   href={`/portfolio/${project.slug}`}
-                  className="group block overflow-hidden rounded-lg border border-border bg-card shadow-soft transition-all hover:-translate-y-1 hover:shadow-elevated"
+                  className="group block overflow-hidden rounded-2xl border border-border bg-card shadow-soft transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-elevated"
                 >
                   <div className="relative aspect-[16/10] overflow-hidden bg-muted">
                     <Image
@@ -88,12 +89,17 @@ export function PortfolioGrid() {
                       sizes="(max-width: 768px) 100vw, 33vw"
                       className="object-container transition-transform duration-500 group-hover:scale-105"
                     />
-                  </div>
-                  <div className="p-5">
-                    <div className="text-xs font-medium uppercase tracking-wide text-primary">
-                      {project.category.replace("-", " ")}
+                    <div className="absolute inset-x-0 bottom-0 flex items-end justify-between bg-gradient-to-t from-black/70 via-black/10 to-transparent p-4 pt-12">
+                      <span className="rounded-full border border-white/25 bg-black/25 px-2.5 py-1 text-xs font-medium uppercase tracking-wide text-white backdrop-blur-sm">{project.category.replace("-", " ")}</span>
+                      <span className="flex size-9 items-center justify-center rounded-full bg-white text-slate-900 shadow-lg transition-transform group-hover:rotate-12"><ArrowUpRight className="size-4" /></span>
                     </div>
-                    <h3 className="mt-1.5 font-semibold">{project.title}</h3>
+                  </div>
+                  <div className="p-5 sm:p-6">
+                    <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary">{project.client}</p>
+                    <h3 className="mt-2 font-display text-xl font-bold tracking-tight">{project.title}</h3>
+                    <p className="mt-3 line-clamp-2 text-sm leading-6 text-muted-foreground">{project.summary}</p>
+                    {project.results.length > 0 && <div className="mt-5 grid grid-cols-2 gap-2">{project.results.slice(0, 2).map((result) => <div key={result.label} className="rounded-lg bg-muted/70 px-3 py-2"><div className="font-display text-lg font-bold text-primary">{result.value}</div><div className="mt-0.5 line-clamp-1 text-xs text-muted-foreground">{result.label}</div></div>)}</div>}
+                    <div className="mt-5 flex flex-wrap gap-1.5">{project.tags.slice(0, 3).map((tag) => <span key={tag} className="rounded-full border border-border px-2.5 py-1 text-xs text-muted-foreground">{tag}</span>)}</div>
                   </div>
                 </Link>
               </motion.div>

@@ -45,13 +45,22 @@ function fixCaseStudyEncoding(value: string) {
 
 function renderCaseStudyContent(value: string) {
   const lines = fixCaseStudyEncoding(normalizeCaseStudyText(value)).split(/\r?\n/);
+  const headingLines = new Set([
+    "Client Snapshot", "The Challenge", "Strategy & Execution", "Results: Google Search Console",
+    "Results: Domain Authority & Keyword Footprint", "Results: Organic Traffic Trend", "Keyword Rankings Achieved",
+    "Real-World SERP Visibility", "Where the Campaign Stood at the 5-Month Mark", "Results Summary", "Conclusion",
+  ]);
 
   return lines.map((line, index) => {
     const trimmed = line.trim();
     if (!trimmed) return <div key={`space-${index}`} className="h-3" aria-hidden />;
 
-    if (trimmed === "CASE STUDY") {
+    if (trimmed === "CASE STUDY" || trimmed === "SEO CASE STUDY") {
       return <p key={index} className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">{trimmed}</p>;
+    }
+
+    if (headingLines.has(trimmed)) {
+      return <h2 key={index} className="mt-12 flex items-center gap-3 border-b border-border pb-3 text-xl font-display font-bold tracking-tight first:mt-0 sm:text-2xl"><span className="h-7 w-1 rounded-full bg-primary" />{trimmed}</h2>;
     }
 
     if (index === 1) {
@@ -64,7 +73,7 @@ function renderCaseStudyContent(value: string) {
 
     const numberedHeading = trimmed.match(/^(\d+)\. (.+)$/);
     if (numberedHeading) {
-      return <h2 key={index} className="mt-10 border-b border-border pb-2 text-xl font-display font-bold tracking-tight sm:text-2xl"><span className="mr-2 text-primary">{numberedHeading[1]}.</span>{numberedHeading[2]}</h2>;
+      return <h3 key={index} className="mt-8 flex items-center gap-3 font-display text-lg font-bold"><span className="flex size-7 items-center justify-center rounded-full bg-primary text-sm text-primary-foreground">{numberedHeading[1]}</span>{numberedHeading[2]}</h3>;
     }
 
     if (["Central Entity", "Source Context", "Central Search Intent", "Attribute columns used across all 10 pillars:"].includes(trimmed)) {
@@ -86,7 +95,7 @@ function renderCaseStudyContent(value: string) {
 
     if (line.includes("\t")) {
       const cells = line.split("\t");
-      return <div key={index} className="grid gap-2 rounded-md border-b border-border/70 py-2 text-sm md:grid-cols-[1fr_1.4fr_1.8fr]">{cells.map((cell, cellIndex) => <span key={`${index}-${cellIndex}`} className={cellIndex === 0 ? "font-medium text-foreground" : "text-muted-foreground"}>{cell}</span>)}</div>;
+      return <div key={index} className="grid gap-2 rounded-lg border border-border bg-background px-4 py-3 text-sm md:grid-cols-[1fr_1.4fr_1.8fr]">{cells.map((cell, cellIndex) => <span key={`${index}-${cellIndex}`} className={cellIndex === 0 ? "font-medium text-foreground" : "text-muted-foreground"}>{cell}</span>)}</div>;
     }
 
     return <p key={index} className="text-muted-foreground">{trimmed}</p>;
@@ -168,10 +177,28 @@ export default async function CaseStudyDetailPage({ params }: Props) {
         </Container>
       </section>
 
+      <section className="pb-16">
+        <Container>
+          <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+            {[
+              { label: "Client", value: cs.client },
+              { label: "Industry", value: cs.industry },
+              { label: "Timeline", value: cs.timeline },
+              { label: "Primary focus", value: cs.tools[0] ?? "SEO strategy" },
+            ].map((item) => (
+              <div key={item.label} className="rounded-xl border border-border bg-card p-4 shadow-soft sm:p-5">
+                <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">{item.label}</div>
+                <div className="mt-2 text-sm font-semibold leading-5 text-foreground">{item.value}</div>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
+
       {cs.fullContent && (
         <section className="pb-16">
           <Container className="max-w-4xl">
-            <article className="rounded-xl border border-border bg-card p-6 text-sm leading-7 shadow-soft sm:p-8 lg:p-10">
+            <article className="case-study-rich-content rounded-2xl border border-border bg-card p-6 text-sm leading-7 shadow-soft sm:p-9 lg:p-12">
               {renderCaseStudyContent(cs.fullContent)}
             </article>
           </Container>
@@ -235,7 +262,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
           <Container>
             <div className="grid grid-cols-2 gap-6 lg:grid-cols-4">
               {cs.metrics.map((m, i) => (
-                <Reveal key={m.label} delay={i * 0.06} className="text-center">
+                <Reveal key={m.label} delay={i * 0.06} className="rounded-xl border border-border bg-card p-5 text-center shadow-soft">
                   <div className="text-xs uppercase tracking-wide text-muted-foreground">
                     {m.label}
                   </div>
@@ -304,7 +331,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       )}
 
       {/* Problem/Research/Planning/Strategy/Execution */}
-      <section className="py-16 lg:py-20">
+      {!cs.fullContent && <section className="py-16 lg:py-20">
         <Container className="max-w-3xl space-y-10">
           {sections.map((s, i) => (
             <Reveal key={s.key} delay={i * 0.05}>
@@ -317,10 +344,10 @@ export default async function CaseStudyDetailPage({ params }: Props) {
             </Reveal>
           ))}
         </Container>
-      </section>
+      </section>}
 
       {/* Tools */}
-      <section className="border-t border-border bg-surface py-14">
+      {cs.tools.length > 0 && <section className="border-t border-border bg-surface py-14">
         <Container className="max-w-3xl">
           <Reveal>
             <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
@@ -338,10 +365,10 @@ export default async function CaseStudyDetailPage({ params }: Props) {
             </div>
           </Reveal>
         </Container>
-      </section>
+      </section>}
 
       {/* Lessons learned */}
-      <section className="py-16">
+      {cs.lessonsLearned.length > 0 && <section className="py-16">
         <Container className="max-w-3xl">
           <Reveal>
             <h2 className="text-[length:var(--text-h3)] font-display font-bold">
@@ -354,7 +381,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
             </ul>
           </Reveal>
         </Container>
-      </section>
+      </section>}
 
       {/* Testimonial */}
       {cs.testimonial && (
