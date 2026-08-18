@@ -1,6 +1,7 @@
 import type { BlogPost } from "@/types";
 import { siteConfig } from "@/config/site";
 import { calculateReadingTime } from "@/lib/utils";
+import generatedPosts from "./generated-posts.json";
 
 const author = {
   name: siteConfig.author.name,
@@ -30,7 +31,7 @@ Core Web Vitals are a ranking factor and, more importantly, a user
 experience factor. Prioritize LCP, CLS, and INP improvements.
 `.trim();
 
-export const blogPosts: BlogPost[] = [
+const builtInPosts: BlogPost[] = [
   {
     slug: "technical-seo-foundations",
     title: "Technical SEO Foundations Every Site Needs",
@@ -49,6 +50,11 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "The core technical SEO fundamentals — crawlability, indexation, and site speed — that every website needs before scaling content and links.",
   },
+];
+
+export const blogPosts: BlogPost[] = [
+  ...builtInPosts,
+  ...(generatedPosts as BlogPost[]),
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
