@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Sora } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { buildMetadata } from "@/lib/seo";
@@ -65,6 +66,30 @@ export default function RootLayout({
           <main id="main-content">{children}</main>
           <Footer />
         </ThemeProvider>
+        <Script
+          id="firebase-analytics"
+          type="module"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              import { initializeApp } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js";
+              import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-analytics.js";
+
+              const firebaseConfig = {
+                apiKey: "AIzaSyCukMqVbIK1K7gFk3shKSjlqebluq_WR6w",
+                authDomain: "mahedi-portfolio-254b5.firebaseapp.com",
+                projectId: "mahedi-portfolio-254b5",
+                storageBucket: "mahedi-portfolio-254b5.firebasestorage.app",
+                messagingSenderId: "28782655803",
+                appId: "1:28782655803:web:ec78db7c18dd56e7159f1e",
+                measurementId: "G-SPWM5GPDWY"
+              };
+
+              const app = initializeApp(firebaseConfig);
+              const analytics = getAnalytics(app);
+            `,
+          }}
+        />
       </body>
     </html>
   );
