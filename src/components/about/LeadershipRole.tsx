@@ -19,10 +19,10 @@ export function LeadershipRole() {
               </h2>
               <div className="mt-5 space-y-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
                 <p>
-                  Having served as Co-Founder at <strong className="text-foreground">Riha Web Tech</strong> from 2022 until July 2024, I collaborated with our executive team to design and execute growth models for enterprise clients and scaling businesses globally.
+                  Having served as Co-Founder at <strong className="text-foreground">Riha Web Tech</strong> from 2022 until July 2025, I collaborated with our executive team to design and execute growth models for enterprise clients and scaling businesses globally.
                 </p>
                 <p>
-                  In July 2024, I concluded my co-founding tenure at Riha Web Tech to focus exclusively on <strong className="text-foreground">FrameCipher</strong> as Founder &amp; Web Architect, engineering high-performance Next.js systems, semantic SEO architectures, and AI discovery protocols.
+                  In July 2025, I concluded my co-founding tenure at Riha Web Tech to focus exclusively on <a href="https://framecipher.info" target="_blank" rel="noopener noreferrer" className="font-semibold text-foreground underline underline-offset-4 hover:text-primary">FrameCipher</a> as Founder &amp; Web Architect, engineering high-performance Next.js systems, semantic SEO architectures, and AI discovery protocols.
                 </p>
                 <p>
                   My ongoing work bridges engineering precision with performance marketing rigor—translating commercial key targets into high-converting conversion funnels and dependable organic search visibility.

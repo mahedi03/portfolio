@@ -43,7 +43,7 @@ export function AboutContent() {
           <Reveal>
             <h2 className="text-[length:var(--text-h2)] font-display font-bold tracking-tight">Building for the Future</h2>
             <div className="mt-5 max-w-3xl space-y-4 text-[length:var(--text-body-lg)] leading-8 text-muted-foreground">
-              <p>Through my work and projects, including <strong className="font-semibold text-foreground">FrameCipher</strong> and <strong className="font-semibold text-foreground">Riha Web Tech</strong>, I explore the intersection of data-backed marketing, technical search, content systems, and generative AI.</p>
+              <p>Through my work and projects, including <a href="https://framecipher.info" target="_blank" rel="noopener noreferrer" className="font-semibold text-foreground underline underline-offset-4 hover:text-primary">FrameCipher</a> and <strong className="font-semibold text-foreground">Riha Web Tech</strong>, I explore the intersection of data-backed marketing, technical search, content systems, and generative AI.</p>
               <p>My long-term goal is straightforward: build resilient digital systems that help ambitious businesses compete, grow, and stay visible in an increasingly competitive digital marketplace.</p>
             </div>
           </Reveal>

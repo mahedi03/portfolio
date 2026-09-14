@@ -164,9 +164,16 @@ export function CommandCenterWidget() {
 
         {/* Micro Footer */}
         <div className="mt-3 flex items-center justify-between pt-1 text-[11px] text-muted-foreground">
-          <span>Founder, FrameCipher</span>
+          <a
+            href="https://framecipher.info"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-primary transition-colors"
+          >
+            Founder, FrameCipher
+          </a>
           <span className="flex items-center gap-1 font-semibold text-foreground">
-            Dhaka Office • Mirpur - 14
+            Dhaka Office • ECB Chattar - Dhaka 1206
           </span>
         </div>
       </div>

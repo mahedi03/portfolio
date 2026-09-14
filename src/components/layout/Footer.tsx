@@ -24,7 +24,7 @@ export function Footer() {
                     key={social.platform}
                     href={social.href}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     aria-label={social.platform}
                     className="inline-flex size-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-colors hover:border-primary hover:text-primary"
                   >

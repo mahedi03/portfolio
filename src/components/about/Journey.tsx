@@ -27,10 +27,10 @@ const timeline: TimelineEntry[] = [
       "Scaled Meta, Google, and TikTok paid social/search management with Conversion API and rigorous weekly creative testing.",
   },
   {
-    year: "2024",
-    title: "Transitioned to FrameCipher (July 2024)",
+    year: "2025",
+    title: "Transitioned to FrameCipher (July 2025)",
     description:
-      "Concluded tenure at Riha Web Tech in July 2024 to dedicate full focus to FrameCipher, engineering generative engine optimization (GEO), AI retrieval systems, and high-performance Next.js applications.",
+      "Concluded tenure at Riha Web Tech in July 2025 to dedicate full focus to FrameCipher, engineering generative engine optimization (GEO), AI retrieval systems, and high-performance Next.js applications.",
   },
   {
     year: "Today",

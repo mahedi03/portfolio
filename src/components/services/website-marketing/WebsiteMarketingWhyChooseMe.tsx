@@ -35,7 +35,7 @@ export function WebsiteMarketingWhyChooseMe() {
                 03
               </span>
               <h3 className="mt-4 text-lg font-bold text-foreground font-display">Direct Accountability</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">Work directly with the Founder of FrameCipher and former Co-Founder of Riha Web Tech (2022 – July 2024) with 4+ years of proven track record.</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">Work directly with the Founder of <a href="https://framecipher.info" target="_blank" rel="noopener noreferrer" className="font-semibold text-foreground underline underline-offset-4 hover:text-primary">FrameCipher</a> and former Co-Founder of Riha Web Tech (2022 – July 2025) with 4+ years of proven track record.</p>
             </div>
         </div>
       </Container>

@@ -212,7 +212,7 @@ export const portfolioProjects: PortfolioProject[] = [
     solution:
       "Created a structured, responsive web experience with clear service presentation, focused navigation, strong visual hierarchy, and conversion-oriented calls to action.",
     results: [],
-    liveUrl: "https://rihawebtech.vercel.app/",
+    liveUrl: "https://rihawebtech.com",
     featured: true,
     relatedProjects: ["stitchbd-ecommerce-website", "dr-shafiul-islam-kawsar-website"],
     metaTitle: "Riha WebTech Website Project",

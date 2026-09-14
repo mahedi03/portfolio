@@ -18,7 +18,7 @@ export function AboutHero() {
           </h1>
           <div className="mt-5 space-y-4 text-[length:var(--text-body-lg)] leading-8 text-muted-foreground">
             <p>
-              I&apos;m {siteConfig.author.name}, Founder of <strong className="font-semibold text-foreground">FrameCipher</strong> and former Co-Founder at <a href="https://rihawebtech.com" target="_blank" rel="noreferrer" className="font-semibold text-primary underline underline-offset-4">Riha Web Tech</a> (served 2022 until stepping down in July 2024). My focus is translating corporate key targets into high-converting acquisition pipelines, dependable search engine visibility, and fast web infrastructure.
+              I&apos;m {siteConfig.author.name}, Founder of <a href="https://framecipher.info" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline underline-offset-4">FrameCipher</a> and former Co-Founder at <strong className="font-semibold text-foreground">Riha Web Tech</strong> (served 2022 until stepping down in July 2025). My focus is translating corporate key targets into high-converting acquisition pipelines, dependable search engine visibility, and fast web infrastructure.
             </p>
             <p>
               Over the past 4+ years, I have helped deliver 50+ projects across eCommerce, SaaS, and local businesses, generating more than ৳15 Lakh+ in measurable business returns. I connect technical SEO, conversion-focused paid advertising, editorial authority, and modern Next.js development into one coherent system so that marketing channels work together rather than competing for credit.

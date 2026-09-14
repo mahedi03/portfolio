@@ -12,7 +12,6 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { ThemeProvider } from "@/components/shared/ThemeProvider";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { SkipToContent } from "@/components/shared/SkipToContent";
 import { AmbientBackground } from "@/components/ui/AmbientBackground";
 
@@ -65,7 +64,6 @@ export default function RootLayout({
           <Header />
           <main id="main-content">{children}</main>
           <Footer />
-          <WhatsAppButton />
         </ThemeProvider>
       </body>
     </html>

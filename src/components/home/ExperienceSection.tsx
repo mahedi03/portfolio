@@ -31,9 +31,9 @@ export function ExperienceSection() {
       id: "exp-2",
       company: "Riha Web Tech",
       role: "Co-Founder & Digital Marketing Lead",
-      period: "2022 - July 2024",
+      period: "2022 - July 2025",
       previewImage: "/portfolio/portfolio-1.jpg",
-      description: "Directing agency growth campaigns, paid advertising strategies, and technical SEO architecture until stepping down in July 2024.",
+      description: "Directing agency growth campaigns, paid advertising strategies, and technical SEO architecture until stepping down in July 2025.",
     },
     {
       id: "exp-3",
@@ -99,7 +99,19 @@ export function ExperienceSection() {
                 >
                   <div>
                     <h3 className="text-xl sm:text-2xl lg:text-3xl font-display font-bold text-white transition-colors group-hover:text-emerald-400">
-                      {item.company}
+                      {item.company === "FrameCipher" ? (
+                        <a
+                          href="https://framecipher.info"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          className="hover:underline underline-offset-4"
+                        >
+                          {item.company}
+                        </a>
+                      ) : (
+                        item.company
+                      )}
                     </h3>
                     <p className="mt-1.5 text-sm sm:text-base text-muted-foreground">
                       {item.role}

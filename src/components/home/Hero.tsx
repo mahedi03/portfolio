@@ -38,28 +38,27 @@ export function Hero() {
           </h1>
         </motion.div>
 
-        {/* ══ 2. Portrait — absolute center, overlaps MAHEDI HASAN, z-20 ══ */}
+        {/* ══ 2. Portrait — in-flow on mobile (below MAHEDI HASAN), absolute on desktop (overlaps MAHEDI HASAN) ══ */}
         <motion.div
           initial={{ opacity: 0, scale: 0.97 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.1 }}
-          className="pointer-events-none absolute left-1/2 -translate-x-1/2 top-0 z-20"
-          style={{ width: "clamp(300px, 44vw, 600px)" }}
+          className="pointer-events-none relative z-20 mx-auto -mt-12 sm:-mt-20 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-0 w-[min(300px,78vw)] sm:w-[360px] lg:w-[clamp(300px,44vw,600px)]"
         >
-          <div className="relative w-full" style={{ aspectRatio: "2/3" }}>
+          <div className="relative w-full aspect-[2/3]">
             <Image
               src="/Mahedi Hasan-transparent.png"
               alt={`${siteConfig.author.name} — Portfolio`}
               fill
               priority
               className="object-contain object-top drop-shadow-[0_20px_45px_rgba(0,0,0,0.85)] filter contrast-[1.03] brightness-[1.02]"
-              sizes="(max-width: 640px) 300px, (max-width: 1024px) 440px, 600px"
+              sizes="(max-width: 640px) 300px, (max-width: 1024px) 360px, 600px"
             />
           </div>
         </motion.div>
 
-        {/* ══ 3. Content row — starts BELOW MAHEDI HASAN, left & right of portrait ══ */}
-        <div className="relative z-10 flex flex-col lg:flex-row items-start justify-between gap-8 pt-6 lg:pt-8">
+        {/* ══ 3. Content row — on mobile sits below portrait; on desktop flanks portrait left & right ══ */}
+        <div className="relative z-10 flex flex-col lg:flex-row items-center lg:items-start justify-between gap-8 pt-4 lg:pt-8">
 
           {/* ── Left: Badge + Role + Bio + CTA ── */}
           <motion.div
@@ -140,7 +139,7 @@ export function Hero() {
                   key={social.name}
                   href={social.href}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="group inline-flex items-center gap-3 rounded-full border border-border/80 bg-surface/70 backdrop-blur-md px-5 py-3 text-sm font-medium text-muted-foreground transition-all duration-300 hover:border-white/50 hover:bg-white hover:text-black hover:scale-105 shadow-sm"
                 >
                   <Icon className="size-4 transition-transform group-hover:scale-110" />

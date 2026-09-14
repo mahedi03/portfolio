@@ -52,7 +52,7 @@ export function OfficeLocationCard() {
               <a
                 href={`https://wa.me/${siteConfig.author.phone.replace(/[^0-9]/g, "")}`}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="font-medium text-emerald-500 hover:underline inline-flex items-center gap-1"
               >
                 Chat on WhatsApp <ExternalLink className="size-3" />
@@ -85,7 +85,16 @@ export function OfficeLocationCard() {
           <div className="flex items-start gap-2.5">
             <MapPin className="size-4 text-primary shrink-0 mt-0.5" />
             <div>
-              <p className="font-medium text-foreground">FrameCipher</p>
+              <p className="font-medium text-foreground">
+                <a
+                  href="https://framecipher.info"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  FrameCipher
+                </a>
+              </p>
               <p className="mt-0.5">
                 {office?.address || "109, Ibrahimpur, Mirpur - 14"}
               </p>

@@ -10,7 +10,7 @@ export function WhatsAppButton() {
     <a
       href={siteConfig.author.whatsapp}
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener noreferrer nofollow"
       aria-label="Chat on WhatsApp"
       className="fixed bottom-6 right-6 z-40 inline-flex size-14 items-center justify-center rounded-full bg-success text-success-foreground shadow-elevated transition-transform hover:scale-105 active:scale-95"
     >

@@ -24,7 +24,7 @@ export function ChatgptAdsHero() {
           </p>
           <div className="mt-6 max-w-3xl rounded-xl border border-border/70 bg-card/50 p-6 backdrop-blur-sm">
             <p className="text-base leading-relaxed text-muted-foreground">
-              ChatGPT Ads are sponsored link placements appearing beneath AI-generated responses for Free and Go tier users. As Founder of FrameCipher and former Co-Founder at Riha Web Tech (stepped down July 2024), Mahedi Hasan engineers readiness strategies, context-hint intent mapping, and direct campaign operations for global and Bangladeshi brands.
+              ChatGPT Ads are sponsored link placements appearing beneath AI-generated responses for Free and Go tier users. As Founder of <a href="https://framecipher.info" target="_blank" rel="noopener noreferrer" className="font-semibold text-foreground underline underline-offset-4 hover:text-primary">FrameCipher</a> and former Co-Founder at Riha Web Tech (stepped down July 2025), Mahedi Hasan engineers readiness strategies, context-hint intent mapping, and direct campaign operations for global and Bangladeshi brands.
             </p>
           </div>
           <div className="mt-8 flex flex-wrap items-center gap-4">

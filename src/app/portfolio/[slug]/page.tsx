@@ -140,7 +140,7 @@ export default async function ProjectDetailPage({ params }: Props) {
                 <a
                   href={project.liveUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel={project.liveUrl.includes("framecipher.info") ? "noopener noreferrer" : "noopener noreferrer nofollow"}
                   className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-xs font-bold text-black transition-all hover:bg-white/90 hover:scale-105 shadow-lg"
                 >
                   <span>Explore Live Project</span>
@@ -225,7 +225,7 @@ export default async function ProjectDetailPage({ params }: Props) {
                     <a
                       href={project.liveUrl}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel={project.liveUrl.includes("framecipher.info") ? "noopener noreferrer" : "noopener noreferrer nofollow"}
                       className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-5 py-3 text-xs font-bold text-black transition-all hover:scale-[1.02] shadow-md"
                     >
                       <span>Launch Live Site</span>
