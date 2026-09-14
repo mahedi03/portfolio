@@ -1,0 +1,9 @@
+export { LocalSeoHero } from "./LocalSeoHero";
+export { LocalSeoOffer } from "./LocalSeoOffer";
+export { LocalSeoWhyItMatters } from "./LocalSeoWhyItMatters";
+export { LocalSeoWhyChooseMe } from "./LocalSeoWhyChooseMe";
+export { LocalSeoProcess } from "./LocalSeoProcess";
+export { LocalSeoPricing } from "./LocalSeoPricing";
+export { LocalSeoServiceAreas } from "./LocalSeoServiceAreas";
+export { LocalSeoFAQ } from "./LocalSeoFAQ";
+export { LocalSeoCTA } from "./LocalSeoCTA";

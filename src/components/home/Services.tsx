@@ -1,55 +1,102 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { services } from "@/data/services";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/shared/Reveal";
-import { getLucideIcon } from "@/lib/icons";
 
 export function Services() {
+  const serviceItems = [
+    {
+      title: "UI/UX & NEXT.JS DEVELOPMENT",
+      description: "High-performance web apps built with Next.js 15, TypeScript, Tailwind CSS, and ultra-fast Core Web Vitals.",
+      href: "/services/website-development",
+      tag: "Development",
+    },
+    {
+      title: "SEARCH ENGINE OPTIMIZATION (SEO)",
+      description: "Entity-first Semantic SEO based on Koray Tuğberk GÜBÜR framework to dominate topical authority and organic rankings.",
+      href: "/services/seo",
+      tag: "Organic Search",
+    },
+    {
+      title: "PERFORMANCE ADS (META & GOOGLE)",
+      description: "Full-funnel paid advertising with automated tracking, creative testing, and high-ROAS conversion funnels.",
+      href: "/services/meta-ads",
+      tag: "Paid Media",
+    },
+    {
+      title: "CONVERSION ARCHITECTURE & ANALYTICS",
+      description: "Server-side GTM, GA4 custom tracking, CRO audits, and user behavior analytics to maximize revenue per visitor.",
+      href: "/services/analytics-tracking",
+      tag: "Analytics & CRO",
+    },
+  ];
+
   return (
-    <section className="py-20 lg:py-28">
-      <Container>
-        <Reveal className="mx-auto max-w-2xl text-center">
-          <h2 className="text-[length:var(--text-h2)] font-display font-bold tracking-tight">
-            Everything you need to grow, in one place
-          </h2>
-          <p className="mt-4 text-lg leading-8 text-muted-foreground">
-            From website development to the traffic that finds it, full-stack
-            marketing and growth services under one roof.
-          </p>
+    <section id="services" className="relative py-20 lg:py-28 overflow-hidden">
+      {/* 1. Giant Faint Watermark behind the section */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -top-4 left-4 sm:left-12 select-none text-[clamp(4.5rem,12vw,12rem)] font-display font-black uppercase tracking-[-0.05em] text-white/[0.025] leading-none z-0"
+      >
+        SERVICE
+      </div>
+
+      <Container className="relative z-10">
+        {/* 2. Section Header with /SERVICE */}
+        <Reveal className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+          <div>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-black tracking-tight text-white uppercase">
+              /SERVICE
+            </h2>
+            <p className="mt-3 max-w-lg text-base sm:text-lg leading-relaxed text-muted-foreground">
+              Comprehensive growth and development services tailored for ambitious businesses and modern digital products.
+            </p>
+          </div>
+
+          <Link
+            href="/services"
+            className="group inline-flex items-center gap-2 rounded-full border border-border/80 bg-surface/80 backdrop-blur-md px-5 py-2.5 text-sm font-semibold text-foreground transition-all duration-300 hover:border-white/40 hover:bg-white hover:text-black hover:scale-105 shadow-sm"
+          >
+            <span>Explore All Services</span>
+            <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+          </Link>
         </Reveal>
 
-        <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((service, i) => {
-            const Icon = getLucideIcon(service.icon);
-            return (
-              <Reveal key={service.slug} delay={i * 0.05}>
-                <Link
-                  href={`/services/${service.slug}`}
-                  className="group flex h-full flex-col rounded-lg border border-border bg-card p-6 shadow-soft transition-all hover:-translate-y-1 hover:shadow-elevated"
-                >
-                  <div className="inline-flex size-11 items-center justify-center rounded-md bg-primary/10 text-primary">
-                    <Icon className="size-5" />
+        {/* 3. Full-width Interactive Service Rows */}
+        <div className="mt-12 divide-y divide-border/60 border-y border-border/60">
+          {serviceItems.map((item, index) => (
+            <Reveal key={item.title} delay={index * 0.08}>
+              <Link
+                href={item.href}
+                className="group flex flex-col sm:flex-row sm:items-center justify-between py-8 sm:py-10 transition-all duration-300 hover:px-4 hover:bg-white/[0.02]"
+              >
+                <div className="max-w-2xl">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xs font-mono text-muted-foreground">
+                      0{index + 1}
+                    </span>
+                    <span className="rounded-full bg-white/5 border border-white/10 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+                      {item.tag}
+                    </span>
                   </div>
-                  <p className="mt-4 text-xs font-semibold uppercase tracking-[0.14em] text-primary">
-                    {service.category}
-                  </p>
-                  <h3 className="mt-2 text-lg font-semibold">
-                    {service.shortTitle}
+                  <h3 className="mt-2 text-2xl sm:text-3xl lg:text-4xl font-display font-black tracking-tight text-white transition-colors group-hover:text-white">
+                    {item.title}
                   </h3>
-                  <p className="mt-2 text-sm font-medium leading-6 text-card-foreground">
-                    {service.tagline}
+                  <p className="mt-2 text-sm sm:text-base leading-relaxed text-muted-foreground">
+                    {item.description}
                   </p>
-                  <p className="mt-2 text-sm leading-6 text-muted-foreground">
-                    {service.overview}
-                  </p>
-                  <span className="mt-4 inline-flex items-center gap-1 text-base font-medium text-primary opacity-0 transition-opacity group-hover:opacity-100">
-                    Learn more <ArrowUpRight className="size-3.5" />
-                  </span>
-                </Link>
-              </Reveal>
-            );
-          })}
+                </div>
+
+                <div className="mt-4 sm:mt-0 flex items-center justify-end">
+                  <div className="size-12 rounded-full border border-border/80 bg-surface/60 flex items-center justify-center transition-all duration-300 group-hover:border-white group-hover:bg-white group-hover:text-black group-hover:scale-110 shadow-sm">
+                    <ArrowUpRight className="size-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </div>
+                </div>
+              </Link>
+            </Reveal>
+          ))}
         </div>
       </Container>
     </section>

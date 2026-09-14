@@ -1,0 +1,9 @@
+export { GoogleAdsHero } from "./GoogleAdsHero";
+export { GoogleAdsOffer } from "./GoogleAdsOffer";
+export { GoogleAdsWhyItMatters } from "./GoogleAdsWhyItMatters";
+export { GoogleAdsWhyChooseMe } from "./GoogleAdsWhyChooseMe";
+export { GoogleAdsProcess } from "./GoogleAdsProcess";
+export { GoogleAdsPricing } from "./GoogleAdsPricing";
+export { GoogleAdsServiceAreas } from "./GoogleAdsServiceAreas";
+export { GoogleAdsFAQ } from "./GoogleAdsFAQ";
+export { GoogleAdsCTA } from "./GoogleAdsCTA";

@@ -3,15 +3,15 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbSchema, faqSchema, serviceArticleSchema, serviceSchema } from "@/lib/schema";
 import { getServiceForPage, getServicePageMetadata } from "@/lib/service-page";
 import { getExpandedServiceFaqs } from "@/data/serviceFaqs";
-import { ServiceHero } from "@/components/services/ServiceHero";
-import { ServiceLongForm } from "@/components/services/ServiceLongForm";
-import { ServiceBenefits } from "@/components/services/ServiceBenefits";
-import { ServiceFeatures } from "@/components/services/ServiceFeatures";
-import { ServiceProcess } from "@/components/services/ServiceProcess";
-import { ServiceDeliverables } from "@/components/services/ServiceDeliverables";
-import { ServiceFAQ } from "@/components/services/ServiceFAQ";
-import { RelatedServices } from "@/components/services/RelatedServices";
-import { ServiceCTA } from "@/components/services/ServiceCTA";
+import { MediaBuyingHero } from "@/components/services/media-buying/MediaBuyingHero";
+import { MediaBuyingOffer } from "@/components/services/media-buying/MediaBuyingOffer";
+import { MediaBuyingWhyItMatters } from "@/components/services/media-buying/MediaBuyingWhyItMatters";
+import { MediaBuyingWhyChooseMe } from "@/components/services/media-buying/MediaBuyingWhyChooseMe";
+import { MediaBuyingProcess } from "@/components/services/media-buying/MediaBuyingProcess";
+import { MediaBuyingPricing } from "@/components/services/media-buying/MediaBuyingPricing";
+import { MediaBuyingServiceAreas } from "@/components/services/media-buying/MediaBuyingServiceAreas";
+import { MediaBuyingFAQ } from "@/components/services/media-buying/MediaBuyingFAQ";
+import { MediaBuyingCTA } from "@/components/services/media-buying/MediaBuyingCTA";
 
 export const metadata: Metadata = getServicePageMetadata("media-buying");
 
@@ -20,16 +20,27 @@ export default function MediaBuyingPage() {
 
   return (
     <>
-      <JsonLd data={[breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, { name: service.title, path: "/services/" + service.slug }]), serviceSchema(service), serviceArticleSchema(service), faqSchema(getExpandedServiceFaqs(service), "/services/" + service.slug)]} />
-      <ServiceHero service={service} />
-      <ServiceLongForm service={service} />
-      <ServiceBenefits service={service} />
-      <ServiceFeatures service={service} />
-      <ServiceProcess service={service} />
-      <ServiceDeliverables service={service} />
-      <ServiceFAQ service={service} />
-      <RelatedServices service={service} />
-      <ServiceCTA service={service} />
+      <JsonLd
+        data={[
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Services", path: "/services" },
+            { name: service.title, path: "/services/" + service.slug },
+          ]),
+          serviceSchema(service),
+          serviceArticleSchema(service),
+          faqSchema(getExpandedServiceFaqs(service), "/services/" + service.slug),
+        ]}
+      />
+      <MediaBuyingHero />
+      <MediaBuyingOffer />
+      <MediaBuyingWhyItMatters />
+      <MediaBuyingWhyChooseMe />
+      <MediaBuyingProcess />
+      <MediaBuyingPricing />
+      <MediaBuyingServiceAreas />
+      <MediaBuyingFAQ />
+      <MediaBuyingCTA />
     </>
   );
 }

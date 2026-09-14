@@ -1,0 +1,9 @@
+export { ChatgptAdsHero } from "./ChatgptAdsHero";
+export { ChatgptAdsOffer } from "./ChatgptAdsOffer";
+export { ChatgptAdsWhyItMatters } from "./ChatgptAdsWhyItMatters";
+export { ChatgptAdsWhyChooseMe } from "./ChatgptAdsWhyChooseMe";
+export { ChatgptAdsProcess } from "./ChatgptAdsProcess";
+export { ChatgptAdsPricing } from "./ChatgptAdsPricing";
+export { ChatgptAdsServiceAreas } from "./ChatgptAdsServiceAreas";
+export { ChatgptAdsFAQ } from "./ChatgptAdsFAQ";
+export { ChatgptAdsCTA } from "./ChatgptAdsCTA";

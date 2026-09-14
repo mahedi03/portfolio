@@ -3,15 +3,15 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbSchema, faqSchema, serviceArticleSchema, serviceSchema } from "@/lib/schema";
 import { getServiceForPage, getServicePageMetadata } from "@/lib/service-page";
 import { getExpandedServiceFaqs } from "@/data/serviceFaqs";
-import { ServiceHero } from "@/components/services/ServiceHero";
-import { ServiceLongForm } from "@/components/services/ServiceLongForm";
-import { ServiceBenefits } from "@/components/services/ServiceBenefits";
-import { ServiceFeatures } from "@/components/services/ServiceFeatures";
-import { ServiceProcess } from "@/components/services/ServiceProcess";
-import { ServiceDeliverables } from "@/components/services/ServiceDeliverables";
-import { ServiceFAQ } from "@/components/services/ServiceFAQ";
-import { RelatedServices } from "@/components/services/RelatedServices";
-import { ServiceCTA } from "@/components/services/ServiceCTA";
+import { PinterestAdsHero } from "@/components/services/pinterest-ads/PinterestAdsHero";
+import { PinterestAdsOffer } from "@/components/services/pinterest-ads/PinterestAdsOffer";
+import { PinterestAdsWhyItMatters } from "@/components/services/pinterest-ads/PinterestAdsWhyItMatters";
+import { PinterestAdsWhyChooseMe } from "@/components/services/pinterest-ads/PinterestAdsWhyChooseMe";
+import { PinterestAdsProcess } from "@/components/services/pinterest-ads/PinterestAdsProcess";
+import { PinterestAdsPricing } from "@/components/services/pinterest-ads/PinterestAdsPricing";
+import { PinterestAdsServiceAreas } from "@/components/services/pinterest-ads/PinterestAdsServiceAreas";
+import { PinterestAdsFAQ } from "@/components/services/pinterest-ads/PinterestAdsFAQ";
+import { PinterestAdsCTA } from "@/components/services/pinterest-ads/PinterestAdsCTA";
 
 export const metadata: Metadata = getServicePageMetadata("pinterest-ads");
 
@@ -20,16 +20,27 @@ export default function PinterestAdsPage() {
 
   return (
     <>
-      <JsonLd data={[breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, { name: service.title, path: "/services/" + service.slug }]), serviceSchema(service), serviceArticleSchema(service), faqSchema(getExpandedServiceFaqs(service), "/services/" + service.slug)]} />
-      <ServiceHero service={service} />
-      <ServiceLongForm service={service} />
-      <ServiceBenefits service={service} />
-      <ServiceFeatures service={service} />
-      <ServiceProcess service={service} />
-      <ServiceDeliverables service={service} />
-      <ServiceFAQ service={service} />
-      <RelatedServices service={service} />
-      <ServiceCTA service={service} />
+      <JsonLd
+        data={[
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Services", path: "/services" },
+            { name: service.title, path: "/services/" + service.slug },
+          ]),
+          serviceSchema(service),
+          serviceArticleSchema(service),
+          faqSchema(getExpandedServiceFaqs(service), "/services/" + service.slug),
+        ]}
+      />
+      <PinterestAdsHero />
+      <PinterestAdsOffer />
+      <PinterestAdsWhyItMatters />
+      <PinterestAdsWhyChooseMe />
+      <PinterestAdsProcess />
+      <PinterestAdsPricing />
+      <PinterestAdsServiceAreas />
+      <PinterestAdsFAQ />
+      <PinterestAdsCTA />
     </>
   );
 }

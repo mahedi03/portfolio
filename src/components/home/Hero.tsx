@@ -3,118 +3,156 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowRight, Download } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Container } from "@/components/ui/container";
+import { ArrowUpRight, Download, MessageSquare } from "lucide-react";
 import { siteConfig } from "@/config/site";
+import { LinkedinIcon, GithubIcon, FacebookIcon } from "@/components/ui/social-icons";
 
 export function Hero() {
+  const socialLinks = [
+    { name: "LinkedIn", href: siteConfig.social.linkedin, icon: LinkedinIcon },
+    { name: "GitHub", href: siteConfig.social.github, icon: GithubIcon },
+    { name: "Facebook", href: siteConfig.social.facebook, icon: FacebookIcon },
+    { name: "WhatsApp", href: siteConfig.author.whatsapp, icon: MessageSquare },
+  ];
+
   return (
-    <section className="relative overflow-hidden pb-20 pt-16 sm:pb-24 sm:pt-20 lg:pb-28 lg:pt-24">
+    <section className="relative overflow-hidden pb-16 sm:pb-20 lg:pb-24">
+      {/* Background ambient */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 -z-20 bg-[radial-gradient(60%_55%_at_15%_10%,_var(--color-primary)_0%,_transparent_68%),radial-gradient(45%_50%_at_90%_35%,_var(--color-accent)_0%,_transparent_70%)] opacity-[0.09]"
-      />
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[34rem] opacity-40 [background-image:linear-gradient(to_right,var(--color-border)_1px,transparent_1px),linear-gradient(to_bottom,var(--color-border)_1px,transparent_1px)] [background-size:72px_72px] [mask-image:linear-gradient(to_bottom,black,transparent)]"
+        className="pointer-events-none absolute inset-0 -z-20 bg-[radial-gradient(ellipse_60%_50%_at_50%_20%,rgba(124,58,237,0.12),transparent_70%)]"
       />
 
-      <Container className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
-        <div className="order-2 text-center lg:order-1 lg:text-left">
+      <div className="container-wide relative">
+
+        {/* ══ 1. MAHEDI HASAN — normal flow, z-0, portrait sits in front ══ */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+          className="relative z-0 text-center select-none pointer-events-none pt-10 lg:pt-14"
+        >
+          <h1 className="text-[clamp(3.5rem,9.5vw,9.5rem)] font-display font-black tracking-[-0.04em] uppercase leading-[0.9] flex flex-wrap items-center justify-center gap-x-4 sm:gap-x-7">
+            <span className="text-stroke-white transition-all">MAHEDI</span>
+            <span className="text-white drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]">HASAN</span>
+          </h1>
+        </motion.div>
+
+        {/* ══ 2. Portrait — absolute center, overlaps MAHEDI HASAN, z-20 ══ */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.97 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          className="pointer-events-none absolute left-1/2 -translate-x-1/2 top-0 z-20"
+          style={{ width: "clamp(300px, 44vw, 600px)" }}
+        >
+          <div className="relative w-full" style={{ aspectRatio: "2/3" }}>
+            <Image
+              src="/Mahedi Hasan-transparent.png"
+              alt={`${siteConfig.author.name} — Portfolio`}
+              fill
+              priority
+              className="object-contain object-top drop-shadow-[0_20px_45px_rgba(0,0,0,0.85)] filter contrast-[1.03] brightness-[1.02]"
+              sizes="(max-width: 640px) 300px, (max-width: 1024px) 440px, 600px"
+            />
+          </div>
+        </motion.div>
+
+        {/* ══ 3. Content row — starts BELOW MAHEDI HASAN, left & right of portrait ══ */}
+        <div className="relative z-10 flex flex-col lg:flex-row items-start justify-between gap-8 pt-6 lg:pt-8">
+
+          {/* ── Left: Badge + Role + Bio + CTA ── */}
           <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-sm font-medium text-primary"
-          >
-            <span className="relative flex size-2">
-              <span className="absolute inline-flex size-full animate-ping rounded-full bg-success opacity-60" />
-              <span className="relative inline-flex size-2 rounded-full bg-success" />
-            </span>
-            Available for new projects
-          </motion.div>
-
-          <motion.h1
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="mt-6 max-w-4xl text-[length:var(--text-hero)] font-display font-bold leading-[1.02] tracking-[-0.04em]"
-          >
-            Websites, SEO, and Ads that{" "}
-            <span className="text-primary">actually grow</span> your business
-          </motion.h1>
-
-          <motion.p
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground sm:text-xl sm:leading-9 lg:text-2xl"
-          >
-            A digital marketing specialist and full-stack developer helping
-            businesses build fast websites, rank higher in search, and turn ad
-            spend into measurable revenue.
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -25 }}
+            animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="mt-8 flex flex-col justify-center gap-3 sm:flex-row lg:justify-start"
+            className="w-full lg:max-w-[280px] xl:max-w-[320px] text-center lg:text-left"
           >
-            <Button asChild size="lg" className="group shadow-lg shadow-primary/20">
-              <Link href="/contact">
-                Start a Project
-                <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+            {/* Status badge */}
+            <div className="inline-flex items-center gap-2.5 rounded-full border border-border/80 bg-surface/80 backdrop-blur-md px-4 py-2 text-xs font-semibold tracking-wide text-foreground shadow-sm mb-5">
+              <span className="relative flex size-2.5">
+                <span className="absolute inline-flex size-full animate-ping rounded-full bg-emerald-400 opacity-75" />
+                <span className="relative inline-flex size-2.5 rounded-full bg-emerald-500" />
+              </span>
+              <span>Available for New Project</span>
+            </div>
+
+            <h2 className="text-2xl sm:text-3xl font-display font-bold tracking-tight text-white leading-tight">
+              Growth Strategist &amp; Web Architect
+            </h2>
+            <p className="mt-4 text-sm sm:text-base leading-relaxed text-muted-foreground">
+              Designing digital products, high-converting Next.js applications, and semantic SEO frameworks built to turn search visibility into scalable revenue.
+            </p>
+
+            <div className="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-3">
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-white/90 shadow-[0_8px_25px_rgba(255,255,255,0.25)]"
+              >
+                <span>Let&apos;s collaborate</span>
+                <ArrowUpRight className="size-4" />
               </Link>
-            </Button>
-            <Button asChild size="lg" variant="outline">
-              <Link href="/portfolio">View Portfolio</Link>
-            </Button>
-            <Button asChild size="lg" variant="outline">
-              <a href="/cv/mahedi-hasan-cv.pdf" target="_blank" rel="noopener noreferrer">
-                Download CV <Download className="size-4" />
+              <a
+                href="/cv/mahedi-hasan-cv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-border/80 bg-surface/60 backdrop-blur-sm px-5 py-3 text-sm font-medium text-foreground transition-all duration-300 hover:bg-surface hover:text-white hover:border-white/40"
+              >
+                <span>Download CV</span>
+                <Download className="size-4" />
               </a>
-            </Button>
+            </div>
+
+            {/* Quick Metrics */}
+            <div className="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs font-semibold text-muted-foreground">
+              <span className="flex items-center gap-1.5">
+                <span className="text-white font-bold">4+ Years</span> Exp
+              </span>
+              <span className="text-border">•</span>
+              <span className="flex items-center gap-1.5">
+                <span className="text-white font-bold">50+</span> Projects
+              </span>
+              <span className="text-border">•</span>
+              <span className="flex items-center gap-1.5">
+                <span className="text-white font-bold">৳15L+</span> Revenue
+              </span>
+            </div>
           </motion.div>
 
+          {/* ── Center spacer — invisible, reserves portrait width so left/right don't go behind portrait ── */}
+          <div
+            className="hidden lg:block flex-shrink-0"
+            style={{ width: "clamp(300px, 44vw, 600px)" }}
+            aria-hidden
+          />
+
+          {/* ── Right: Social Pills ── */}
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.45 }}
-            className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground lg:justify-start"
+            initial={{ opacity: 0, x: 25 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.35 }}
+            className="w-full lg:max-w-[240px] xl:max-w-[280px] flex flex-row flex-wrap lg:flex-col items-center justify-center lg:items-end gap-3 pt-0 lg:pt-4"
           >
-            <span>SEO strategy</span>
-            <span className="text-border">•</span>
-            <span>Paid advertising</span>
-            <span className="text-border">•</span>
-            <span>High-performance websites</span>
+            {socialLinks.map((social) => {
+              const Icon = social.icon;
+              return (
+                <a
+                  key={social.name}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center gap-3 rounded-full border border-border/80 bg-surface/70 backdrop-blur-md px-5 py-3 text-sm font-medium text-muted-foreground transition-all duration-300 hover:border-white/50 hover:bg-white hover:text-black hover:scale-105 shadow-sm"
+                >
+                  <Icon className="size-4 transition-transform group-hover:scale-110" />
+                  <span>{social.name}</span>
+                  <ArrowUpRight className="size-3.5 opacity-60 group-hover:opacity-100 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                </a>
+              );
+            })}
           </motion.div>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.96, y: 18 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.15 }}
-          className="order-1 lg:order-2"
-        >
-          <div className="relative mx-auto w-full max-w-[29rem] lg:mr-0">
-            <div aria-hidden className="absolute -inset-6 -z-10 rounded-full" />
-            <div className="relative overflow-hidden rounded-[2rem]">
-              <div className="relative aspect-[4/5] overflow-hidden rounded-[1.55rem] bg-transparent">
-                <Image
-                  src="/Mahedi Hasan-transparent.png"
-                  alt={`${siteConfig.author.name} — digital marketing specialist`}
-                  fill
-                  priority
-                  sizes="(max-width: 1024px) 90vw, 40vw"
-                  className="object-cover object-[center_20%] saturate-[0.9]"
-                />
-              </div>
-            </div>
-          </div>
-        </motion.div>
-      </Container>
+      </div>
     </section>
   );
 }

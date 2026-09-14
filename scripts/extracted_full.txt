@@ -1,0 +1,1300 @@
+
+======================================================
+FILE: ChatGPT Ads Agency _ Strategy & Campaign Management.txt
+======================================================
+
+--- [1. SEO Title] (1 lines) ---
+ChatGPT Ads Agency | Strategy & Campaign Management
+
+--- [2. Meta Description] (1 lines) ---
+Get ready for ChatGPT Ads with Riha Web Tech. Honest eligibility guidance, strategy, and campaign management for Bangladesh and global brands.
+
+--- [3. URL Slug] (1 lines) ---
+/chatgpt-ads
+
+--- [4. H1] (1 lines) ---
+ChatGPT Ads: Strategy, Creative & Campaign Management
+
+--- [5. Opening Paragraph] (2 lines) ---
+ChatGPT Ads are sponsored links. OpenAI now shows beneath ChatGPT answers to Free and Go tier users. Riha Web Tech helps businesses prepare for and manage ChatGPT Ads, whether that means building a readiness strategy today or launching a live campaign now.
+Not every market can run these ads yet, and we will tell you plainly where yours stands before recommending anything. Not sure if ChatGPT Ads is even available where you operate? Ask us — no commitment required.
+
+--- [6. What We Offer] (2 lines) ---
+Riha Web Tech offers two ChatGPT Ads services depending on where your business is registered: readiness strategy and GEO alignment for markets not yet eligible for OpenAI's Ads Manager, and full campaign setup and management for businesses with an eligible billing entity. This includes context-hint targeting, ad creative, conversion tracking setup, and ongoing optimization once a campaign is live.
+Eligibility for running ads directly through OpenAI's Ads Manager currently sits with a specific set of countries, and OpenAI updates that list as the rollout continues. If your business is registered in Bangladesh, we will build your readiness position now, with creative direction, context-hint planning, and GEO/AEO alignment, so your brand also shows up in ChatGPT's organic answers, so you are not starting from zero once access opens.
+
+--- [What's included:] (9 lines) ---
+* Eligibility check for your business location and industry category
+* Context-hint strategy (OpenAI's version of targeting, based on conversation themes rather than exact-match keywords)
+* Ad creative and offer messaging aligned to how people ask questions in ChatGPT
+* Conversions API and pixel setup for live campaigns
+* GEO and AEO alignment so your brand appears in ChatGPT's organic responses too, not only sponsored ones
+What's not included:
+* We cannot open an OpenAI Ads Manager account on behalf of a business that is not in an eligible country or category
+* We do not guarantee ad performance, since OpenAI's own measurement and third-party verification tools are still early
+This service fits businesses that want a real plan for ChatGPT Ads, not a vague promise that the channel "is coming." It's a poor fit if you need guaranteed results on day one, since OpenAI itself has not published mature benchmarks yet.
+
+--- [7. Why This Service Matters] (3 lines) ---
+ChatGPT now has a large weekly user base on its free tiers, and OpenAI has said it wants advertising revenue to grow substantially over the next few years. That means competition for attention inside ChatGPT will increase as more countries and categories become eligible.
+Waiting has a real cost. Businesses that build their context-hint strategy, creative, and tracking setup in advance are able to launch as soon as their market opens or their account is approved. Businesses that wait until access opens are starting their strategy work from scratch, while competitors are already live.
+There is also a common misunderstanding worth clearing up: ChatGPT Ads do not change what ChatGPT tells the user. OpenAI keeps sponsored placements clearly labeled and separate from the answer itself, and ads only appear to logged-in Free and Go tier users — paid ChatGPT subscribers do not see them. This matters for setting realistic expectations about reach.
+
+--- [8. Why Choose Us] (6 lines) ---
+Riha Web Tech already runs SEO, Google Ads, Meta Ads, and GEO/AEO work for clients in Bangladesh and internationally, which means ChatGPT Ads strategy connects to work we're already doing for most clients rather than sitting as an isolated add-on.
+A few things we do differently on this specific service:
+* We tell you your eligibility status before we sell you anything. Most agency pages describing this service skip that detail entirely.
+* We treat context-hint planning as its own discipline, not a copy-paste of your Google Ads keyword list. Context hints describe the situations and questions people bring to ChatGPT, and writing them like search keywords produces weak targeting.
+* We fold ChatGPT Ads strategy into your existing GEO and AEO work, so paid placement and organic AI visibility support each other instead of running as separate projects.
+* Our process is documented and repeatable — discovery, planning, execution, and optimization — the same structure we apply across our service lines, so you know what to expect at each stage.
+
+--- [9. Our Process] (6 lines) ---
+Riha Web Tech's ChatGPT Ads process runs in four stages: discovery and eligibility review, context-hint and creative strategy, campaign setup or readiness roadmapping, and ongoing monitoring once a campaign is live.
+1. Discovery and eligibility check. We review your business registration, industry category, current digital presence, and goals to confirm exactly what's available to you today.
+2. Strategy and context-hint planning. We map the questions and situations where your product or service is genuinely relevant inside a ChatGPT conversation, and draft ad creative and messaging around that.
+3. Set up a readiness roadmap. If you're eligible, we set up your Ads Manager account structure, conversion tracking, and first campaign. If you're not yet eligible, we build a readiness package — creative, targeting strategy, and GEO alignment — ready to launch the moment access opens.
+4. Monitoring and optimization. For live campaigns, we track performance against your goals and adjust bidding, creative, and context hints. For readiness clients, we monitor OpenAI's eligibility updates and flag when your market or account becomes eligible.
+Ready to see where you stand? Request your free eligibility and strategy consultation today.
+
+--- [10. Pricing] (1 lines) ---
+ChatGPT Ads currently has no minimum spend requirement from OpenAI, and advertisers typically bid in the range of $3 to $5 per click or roughly $25 to $60 per thousand impressions, depending on category and competition. Riha Web Tech's fees are scoped separately from OpenAI's ad spend and depend on whether you need a readiness strategy or full campaign management.
+
+--- [Pricing factors include:] (13 lines) ---
+Factor
+How It Affects Cost
+Service track
+Readiness/strategy work is typically a smaller scope than ongoing campaign management
+Number of ad groups or context-hint themes
+More themes to plan and test increases strategy time
+Creative volume
+More ad variations require more copywriting and review
+Reporting depth
+Conversions API and pixel setup add initial configuration time
+Ongoing management
+Live campaigns are billed as an ongoing monthly service, not a one-time project
+We offer a free consultation before quoting, so your estimate is based on your actual eligibility status and goals rather than a generic package price.
+
+--- [11. Service Areas] (3 lines) ---
+Riha Web Tech is based in Dhaka and supports ChatGPT Ads readiness for businesses across Bangladesh, alongside campaign management for clients with eligible billing entities in the UK, USA, and other markets OpenAI has approved for advertiser access.
+If your business is registered in Bangladesh, direct advertiser access through OpenAI's Ads Manager is not yet available, so our engagement focuses on readiness strategy, creative, and GEO alignment rather than launching a live campaign. If your business has an eligible billing entity, for example, a UK or US-registered arm, we can manage a live campaign directly.
+Local considerations we account for: Bangladeshi businesses often reach international customers whose ChatGPT usage sits in markets where ads are already live, which is one reason GEO alignment matters even before Bangladesh itself becomes eligible.
+
+--- [12. Timeline / Duration] (2 lines) ---
+Readiness strategy engagements typically run two to four weeks, covering eligibility review, context-hint planning, and creative development. Timing depends on how much of your messaging and offer positioning already exists versus needing to be built from scratch.
+For clients with eligible billing entities, the initial campaign setup account structure, tracking, and first ad group typically takes one to two weeks, followed by an ongoing monitoring and optimization cycle. Campaigns with more ad variations or more context-hint themes to test take longer to reach a stable read on performance.
+
+--- [13. Guarantee / Warranty] (2 lines) ---
+We stand behind the quality of our process, not a specific ad performance number. ChatGPT Ads is a new platform with limited independent benchmarking, so we do not promise a set click-through rate, cost per lead, or return on ad spend.
+What we do commit to: transparent reporting on what we've set up and what's running, a clear explanation of what's working and what isn't, and honest updates on your eligibility status as OpenAI's rollout continues. If our recommendation changes because your market's access status changes, we will tell you before continuing any paid work.
+
+--- [14. FAQs] (13 lines) ---
+Is ChatGPT Ads available in Bangladesh?
+Not yet for direct advertiser access as of 2026. OpenAI has opened the Ads Manager to a specific set of countries and is expanding gradually. Bangladesh-based businesses can start with a readiness strategy and GEO alignment now so they're prepared once access opens.
+What countries can currently run ChatGPT Ads?
+OpenAI has opened advertiser access to a growing list of countries, expanding from an initial US-only pilot. The exact list changes as OpenAI's rollout continues, so we confirm current eligibility for your specific business location before recommending a service track.
+How much does ChatGPT Ads cost?
+There's currently no minimum spend requirement from OpenAI. Advertisers typically bid around $3 to $5 per click or $25 to $60 per thousand impressions. Riha Web Tech's management or strategy fee is scoped separately based on your goals.
+How is ChatGPT Ads different from Google Ads?
+ChatGPT Ads use context hints — descriptions of the situations and questions people bring to a conversation — rather than exact-match keywords. Ads also appear only to logged-in Free and Go-tier ChatGPT users, not to paid subscribers.
+Can Riha Web Tech manage my ChatGPT Ads campaign if my business is in Bangladesh?
+Not directly through OpenAI's Ads Manager, since Bangladesh isn't yet on the eligible advertiser list. We can build your readiness strategy and GEO alignment now, and manage a live campaign if you have an eligible billing entity elsewhere.
+How do we get started?
+Contact us for a free consultation. We'll confirm your eligibility status, recommend whether a readiness strategy or full campaign management fits your situation, and outline next steps from there.
+Not sure which track fits your business? Talk to us before you spend anything — we'll give you a straight answer either way.
+
+--- [15. Internal Linking Suggestions] (15 lines) ---
+Anchor Text
+Target Page Type
+Why It Helps
+AI search optimization for ChatGPT and Google AI Overviews
+SEO / GEO-AEO services page
+Connects paid and organic AI visibility for readers already interested in one
+social media ad management
+Social media management services page
+Cross-sells adjacent paid channels for readers, comparing options
+Google Ads and Meta Ads management
+PPC/ads services page (if present)
+Supports readers deciding between established and emerging ad channels
+free consultation
+Contact page
+Converts readers at every CTA stage
+
+--- [16. External Link Suggestions] (9 lines) ---
+Source Type
+Topic It Supports
+Why It's Useful
+OpenAI Help Center (Ads in ChatGPT)
+Current eligible countries, ad display rules
+Authoritative, regularly updated source for eligibility claims
+OpenAI official Ads Manager announcement
+CPC/CPM mechanics, self-serve launch details
+Backs up pricing and platform-mechanics statements with a primary source
+
+======================================================
+FILE: Creative Content Services.txt
+======================================================
+
+--- [Header] (1 lines) ---
+Creative Content Services
+
+--- [1. SEO Title] (1 lines) ---
+Creative Content Writing Services | Riha Web Tech (56 characters)
+
+--- [2. Meta Description] (1 lines) ---
+Creative content that ranks, reads well, and converts — blogs, articles, product copy, PR, and more. Get a free content audit from Riha Web Tech today. (157 characters)
+
+--- [3. URL Slug] (1 lines) ---
+/content-writing-services/
+
+--- [4. H1] (3 lines) ---
+Creative Content Services That Rank, Read Well, and Convert
+Creative content writing services help businesses turn ideas into words that both readers and search engines trust. Riha Web Tech writes across ten formats — from blog posts to product descriptions to press releases — for e-commerce brands, SaaS companies, and service businesses in Bangladesh and 20+ countries. Most websites lose traffic not because they lack content, but because that content sounds generic, ignores search intent, or isn't structured for how Google and AI answer engines actually read a page. Not sure which content service fits your goal?
+Get a free content audit
+
+--- [6. What We Offer — Explore Our Content Services] (2 lines) ---
+Creative content covers ten specialized writing services, each built for a different business goal — from ranking a blog post to converting a product page. Every service follows the same core process: research, entity mapping, drafting, and SEO/AEO review, but the deliverables and structure change based on where the content will live.
+Below is a breakdown of each service, what it solves, and who it's built for.
+
+--- [6.1 Content Writing] (1 lines) ---
+Content writing is the foundation service covering website pages, landing pages, and core brand copy that needs to explain what a business does clearly and persuasively. It typically includes homepage copy, about pages, and service pages, and is best for businesses launching a new site or repositioning an existing brand. Unlike one-off blog posts, content writing focuses on the pages a visitor reads before deciding to trust a business at all. A common mistake is writing this copy internally without keyword research, which means the page reads fine but never gets found. Explore Content Writing Services →
+
+--- [6.2 Article Writing] (2 lines) ---
+Article writing produces long-form, research-backed pieces — typically 1,000 to 2,500 words — built to establish topical authority on a subject. It suits businesses that want to rank for competitive, high-intent search terms rather than just fill a blog calendar. Articles differ from blog posts in depth: they're structured around a single core question, backed with more thorough research, and often used as pillar content that shorter posts link back to. This format works best when a business has 5–10 core topics it wants to own in search results, not for quick updates or announcements.
+Explore Article Writing Services →
+
+--- [6.3 Blog Writing] (2 lines) ---
+Blog writing delivers regular, shorter-form posts — usually 600 to 1,200 words — that keep a website active and answer specific, often narrower questions than a full article. It's best for businesses that want a consistent publishing cadence to support ongoing SEO and social sharing. Blog posts work well for how-to guides, industry updates, and list-based content that AI Overviews and featured snippets frequently pull from. A blog without a topic cluster strategy tends to plateau after the first few months, since posts stop reinforcing each other.
+Explore Blog Writing Services →
+
+--- [6.4 Marketing Content] (2 lines) ---
+Marketing content includes campaign copy, ad landing pages, email sequences, and promotional material tied to a specific offer or launch window. It's built for businesses running paid campaigns or product launches that need copy aligned tightly with a conversion goal rather than long-term SEO. This differs from evergreen content writing in that marketing content is time-bound and tested — headlines and CTAs are written to be measured against performance data, not just published once. It fits best alongside an active paid advertising or product launch effort.
+Explore Marketing Content Services →
+
+--- [6.5 Product Description Writing] (2 lines) ---
+Product description writing turns technical specs and features into copy that helps online shoppers decide to buy, typically 50 to 300 words per product, depending on catalog complexity. It's essential for e-commerce brands with catalogs ranging from a handful of SKUs to several thousand. Good product descriptions answer the buyer's unspoken objections — durability, sizing, use case — rather than just listing specifications, which is where many store owners fall short when writing these themselves. This service is not a fit for single-product or portfolio-style sites, where longer content writing serves better.
+Explore Product Description Services →
+
+--- [6.6 Press Release Writing] (2 lines) ---
+Press release writing produces newsworthy announcements — product launches, funding news, partnerships, milestones — formatted to meet journalistic and distribution-service standards. It's built for businesses with an actual news event to report, not general promotional updates, which media outlets and distribution platforms typically reject. A well-structured press release leads with the most newsworthy fact in the first sentence, includes verifiable quotes, and avoids sounding like an ad. Businesses without a distribution plan should pair this service with a distribution or PR outreach step, since writing alone doesn't guarantee pickup.
+Explore Press Release Services →
+
+--- [6.7 Email Newsletter Writing] (2 lines) ---
+Email newsletter writing creates recurring email content — product updates, curated resources, or nurture sequences — sent directly to a business's subscriber list. It suits businesses that already have an email list and want to keep it engaged between purchases or sales conversations. Newsletters differ from marketing email blasts in tone: they're built for retention and relationship, with softer CTAs and more editorial structure, rather than a single hard sell. This service assumes an existing list; businesses starting from zero subscribers should prioritize lead generation first.
+Explore Email Newsletter Services →
+
+--- [6.8 Product Review Writing] (2 lines) ---
+Product review writing creates detailed, comparison-style content evaluating products or services, often used for affiliate sites, review blogs, or brand comparison pages. It's built for businesses in affiliate marketing, SaaS comparison spaces, or any brand that wants to rank for "best X for Y" style searches. This format requires more structural discipline than a blog post — pros/cons, comparison tables, and a clear verdict — since both readers and AI Overviews extract these sections directly. It isn't the right fit for single-product brand pages, where product description writing applies instead.
+Explore Product Review Services →
+
+--- [6.9 Web Content Writing] (2 lines) ---
+Web content writing covers the full site experience — navigation copy, microcopy, FAQ sections, and supporting pages that tie a website together beyond the homepage and service pages. It's best for businesses mid-way through a website rebuild or redesign that need every page to speak with one consistent voice. This differs from general content writing in scope: it treats the whole site as one connected system rather than writing pages in isolation, which is often where DIY website copy breaks down. It pairs closely with web design and development work already underway.
+Explore Web Content Services →
+
+--- [6.10 Social Media Content Writing] (2 lines) ---
+Social media content writing produces platform-specific captions, post copy, and short-form scripts for Facebook, Instagram, TikTok, and LinkedIn, tailored to each platform's tone and format. It's built for businesses running organic social alongside paid campaigns that need a consistent posting rhythm without writing every caption manually. Unlike blog or article writing, this content is written for scroll-speed attention — first line hooks, short sentences, and platform-native phrasing — rather than search ranking. This service works best paired with an existing content calendar or paid social strategy, not as a standalone effort.
+Explore Social Media Content Services →
+
+--- [7. Why Creative Content Matters] (2 lines) ---
+Generic or inconsistent content creates a specific, measurable risk: pages that don't match search intent get buried, and AI answer engines skip over content that isn't structured to be extracted. A business publishing content without a clear format strategy often ends up with a blog nobody reads, product pages that don't convert, and a brand voice that shifts from page to page.
+The benefit of a structured content system is compounding — a blog post that links to a pillar article, which links to a product page, builds topical authority faster than any single piece written alone. This matters more now that Google AI Overviews and tools like ChatGPT and Perplexity summarize entire categories of content in one answer, often citing only the sources that are clearly structured. Businesses don't need more content — they need content mapped to the right format for the job it's meant to do.
+
+--- [8. Why Choose Riha Web Tech] (5 lines) ---
+* Full-service context: Content is written alongside the agency's paid advertising, SEO, and web development work, so copy is built to plug into a working funnel rather than exist in isolation.
+* Bilingual delivery: Content is produced in Bangla, English, or both, serving Bangladeshi clients and international clients across 20+ countries from one team.
+* Format-specific process: Each of the ten content services follows its own structure and checklist rather than one generic template stretched across every format.
+* AEO/GEO-aware writing: Content is structured with direct-answer openings and standalone sections so it can be extracted by AI Overviews and answer engines, not just ranked in traditional search.
+* Connected to design and development: Since Riha Web Tech also builds websites, content is handed off in a format that's ready to drop into an existing site structure without a second formatting pass.
+
+--- [9. Our Process] (8 lines) ---
+Every content project moves through the same six steps, regardless of format, though the depth of each step scales with the service.
+1. Discovery & brief — Goals, target audience, focus keyword, and brand tone are gathered before writing starts.
+2. Keyword & entity mapping — Related keywords and topic entities are identified so the content connects naturally to search intent.
+3. Drafting — A writer matched to the content format and industry produces the first draft.
+4. SEO/AEO review — Drafts are checked against search intent, readability, and AI-Overview structure before delivery.
+5. Delivery & revision — Content is delivered with a revision window to align tone and detail with the brief.
+6. Ongoing calendar (optional) — For blog, social, and newsletter formats, content can be planned on a recurring schedule rather than one-off orders.
+Ready to build your content system? Request a free strategy call.
+
+--- [10. Pricing] (1 lines) ---
+Creative content pricing typically depends on word count, research depth, industry complexity, and turnaround time. Simple formats like product descriptions and social captions are priced per unit, while article writing, blog writing, and web content are priced per project or per word based on scope.A free consultation is available to scope word count and format mix before a quote is issued.
+
+--- [11. Service Areas] (1 lines) ---
+Riha Web Tech provides creative content writing services to businesses across Bangladesh and to clients in over 20 countries worldwide. Bangladeshi clients often need bilingual Bangla-English content for local search visibility, while international clients typically require English-only content matched to their regional audience and search behavior.
+
+--- [12. Timeline] (1 lines) ---
+Turnaround depends on format: social captions and product descriptions are typically delivered fastest, while in-depth articles and full web content projects take longer due to research and review depth. A clear brief with existing brand guidelines and approved keywords speeds up delivery; multiple internal approval rounds on the client side are the most common cause of delay. Rush timelines can be discussed case by case during scoping.
+
+--- [13. Guarantee] (1 lines) ---
+Revisions are included within the agreed scope to align content with the original brief. Content is written to be plagiarism-free and fact-checked against the information provided by the client. Guarantees are limited to the writing and review process — content performance depends on additional factors like technical SEO, publishing consistency, and site authority, which fall outside the writing scope itself.
+
+--- [14. FAQs] (13 lines) ---
+What's the difference between content writing and copywriting?
+Content writing typically refers to informational or brand-building content like blog posts, articles, and website pages, while copywriting focuses on short, conversion-driven text like ads and CTAs. Riha Web Tech's content writing services cover both ends, depending on the format — marketing content, for example, leans closer to copywriting than a long-form article.
+Do you write in both Bangla and English?
+Yes. Content is produced in Bangla, English, or a bilingual mix depending on the target audience, which is common for Bangladeshi businesses serving both local and international customers from the same website.
+How is AI used in your content process?
+AI tools support research and structure checks, but drafts are written and reviewed by a person to ensure accuracy, brand voice, and factual correctness before delivery. This keeps content readable for humans while still being structured for AI answer engines to extract correctly.
+Which service do I need for an e-commerce store?
+Most e-commerce stores need a mix of product description writing for catalog pages and blog or article writing to drive organic traffic. Product review writing is also useful for comparison-style content if the store competes on "best X" search terms.
+Can you match our existing brand voice?
+Yes. The discovery step includes reviewing any existing brand guidelines, past content, or tone preferences so new content stays consistent with what's already published.
+Do you write for industries you haven't worked in before?
+Yes, though the discovery step for a new industry typically includes additional research time to understand terminology, audience concerns, and competitor positioning before drafting begins.
+Ready to start? Get a free content audit or request a quote — most projects can begin within the same week.
+
+======================================================
+FILE: Google Ads Service Page.txt
+======================================================
+
+--- [Header] (1 lines) ---
+Google Ads Service Page
+
+--- [1. SEO Title] (1 lines) ---
+Google Ads Management Services in Bangladesh | Riha (54 characters)
+
+--- [2. Meta Description] (1 lines) ---
+Get more leads and sales with expert Google Ads management in Bangladesh. Search, Shopping & Performance Max campaigns built for ROI. Get a free audit. (156 characters)
+
+--- [4. H1] (1 lines) ---
+Google Ads Management Services in Bangladesh
+
+--- [5. Opening Paragraph] (2 lines) ---
+If you're running Google Ads in Bangladesh and not getting leads or sales worth the spend, the issue is usually in the account structure, not the platform itself. Riha Web Tech provides Google Ads management services for businesses across Dhaka and Bangladesh, building campaigns around conversions instead of clicks. Our team is rated 4.8+ on Google, Clutch, and GoodFirms for the digital marketing work we do.
+Not sure where your account stands right now? Call us for a quick, no-commitment review.
+
+--- [6. What We Offer] (15 lines) ---
+Google Ads management from Riha Web Tech covers Search, Shopping, Display, YouTube, and Performance Max campaigns for businesses in Bangladesh. It typically includes keyword research, ad copywriting, conversion tracking setup, and monthly optimization, and is best for businesses that already have a working website or landing page.
+Every account starts with the same question: what does a "conversion" actually mean for your business — a phone call, a form fill, a completed sale? Once that's defined, the campaign type follows.
+What's typically included:
+* Search campaigns for people actively searching for your product or service
+* Shopping campaigns for e-commerce businesses selling physical products
+* Display and YouTube campaigns for awareness and remarketing to past visitors
+* Performance Max campaigns that combine Google's ad inventory into one automated campaign type
+* Keyword research in both Bangla and English, since Bangladeshi search behavior mixes both
+* Conversion tracking setup — this comes before campaign launch, not after
+* Monthly reporting and optimization
+What's not included by default:
+* Ad spend paid directly to Google (this is separate from our management fee — see Pricing below)
+* Landing page design (we can build one, but it's scoped separately — see our web development services)
+* Facebook, TikTok, or LinkedIn advertising (available as a separate service on request)
+Who this is for: businesses that already have a clear offer and a place to send traffic — a website, a landing page, or at minimum a working contact form. If you don't have that yet, we'll flag it before starting, not after your budget is already spent.
+
+--- [7. Why This Service Matters] (4 lines) ---
+Google Ads gives a business visibility the moment a campaign goes live — someone searching "Google Ads agency in Dhaka" today can see your ad. That's the main advantage over SEO, which typically takes several months to build organic rankings for competitive terms.
+The risk isn't the platform — it's running it without the basics in place. Two mistakes account for most wasted ad spend we see in new accounts: broad match keywords with no negative keyword list, and no conversion tracking, so the account has no way to learn what's actually working.
+Compared to Facebook Ads, Google Ads reaches people who are already looking for a solution, not scrolling past one. Facebook Ads can work well for awareness and browsing-stage buyers; Google Ads tends to work better when someone already knows they want to buy or hire, and just needs to find the right provider.
+None of this means Google Ads works for every business. If your product has very low search volume, or your website can't convert visitors once they arrive, fixing those issues usually comes before running ads — not after.
+
+--- [8. Why Choose Us] (6 lines) ---
+Riha Web Tech is a Dhaka-based digital marketing team offering Google Ads management alongside SEO, content, and web development — rated 4.8 or higher across Google, Clutch, GoodFirms, and Trustpilot.
+* Conversion tracking comes first, not last. We confirm what counts as a result for your business before a single taka of ad spend goes out.
+* One team, not a handoff chain. Because we also build websites and write content in-house, your ads, landing pages, and copy stay consistent instead of getting handled by disconnected vendors.
+* Direct communication. You work with the people running your account, not a rotating account manager.
+* Bangla and English keyword coverage. Local search behavior mixes both languages, and campaigns built around only one miss real search volume.
+* Underperforming campaigns get flagged, not ignored. If a keyword or ad group isn't converting, we restructure or pause it rather than let it run on autopilot.
+
+--- [9. Our Process] (7 lines) ---
+Riha Web Tech's Google Ads process runs through five steps — audit, research, build, launch, and ongoing optimization — with conversion tracking confirmed before any campaign goes live.
+1. Account audit or fresh setup. If you already have a Google Ads account, we review its history and structure first. If you're starting new, we set up the account and confirm access and billing.
+2. Keyword and competitor research. We research what your potential customers actually search for, in both Bangla and English, and review what competitors are bidding on.
+3. Campaign build. We structure campaigns by intent, write ad copy, and set up conversion tracking — this step is completed before launch, not left for later.
+4. Launch and initial monitoring. Campaigns go live, and we watch performance closely during the first few weeks while Google's algorithm gathers data.
+5. Ongoing optimization and reporting. We adjust bids, keywords, and ad copy based on real performance data, and send monthly reports showing what changed and why.
+Ready to see what this looks like for your account? Request your free Google Ads audit, and we'll walk you through what we'd change.
+
+--- [10. Pricing] (2 lines) ---
+Google Ads management cost in Bangladesh depends on two separate factors: the ad spend paid directly to Google, and a management fee that varies by account complexity and monthly budget.
+These are not the same cost. Ad spend goes to Google to actually run your ads. The management fee covers the strategy, setup, and ongoing optimization work.
+
+--- [Pricing typically depends on:] (5 lines) ---
+* Number of active campaigns and ad groups
+* Monthly ad spend budget
+* How competitive your industry is (real estate and legal tend to cost more per click than local services)
+* Whether conversion tracking or a landing page needs to be built from scratch
+There's no single fixed number that applies to every business, since a small local service business and a national ecommerce store need very different account structures. Contact us with your budget range, and we'll tell you honestly whether it's enough to work with, and what a realistic starting scope looks like.
+
+--- [11. Service Areas] (3 lines) ---
+Riha Web Tech provides Google Ads management services to businesses across Dhaka and throughout Bangladesh, with remote account management available for clients outside the capital.
+Being based in Dhaka means we build campaigns around how Bangladeshi customers actually search — mixing Bangla and English keywords, accounting for mobile-heavy traffic, and understanding local buying behavior across industries like ecommerce, real estate, healthcare, and education. For e-commerce clients, that includes accounting for how checkout and payment expectations (like bKash and Nagad) affect what happens after someone clicks an ad.
+If your business operates outside Dhaka, campaigns are managed remotely with the same process — there's no separate "regional" version of this service.
+
+--- [12. Timeline / Duration] (3 lines) ---
+Google Ads campaigns from Riha Web Tech typically launch within a few business days of account access and conversion tracking being confirmed. After that, expect an initial two-to-four-week learning phase where Google's system gathers performance data — this is normal and not a sign of a problem.
+Meaningful optimization and more stable cost-per-conversion numbers usually appear by month two or three of active management. Campaigns for highly competitive industries or brand-new websites with no prior data can take longer to stabilize.
+What speeds this up: having conversion tracking ready before launch, a clear offer, and a landing page that actually matches what the ad promises. What slows it down: frequent changes to the offer, website downtime, or restarting campaigns from scratch mid-optimization.
+
+--- [13. Guarantee / Warranty] (2 lines) ---
+Clients working with Riha Web Tech retain full ownership of their Google Ads account at all times — the account, its data, and its history stay yours.
+If a campaign, keyword, or ad group isn't converting after a fair testing period, we pause or restructure it rather than let it continue spending without results. We don't guarantee a specific number of leads or a specific cost-per-click, since these depend on your industry, budget, and website — any provider promising a fixed outcome regardless of those factors isn't being fully transparent.
+
+--- [14. FAQs] (11 lines) ---
+What is Google Ads management?
+Google Ads management is the ongoing setup, monitoring, and optimization of paid search campaigns on Google's advertising platform. It covers keyword research, ad creation, conversion tracking, and budget management, so a business gets measurable results from its ad spend instead of just traffic.
+Do I need a website before running Google Ads?
+Yes, in most cases. You need somewhere to send the traffic — a website, landing page, or at a minimum, a working contact form. If you don't have one yet, we can build it as a separate project before starting your campaigns.
+Can you manage Google Ads for any industry?
+We've worked across various industries, including e-commerce, real estate, healthcare, and education, among others. Each industry has distinct search behavior and competition levels, which we account for during keyword research — the process remains the same, but the strategy is tailored to your specific market.
+Do you require a long-term contract?
+Contract terms depend on the scope of work and are confirmed directly with our team before you sign anything. We don't believe in locking clients into arrangements that aren't producing results.
+What happens if my campaigns aren't performing?
+We review performance regularly and flag underperforming keywords, ads, or campaigns for restructuring or pausing rather than letting them continue spending without results. You'll always know what's changing and why.
+Still have a question about your specific account? Talk to our team directly — no obligation.
+
+--- [15. Internal Linking Suggestions] (18 lines) ---
+Anchor Text
+Target Page
+Why It Helps
+"web development services"
+/web-design-and-development-services
+Answers the "do I need a website first" objection with a direct next step
+"SEO services"
+/seo-services
+Supports the Ads-vs-SEO comparison in Why This Matters
+"our case studies"
+/case-studies
+Gives visitors proof beyond the page's own claims
+"Request your free Google Ads audit"
+/contact-us
+Primary conversion path, repeated at each CTA stage
+"our team"
+/about
+Reinforces the "one team, not a handoff chain" differentiator
+
+--- [16. External Link Suggestions] (9 lines) ---
+Source Type
+Topic It Supports
+Why Useful
+Google Ads Help (official documentation)
+How Performance Max or Quality Score works
+Authoritative explanation without making unverifiable claims
+Google's official advertising resources
+General context on how paid search auctions work
+Grounds the "how it works" explanation in a primary source
+
+--- [5. Start Growing With Google Ads] (3 lines) ---
+________________
+Word count: ~1,650 words (mid-complexity service range)
+Flag before publishing: The Guarantee section and contract-term language should be confirmed against your actual policies — this copy uses safe, honest wording rather than invented terms, but you should verify it matches what you actually offer before it goes live.
+
+======================================================
+FILE: Local SEO Services.txt
+======================================================
+
+--- [1. SEO Title] (1 lines) ---
+Local SEO Services in Bangladesh | Riha Web Tech (52 characters)
+
+--- [2. Meta Description] (1 lines) ---
+Rank higher on Google Maps and local search across Bangladesh. GBP optimization, citations, and reviews managed for you. Get a free local SEO audit today. (157 characters)
+
+--- [3. URL Slug] (1 lines) ---
+/local-seo-services
+
+--- [4. H1] (1 lines) ---
+Local SEO Services in Bangladesh
+
+--- [5. Opening Paragraph] (4 lines) ---
+Local SEO services help your business show up when nearby customers search on Google Maps and "near me" queries — and most businesses in Bangladesh are still invisible there. Nearly half of all Google searches carry local intent, and the majority of people who find a local business on their phone visit or contact it within a day. If you're not in the Local Pack, that traffic is going to a competitor.
+Riha Web Tech builds local visibility for businesses across Dhaka, Chittagong, and the rest of Bangladesh by combining Google Business Profile optimization, citation building, and on-page local SEO under one team that also handles your website and design. Local SEO plans start from ৳20,000/month (~$165/month) for a single-location business, with custom pricing for multi-location brands.
+Are you unsure if your business currently appears in local search results?
+[Get a free local visibility check →]
+
+--- [6. Proof / Results] (13 lines) ---
+Place this directly under the opening paragraph or right after "What We Offer." Real, specific numbers are what search engines' quality signals and readers actually respond to — generic promises don't move anyone.
+Results We've Delivered
+[PLACEHOLDER — replace with your real client data. Format below; use 2–4 examples if you have them, even modest ones. A real 40% lift beats a fabricated 500% one.]
+* [Client/Industry, e.g. "Dental Clinic, Dhaka"] — [X]% increase in Google Maps visibility within [Y] months
+* [Client/Industry] — Moved from page 2 to Local Pack top 3 for "[keyword]" in [Y] weeks
+* [Client/Industry] — [X]% increase in calls/direction requests from GBP after citation cleanup
+If you genuinely have no case studies yet, replace this section with a lighter-weight version:
+"We're currently building out our published case study library. Ask us for examples from your industry during your free audit call — we're happy to walk through real before/after data."
+What Clients Say
+[PLACEHOLDER — add 2–3 short testimonials with real name + business, ideally with a photo or logo. Even one is far better than zero. If you don't have any yet, prioritize collecting 3–5 from past/current clients before your next content push — this is the single biggest trust gap versus competitors ranking above you.]
+"[Testimonial quote]" — [Name, Business, City]
+Trusted By
+[PLACEHOLDER — if you've worked with any recognizable brands, add their logos here. If not yet, skip this block rather than force it.]
+
+--- [7. What We Offer] (1 lines) ---
+Local SEO for a Bangladeshi business means optimizing your Google Business Profile, on-site content, and local citations so you appear in the Google Local Pack and in "near me" and city-based searches. It typically includes profile setup, citation building, review management, and location-specific content, and is best suited for businesses that serve a physical area, storefront, or defined set of cities rather than a purely online, nationwide audience.
+
+--- [What's included:] (10 lines) ---
+* Google Business Profile (GBP) audit, setup, and full optimization — categories, services, attributes, photos, and posts
+* Local citation building and NAP (name, address, phone) consistency cleanup across relevant directories, including Facebook Business Page, which carries outsized weight for local discovery in Bangladesh
+* On-page local SEO — location pages, local keyword targeting, and schema markup
+* Review generation guidance and review response management
+* Local content creation tied to specific service areas or neighborhoods
+* Monthly reporting on rankings, GBP activity, and visibility
+What's not included: Paid local ads (Google Ads / Meta local campaigns) are handled as a separate service — ask us if you want local SEO and paid local visibility run together.
+Local SEO is the right fit if customers need to find you nearby and take an action — visit, call, or book. If your business sells exclusively online with no service area or physical presence, general SEO or e-commerce SEO will serve you better than local SEO.
+[Mid-page CTA — vary the wording from your other CTAs] →
+"Ready to claim your spot in the Local Pack? Book a free 20-minute strategy call."
+
+--- [8. Why Local SEO Matters for Bangladeshi Businesses] (5 lines) ---
+Delaying local SEO means competitors currently occupying the Google Local Pack keep collecting the calls, direction requests, and walk-ins that would otherwise come to you. In many local categories, once a competitor establishes strong reviews and citation consistency, it becomes progressively harder — and slower — to overtake them, which makes early action worth more than the same effort applied later.
+Mobile search dominates how people in Bangladesh look for nearby businesses, and a growing share of that behavior now includes AI assistants like ChatGPT and Gemini surfacing local recommendations directly, not just traditional Google results. A common misunderstanding is that having an active Facebook Business Page is sufficient for local visibility — Facebook and Google Maps are ranked separately, and Google's Local Pack draws primarily from your Google Business Profile, website content, and citation consistency, not your social presence alone.
+Optional stat additions (verify current sourcing before publishing, e.g., Google's own local search research):
+* Roughly half of mobile users who conduct a local search visit a business within a day.
+* Close to half of all Google searches have local intent.
+
+--- [9. Why Choose Riha Web Tech] (6 lines) ---
+Riha Web Tech is a full-service digital marketing and software development agency serving clients across 20+ countries, which means local SEO recommendations here aren't handed off to someone else to implement — the same team that finds the issue can fix it on your website directly.
+* Implementation, not just recommendations. Because we also handle web development and design, GBP and on-page fixes are typically built and shipped by us, not queued for a separate developer.
+* International SEO discipline applied locally. Working across 20+ countries means our local SEO process follows the same technical and content standards used for competitive international markets, applied to the Bangladesh local search landscape.
+* Audit-first approach. During a typical local SEO audit, we check GBP category accuracy, duplicate or unclaimed listings, citation consistency, and on-site local signals before recommending any specific action — so the plan is based on what's actually missing, not a generic package.
+* Transparent monthly reporting. You receive visibility into ranking movement, GBP performance, and citation status every month, not a one-time setup with no follow-up.
+[PLACEHOLDER — add concrete numbers if accurate: years in business, number of clients served, team size, office locations. E.g. "X+ years, X clients served, offices in X." Only include what you can stand behind.]
+
+--- [10. Our Process] (9 lines) ---
+Local SEO works step by step, starting with a full audit of your current Google Business Profile and citation footprint and ending with ongoing monthly optimization based on ranking and review data.
+1. Local SEO Audit — Review current GBP setup, citation consistency, competitor rankings, and existing on-site local signals.
+2. Strategy & Keyword Mapping — Identify the city, area, and service-specific keywords customers actually search for.
+3. GBP & On-Page Optimization — Update categories, attributes, photos, posts, and on-site content and schema.
+4. Citation Building & Cleanup — Build and correct listings across relevant Bangladeshi and global directories, prioritizing consistency over volume.
+5. Review & Reputation Strategy — Set up a system for requesting reviews and responding to them consistently.
+6. Reporting & Ongoing Optimization — Monthly review of rankings, GBP insights, and next-step adjustments.
+Ready to see where your business currently stands?
+[Request your free local SEO audit →]
+
+--- [11. Pricing] (5 lines) ---
+Local SEO pricing in Bangladesh typically depends on the number of business locations, how competitive your industry and city are, and the current state of your citations and reviews. The table below reflects researched market norms for local SEO specifically (not general/national SEO, which runs higher) — confirm final numbers before publishing.
+Plan
+Best For
+Price (BDT/month)
+Approx. USD/month*
+
+--- [What's Included] (23 lines) ---
+Starter Local SEO
+Single-location business in a low-to-moderate competition category (e.g., a clinic, salon, or shop in one area of one city)
+৳20,000 – ৳25,000
+$165 – $205
+GBP audit & full optimization, NAP citation cleanup across core directories (incl. Facebook Business Page), up to 10 local keywords tracked, monthly report
+Growth Local SEO
+Single location in a competitive category, or a business ready to actively build local content and reviews
+৳35,000 – ৳50,000
+$290 – $415
+Everything in Starter + location/service-area page content, structured review-generation system, expanded citation building, competitor rank tracking, quarterly strategy call
+Multi-Location / Enterprise
+Businesses with multiple branches or targeting several cities (e.g., Dhaka + Chittagong + Sylhet)
+From ৳70,000 (custom quote)
+From $580
+Per-location GBP management, city-specific landing pages, dedicated account manager, advanced reporting dashboard, priority support
+Add-on: One-time GBP Audit & Setup — ৳15,000 (one-time), for businesses that want a professional profile setup before committing to a monthly plan.
+USD figures are approximate, calculated at current exchange rates, and intended for international or remote clients — confirm before publishing.
+Cost factors that move a business between tiers:
+* Number of business locations
+* Industry competitiveness in your target city
+* Current citation and review state (cleanup takes more time than a fresh setup)
+* Whether location-page content creation is included
+A free initial audit is available before any pricing discussion, so you know exactly which tier fits before committing.
+
+--- [12. Service Areas] (2 lines) ---
+Riha Web Tech provides local SEO services for businesses across Dhaka, Chittagong, Sylhet, and other cities in Bangladesh, as well as remote support for Bangladeshi businesses serving international customers.
+Local considerations in the Bangladesh market include heavy reliance on Facebook Business Pages alongside Google, inconsistent or duplicate business listings across directories, and a customer base that increasingly searches by neighborhood or landmark rather than formal address.
+
+--- [13. Timeline / Duration] (1 lines) ---
+Local SEO typically shows initial movement in the Google Local Pack within 60–90 days, with more established visibility building over 4–6 months. Businesses with an existing, aged Google Business Profile and prior reviews tend to see faster results than brand-new listings, which need to build citation and review history from zero. Customers should expect the first month to focus on audit, cleanup, and setup rather than visible ranking changes.
+
+--- [14. Guarantee / Support] (1 lines) ---
+We provide ongoing monthly monitoring and reporting for the duration of your local SEO engagement, with adjustments made based on ranking and GBP performance data each month. Local SEO results depend on factors outside any agency's direct control — including competitor activity and Google algorithm changes — so we do not guarantee specific ranking positions, but we do guarantee transparent, monthly-reported work against an agreed plan.
+
+--- [15. FAQs] (14 lines) ---
+Is a Facebook Business Page enough for local SEO in Bangladesh?
+No. A Facebook Business Page and Google Business Profile are ranked separately. Facebook activity can support brand visibility and reviews, but Google's Local Pack relies primarily on your Google Business Profile, website content, and citation consistency — so both need attention, not just one.
+Do I need a website to rank in Google Maps?
+A website isn't always required to appear on Google Maps, since a Google Business Profile can rank on its own. However, a website with local content and schema markup significantly strengthens your ranking signals and gives customers a place to learn more before contacting you.
+How is local SEO different from regular SEO?
+Local SEO targets geographic, "near me," and city-specific searches tied to a Google Business Profile and physical service area, while general SEO focuses on broader, non-location-based search visibility. Businesses with a storefront or defined service area typically need local SEO first.
+Can you help a business with multiple branches in different cities?
+Yes. Multi-location businesses need a separate Google Business Profile and citation strategy for each branch, along with location-specific content on the website, and pricing is scoped based on the number of locations involved.
+How long before I see results from local SEO?
+Most businesses see initial Local Pack movement within 60–90 days, with stronger results building over 4–6 months, depending on how established your existing profile and reviews already are.
+Will I have to wait months to know if this is working?
+No. You'll get a monthly report from month one showing GBP activity, citation progress, and early ranking movement — so you can see the work happening even before the Local Pack shifts noticeably, which typically takes 60–90 days.
+Still have a question about local SEO for your business?
+Call now or book a free consultation — we'll walk through your current visibility together.
+
+======================================================
+FILE: Media Buying Services.txt
+======================================================
+
+--- [Header] (6 lines) ---
+Media Buying Services
+SEO Title: Media Buying Services in Bangladesh | Riha Web Tech
+Meta Description: Media buying across Meta, Google, TikTok, LinkedIn, Pinterest, & ChatGPT Ads — run by one team. 10+ years, 120+ brands. Get a free media audit.
+Media Buying Services That Turn Ad Spend Into Predictable Growth
+Media buying is the process of planning, negotiating, and purchasing ad placements across digital platforms so your budget reaches the right audience at the lowest efficient cost. Most businesses run ads on one or two platforms without a coordinated plan, which means the budget gets duplicated, audiences overlap, and nobody can say which channel is actually driving revenue. Riha Web Tech manages media buying across Meta, TikTok, Google, LinkedIn, Pinterest, and ChatGPT Ads as a unified strategy, backed by over 10 years of experience running paid campaigns for more than 120 businesses across 20+ countries.
+Which platforms deserve your budget? Get a free media audit — no commitment required.
+
+--- [What We Offer] (32 lines) ---
+Media buying includes platform strategy, ad account setup, budget allocation, bid management, and performance reporting across every major advertising channel. It's best suited to businesses already spending on ads, or planning to, who want one team coordinating that spend instead of running each platform in isolation.
+Here's what's included and what isn't, so there's no confusion about scope:
+Included:
+* Platform and audience strategy across up to six channels
+* Ad account setup, tracking configuration (pixels, conversion APIs, tags)
+* Budget allocation and bid management
+* Ongoing optimization based on live performance data
+* Regular reporting on spend, results, and next steps
+Not included (handled as separate services, listed under Creative Designing & Video and Creative Content):
+* Ad creative production — graphic design and video editing
+* Landing page or website development
+* Organic social media content or community management
+Separating these means you know exactly what your media buying fee covers, rather than paying a bundled rate where creative and ad management costs are blended together.
+Our Full Stack Media Buying Or Paid Ad Services
+As a full-stack digital marketing service agency in Bangladesh. We provided every essential service from SEO, Google Ads, TikTok Ads, Meta Ads, Pinterest Ads, ChatGPT Ads, LinkedIn Ads, etc. We are here to provide you with the best Paid Ads services following the new upgraded strategy and content funneling system.
+Meta Ads (Facebook & Instagram)
+Riha Web Tech's Meta Ads service starts with in-depth audience research to make sure the right message reaches the right people. This is followed by creative testing, trying out different ad formats, copy, and visuals to identify what performs best. This channel is especially effective for expanding brand reach, running retargeting campaigns, and driving e-commerce sales.
+TikTok Ads
+TikTok Ads focuses on native, trend-aware short-form video content that blends naturally into the platform's feed. This approach works particularly well for reaching younger, highly engaged audiences who respond better to authentic, entertaining content than traditional ad formats.
+Google Ads
+Google Ads services cover Search, Shopping, and Performance Max campaigns designed to capture intent-driven traffic. This means directly targeting people who are already searching for your product or service, helping to boost conversion rates.
+LinkedIn Ads
+LinkedIn Ads is the most effective platform for B2B lead generation and account-based targeting. It allows you to reach specific decision-makers based on job title, industry, and company size, making it especially valuable for enterprise and professional services.
+Pinterest Ads
+Pinterest Ads uses Promoted Pins and catalog ads to help product-led and lifestyle brands showcase their visual content. This platform works especially well where users come looking for inspiration and to plan future purchases.
+ChatGPT Ads
+This is an early-mover positioning opportunity in the conversational AI channel, a space most agencies haven't tested yet. Brands that enter this space now stand to gain a first-mover advantage with less competition before this channel goes mainstream.
+Why Media Buying Matters
+Running ads without a coordinated media buying strategy usually means budget waste — not from bad creative, but from poor platform selection and manual bid management that never adjusts fast enough. Two campaigns targeting the same audience on two platforms will often bid against each other without anyone noticing.
+Professional media buying prevents this by treating each platform's auction system differently. Google's Quality Score, Meta's ad auction, and TikTok's algorithm each reward different signals, and a bid strategy built for one rarely performs well on another. Coordinated management means the budget moves toward whichever platform is producing results that period, instead of staying fixed on a split set months earlier.
+One common misunderstanding is treating "boosting a post" or running a single Google campaign as media buying. Those are individual tactics. Media buying is the coordination layer above them — deciding which platforms get budget, how much, and why, based on where your audience actually is in their decision.
+Delaying professional media buying usually means continued budget waste from manual bid management and duplicate audience targeting across platforms. Coordinated media buying prevents overlap, lowers cost per result over time, and gives a single view of which platform is actually driving revenue.
+
+--- [Why Choose Riha Web Tech] (6 lines) ---
+* One team, six platforms. Full-funnel paid media run by a single team, so your channels work together instead of competing for credit — not five freelancers each optimizing for their own number.
+* 10+ years, 120+ businesses, 20+ countries. Our media buying experience spans local Bangladeshi brands and international clients, giving us a working knowledge of both local buying behavior and global ad standards.
+* Early access to ChatGPT Ads. As AI assistants become a discovery surface, we're structuring campaigns and content for visibility inside conversational AI — positioning clients early on a channel that's still maturing, without overselling how established it is today.
+* Full access to your own accounts and reporting. You always have direct access to your ad accounts, analytics, and reporting dashboards — nothing sits behind an agency-only login.
+* Verified track record. Rated 5.0 on Clutch, 4.8 on GoodFirms, 4.8 on Google Business Profile, and 4.5 on Trustpilot — independently verified, not self-reported testimonials.
+Riha Web Tech is chosen for media buying because campaigns are planned as one connected system across platforms rather than siloed by channel, clients keep full access to their own data, and the team is already testing emerging placements like ChatGPT Ads rather than waiting for them to become mainstream.
+
+--- [Our Process] (8 lines) ---
+Media buying at Riha Web Tech follows a six-step process: audit, platform assessment, budget allocation, campaign setup, optimization, and reporting. Each step is designed to reduce wasted spend before scaling the budget further.
+1. Discovery & Audit — We review your business goals, target audience, competitors, and any existing ad accounts to understand what's working and what isn't.
+2. Platform & Audience Assessment — Based on your funnel stage and audience, we determine which of the six platforms are worth investing in — and which aren't, yet.
+3. Media Plan & Budget Allocation — You get a proposed budget split with the reasoning behind it, built around your funnel rather than an even percentage across channels.
+4. Campaign Setup & Launch — Account structure, tracking (pixels, conversion APIs, tags), and an initial creative testing plan go live.
+5. Ongoing Optimization — Bids, audiences, and budget shift toward what's performing, reviewed continuously using live analytics rather than left untouched between reports.
+6. Reporting & Strategy Review — You receive transparent, recurring reporting and a plan for the next period based on what the data shows.
+Ready to get started? Request your free media plan today.
+
+--- [Pricing] (1 lines) ---
+Media buying fees at Riha Web Tech typically run as a monthly management fee separate from your actual ad spend, or as a percentage of spend, depending on scope. For Bangladeshi clients, Facebook and Instagram Ads management typically runs ৳10,000–20,000 per month (or 10–20% of ad spend), plus your ad budget; full-service packages combining media buying with SEO, content, and design typically run ৳25,000–100,000+ per month. International and B2B clients typically invest $500–$3,000 per month for the same global-standard tools and strategy — Google Ads, Meta Ads, and equivalent platforms — at a lower cost than US, Canadian, or European agencies.
+
+--- [Pricing factors to expect:] (14 lines) ---
+* Number of platforms managed (one platform costs less than six)
+* Total monthly ad spend under management
+* Number of active campaigns and creative variations being tested
+* Whether media buying is standalone or bundled with SEO, content, and design
+A free initial audit is available before any management fee is quoted, so the cost is based on your actual scope rather than a flat rate. Pricing typically depends on ad spend volume, number of platforms managed, and campaign complexity.
+Service Areas
+Riha Web Tech is based in Dhaka and serves clients across Bangladesh, plus 120+ businesses in 20+ countries served remotely.
+Businesses in Dhaka running Meta and Google campaigns get media buying support built around local payment behavior and Bangla-language audience targeting, while international clients get the same strategy and platform access delivered by a Bangladesh-based team at a lower cost than agencies in higher cost-of-living markets.
+Timeline
+Paid media typically produces initial data and leads within days to a few weeks of launch, once tracking and campaigns are live. Full performance stabilization — where bidding and targeting have enough data to optimize confidently — usually takes longer as campaigns run and testing accumulates.
+What speeds this up: existing ad accounts with clean historical data and creative assets ready to launch. What can delay it: new ad accounts requiring platform verification, or missing access to existing accounts and tracking — this is especially common with new TikTok and Meta accounts during initial review.
+Guarantee
+Riha Web Tech gives clients full access to their own ad accounts, analytics, and reporting dashboards throughout the engagement, with transparent, recurring reporting rather than reporting on request.
+What we can't guarantee: platform policy changes, algorithm updates, and market conditions are outside any agency's control, and any provider claiming otherwise isn't being straightforward. What we commit to is a transparent process, direct account access, and a strategy adjusted as real performance data comes in.
+
+--- [FAQs] (13 lines) ---
+What's the difference between media buying and media planning?
+Media planning is the strategy — deciding which platforms, audiences, and budget splits make sense for your goals. Media buying is the execution — setting up, launching, and managing the actual ad purchases. Riha Web Tech handles both as one connected process rather than treating them as separate services.
+Do I need to run ads on all six platforms, or can I start with one?
+No. Most clients start with one or two platforms that match their audience and funnel stage, then expand once those campaigns are stable. Running all six from day one rarely makes sense on a smaller budget.
+How is ChatGPT Ads different from traditional search or social ads?
+ChatGPT Ads place your brand within conversational, answer-based interactions rather than a search results page or social feed. It's an early-stage channel with evolving formats, so it's best approached as a test-and-learn placement alongside your established channels, not a primary budget driver yet.
+How much does media buying cost in Bangladesh?
+Facebook and Instagram Ads management typically runs ৳10,000–20,000 per month (or 10–20% of ad spend), plus your ad budget. Full-service packages combining media buying with SEO and content typically run ৳25,000–100,000+ per month. International clients typically invest $500–$3,000 per month, depending on the scope.
+Can you take over an existing underperforming ad account?
+Yes. The initial audit is where we review what's currently running, identify what's causing underperformance, and decide what to keep, pause, or rebuild before reallocating the budget.
+How often will I receive performance reports?
+Reporting is shared on a recurring cadence set during onboarding based on your campaign volume, with direct access to your dashboards in between scheduled reports.
+Call now or book a free media audit — see where your budget is actually going.
+
+======================================================
+FILE: Meta Ads.txt
+======================================================
+
+--- [Header] (3 lines) ---
+Meta Ads Management Service Page — Full Draft
+URL: /meta-ads-facebook-instagram/ Note: Pricing and a few audience assumptions are marked [ASSUMED]. Confirm before publishing.
+________________
+
+--- [1. SEO Title] (1 lines) ---
+Meta Ads Management Services, Facebook and Instagram Ads | Riha Web Tech (64 characters, trim to under 60 if needed, e.g. "Meta Ads Management Services | Riha Web Tech")
+
+--- [2. Meta Description] (1 lines) ---
+Structured Meta Ads management for Facebook and Instagram. Audit first setup, weekly creative testing, transparent reporting. Get a free account review. (153 characters)
+
+--- [3. URL Slug] (1 lines) ---
+/meta-ads-facebook-instagram/
+
+--- [4. H1] (2 lines) ---
+Meta Ads Management for Facebook and Instagram
+________________
+
+--- [5. Opening Paragraph] (2 lines) ---
+Meta Ads management means running paid campaigns across Facebook and Instagram with proper tracking, audience structure, and creative testing built in from day one. Most businesses lose budget not because Meta Ads don't work, but because the account was never set up to track the right signals. We start every account with a full audit, not a guess. Not sure if Meta Ads fit your business right now? Get a free account review before you spend another dollar.
+________________
+
+--- [6. What We Offer] (11 lines) ---
+Meta Ads management covers strategy, campaign setup, creative production, and ongoing optimization across Facebook, Instagram, and Messenger. It is built for businesses that need consistent lead flow or sales, not just impressions.
+Included:
+* Campaign strategy and audience mapping
+* Account and Meta Pixel setup, including Conversion API (CAPI) configuration
+* Prospecting and retargeting campaign structure
+* Ad formats: Advantage+ campaigns, Catalog and Collection Ads, Reels and Story Ads, Messenger Ads, and placements across the Meta Audience Network for extended reach beyond Facebook and Instagram
+* Creative testing on a weekly cycle
+* Monthly performance reporting
+The three parts of Meta Ads management: every campaign comes down to three moving pieces working together. Audience targeting decides who sees the ad. Graphics and copy decide whether they stop scrolling and act. Media buying decides how efficiently the budget turns into results. Weak execution on any one of the three drags down the other two, no matter how strong they are individually.
+Not included: ad spend itself, and raw video or photo shoots unless added as a separate creative production service.
+Best fit for: ecommerce brands running product catalogs, local service businesses that need booked appointments or calls, and B2B businesses running lead generation campaigns. Strategy and campaign structure differ across these three, and we build accordingly rather than using one template for all.
+
+--- [7. Why This Service Matters] (3 lines) ---
+An unmanaged or DIY Meta Ads account usually fails for one of three reasons: the Pixel and Conversion API were never configured correctly, the account never left the learning phase before the budget was pulled, or the same one or two ad creatives ran for months without testing. Since Apple's iOS 14 privacy changes, tracking has gotten harder, not easier, which means Meta's algorithm has less signal to optimize toward unless CAPI is set up properly as a backup data source. None of this means Meta Ads are unreliable. It means the setup work at the start determines almost everything that happens after.
+There is also a trust dimension beyond direct response. An active, well-run Meta presence signals to potential customers that a business is real, current, and worth engaging with, especially for service businesses and B2B brands where a prospect will often check Facebook or Instagram before making contact. Ads that look thrown together undercut that trust even if the targeting behind them is sound.
+________________
+
+--- [8. Why Choose Us] (4 lines) ---
+* Audit first on every account. Before any campaign goes live, we review Pixel setup, past performance data, and audience history so we are not guessing at what already happened.
+* Weekly creative testing, not monthly. Ad fatigue sets in fast on Meta. We treat creative as the main performance lever and test new angles every week instead of running one static for a month.
+* Reporting tied to business outcomes. We report on cost per lead, cost per acquisition, and return on ad spend, not just reach and impressions.
+* Full funnel support available. Since we also handle SEO, web development, and content, your Meta Ads can connect to a broader growth plan instead of running in isolation.
+
+--- [9. Our Process] (8 lines) ---
+1. Account and Pixel audit. We check tracking accuracy, past campaign structure, and account health before touching anything.
+2. Strategy and audience mapping. We define prospecting and retargeting audiences based on your actual customer data, not generic interest categories.
+3. Campaign build. Campaigns are structured by funnel stage, with clear separation between cold audiences and warm retargeting.
+4. Creative development and testing. New ad angles are built and tested weekly across formats like Reels, Stories, and Carousels.
+5. Launch and optimization. Campaigns are monitored daily during the learning phase and adjusted based on real performance data.
+6. Reporting and scaling. Winning campaigns get more budget. Underperforming ones get diagnosed and fixed or paused.
+Ready to fix your Meta Ads setup? Request your free audit today.
+________________
+
+--- [10. Pricing] (21 lines) ---
+We offer two pricing structures for Meta Ads management, depending on what fits your budget and campaign complexity better.
+Option 1: Service Charge on Ad Spend
+This model scales the management fee directly with your monthly ad budget. The percentage decreases as your spend increases, and the exchange rate used for BDT conversion also improves at higher tiers.
+Tier
+Monthly Ad Spend
+Service Charge
+Exchange Rate
+Example
+Basic
+$0 to $500
+20%
+162 BDT/USD
+$100 budget plus $20 service charge
+Pro
+$501 to $1,000
+15%
+155 BDT/USD
+$500 budget plus $75 service charge
+Premium
+$1,000+
+10%
+
+--- [148.5 BDT/USD] (8 lines) ---
+$1,000 budget plus $100 service charge
+Option 2: Fixed Monthly Management Fee
+This model charges a flat monthly fee for management regardless of ad spend, which is billed separately.
+Basic Package, ৳5,000/month. Best for small businesses and startups. Includes up to 3 ad campaigns, audience research and targeting, ad copy and creative setup, and campaign monitoring and optimization. Ad budget not included.
+Pro Package, ৳10,000/month. Best for growing brands and online sellers. Includes up to 7 ad campaigns, advanced audience research, A/B testing on ads and audiences, regular optimization and scaling, and a performance report. Ad budget not included.
+Premium Package, ৳15,000/month. Best for e-commerce and high-growth businesses. Includes up to 12 ad campaigns, full funnel strategy from awareness to sales, advanced scaling and retargeting, Pixel and conversion tracking setup, weekly performance reports, and priority support. Ad budget not included.
+The ad budget is always separate from service charges in both models. Monthly packages cover management fees only, and the service charge in the fixed model depends on the selected package rather than ad spend. A minimum one-month commitment applies. Which structure fits better usually comes down to whether your ad spend is more predictable and stable (Option 2) or expected to scale up meaningfully over time (Option 1).
+________________
+
+--- [11. Markets We Serve] (6 lines) ---
+We manage Meta Ads for clients across more than 20 countries, including North America, Europe, the Middle East, and South Asia.
+Meta Ads in Bangladesh
+For Bangladesh-based clients or anyone targeting Bangladeshi audiences, the platform landscape looks different from that in Western markets. As of early 2026, Bangladesh has roughly 72 million Facebook users, close to 40 percent of the population, making it the dominant social platform in the country. Instagram is far smaller by comparison, at around 10 million users, about 5.5 percent of the population, while Messenger sits close to Facebook at roughly 68.5 million users. Facebook's ad audience in the country skews heavily male, with men making up around 63 percent of the advertising audience, and the 18 to 24 age group represents the single largest user segment on both Facebook and Instagram.
+This has direct targeting implications. A campaign built for a Western e-commerce brand, where Instagram often carries equal or greater weight, needs to be restructured for Bangladesh, where Facebook and Messenger carry most of the volume. Messenger based lead capture, common for local service businesses and small ecommerce sellers in Bangladesh, is a channel with far less relevance in markets like the US or UK. Mobile-only usage is also close to universal, so creative needs to be built mobile first rather than adapted from desktop formats after the fact.
+We build strategy around these regional differences rather than applying one global targeting template across every market.
+________________
+
+--- [12. Timeline] (3 lines) ---
+Meta campaigns typically need one to two weeks of active spend per campaign before the algorithm has enough data to optimize properly. This is often called the learning phase, and pulling a budget or making major changes during this window usually resets progress rather than speeding it up.
+What speeds results up: having creative ready before launch, correct Pixel and CAPI setup from day one, and a stable budget that is not paused or changed frequently.
+What slows results down: incomplete tracking setup, frequent campaign edits during the learning phase, and creative that is not refreshed as it fatigues.
+
+--- [13. Guarantee / Warranty] (1 lines) ---
+We do not guarantee a specific ROAS or lead volume number, since results depend on your offer, market, and budget, not just campaign management. What we do guarantee is transparent reporting on every metric that matters, and no long term lock in contracts. If the account is not performing, you will see exactly why in the reporting, not a vague summary.
+
+--- [14. FAQs] (12 lines) ---
+How much should I spend on Meta Ads to start?
+Most businesses see enough signal to evaluate performance with a modest daily budget sustained over the one to two week learning phase. The right number depends on your average order value or deal size, which we help calculate during the free consultation.
+Do you need access to my Facebook Business Manager?
+Yes, we need Business Manager access to configure the Pixel, Conversion API, and ad accounts correctly. Access is granted through Meta's own partner permission system, so you retain full ownership of your account at all times.
+How is Meta Ads different from Google Ads?
+Google Ads targets people actively searching for something. Meta Ads targets people based on who they are and what they engage with, before they are actively searching. This makes Meta stronger for demand generation and Google stronger for capturing existing demand.
+What if I have had a bad experience with an agency before?
+This is common, usually caused by poor tracking setup or a lack of reporting transparency. Our audit first process is built specifically to catch what a previous account may have missed before we build anything new.
+Do you handle ad creative too?
+Yes, creative testing is part of the core service. If you need full video or photo production beyond ad copy and static design, that is scoped separately depending on volume.
+Call now or request your free audit online. Same week onboarding available.
+________________
+
+--- [15. Internal Linking Suggestions] (4 lines) ---
+* Anchor: "media buying strategy" → Media Buying pillar page
+* Anchor: "estimate your ad budget" → Meta Ads Budget Calculator
+* Anchor: "organic social support" → Social Media Management pillar
+* Anchor: "ad creative production" → Creative Content pillar
+
+--- [16. External Link Suggestions] (2 lines) ---
+* Meta Business Help Center documentation on Pixel and Conversion API setup
+* A neutral industry benchmark report for Meta Ads performance data (for context, not for citing exact figures as your own)
+
+--- [5. Talk to a Meta Ads Specialist] (8 lines) ---
+________________
+Optional future addition: Client Work Gallery
+polamarketing.com embeds a visual gallery of real client ad creative directly on the service page (named clients, actual ad mockups, before/after style proof) rather than only describing the service in text. This is a strong structural addition once you have real Jarixo, Phone Fashion Fix, or other client Meta Ads creative to show. Do not add this section until real work samples exist. No placeholder or stock images should stand in for real client proof.
+Still needs your confirmation before this goes live
+* Whether "full funnel support" framing in Why Choose Us matches how you want to position Riha
+* Whether ad creative filming/production should be explicitly excluded or bundled
+* Whether to keep Markets We Serve global-first or lead with Bangladesh given Riha's home base
+* Whether both pricing systems should be shown side by side on the live page, or one presented as primary with the other offered on request
+
+======================================================
+FILE: Pinterest Ads.txt
+======================================================
+
+--- [Header] (13 lines) ---
+Pinterest Ads Page Content
+Ready for: rihawebtech.com/pinterest-ads
+SEO Title
+Pinterest Ads Management Services | Riha Web Tech (52 characters. Focus keyword up front, brand for recognition and trust.)
+Meta Description
+Grow sales with expert Pinterest Ads management for ecommerce, DTC, and content brands. Transparent pricing, free account audit. Get started today. (155 characters. Includes focus keyword, a clear benefit, and a soft CTA.)
+URL Slug
+/pinterest-ads (Already in use. Short, keyword-rich, no change needed.)
+H1
+Pinterest Ads Management Services for E-commerce and Content Brands
+Opening Paragraph
+Pinterest Ads management helps ecommerce stores, DTC brands, bloggers, and small businesses turn Pinterest's planning-stage audience into website traffic and sales. Riha Web Tech builds and runs Pinterest campaigns for brands with visual products or content, whether you sell physical goods, run an online store, or publish content that people search for and save. Not sure Pinterest fits your business? Start with a free account audit, no commitment required.
+(AI Overview-ready: this paragraph is a self-contained answer to "what is Pinterest Ads management and who is it for.")
+
+--- [What We Offer] (18 lines) ---
+Pinterest Ads management covers campaign strategy, pin creative direction, audience targeting, bid management, and ongoing optimization for brands that want to reach Pinterest users while they are actively planning a purchase or project. It includes campaign setup, audience and keyword research, creative briefs for pin design, conversion tracking setup, and weekly-to-monthly optimization. It does not include product photography or video production unless added separately, and it works best for brands that already have a website or store ready to receive traffic.
+This service fits ecommerce stores, DTC product brands, bloggers and content sites that monetize traffic, and small businesses in visual categories such as home decor, fashion, food, wellness, and design. It is a weaker fit for businesses with no visual product or content angle, since Pinterest users respond to ideas and images first.
+Included:
+* Campaign strategy and audience research
+* Creative briefs and specs for pin design (design production available as an add-on)
+* Campaign setup: Standard Pins, Shopping/Catalog campaigns, Video Pins
+* Pinterest Tag and conversion tracking setup
+* Ongoing bid and budget optimization
+* Monthly performance reporting
+Not included by default:
+* Photography, videography, or product styling
+* Website or landing page redesign
+* Organic Pinterest board/pin scheduling (available as a separate service)
+________________
+Why Pinterest Ads Matter
+Pinterest users are often in a planning stage, searching for ideas before they decide what to buy, wear, cook, or build. Ignoring this stage means a competitor's pin shows up in that search instead of yours, and a well-performing pin can keep driving traffic for weeks after the campaign launches, unlike most short-lived social posts. The main risk of delaying is losing visibility during the exact window when a Pinterest user is deciding what to purchase, which is harder to recover once a competitor's product becomes the saved reference point.
+A common misunderstanding is treating Pinterest like Instagram or Facebook and reusing the same square creative and caption style. Pinterest ads perform better with vertical images, clear text overlay, and a search-friendly title and description, since Pinterest functions closer to a visual search engine than a social feed.
+________________
+
+--- [Why Choose Riha Web Tech] (8 lines) ---
+Most Pinterest ad agencies keep pricing private and ask you to "request a quote" before showing any numbers. We publish our pricing tiers up front, including a package sized for smaller ad budgets, so you know what you are paying before you talk to us. Every engagement starts with a free account audit, not a locked-in contract, so you can see what we would actually change before committing any budget.
+Riha Web Tech is based in Dhaka, Bangladesh, and works with clients both locally and internationally, which means we manage the same Pinterest ad platform and formats regardless of where a client is based. Client feedback across independent review platforms includes a 4.8 rating on Google, 5.0 on Clutch, 4.8 on GoodFirms, and 4.5 on Trustpilot.
+What sets this apart:
+* Published pricing, not "contact us for a quote"
+* Free account audit before any commitment
+* A package built specifically for smaller ad budgets
+* Dhaka-based team with international client delivery
+* Independently verified reviews across four platforms
+
+--- [Our Process] (7 lines) ---
+Pinterest Ads management with Riha Web Tech follows four stages: discovery, planning, execution, and optimization, starting with a free account audit before any paid commitment.
+1. Free Account Audit – We review your Pinterest presence (or lack of one), your website, competitors, and target audience to see whether Pinterest ads make sense for your budget and goals.
+2. Strategy and Planning – We define campaign objectives, audience segments, budget structure, and a creative brief for your pins.
+3. Campaign Setup – We build campaigns, set up the Pinterest Tag for conversion tracking, and launch with the agreed budget.
+4. Monitoring and Optimization – We review performance regularly, adjust bids and audiences, pause underperforming pins, and scale what is working.
+5. Reporting – You receive a monthly report covering spend, results, and next-step recommendations.
+Ready to see where your account stands? [Request your free Pinterest account audit.]
+
+--- [Pricing] (22 lines) ---
+Pinterest Ads management costs depend on whether you want the fee tied to your ad spend or a flat monthly rate, and both options keep your Pinterest ad budget separate from our management fee. There is no single fixed price because it depends on campaign complexity, the number of active pins, and how much testing your account needs.
+We offer two pricing structures, depending on what fits your budget and campaign complexity better: a service charge tied to your ad spend, or a flat monthly management fee. In both cases, the ad budget you pay to Pinterest is always separate from what you pay us for management.
+Option 1: Service Charge on Ad Spend
+This model scales the management fee with your monthly ad budget. The percentage decreases as your spend increases.
+Tier
+Monthly Ad Spend
+Service Charge
+Exchange Rate
+Example
+Basic
+$0 to $500
+20%
+162 BDT/USD
+$100 budget plus $20 service charge
+Pro
+$501 to $1,000
+15%
+155 BDT/USD
+$500 budget plus $75 service charge
+Premium
+$1,000+
+10%
+
+--- [148.5 BDT/USD] (17 lines) ---
+$1,000 budget plus $100 service charge
+Option 2: Fixed Monthly Management Fee
+This model charges a flat monthly fee for management, billed separately from your Pinterest ad budget.
+Basic Package — ৳5,000/month Best for small businesses and startups just starting to test Pinterest Ads. Includes up to 3 ad campaigns, audience research and targeting, ad creative setup, and campaign monitoring and optimization. Ad budget not included.
+Pro Package — ৳10,000/month Best for growing brands and online sellers ready to scale. Includes up to 7 ad campaigns, advanced audience research, A/B testing on creative and audiences, regular optimization and scaling, and a performance report. Ad budget not included.
+Premium Package — ৳15,000/month Best for ecommerce and high-growth businesses running full-funnel Pinterest campaigns. Includes up to 12 ad campaigns, full-funnel strategy from awareness to sales, advanced scaling and retargeting, Pinterest Tag and conversion tracking setup, weekly performance reports, and priority support. Ad budget not included.
+A minimum one-month commitment applies to both models. Which structure fits better usually comes down to whether your ad spend is predictable and stable (Option 2 tends to fit) or expected to scale up meaningfully over time (Option 1 tends to fit). A free account audit is the first step, so we can recommend which option makes more sense for your budget before you commit to anything.
+________________
+Service Areas
+Riha Web Tech is based in Dhaka, Bangladesh, and manages Pinterest Ads campaigns for clients both in Bangladesh and internationally. Since Pinterest Ads management is a remote, platform-based service, location does not limit which brands we can work with, as long as your target audience is reachable through Pinterest's ad platform.
+Working with a Bangladesh-based team on an international platform means lower overhead costs get passed on through the pricing tiers above, while campaign work itself runs on the same Pinterest Ads Manager and reporting tools used anywhere in the world.
+Timeline / Duration
+A free Pinterest account audit typically takes 2 to 4 business days to complete and share back with you. Once a package or pricing model is chosen, campaign setup (audience research, creative briefs, tracking setup) generally takes 3 to 7 business days before ads go live, depending on how quickly product or content assets are provided.
+Pinterest's own delivery pattern tends to differ from other ad platforms. Because Pinterest functions as a visual search and planning tool, campaigns often need 2 to 4 weeks of data before optimization decisions are reliable, rather than showing immediate results in the first few days. Brands with an existing catalog and creative assets ready to go move through setup faster than brands starting from nothing.
+Guarantee / Ongoing Support
+We do not offer a guaranteed return on ad spend, since results depend on your product, pricing, website, and creative in addition to campaign management. What we do commit to: a free account audit before you pay anything, a minimum one-month commitment (not a long-term lock-in contract), and monthly reporting so you can see exactly what changed and why.
+If a package is not the right fit after the first month, you can adjust the pricing model or scale down rather than being tied into a longer agreement.
+
+--- [FAQs] (42 lines) ---
+Which pricing option should I choose, the service charge or the flat fee?
+It depends on how stable your ad spend is. If your budget stays roughly the same each month, the flat monthly fee (Basic, Pro, or Premium) is usually simpler to plan around. If you expect your ad spend to grow significantly, the service-charge model scales the management fee down as a percentage the more you spend, so it can work out more cost-effective at higher budgets.
+What is the minimum ad budget I need for Pinterest Ads?
+There is no fixed platform minimum, but our Basic package assumes a modest starting ad budget for testing, and the service-charge model's lowest tier covers $0 to $500 in monthly ad spend. A free account audit can tell you what budget makes sense for your specific goals and category.
+How long until Pinterest Ads start showing results?
+Setup typically takes 3 to 7 business days once a plan is chosen, and Pinterest campaigns generally need 2 to 4 weeks of live data before optimization decisions become reliable, since Pinterest works more like a visual search platform than a fast-moving social feed.
+Do you only work with businesses in Bangladesh?
+No. Riha Web Tech is based in Dhaka, Bangladesh, but manages Pinterest Ads campaigns for clients internationally, since the work is done remotely through Pinterest's ad platform.
+Can you also design the pins themselves, not just manage the campaigns?
+Pin creative briefs and specs are included in every package. Full pin design and production (photography, graphic design) can be added separately through our design services.
+What happens after the free account audit?
+You will receive a review of your Pinterest presence, website readiness, and a recommendation for which pricing model and package fits your budget, with no obligation to continue if it is not the right fit.
+Internal Linking Suggestions
+Anchor Text
+Target Page
+Why It Helps
+social media management services
+/social-media-management-services
+Related paid/organic service, keeps Pinterest visitors exploring broader social offerings
+SEO services
+/seo-services
+Pairs with Pinterest's search-like discovery behavior for a fuller organic + paid strategy
+content writing services
+/content-writing-services
+Supports brands needing pin copy, product descriptions, or blog content that Pinterest ads point to
+case studies
+/case-studies
+Builds trust by showing prior client results across services
+Contact us
+/contact-us
+Primary conversion path from every CTA on this page
+External Link Suggestions
+Source Type
+Claim It Supports
+Placement
+Official Pinterest Business documentation
+Ad formats, Pinterest Tag setup, campaign objectives
+Our Process or What We Offer, as a reference for how Pinterest Ads Manager works
+Pinterest Business Advertising Services Agreement
+Platform terms governing ad spend and account setup
+Pricing, as a reference for how ad spend billing works, directly with Pinterest
+CTA Button Text Options
+
+======================================================
+FILE: Social Media Management Services.txt
+======================================================
+
+--- [Header] (1 lines) ---
+Social Media Management Services
+
+--- [1. SEO Title] (1 lines) ---
+Social Media Management Services | Riha Web Tech (49 characters)
+
+--- [2. Meta Description] (1 lines) ---
+Consistent, platform-specific social media management for Facebook, Instagram, LinkedIn, and Pinterest. Get a free social media audit today. (147 characters)
+
+--- [3. URL Slug] (1 lines) ---
+/social-media-management-services/
+
+--- [4. H1] (4 lines) ---
+Social Media Management Services Built Around Where Your Audience Actually Is
+Social media management services keep a brand's profiles active, consistent, and responsive across the platforms like Facebook, Instagram, LinkedIn, and Pinterest that actually matter to its audience — rather than spreading effort evenly across every channel.
+Riha Web Tech manages Facebook, Instagram, LinkedIn, and Pinterest for businesses in Bangladesh and clients across 20+ countries, matching each platform to the audience it's actually built for. Most businesses don't fail on social media because they post too little — they fail because they post on the wrong platform, in the wrong format, without anyone responding to the comments and messages that follow. Not sure which platform deserves your budget?
+Get a free social media audit — no commitment required.
+
+--- [6. What We Offer — Platform-Specific Management Services] (2 lines) ---
+Social media management isn't one skill applied four times — each platform has its own audience behavior, content format, and algorithm logic. So Riha Webtech has a specific platform-based social media manager. We manage four platforms as distinct services, each with its own calendar, posting cadence, and response process, rather than treating every channel the same way.
+Below is what each platform-specific service includes and who it's actually built for.
+
+--- [6.1 Facebook Management] (1 lines) ---
+Facebook management covers page setup and optimization, a structured content calendar, daily posting, and comment/Messenger response for businesses that rely on Facebook as their primary customer touchpoint. It's best for businesses in Bangladesh and similar markets where Facebook remains the first place customers check before buying, and where Messenger inquiries often lead directly to sales. This service handles organic presence — page activity, community response, and content consistency — while paid Facebook advertising is managed as a separate service, so budgets and strategy stay clearly separated. A common mistake businesses make is posting consistently but never responding to comments or Messenger inquiries, which quietly costs more sales than inconsistent posting does.
+
+--- [6.2 Instagram Management] (1 lines) ---
+Instagram management creates a visual-first content calendar — including Reels, carousels, and Stories — with caption and hashtag strategies tailored to the platform's discovery algorithm. It's best suited for fashion, food, lifestyle, and e-commerce brands where product photography and short video drive most engagement. Unlike Facebook, Instagram rewards visual consistency and short-form video over link-outs and text-heavy posts, which means content built for Facebook often performs differently here without reformatting. Brands without an existing visual asset library should budget for photo or video content creation alongside this service, since captions alone won't carry a weak visual feed.
+
+--- [6.3 Pinterest Management] (1 lines) ---
+Pinterest management creates SEO-optimized pins and organizes boards around a brand's products or content categories, aimed at capturing search-driven, purchase-intent traffic rather than social engagement in the traditional sense. It's best for e-commerce, home goods, fashion, and content-driven brands where customers actively search for ideas before buying. Pinterest functions closer to a visual search engine than a social feed, so pin descriptions and keyword targeting matter more here than caption tone or posting frequency. Growth on Pinterest is typically slower and steadier than Facebook or Instagram, and this service isn't the right fit for businesses expecting fast follower growth or viral-style reach. Pinterest is one of the go to option for the e-commerce brand in usa, slowly but steadily also growing in Bangladesh.
+
+--- [6.4 LinkedIn Management] (1 lines) ---
+LinkedIn management handles company page activity, thought-leadership post support, and coordination with employee advocacy efforts to build professional credibility rather than consumer-facing reach. It's built for B2B companies, agencies, consultants, and service providers whose buyers research a company's expertise before reaching out. Content here favors industry insight and company updates over promotional posts, since LinkedIn audiences respond to credibility signals differently than consumer platforms do. This service is not a fit for consumer retail or e-commerce brands targeting individual shoppers — those audiences are better served through Facebook, Instagram, or Pinterest instead. LinkedIn can be the go-to platform for those who sell services. Most of the leads from LinkedIn are direct sales-driven customers. So growing LinkedIn is a must for service providers.
+
+--- [7. Why Social Media Management Matters] (2 lines) ---
+Inconsistent posting doesn't just look unprofessional — it triggers a measurable drop in reach as platform algorithms deprioritize accounts that go quiet or post erratically. A bigger and more common issue than inconsistency, though, is platform mismatch: a B2B service business investing effort into Instagram while ignoring LinkedIn, or a retail brand posting company updates on LinkedIn while missing the visual audience actively browsing Instagram and Pinterest.
+There's also frequent confusion between social media management and social media marketing. Management is the ongoing, organic work of keeping pages active, on-brand, and responsive — content, posting, and community response. Marketing typically includes paid advertising layered on top. Businesses that only need one but buy the other end up either overpaying for ads they didn't want or wondering why organic posting alone isn't generating the leads that paid campaigns were built for.
+
+--- [8. Why Choose Riha Web Tech] (5 lines) ---
+* Full-service context: Social media management runs alongside the agency's existing content writing, graphic design, and paid advertising work, so page activity connects to a working funnel instead of standing alone.
+* Bilingual community management: Comments, messages, and captions are handled in Bangla, English, or both, matching how Bangladeshi audiences actually communicate with brands.
+* Platform-matched strategy, not blanket posting: Each platform gets its own calendar and content format rather than the same post reformatted four ways.
+* Clear separation of organic and paid: Management and advertising are scoped as distinct services, so businesses know exactly what they're paying for and why.
+* Connected to design and content teams: Since visuals and captions are produced in-house, there's no handoff delay between content creation and posting.
+
+--- [9. Our Process] (7 lines) ---
+1. Social media audit — Current page performance, posting history, and platform fit are reviewed before any strategy is proposed.
+2. Platform strategy — Based on the audit, the right platform mix and priority order are set for the business's specific audience.
+3. Content calendar — A structured monthly calendar is built per platform, covering post type, format, and posting cadence.
+4. Posting & community management — Content goes live on schedule, with comments and messages monitored and responded to.
+5. Monthly reporting — Engagement, reach, and growth are reported against the goals set during strategy.
+6. Optimization — Based on reporting, content mix, and posting times, adjustments are made the following month.
+Ready to get your pages consistently active? Request a free strategy call.
+
+--- [10. Pricing] (1 lines) ---
+Social media management pricing typically depends on the number of platforms managed, posting frequency, and whether content creation (photography, graphics, video) is included or handled separately. A free social media audit is available before any quote is issued, so pricing reflects the actual platform mix a business needs rather than a flat package.
+
+--- [11. Service Areas] (1 lines) ---
+Riha Web Tech manages social media accounts for businesses across Bangladesh and for clients in over 20 countries. Bangladeshi businesses typically need bilingual Bangla-English community management, since customer inquiries often arrive in a mix of both languages, while international clients are usually managed in English, matched to their regional audience.
+
+--- [12. Timeline] (1 lines) ---
+Onboarding typically starts with the audit and strategy phase, followed by the first content calendar within the following cycle. What speeds this up: existing brand guidelines, platform admin access, and prior content to review. What delays it: waiting on new photography or approval rounds on the client side before the first posts can go live.
+
+--- [13. Guarantee] (1 lines) ---
+Posting is delivered on the agreed schedule, and comments/messages are monitored within an agreed response window. Content and community responses align with the brand voice established during onboarding. Follower counts, engagement rates, and reach are not guaranteed, since these depend on platform algorithm changes, industry, and audience behavior in addition to the management work itself.
+
+--- [14. FAQs] (13 lines) ---
+What's the difference between social media management and social media marketing?
+Social media management covers the ongoing organic work of posting content, maintaining a content calendar, and responding to comments and messages. Social media marketing typically adds paid advertising on top of that organic activity. Many businesses need both, but they're scoped and priced as separate services.
+Which platform is right for my business?
+It depends on the audience and buying behavior. Facebook and Instagram suit most consumer-facing Bangladeshi businesses, Pinterest fits e-commerce and product-discovery brands, and LinkedIn works best for B2B companies and service providers. The initial audit identifies the right platform mix before any content plan is built.
+Do you create content or just post it?
+Both. Content creation — captions, graphics, and coordination with the video team — is included as part of the platform-specific calendar, not billed as a separate add-on unless a project needs custom photography or video production.
+Can you manage Bangla and English content together?
+Yes. Captions, comments, and Messenger responses are handled in Bangla, English, or a mix, depending on how a business's actual customers communicate.
+How is this different from just boosting posts myself?
+Boosting individual posts is a small part of paid advertising, not management. Social media management includes the full content calendar, daily posting, and community response — the ongoing work that determines whether a boosted post has an active, responsive page behind it or not.
+Can you manage social media alongside our existing paid ad campaigns?
+Yes. Since Riha Web Tech also runs paid advertising on Meta, TikTok, and Google, organic management and paid campaigns can be coordinated to ensure messaging stays consistent across all.
+Ready to get started? Get a free social media audit or request pricing — most accounts can be onboarded within the same week.
+
+======================================================
+FILE: TikTok Ads.txt
+======================================================
+
+--- [Header] (1 lines) ---
+TikTok Ads Management Services
+
+--- [1. SEO Title] (1 lines) ---
+TikTok Ads Management Services | Riha Web Tech (48 characters)
+
+--- [2. Meta Description] (1 lines) ---
+Grow sales with expert TikTok Ads management: strategy, native creative, Spark Ads & Pixel setup. Get a free TikTok Ads audit from Riha Web Tech. (152 characters)
+
+--- [3. URL Slug] (1 lines) ---
+/tiktok-ads/
+
+--- [4. H1] (1 lines) ---
+TikTok Ads Management Services
+
+--- [5. Opening Paragraph] (2 lines) ---
+TikTok Ads management means planning, creating, launching, and optimizing paid campaigns on TikTok so your business shows up in front of the right audience, not just anyone scrolling past. Riha Web Tech runs TikTok Ads for e-commerce brands and service businesses that want TikTok to work as an actual sales channel, not a video experiment. We manage the strategy, the creative, and the tracking, so you're not guessing which parts of the campaign are actually working.
+Not sure if TikTok Ads is the right move for your business yet? Get a free TikTok Ads audit, no commitment required.
+
+--- [6. What We Offer] (1 lines) ---
+TikTok Ads management from Riha Web Tech covers everything between "I want to try TikTok Ads" and "the campaign is running and generating leads or sales." That includes campaign strategy, native-style video ad creative, Spark Ads and creator content, TikTok Pixel and Events API setup, audience targeting, and ongoing optimization based on real performance data.
+
+--- [What's included:] (9 lines) ---
+* Campaign strategy built around your goal: traffic, leads, app installs, or product sales
+* Native-style video ad creative, including Spark Ads that boost existing organic or creator content
+* In-Feed Ads, TopView Ads, and TikTok Shop ad setup were relevant to your business
+* TikTok Pixel and Events API installation for accurate conversion tracking
+* Audience research and targeting based on interest, behavior, and lookalike data
+* Ongoing bid, budget, and creative optimization
+* Regular performance reporting
+What's not included by default: organic content posting and community management. If you also want your TikTok account managed day-to-day, that's handled separately through our social media management services, and we can bundle both if it fits your goals.
+This service fits businesses that already have (or are willing to produce) short-form video content, and that have a specific goal in mind, such as sales, leads, or app growth, rather than just "wanting to be on TikTok."
+
+--- [7. Why This Service Matters] (3 lines) ---
+Ads that look like traditional Facebook or Instagram ads typically underperform on TikTok. The platform's For You Page algorithm rewards content that feels native: shot vertically, fast-paced, and closer to what a creator would post than what a brand would produce. An ad that reads as an obvious ad usually gets skipped in the first two seconds, and TikTok's cost-per-result climbs when that happens repeatedly.
+The other common failure point is tracking. Since Apple's iOS 14.5 App Tracking Transparency changes, a TikTok Pixel installed without proper Events API configuration loses a meaningful share of the conversion signal. That means the algorithm optimizes toward the wrong audience, and it becomes hard to tell which creative or targeting choice is actually driving results, as opposed to being credited for a sale it didn't influence.
+Neither problem is really about "TikTok being hard." Both come down to treating TikTok like a smaller version of Meta Ads instead of its own platform with its own rules.
+
+--- [8. Why Choose Us] (8 lines) ---
+Riha Web Tech manages TikTok Ads alongside SEO, web development, and other paid social channels for clients across multiple countries, so you're working with one accountable team instead of coordinating a separate creative agency, a separate media buyer, and a separate developer for pixel installation.
+What sets our approach apart:
+* Full-service coordination. Your TikTok Pixel setup, website, and ad creative are handled by people who talk to each other, not three vendors who've never seen each other's work.
+* Native creative first, not repurposed assets. We build campaigns around what performs on TikTok specifically, rather than resizing an existing Facebook ad and calling it done.
+* Technical tracking done properly. Pixel and Events API setup is treated as a required step, not an afterthought added after the campaign is already underspending.
+* Direct communication with the people running your account. You're not routed through account managers who then hand your campaign to someone else to actually build.
+[ASSUMED: if you're an official TikTok Marketing Partner, or have a specific client count, years managing paid social, or a real case study with numbers, tell me and I'll add it here as the strongest differentiator on the page.]
+________________
+
+--- [9. Our Process] (9 lines) ---
+Riha Web Tech's TikTok Ads process starts with a free account audit, moves through audience and creative strategy, then technical setup, campaign launch, and continuous optimization based on real performance data.
+1. Free Account Audit. We review your current TikTok presence (if any), website readiness, and business goals to confirm TikTok Ads is a good fit before you spend anything.
+2. Strategy & Audience Research. We define the campaign objective, target audience, and creative direction based on what's already working in your industry on TikTok.
+3. Pixel & Events API Setup. We install and configure TikTok's tracking so conversions are measured accurately from day one, including server-side event tracking where needed.
+4. Creative Production. We build native-style video ads, using your existing footage, creator partnerships, or original production, depending on what you have available.
+5. Campaign Launch. Campaigns go live with a defined budget and testing structure so we can see what's working before scaling spend.
+6. Optimization & Reporting. We monitor performance daily during the initial learning phase, then shift to ongoing optimization and regular reporting so you always know what your ad spend is doing.
+Ready to see what a TikTok Ads strategy would look like for your business? Request your free proposal.
+________________
+
+--- [10. Pricing] (21 lines) ---
+We offer two pricing structures for TikTok Ads management, depending on what fits your budget and campaign complexity better: a service charge tied to your ad spend, or a flat monthly management fee. In both cases, the ad budget you pay to TikTok is always separate from what you pay us for management.
+Option 1: Service Charge on Ad Spend
+This model scales the management fee directly with your monthly ad budget. The percentage decreases as your spend increases, and the exchange rate used for BDT conversion also improves at higher tiers.
+Tier
+Monthly Ad Spend
+Service Charge
+Exchange Rate
+Example
+Basic
+$0 to $500
+20%
+162 BDT/USD
+$100 budget plus $20 service charge
+Pro
+$501 to $1,000
+15%
+155 BDT/USD
+$500 budget plus $75 service charge
+Premium
+$1,000+
+10%
+
+--- [148.5 BDT/USD] (12 lines) ---
+$1,000 budget plus $100 service charge
+Option 2: Fixed Monthly Management Fee
+This model charges a flat monthly fee for management regardless of ad spend, which is billed separately.
+Basic Package, ৳5,000/month.
+Best for small businesses and startups just starting to test TikTok Ads. Includes up to 3 ad campaigns, audience research and targeting, ad creative setup, and campaign monitoring and optimization. Ad budget not included.
+Pro Package, ৳10,000/month.
+Best for growing brands and online sellers ready to scale. Includes up to 7 ad campaigns, advanced audience research, A/B testing on creative and audiences, regular optimization and scaling, and a performance report. Ad budget not included.
+Premium Package, ৳15,000/month.
+Best for e-commerce and high-growth businesses running full-funnel TikTok campaigns. Includes up to 12 ad campaigns, full funnel strategy from awareness to sales, advanced scaling and retargeting, Pixel and conversion tracking setup, weekly performance reports, and priority support. Ad budget not included.
+The ad budget is always separate from service charges in both models. Monthly packages cover management fees only, and the service charge in the fixed model depends on the selected package rather than ad spend. A minimum one-month commitment applies. Which structure fits better usually comes down to whether your ad spend is predictable and stable (Option 2 tends to fit) or expected to scale up meaningfully over time (Option 1 tends to fit).
+A free account audit is the first step, so we can recommend which option makes more sense for your specific budget before you commit to anything.
+________________
+
+--- [11. Who We Serve] (4 lines) ---
+Riha Web Tech manages TikTok Ads campaigns for e-commerce and service businesses across the United States, United Kingdom, Canada, Australia, and Bangladesh, working remotely as an extension of your existing marketing team. There's no need for a local office visit; campaigns, reporting, and creative reviews happen over video calls, email, and shared dashboards, on a schedule that works across time zones.
+This service is best suited to businesses that already have a working website or product page to send traffic to, since TikTok Ads perform best when there's a clear landing experience for the click.
+[ASSUMED: confirm this market list matches what you actually want to target; adjust if you want to lead with Bangladesh-based clients specifically or a different region mix.]
+________________
+
+--- [12. Timeline / Duration] (3 lines) ---
+Most TikTok Ads campaigns need one to two weeks in the platform's learning phase before performance data is reliable enough to guide real optimization decisions. During this period, TikTok's algorithm is still figuring out which audience segments respond best, so results in week one usually aren't representative of where the campaign will settle.
+Setup itself, including audit, strategy, Pixel installation, and first creative batch, typically takes about one to two weeks before a campaign is ready to launch, depending on how quickly creative assets are available. Businesses with existing video content or an active creator relationship can usually launch faster than those starting creative from zero.
+________________
+
+--- [13. Guarantee] (3 lines) ---
+We provide transparent reporting throughout your campaign, so you can see exactly where ad spend is going and how each campaign is performing, not just a summary at the end of the month. Specific contract terms, reporting cadence, and cancellation policy are confirmed during your free audit call, before you commit to anything.
+[ASSUMED: do not publish a specific guarantee, refund policy, or "no lock-in contract" claim until you confirm your actual terms. I've kept this section honest and general on purpose; tell me your real policy and I'll tighten this up.]
+________________
+
+--- [14. Frequently Asked Questions] (15 lines) ---
+What is TikTok Ads management?
+TikTok Ads management is the ongoing service of planning, building, launching, and optimizing paid ad campaigns on TikTok's Ads Manager platform. It covers strategy, creative production, audience targeting, tracking setup, and performance optimization: the full path from idea to running campaign.
+How much does TikTok Ads management cost?
+We offer two options: a service charge that scales with your ad spend (20% at lower budgets, down to 10% at $1,000+ monthly spend), or a fixed monthly package starting at ৳5,000. Ad spend paid to TikTok is always separate from the management fee in both models.
+Do I need existing video content to run TikTok Ads?
+No. While having existing footage or an active creator relationship speeds up launch, creative production can be built from scratch as part of the service, using product photography, short clips, or new filming depending on what's available.
+How is TikTok Ads different from just boosting a post?
+Boosting a post extends the reach of one piece of content with limited targeting control. TikTok Ads Manager campaigns allow specific objectives (traffic, conversions, app installs), detailed audience targeting, A/B testing across creative variations, and conversion tracking through the Pixel, none of which boosting supports.
+What budget do I need to start TikTok Ads?
+Starting budgets vary by industry and goal, and TikTok's learning phase performs better with consistent daily spend rather than a very small, inconsistent budget. Your free account audit will include a specific recommendation based on your goals and typical costs in your industry.
+How long before I see results?
+Most campaigns need one to two weeks in TikTok's learning phase before data is reliable enough to optimize toward stronger results. Meaningful, stable performance trends usually take three to four weeks to establish, though early signals (click-through rate, engagement) are visible sooner.
+________________
+Still have questions specific to your business? Talk to our team: we'll walk through your goals on a free call before you spend anything on ads.
+________________
+
+--- [15. Internal Linking Suggestions] (19 lines) ---
+Anchor Text
+Target Page Type
+Why It Helps
+social media management services
+Social Media Management pillar page
+Connects paid TikTok work to organic account management, supports cross-sell
+Facebook & Instagram Ads management
+Meta Ads sub-pillar
+Supports the TikTok vs. Meta Ads comparison in Section 7, cross-sells related paid channel
+Instagram Management services
+Instagram sub-pillar
+Cross-sell to a related platform for businesses running multi-channel social
+our creative content and video production services
+Creative Content pillar
+Backs up the "native creative production" claim in Sections 6 and 9 with proof of capability
+Pinterest Management services
+Pinterest sub-pillar
+Cross-sell for e-commerce clients likely running multiple paid/organic channels
+________________
+
+--- [16. External Link Suggestions] (10 lines) ---
+Source Type
+Topic It Supports
+Why It's Useful
+TikTok for Business (official documentation)
+Ad formats: Spark Ads, In-Feed, TopView, definitions and specs
+Confirms technical claims about ad formats are accurate and current
+TikTok Business Help Center
+TikTok Pixel and Events API setup requirements
+Backs up the technical tracking claims in Sections 7 and 9 with an authoritative source
+________________
+
+--- [5. Talk to Our Team] (8 lines) ---
+CTA placements used on this page (each worded differently):
+* After Opening Paragraph (soft): "Not sure TikTok Ads is the right move for your business yet? Get a free TikTok Ads audit, no commitment required."
+* After Our Process (mid-page): "Ready to see what a TikTok Ads strategy would look like for your business? Request your free proposal."
+* After FAQs (closing): "Still have questions specific to your business? Talk to our team: we'll walk through your goals on a free call before you spend anything on ads."
+________________
+Word count: ~1,950 words (mid/high-complexity multi-step service range)
+Items flagged [ASSUMED] that still need your input before this goes live:
+1. Why Choose Us: real differentiators, partnership status, client/years numbers
+
+--- [2. Who We Serve: confirm the exact market list] (2 lines) ---
+3. Guarantee: actual contract terms, cancellation policy, reporting cadence
+(Pricing is now confirmed and included in Section 10.)
+
+======================================================
+FILE: Website Marketing Services in Bangladesh.txt
+======================================================
+
+--- [Header] (1 lines) ---
+Website Marketing Services in Bangladesh
+
+--- [1. SEO Title] (1 lines) ---
+Website Marketing Services in Bangladesh | Riha Webtech
+
+--- [2. Meta Description] (1 lines) ---
+Grow your business online with Riha Webtech's website marketing services in Bangladesh — SEO, Local SEO, GBP, eCommerce SEO & AdSense approval help. (155 characters)
+
+--- [3. URL Slug] (1 lines) ---
+/website-marketing/
+
+--- [4. H1] (5 lines) ---
+Website Marketing Services in Bangladesh
+You have built your website investing a lot of money, but what was its use case if you don't get clients or customers?
+If your website isn't showing up when people in Bangladesh search for what you sell, you're losing customers to competitors who already rank.
+Riha Webtech provides website marketing services for SMEs, eCommerce stores, and startups across Bangladesh — covering SEO, local SEO, Google Business Profile management, eCommerce optimization, and Google AdSense approval support, handled by one in-house team instead of multiple freelancers. Not sure where your website currently stands?
+Get a free audit and see exactly what's holding it back.
+
+--- [What We Offer] (42 lines) ---
+Riha Webtech's website marketing services cover everything a business needs to get found on Google, build local visibility, and turn traffic into revenue — delivered by an in-house team rather than outsourced contractors. It typically includes SEO, local SEO, Google Business Profile management, eCommerce SEO, audits, keyword research, link building, and AdSense approval support. It is best suited for businesses that want a single, accountable team handling their full online growth, rather than juggling multiple vendors.
+Search Engine Optimization (SEO)
+On-page and off-page optimization to help your website rank for the terms your customers actually search. Includes technical fixes, content optimization, internal linking structure, and ongoing performance monitoring. We focus on sustainable rankings built on site quality and relevance — not shortcuts that work for three months and then disappear.
+Not included: guaranteed #1 rankings. No agency can ethically promise that, and any that do are selling you something Google doesn't allow anyone to guarantee.
+Answer Engine Optimization (AEO)
+Search behavior has shifted. A growing share of queries are now answered directly by AI tools — ChatGPT, Gemini, Perplexity, Claude, Grok, DeepSeek — without the user ever clicking a link. AEO is the practice of structuring and writing your content so it gets cited, quoted, and surfaced by these systems.
+We optimize your content with direct answer blocks, definition sections, structured FAQ formats, retrieval-ready language, and entity relationship depth — the specific signals AI answer engines use to decide what to cite. If your competitors are ranking on Google but invisible to AI search, this is the gap worth closing.
+Generative Engine Optimization (GEO)
+GEO takes AEO a step further. Where AEO focuses on getting your content cited in AI-generated answers, GEO focuses on building your brand's presence as a trusted entity across the generative web — the ecosystem of large language models, AI-powered search results, and knowledge graph systems that increasingly shape what people find and trust.
+We help your business become the answer, not just a result. That means topical authority building, entity-based content structuring, semantic coverage depth, and making sure your brand, services, and expertise are represented consistently across the sources AI systems draw from.
+Local SEO
+For businesses that serve a specific city, region, or service area, visibility in local search results is often more valuable than broad national rankings. Local SEO focuses on the signals that determine whether your business appears when someone nearby searches for what you offer.
+Our local SEO work includes location-based keyword research, on-page optimization for city and service-area pages, local citation building across relevant directories, and NAP (name, address, phone number) consistency across the web. We also address technical factors that affect local ranking — crawlability, page speed, mobile usability, and schema markup that helps Google understand your service area and business type.
+Best suited for brick-and-mortar businesses, service-area businesses, and any company where the customer's location determines whether they're a viable lead.
+Google My Business Profile
+Your Google Business Profile is often the first thing a potential customer sees — before they visit your website, read a review, or make contact. A poorly managed profile loses clicks to competitors with more complete, active listings. A well-managed one drives calls, direction requests, and website visits directly from Google Search and Maps.
+We handle full GBP optimization and ongoing management, including:
+* Profile setup and category selection
+* Business description written for both search visibility and reader conversion
+* Service and product listings with search-optimized descriptions
+* Photo and video uploads that improve engagement signals
+* Q&A monitoring and response
+* Regular Google Posts to keep the profile active
+* Review response management
+* Tracking of calls, direction requests, and profile views through GBP Insights
+We also optimize for the Google Map Pack — the three-business block that appears at the top of local search results and captures the majority of local click traffic. Appearing there consistently requires a combination of profile quality, local SEO, and review authority, all of which we manage together as a connected strategy rather than separate tasks.
+eCommerce SEO
+Product page, category page, and site structure optimization for online stores. We focus on the search terms real buyers use at the point of purchase — not just informational queries — and build your pages around those terms without sacrificing the clarity that converts visitors into customers.
+Includes search-friendly URL structures, product and category descriptions written around buyer intent, internal linking between related products and collections, schema markup for product-rich results (price, availability, reviews), and technical fixes that affect crawlability across large product catalogs. We also address duplicate content issues common in stores with variant-heavy product pages — a frequent source of ranking problems that platforms like Shopify and WooCommerce don't resolve automatically.
+SEO Audit
+A full review of your site's technical health, on-page elements, content gaps, and backlink profile — delivered as a written report with prioritized fixes rather than a raw data export you have to interpret yourself.
+Useful as a starting point before committing to ongoing work, or as a standalone engagement if you have an internal team that can implement recommendations. The audit covers crawl errors, indexation issues, site speed, mobile usability, heading and metadata structure, internal link distribution, content thin spots, and a backlink quality review. Every finding is explained in plain language with a recommended action, not just flagged as a problem.
+Keyword Research
+Identifying the search terms your potential customers actually use — and filtering for the ones your site can realistically rank for, given your current authority, competition level, and content depth.
+We balance search volume against ranking difficulty rather than building a strategy around high-volume terms dominated by national brands with decade-old domain authority. The output is a prioritized keyword map organized by topic cluster, search intent, and page type — ready to guide content creation or on-page optimization without requiring you to interpret raw data from a tool you don't use daily.
+Link Building
+Earning backlinks through guest post placements, broken-link outreach, and content-based link acquisition — manual, relevance-based, and built around sites that have genuine editorial standards.
+We don't buy links in bulk, participate in private blog networks, or use automated outreach tools that send 500 identical emails a day. Those tactics can produce short-term movement and long-term Google penalties that take months to recover from. Every link we build is placed on a relevant site, in an editorial context, using anchor text that makes sense to a human reader — which is what Google's systems are increasingly good at evaluating.
+Google AdSense Approval Support
+If your site has been rejected for AdSense — or you want to get it right before applying — we review your site against Google's current AdSense policy requirements and fix the issues that most commonly cause rejection.
+This includes content depth and originality assessment, required page review (privacy policy, about page, contact page), site structure and navigation clarity, ad placement planning that meets policy guidelines, and a check for any content categories AdSense restricts. We'll tell you honestly whether your site is ready, what needs to change, and how to change it before you apply.
+One important note: final approval is always Google's decision. We prepare your site to meet their requirements as thoroughly as possible — we can't override their review process, and anyone who claims otherwise isn't being straight with you.
+
+--- [Why This Service Matters] (2 lines) ---
+Every month your website stays unoptimized, competitors who are already investing in SEO keep capturing the searches that should be reaching you — and that gap tends to widen, not stay flat, because rankings compound over time. The benefit of working with a professional team isn't just "more traffic" — it's traffic from people actively searching for what you offer, which converts at a meaningfully higher rate than social media or paid ads alone.
+A common misunderstanding is expecting SEO to work like paid ads — instant, then off when you stop. Organic SEO builds gradually and continues to produce results even during months when you're not actively running other campaigns, but it does require patience and consistent work, not a one-time setup.
+
+--- [Why Choose Us] (2 lines) ---
+Riha Webtech runs an in-house team covering SEO, content, design, and development — so your website marketing isn't split across multiple disconnected freelancers who don't talk to each other. Every piece of work, from content to optimization, goes through a client review and approval step before it's published, which keeps you informed instead of finding out what was done after the fact.
+We work with both Bangladeshi businesses and international clients in the US, UK, Australia, and Canada, which means our process is built to handle different markets and search behaviors — not a single-market template applied everywhere. We also offer Google AdSense approval support, a service that most Bangladeshi marketing agencies don't list at all, which reflects a deeper technical familiarity with Google's policies beyond basic ranking work.
+
+--- [Our Process] (6 lines) ---
+Riha Webtech's website marketing process runs in four stages: a free audit, strategy development, execution, and ongoing reporting — giving you visibility into what's being done and why at every step.
+1. Free Website Audit — We review your current site, rankings, and competitors to identify what's actually holding you back.
+2. Strategy & Keyword Research — We build a keyword and content plan based on realistic ranking potential, not just high-volume terms.
+3. On-Page & Off-Page Execution — Technical fixes, content optimization, local SEO setup, and link building begin with your approval before anything goes live.
+4. Reporting & Ongoing Optimization — You receive regular performance updates, and the strategy adjusts based on what the data shows.
+Ready to see where your website stands? Request your free audit, and we'll map out what needs fixing first.
+
+--- [Pricing] (18 lines) ---
+Website marketing pricing in Bangladesh depends on your website's size, how competitive your industry is, and which services — SEO, local SEO, link building, or AdSense support — are bundled into your plan, which is why we build custom quotes rather than publish fixed packages that don't fit most businesses. Pricing typically depends on size, complexity, current site condition, and timeline.
+A free initial audit and consultation is included before any paid commitment, so you know what you're paying for before you decide.
+Our Servicing Areas
+Riha Webtech provides website marketing and SEO services to businesses across Bangladesh, including Dhaka, with bilingual Bangla-English optimization suited to how local customers actually search.
+We work with businesses based in Dhaka as well as clients in other parts of Bangladesh and remotely overseas. Local search behavior in Bangladesh skews heavily mobile, so we prioritize mobile page speed and mobile-friendly site structure as part of every local SEO engagement. For eCommerce clients, this also means optimizing around how Bangladeshi shoppers search and pay, including familiarity with bKash- and Nagad-friendly checkout flows when reviewing site structure.
+Timeline / Duration
+An SEO audit is typically delivered within a few business days of starting. Meaningful ranking improvements from ongoing SEO work usually become visible within three to six months, depending on how competitive your industry is and how much work your site needs at the start. Local SEO and Google Business Profile improvements can show results faster — sometimes within four to eight weeks — since they rely less on competing for difficult keywords.
+If you're working toward a deadline (a product launch, a seasonal sales push), let us know early — front-loading technical and local SEO work can help, though organic rankings still can't be rushed the way paid ads can.
+Guarantee / Warranty
+Every piece of work — content, on-page changes, link building outreach — goes through your review and approval before it's published. You receive ongoing performance reporting throughout the engagement, so progress is visible, not just promised.
+We do not guarantee specific rankings or positions, since no agency can control Google's algorithm — any provider promising a guaranteed #1 ranking isn't being straight with you. What we do guarantee is a transparent process, regular reporting, and work that follows Google's own guidelines rather than tactics that risk a future penalty.
+Frequently Asked Questions
+How long does SEO take to show results in Bangladesh?
+Most websites see meaningful ranking movement within three to six months, though an SEO audit and initial fixes can be delivered within days. Timelines depend on your industry's competitiveness and your site's starting condition.
+Can you help get my website approved for Google AdSense?
+We review your site against common AdSense rejection causes — thin content, missing required pages, weak site structure — and fix what we can control. Final approval is always decided by Google directly, not by us.
+Do you guarantee a #1 Google ranking?
+No — no agency can ethically guarantee a specific ranking position, since Google's algorithm isn't controlled by any outside provider. We focus on transparent processes and reporting instead of unverifiable promises.
+
+--- [What's included in an SEO audit?] (14 lines) ---
+A technical review, on-page assessment, content gap analysis, and backlink profile check, delivered as a written report with prioritized recommendations you can act on with or without further work from us.
+Do you serve businesses outside Dhaka?
+Yes — we work with businesses across Bangladesh as well as remote clients internationally, using the same audit-first process regardless of location.
+What's the difference between SEO and paid Google Ads?
+SEO builds organic, long-term visibility that keeps working after the initial setup, while Google Ads delivers immediate but paid traffic that stops the moment you stop paying. Many businesses use both, but they solve different problems.
+How Long Does Website Marketing Take?
+Website marketing is a long-term investment, but you'll start seeing progress at different stages depending on the service you choose.
+* Free website audit: Delivered within 2–5 business days.
+* Technical SEO fixes: Usually completed within the first few weeks.
+* Local SEO & Google Business Profile: Initial improvements may appear in 4–8 weeks.
+* SEO rankings: Most businesses begin seeing meaningful growth within 3–6 months, depending on competition, your website's current condition, and your industry.
+While no agency can guarantee exact ranking timelines, our focus is on building sustainable growth that continues to generate traffic over time.
+What Happens Next After You Contact Us?
+Getting started is simple and transparent. Here's what you can expect:
+
+--- [1. Book Your Free Consultation] (1 lines) ---
+Contact us by phone, WhatsApp, email, or our website form.
+
+--- [2. Receive a Free Website Audit] (1 lines) ---
+We'll analyze your website, competitors, and current rankings and identify opportunities for improvement.
+
+--- [3. Get a Custom Marketing Strategy] (1 lines) ---
+We'll explain our recommendations, estimated timeline, and provide a customized quotation based on your business goals.
+
+--- [4. Approve the Plan] (1 lines) ---
+No work begins until you review and approve the proposed strategy.
+
+--- [5. Implementation Begins] (1 lines) ---
+Our in-house SEO specialists start optimizing your website while keeping you informed throughout the process.
+
+--- [6. Monthly Reporting & Continuous Improvement] (1 lines) ---
+You'll receive regular performance reports, ranking updates, and recommendations to keep your website growing over time.

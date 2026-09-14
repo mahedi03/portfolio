@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown, ChevronRight, ArrowRight } from "lucide-react";
+import { Menu, X, ChevronDown, ChevronRight, ArrowRight, ArrowUpRight } from "lucide-react";
 import { mainNav, serviceMegaMenuGroups } from "@/data/navigation";
 import { siteConfig } from "@/config/site";
 import { Button } from "@/components/ui/button";
@@ -176,9 +176,13 @@ export function Header() {
           </ul>
 
           <div className="hidden lg:block">
-            <Button asChild size="md" variant="primary">
-              <Link href="/contact">Start a Project</Link>
-            </Button>
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-1.5 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-white/90 shadow-sm"
+            >
+              <span>Let&apos;s Talk</span>
+              <ArrowUpRight className="size-4" />
+            </Link>
           </div>
 
           {/* Mobile toggle */}

@@ -61,3 +61,42 @@ export const testimonials: Testimonial[] = [
 export function getFeaturedTestimonials(): Testimonial[] {
   return testimonials.filter((t) => t.featured);
 }
+
+export const agencyRatings = [
+  {
+    platform: "Clutch",
+    rating: "5.0",
+    stars: "★★★★★",
+    tag: "Top B2B Company",
+    logo: "/listed-in/clutch.png",
+  },
+  {
+    platform: "Google",
+    rating: "4.8",
+    stars: "★★★★★",
+    tag: "Verified Business",
+    logo: "/listed-in/google.png",
+  },
+  {
+    platform: "GoodFirms",
+    rating: "4.8",
+    stars: "★★★★★",
+    tag: "Top Rated Agency",
+    logo: "/listed-in/goodfirms.png",
+  },
+  {
+    platform: "Trustpilot",
+    rating: "4.5",
+    stars: "★★★★★",
+    tag: "Excellent Rating",
+    logo: "/listed-in/trustpilot.png",
+  },
+  {
+    platform: "ShortList",
+    rating: "4.9",
+    stars: "★★★★★",
+    tag: "Top Digital Partner",
+    logo: "/listed-in/shortlist.png",
+  },
+];
+

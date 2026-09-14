@@ -8,6 +8,8 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        default:
+          "bg-primary text-primary-foreground shadow-soft hover:opacity-90 active:scale-[0.98]",
         primary:
           "bg-primary text-primary-foreground shadow-soft hover:opacity-90 active:scale-[0.98]",
         secondary:

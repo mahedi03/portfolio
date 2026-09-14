@@ -1,0 +1,9 @@
+export { MetaAdsHero } from "./MetaAdsHero";
+export { MetaAdsOffer } from "./MetaAdsOffer";
+export { MetaAdsWhyItMatters } from "./MetaAdsWhyItMatters";
+export { MetaAdsWhyChooseMe } from "./MetaAdsWhyChooseMe";
+export { MetaAdsProcess } from "./MetaAdsProcess";
+export { MetaAdsPricing } from "./MetaAdsPricing";
+export { MetaAdsServiceAreas } from "./MetaAdsServiceAreas";
+export { MetaAdsFAQ } from "./MetaAdsFAQ";
+export { MetaAdsCTA } from "./MetaAdsCTA";

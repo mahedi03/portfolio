@@ -129,6 +129,58 @@ body {
   font-size: 20px;
 }
 
+/* Default heading colors with support for outlined typography */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 2px currentColor;
+  color: transparent !important;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke: 2.5px rgba(255, 255, 255, 0.85);
+  color: transparent !important;
+}
+
+.text-stroke-dark {
+  -webkit-text-stroke: 2.5px #18181b;
+  color: transparent !important;
+}
+
+.watermark-heading {
+  position: absolute;
+  top: -1.25rem;
+  left: 0;
+  font-size: clamp(3.5rem, 9vw, 9.5rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  opacity: 0.04;
+  user-select: none;
+  pointer-events: none;
+  line-height: 1;
+  text-transform: uppercase;
+  z-index: 0;
+}
+
+@keyframes cloud-pan {
+  0% {
+    transform: scale(1.05) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: scale(1.12) translate3d(-3%, -2%, 0);
+  }
+  100% {
+    transform: scale(1.05) translate3d(0, 0, 0);
+  }
+}
+
+.cloud-drift-bg {
+  animation: cloud-pan 45s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
 /* Keep primary reading copy comfortably legible across the site. */
 body p,
 body li,
@@ -182,3 +234,71 @@ body select {
 @media (min-width: 1024px) {
   .container-wide { padding-inline: 3rem; }
 }
+
+/* ---- Ambient Background Animation --------------------------------------- */
+.ambient-orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(100px);
+  pointer-events: none;
+  opacity: 0.16;
+  will-change: transform;
+}
+
+.ambient-orb-1 {
+  top: -8%;
+  left: 10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, oklch(0.68 0.22 264), transparent 70%);
+  animation: float-slow 24s ease-in-out infinite alternate;
+}
+
+.ambient-orb-2 {
+  top: 30%;
+  right: -5%;
+  width: 550px;
+  height: 550px;
+  background: radial-gradient(circle, oklch(0.62 0.22 300), transparent 70%);
+  animation: float-reverse 28s ease-in-out infinite alternate;
+}
+
+.ambient-orb-3 {
+  bottom: 8%;
+  left: 12%;
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(circle, oklch(0.65 0.18 220), transparent 70%);
+  animation: float-slow 32s ease-in-out infinite alternate;
+}
+
+@keyframes float-slow {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(50px, 70px, 0) scale(1.08);
+  }
+  100% {
+    transform: translate3d(-40px, 120px, 0) scale(0.96);
+  }
+}
+
+@keyframes float-reverse {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(-60px, -50px, 0) scale(1.06);
+  }
+  100% {
+    transform: translate3d(50px, -90px, 0) scale(0.94);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient-orb {
+    animation: none !important;
+  }
+}
+

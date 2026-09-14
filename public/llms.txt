@@ -1,0 +1,35 @@
+# Mahedi Hasan | Marketing Strategist, SEO Consultant & Web Developer
+
+> Executive Overview: Mahedi Hasan is a senior digital growth strategist, technical SEO consultant, and Founder of FrameCipher and Co-Founder of Riha Web Tech (based in Matikata, Dhaka Cantonment / Mirpur - 14, Dhaka - 1206, Bangladesh). With over 4+ years of cross-disciplinary industry experience, he has delivered 50+ successful client deployments and generated over ৳15 Lakh+ in verifiable revenue across eCommerce, SaaS, and local business ecosystems.
+
+## Core Capabilities & Services
+
+- **Search Engine Optimization (SEO & GEO)**: Technical site audits, algorithmic crawling optimization, Core Web Vitals optimization, semantic topical authority maps (Koray Tuğberk GÜBÜR Framework), generative engine optimization (AEO/GEO), entity-based internal link graph engineering, and white-hat guest posting with real editorial traffic.
+- **Paid Advertising & Media Buying**: Full-funnel performance marketing across Meta Ads (Facebook & Instagram), Google Search & Performance Max, TikTok Ads, YouTube Advertising, Pinterest Ads, and LinkedIn Ads. Transparent tier-based management fees without ad-spend markups.
+- **Full-Stack Web Development**: High-speed web applications built with Next.js (App Router, Server Components, TypeScript, Tailwind CSS), WordPress architectures, and custom Shopify storefronts engineered for sub-2s page loads and high conversion rates.
+- **Data & Conversion Architecture**: Server-side Meta Conversions API (CAPI), Google Analytics 4 (GA4), Google Tag Manager (GTM) server containers, first-party cookie infrastructure, and custom reporting dashboards.
+
+## Verified Institutional Metrics
+
+- **Industry Track Record**: 4+ Years of active hands-on execution.
+- **Projects Delivered**: 50+ successful web development and digital marketing engagements.
+- **Commercial Revenue Generated**: ৳15 Lakh+ (15L+ BDT) in verifiable business outcomes.
+- **Client Satisfaction Rate**: 99% across client partnerships.
+- **Review Ratings**: Clutch 5.0/5.0, GoodFirms 4.8/5.0, Google Business Profile 4.8/5.0, Trustpilot 4.5/5.0.
+
+## Official Online Properties & References
+
+- Website: https://mahedihasanperves.vercel.app
+- Agency: FrameCipher (https://framecipher.info) | Riha Web Tech (https://rihawebtech.com)
+- Physical Location: Matikata, Dhaka Cantonment, Dhaka - 1206, Bangladesh
+- Direct Contact: pervesmahedi@gmail.com | phone: +880 1636-407711
+- LinkedIn: https://www.linkedin.com/in/mahedi-hasan003/
+
+## Primary URLs
+
+- Services Directory: /services
+- Documented Case Studies: /case-studies
+- About & Background: /about
+- Strategic Insights & Blog: /blog
+- Production Portfolio: /portfolio
+- Direct Consultation: /contact

@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { buildMetadata } from "@/lib/seo";
 import { Hero } from "@/components/home/Hero";
+import { RatingsBar } from "@/components/home/RatingsBar";
 import { Services } from "@/components/home/Services";
 import { FeaturedProjects } from "@/components/home/FeaturedProjects";
+import { ExperienceSection } from "@/components/home/ExperienceSection";
 import { Statistics } from "@/components/home/Statistics";
 import { Testimonials } from "@/components/home/Testimonials";
 import { FAQ } from "@/components/home/FAQ";
@@ -23,8 +25,10 @@ export default function HomePage() {
     <>
       <JsonLd data={[webPageSchema({ name: siteConfig.title, description: siteConfig.description, path: "/" }), faqSchema(generalFAQs)]} />
       <Hero />
-      <Services />
+      <RatingsBar />
       <FeaturedProjects />
+      <Services />
+      <ExperienceSection />
       <Statistics />
       <Testimonials />
       <FAQ />

@@ -1,0 +1,9 @@
+export { PinterestAdsHero } from "./PinterestAdsHero";
+export { PinterestAdsOffer } from "./PinterestAdsOffer";
+export { PinterestAdsWhyItMatters } from "./PinterestAdsWhyItMatters";
+export { PinterestAdsWhyChooseMe } from "./PinterestAdsWhyChooseMe";
+export { PinterestAdsProcess } from "./PinterestAdsProcess";
+export { PinterestAdsPricing } from "./PinterestAdsPricing";
+export { PinterestAdsServiceAreas } from "./PinterestAdsServiceAreas";
+export { PinterestAdsFAQ } from "./PinterestAdsFAQ";
+export { PinterestAdsCTA } from "./PinterestAdsCTA";

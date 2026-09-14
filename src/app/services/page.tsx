@@ -3,14 +3,16 @@ import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbSchema, itemListSchema, webPageSchema } from "@/lib/schema";
 import { services } from "@/data/services";
-import { PageHero } from "@/components/shared/PageHero";
+import { ServicesHero } from "@/components/services/ServicesHero";
 import { ServicesGrid } from "@/components/services/ServicesGrid";
+import { ServicesPricingTiers } from "@/components/services/ServicesPricingTiers";
+import { ServicesProcessOverview } from "@/components/services/ServicesProcessOverview";
 import { CTA } from "@/components/home/CTA";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Services",
+  title: "Services | Search, Paid Media & Web Engineering Systems",
   description:
-    "Website development, SEO, local search, content, social media, media buying, and paid advertising across Google, Meta, TikTok, Pinterest, and emerging AI channels.",
+    "Comprehensive digital growth services by Mahedi Hasan, Founder of FrameCipher and former Co-Founder of Riha Web Tech. Specializing in Technical SEO, AEO, Meta/Google/TikTok media buying, and Next.js engineering.",
   path: "/services",
 });
 
@@ -26,15 +28,19 @@ export default function ServicesPage() {
           itemListSchema(
             services.map((s) => ({ name: s.title, path: `/services/${s.slug}` }))
           ),
-          webPageSchema({ name: "Services | Mahedi Hasan", description: "Digital marketing, SEO, advertising, analytics, content, and website development services.", path: "/services", breadcrumbPath: "/services" }),
+          webPageSchema({
+            name: "Services | Mahedi Hasan",
+            description:
+              "Digital marketing, SEO, paid advertising, web development, and content systems engineered for revenue growth.",
+            path: "/services",
+            breadcrumbPath: "/services",
+          }),
         ]}
       />
-      <PageHero
-        eyebrow="Services"
-        title="Full-stack development & marketing"
-        description="Every service needed to build a website that converts, gets found, and keeps earning attention — under one roof."
-      />
+      <ServicesHero />
       <ServicesGrid />
+      <ServicesPricingTiers />
+      <ServicesProcessOverview />
       <CTA />
     </>
   );

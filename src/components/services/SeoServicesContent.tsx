@@ -15,7 +15,7 @@ const serviceLinks = [
 const process = [
   ["SEO Audit", "Review technical health, indexation, content quality, internal links, competitors, analytics, and conversion paths."],
   ["Keyword Research", "Map search intent, customer language, commercial opportunities, entities, and realistic ranking targets."],
-  ["Competitor Analysis", "Study the pages, topics, offers, links, SERP features, and gaps that shape the competitive landscape."],
+  ["Competitor Analysis", "Study the pages, topics, offers, links, SERP features, and gaps that shape the competitive market."],
   ["Content Strategy", "Build pillar, cluster, service, local, and supporting content plans connected by deliberate internal links."],
   ["On-Page Optimization", "Improve titles, headings, copy, metadata, schema opportunities, user experience, and calls to action."],
   ["Technical Optimization", "Prioritize crawlability, indexation, performance, redirects, canonicals, sitemaps, and structured data."],

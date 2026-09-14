@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { Fragment } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ChevronRight, ShieldCheck } from "lucide-react";
 import { getCaseStudyBySlug, caseStudies } from "@/data/caseStudies";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -11,6 +11,7 @@ import { breadcrumbSchema, caseStudySchema, webPageSchema } from "@/lib/schema";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/shared/Reveal";
+import { CTA } from "@/components/home/CTA";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -146,16 +147,38 @@ export default async function CaseStudyDetailPage({ params }: Props) {
         ]}
       />
 
-      <section className="pt-16 pb-10 lg:pt-24">
-        <Container className="max-w-3xl text-center">
-          <Reveal>
-            <p className="text-sm font-semibold uppercase tracking-wide text-primary">
-              {cs.industry} · {cs.client}
-            </p>
-            <h1 className="mt-3 text-[length:var(--text-h1)] font-display font-bold tracking-tight">
+      <section className="relative pt-12 pb-10 lg:pt-20 lg:pb-14 overflow-hidden">
+        {/* Glow backdrop */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -top-32 left-1/2 -translate-x-1/2 size-96 rounded-full bg-primary/10 blur-3xl"
+        />
+
+        <Container className="relative z-10 max-w-4xl text-center">
+          {/* Breadcrumb pills */}
+          <Reveal className="flex items-center justify-center gap-2 text-xs font-semibold text-muted-foreground mb-6">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <ChevronRight className="size-3.5 opacity-50" />
+            <Link href="/case-studies" className="hover:text-white transition-colors">Case Studies</Link>
+            <ChevronRight className="size-3.5 opacity-50" />
+            <span className="text-primary font-bold uppercase tracking-wider">{cs.category.replace("-", " ")}</span>
+          </Reveal>
+
+          <Reveal delay={0.05}>
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-surface/80 backdrop-blur-md px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-white">
+              <span className="size-2 rounded-full bg-emerald-400" />
+              <span>{cs.client} · {cs.industry}</span>
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.1}>
+            <h1 className="mt-6 text-3xl sm:text-5xl lg:text-6xl font-display font-black tracking-tight text-white uppercase">
               {cs.title}
             </h1>
-            <p className="mt-5 text-[length:var(--text-body-lg)] text-muted-foreground">
+          </Reveal>
+
+          <Reveal delay={0.15}>
+            <p className="mt-5 text-base sm:text-lg leading-relaxed text-muted-foreground max-w-2xl mx-auto">
               {cs.summary}
             </p>
           </Reveal>
@@ -164,31 +187,36 @@ export default async function CaseStudyDetailPage({ params }: Props) {
 
       <section className="pb-16">
         <Container>
-          <Reveal className="relative aspect-[16/9] overflow-hidden rounded-xl border border-border bg-muted shadow-elevated">
+          <Reveal className="relative aspect-[16/9] overflow-hidden rounded-3xl border border-white/10 bg-surface/40 shadow-2xl backdrop-blur-sm">
             <Image
               src={cs.coverImage}
               alt={cs.title}
               fill
               sizes="100vw"
-              className="object-container"
+              className="object-cover"
               priority
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-30" />
+            <div className="absolute bottom-6 left-6 flex items-center gap-2 rounded-full bg-black/70 backdrop-blur-md px-4 py-2 border border-white/20 text-xs font-semibold text-white">
+              <ShieldCheck className="size-4 text-emerald-400" />
+              <span>Verified Enterprise Case Study</span>
+            </div>
           </Reveal>
         </Container>
       </section>
 
       <section className="pb-16">
         <Container>
-          <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {[
-              { label: "Client", value: cs.client },
-              { label: "Industry", value: cs.industry },
-              { label: "Timeline", value: cs.timeline },
-              { label: "Primary focus", value: cs.tools[0] ?? "SEO strategy" },
+              { label: "Client Partner", value: cs.client },
+              { label: "Industry Sector", value: cs.industry },
+              { label: "Execution Timeline", value: cs.timeline },
+              { label: "Primary Discipline", value: cs.tools[0] ?? "SEO Systems" },
             ].map((item) => (
-              <div key={item.label} className="rounded-xl border border-border bg-card p-4 shadow-soft sm:p-5">
-                <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">{item.label}</div>
-                <div className="mt-2 text-sm font-semibold leading-5 text-foreground">{item.value}</div>
+              <div key={item.label} className="rounded-2xl border border-white/10 bg-surface/40 p-5 shadow-lg backdrop-blur-sm">
+                <div className="text-[11px] font-bold uppercase tracking-[0.16em] text-primary">{item.label}</div>
+                <div className="mt-2 text-base font-bold text-white">{item.value}</div>
               </div>
             ))}
           </div>
@@ -399,20 +427,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
         </section>
       )}
 
-      <section className="py-20 lg:py-28">
-        <Container>
-          <Reveal className="rounded-2xl bg-primary px-8 py-14 text-center text-primary-foreground">
-            <h2 className="text-[length:var(--text-h3)] font-display font-bold tracking-tight">
-              Want results like this?
-            </h2>
-            <Button asChild size="lg" variant="secondary" className="mt-6">
-              <Link href="/contact">
-                Start a Project <ArrowRight className="size-4" />
-              </Link>
-            </Button>
-          </Reveal>
-        </Container>
-      </section>
+      <CTA />
     </>
   );
 }

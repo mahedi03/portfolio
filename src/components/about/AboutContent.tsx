@@ -1,8 +1,5 @@
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/shared/Reveal";
-import { Button } from "@/components/ui/button";
 
 const expertise = [
   "Search Engine Optimization (SEO)",
@@ -46,15 +43,8 @@ export function AboutContent() {
           <Reveal>
             <h2 className="text-[length:var(--text-h2)] font-display font-bold tracking-tight">Building for the Future</h2>
             <div className="mt-5 max-w-3xl space-y-4 text-[length:var(--text-body-lg)] leading-8 text-muted-foreground">
-              <p>Through my work and projects, including <strong className="font-semibold text-foreground">FrameCipher</strong>, I&apos;m exploring the intersection of digital marketing, search, content, technology, and artificial intelligence.</p>
-              <p>My long-term goal is simple: build better digital systems that help businesses compete, grow, and stay visible in an increasingly complex digital landscape.</p>
-            </div>
-          </Reveal>
-          <Reveal>
-            <div className="rounded-2xl bg-primary px-8 py-12 text-center text-primary-foreground">
-              <h2 className="text-[length:var(--text-h2)] font-display font-bold tracking-tight">Let&apos;s Build Something That Works</h2>
-              <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-primary-foreground/80">Whether you need a stronger SEO strategy, a content system, a high-performing website, a digital marketing campaign, or a complete growth strategy, I focus on building digital systems that create real business value.</p>
-              <Button asChild size="lg" variant="secondary" className="mt-7"><Link href="/contact">Start a Conversation <ArrowRight className="size-4" /></Link></Button>
+              <p>Through my work and projects, including <strong className="font-semibold text-foreground">FrameCipher</strong> and <strong className="font-semibold text-foreground">Riha Web Tech</strong>, I explore the intersection of data-backed marketing, technical search, content systems, and generative AI.</p>
+              <p>My long-term goal is straightforward: build resilient digital systems that help ambitious businesses compete, grow, and stay visible in an increasingly competitive digital marketplace.</p>
             </div>
           </Reveal>
         </div>

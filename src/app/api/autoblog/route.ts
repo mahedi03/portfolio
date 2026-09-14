@@ -67,4 +67,6 @@ export async function POST(request: Request) {
   }
 }
 
-export async function HEAD() { return new Response(null, { status: 200 }); }
+export async function HEAD(request: Request) {
+  return new Response(null, { status: authorized(request) ? 200 : 401 });
+}

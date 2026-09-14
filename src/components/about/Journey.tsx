@@ -9,28 +9,34 @@ interface TimelineEntry {
 
 const timeline: TimelineEntry[] = [
   {
-    year: "2020",
-    title: "Started freelancing",
+    year: "2014",
+    title: "Co-Founded Riha Web Tech",
     description:
-      "Began taking on web development and SEO projects for small businesses.",
+      "Started with a focused mission: helping businesses grow online through high-converting web presence and search visibility.",
   },
   {
-    year: "2022",
-    title: "Expanded into paid advertising",
+    year: "2018",
+    title: "Advanced SEO & Authority Systems",
     description:
-      "Added Meta, Google, and TikTok Ads management to the service offering.",
+      "Pioneered structured topical authority mapping, technical site architecture, and editorial link-building pipelines.",
+  },
+  {
+    year: "2021",
+    title: "Full-Funnel Paid Advertising",
+    description:
+      "Scaled Meta, Google, and TikTok paid social/search management with Conversion API and rigorous weekly creative testing.",
   },
   {
     year: "2024",
-    title: "Full-stack agency capability",
+    title: "Transitioned to FrameCipher (July 2024)",
     description:
-      "Built out a complete development + marketing capability serving clients internationally.",
+      "Concluded tenure at Riha Web Tech in July 2024 to dedicate full focus to FrameCipher, engineering generative engine optimization (GEO), AI retrieval systems, and high-performance Next.js applications.",
   },
   {
     year: "Today",
-    title: "Focused on measurable growth",
+    title: "৳15 Lakh+ Revenue & 50+ Delivered Projects",
     description:
-      "Continuing to combine technical development with data-driven marketing for clients worldwide.",
+      "Partnering with ambitious businesses across eCommerce, SaaS, and local services, delivering predictable growth systems.",
   },
 ];
 

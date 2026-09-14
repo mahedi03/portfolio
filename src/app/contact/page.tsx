@@ -1,29 +1,21 @@
 import type { Metadata } from "next";
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
-import { siteConfig } from "@/config/site";
 import { generalFAQs } from "@/data/faq";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/shared/Reveal";
-import { PageHero } from "@/components/shared/PageHero";
+import { ContactHero } from "@/components/contact/ContactHero";
 import { ContactForm } from "@/components/contact/ContactForm";
+import { OfficeLocationCard } from "@/components/contact/OfficeLocationCard";
 import { FAQAccordion } from "@/components/shared/FAQAccordion";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Contact",
+  title: "Contact Mahedi Hasan | Consultation & Growth Inquiries",
   description:
-    "Get in touch to discuss your website, SEO, or paid advertising project. Usually responds within one business day.",
+    "Direct contact channel with Mahedi Hasan, Founder of FrameCipher and former Co-Founder of Riha Web Tech. Request a technical audit, paid advertising review, or custom Next.js development quote.",
   path: "/contact",
 });
-
-const contactDetails = [
-  { icon: Mail, label: "Email", value: siteConfig.author.email, href: `mailto:${siteConfig.author.email}` },
-  { icon: Phone, label: "Phone", value: siteConfig.author.phone, href: `tel:${siteConfig.author.phone}` },
-  { icon: MapPin, label: "Location", value: `${siteConfig.author.location.city}, ${siteConfig.author.location.country}` },
-  { icon: Clock, label: "Availability", value: "24/7, replies within 1 business day" },
-];
 
 export default function ContactPage() {
   return (
@@ -37,49 +29,29 @@ export default function ContactPage() {
           faqSchema(generalFAQs),
         ]}
       />
-      <PageHero
-        eyebrow="Contact"
-        title="Let's talk about your project"
-        description="Share a few details below and expect a response within one business day."
-      />
+      <ContactHero />
 
-      <section className="py-12 lg:py-16">
+      <section className="py-16 lg:py-24">
         <Container className="grid grid-cols-1 gap-12 lg:grid-cols-3">
           <Reveal className="lg:col-span-2">
             <ContactForm />
           </Reveal>
 
           <Reveal delay={0.1}>
-            <div className="rounded-lg border border-border bg-card p-6">
-              <h3 className="font-semibold">Contact details</h3>
-              <ul className="mt-5 space-y-4">
-                {contactDetails.map((detail) => (
-                  <li key={detail.label} className="flex gap-3">
-                    <detail.icon className="mt-0.5 size-4.5 shrink-0 text-primary" />
-                    <div className="text-sm">
-                      <div className="text-muted-foreground">{detail.label}</div>
-                      {detail.href ? (
-                        <a href={detail.href} className="font-medium hover:text-primary">
-                          {detail.value}
-                        </a>
-                      ) : (
-                        <div className="font-medium">{detail.value}</div>
-                      )}
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <OfficeLocationCard />
           </Reveal>
         </Container>
       </section>
 
-      <section className="border-t border-border bg-surface py-20">
-        <Container className="max-w-2xl">
+      <section className="border-t border-border bg-surface/50 py-20 lg:py-24">
+        <Container className="max-w-3xl">
           <Reveal className="text-center">
-            <h2 className="text-[length:var(--text-h2)] font-display font-bold tracking-tight">
-              Common questions
+            <h2 className="text-[length:var(--text-h2)] font-display font-bold tracking-tight text-foreground">
+              Frequently Asked Questions
             </h2>
+            <p className="mt-3 text-sm text-muted-foreground">
+              Common questions about working together, timelines, project handoffs, and deliverables.
+            </p>
           </Reveal>
           <Reveal delay={0.1} className="mt-10">
             <FAQAccordion items={generalFAQs} />
