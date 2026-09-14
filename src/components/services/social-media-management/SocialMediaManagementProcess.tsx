@@ -62,7 +62,7 @@ export function SocialMediaManagementProcess() {
                 <div className="size-2 rounded-full bg-primary/40" />
               </div>
               <h3 className="mt-3 text-base font-bold text-foreground font-display">6. Monthly Performance Analysis & Tuning</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">Reviewing top-performing formats, audience growth, and refining the next month's calendar based on data.</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">Reviewing top-performing formats, audience growth, and refining the next month&apos;s calendar based on data.</p>
             </div>
         </div>
       </Container>

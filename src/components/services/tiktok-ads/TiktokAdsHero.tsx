@@ -24,7 +24,7 @@ export function TiktokAdsHero() {
           </p>
           <div className="mt-6 max-w-3xl rounded-xl border border-border/70 bg-card/50 p-6 backdrop-blur-sm">
             <p className="text-base leading-relaxed text-muted-foreground">
-              TikTok has transformed into one of the world's most aggressive commercial discovery platforms. Mahedi Hasan builds native-style TikTok ad campaigns, Spark Ad amplification frameworks, and reliable Events API tracking to turn viral attention into scalable customer acquisition.
+              TikTok has transformed into one of the world&apos;s most aggressive commercial discovery platforms. Mahedi Hasan builds native-style TikTok ad campaigns, Spark Ad amplification frameworks, and reliable Events API tracking to turn viral attention into scalable customer acquisition.
             </p>
           </div>
           <div className="mt-8 flex flex-wrap items-center gap-4">

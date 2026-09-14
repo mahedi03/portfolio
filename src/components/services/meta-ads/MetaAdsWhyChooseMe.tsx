@@ -28,7 +28,7 @@ export function MetaAdsWhyChooseMe() {
                 02
               </span>
               <h3 className="mt-4 text-lg font-bold text-foreground font-display">Creative-Led Growth Strategy</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">We don't just push buttons in Ads Manager; we write compelling ad copy and guide visual asset creation that converts.</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">We don&apos;t just push buttons in Ads Manager; we write compelling ad copy and guide visual asset creation that converts.</p>
             </div>
             <div key="Documented Scaling Protocols" className="rounded-xl border border-border/80 bg-card/60 p-6">
               <span className="inline-flex size-7 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">

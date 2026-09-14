@@ -28,14 +28,14 @@ export function LocalSeoWhyChooseMe() {
                 02
               </span>
               <h3 className="mt-4 text-lg font-bold text-foreground font-display">Clean Citation Auditing</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">We identify and correct contradictory phone numbers, old addresses, and duplicate listings that confuse Google's algorithms.</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">We identify and correct contradictory phone numbers, old addresses, and duplicate listings that confuse Google&apos;s algorithms.</p>
             </div>
             <div key="Technical Schema Integration" className="rounded-xl border border-border/80 bg-card/60 p-6">
               <span className="inline-flex size-7 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">
                 03
               </span>
               <h3 className="mt-4 text-lg font-bold text-foreground font-display">Technical Schema Integration</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">We connect your website's code directly to your Google Business Profile entity using structured data.</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">We connect your website&apos;s code directly to your Google Business Profile entity using structured data.</p>
             </div>
         </div>
       </Container>

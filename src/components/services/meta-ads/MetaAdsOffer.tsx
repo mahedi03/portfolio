@@ -21,7 +21,7 @@ export function MetaAdsOffer() {
                 <CheckCircle2 className="mt-1 size-5 shrink-0 text-primary" />
                 <div>
                   <h4 className="font-semibold text-foreground">Advantage+ Shopping & Catalog Campaigns</h4>
-                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">Harnessing Meta's machine learning with optimized product feeds, audience constraints, and dynamic catalog ads.</p>
+                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">Harnessing Meta&apos;s machine learning with optimized product feeds, audience constraints, and dynamic catalog ads.</p>
                 </div>
               </div>
               <div key="Weekly Creative Testing Frameworks" className="flex gap-4 rounded-xl border border-border/80 bg-card/60 p-5 backdrop-blur-sm">

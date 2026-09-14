@@ -24,7 +24,7 @@ export function MetaAdsHero() {
           </p>
           <div className="mt-6 max-w-3xl rounded-xl border border-border/70 bg-card/50 p-6 backdrop-blur-sm">
             <p className="text-base leading-relaxed text-muted-foreground">
-              Meta Ads represents the world's most powerful demand-generation engine when executed with creative discipline and technical tracking accuracy. Mahedi Hasan engineers high-converting Facebook and Instagram ad campaigns that acquire customers profitably and scale brand revenue.
+              Meta Ads represents the world&apos;s most powerful demand-generation engine when executed with creative discipline and technical tracking accuracy. Mahedi Hasan engineers high-converting Facebook and Instagram ad campaigns that acquire customers profitably and scale brand revenue.
             </p>
           </div>
           <div className="mt-8 flex flex-wrap items-center gap-4">

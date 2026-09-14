@@ -21,7 +21,7 @@ export function ChatgptAdsWhyChooseMe() {
                 01
               </span>
               <h3 className="mt-4 text-lg font-bold text-foreground font-display">Upfront Eligibility Audits</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">We provide complete clarity on your account's regional eligibility before asking for any ad budget commitments.</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">We provide complete clarity on your account&apos;s regional eligibility before asking for any ad budget commitments.</p>
             </div>
             <div key="Dedicated Context-Hint Taxonomy" className="rounded-xl border border-border/80 bg-card/60 p-6">
               <span className="inline-flex size-7 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">

@@ -11,7 +11,7 @@ export function TiktokAdsWhyItMatters() {
             Why Traditional Advertising Fails on TikTok and What Works Instead
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            TikTok's algorithm prioritizes watch time, hook retention, and authentic emotion. Polished corporate commercials are swiped away in less than one second. Brands that succeed treat the platform like a creator, producing lo-fi, relatable, and entertaining demonstrations of value.
+            TikTok&apos;s algorithm prioritizes watch time, hook retention, and authentic emotion. Polished corporate commercials are swiped away in less than one second. Brands that succeed treat the platform like a creator, producing lo-fi, relatable, and entertaining demonstrations of value.
           </p>
         </Reveal>
 

@@ -24,7 +24,7 @@ export function SocialMediaManagementHero() {
           </p>
           <div className="mt-6 max-w-3xl rounded-xl border border-border/70 bg-card/50 p-6 backdrop-blur-sm">
             <p className="text-base leading-relaxed text-muted-foreground">
-              Social media management is not simply posting content for the sake of an active feed—it is the systematic stewardship of your brand's voice, community relationships, and organic customer pipeline. Mahedi Hasan builds platform-specific social strategies that build trust, spark engagement, and support commercial revenue.
+              Social media management is not simply posting content for the sake of an active feed—it is the systematic stewardship of your brand&apos;s voice, community relationships, and organic customer pipeline. Mahedi Hasan builds platform-specific social strategies that build trust, spark engagement, and support commercial revenue.
             </p>
           </div>
           <div className="mt-8 flex flex-wrap items-center gap-4">
