@@ -90,7 +90,6 @@ see the `TODO` comment inside it.
 - Replace placeholder statistics in `src/data/statistics.ts` with real,
   verifiable numbers — never fabricated metrics.
 - Wire up real contact form delivery in `src/app/api/contact/route.ts`.
-- Fill in real testimonials, case study metrics, and portfolio results.
 
 ## Deployment
 
