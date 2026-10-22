@@ -8,28 +8,52 @@ import { Reveal } from "@/components/shared/Reveal";
 export function Services() {
   const serviceItems = [
     {
-      title: "UI/UX & NEXT.JS DEVELOPMENT",
-      description: "High-performance web apps built with Next.js 15, TypeScript, Tailwind CSS, and ultra-fast Core Web Vitals.",
-      href: "/services/website-development",
-      tag: "Development",
+      title: "MARKETING STRATEGY & SYSTEMS",
+      description: "Offer clarity, funnel architecture, channel sequencing, and a growth plan that ends the guesswork.",
+      href: "/services/marketing-strategy",
+      tag: "Strategy",
     },
     {
-      title: "SEARCH ENGINE OPTIMIZATION (SEO)",
-      description: "Entity-first Semantic SEO based on Koray Tuğberk GÜBÜR framework to dominate topical authority and organic rankings.",
+      title: "NEXT.JS WEBSITES & WEB APPS",
+      description: "Fast, accessible builds designed around one question — what should the visitor do next?",
+      href: "/services/website-development",
+      tag: "Web",
+    },
+    {
+      title: "WEBSITE MARKETING & CRO",
+      description: "Landing journeys, offer placement, and on-page experiments that lift the conversion rate you already earn.",
+      href: "/services/website-marketing",
+      tag: "Conversion",
+    },
+    {
+      title: "SEMANTIC SEO",
+      description: "Topical authority, technical health, and content mapped to real search intent — built to compound quarter over quarter.",
       href: "/services/seo",
       tag: "Organic Search",
     },
     {
-      title: "PERFORMANCE ADS (META & GOOGLE)",
-      description: "Full-funnel paid advertising with automated tracking, creative testing, and high-ROAS conversion funnels.",
+      title: "META & GOOGLE ADS",
+      description: "Full-funnel campaigns with disciplined targeting, creative iteration, and clean conversion tracking.",
       href: "/services/meta-ads",
       tag: "Paid Media",
     },
     {
-      title: "CONVERSION ARCHITECTURE & ANALYTICS",
-      description: "Server-side GTM, GA4 custom tracking, CRO audits, and user behavior analytics to maximize revenue per visitor.",
+      title: "TikTok & PINTEREST ADS",
+      description: "Discovery-led placements where the scroll happens — native creative, native pacing, measurable outcomes.",
+      href: "/services/tiktok-ads",
+      tag: "Discovery Ads",
+    },
+    {
+      title: "ANALYTICS & CRO",
+      description: "GA4, server-side tagging, and behaviour analysis wired to the conversions your business actually runs on.",
       href: "/services/analytics-tracking",
       tag: "Analytics & CRO",
+    },
+    {
+      title: "LOCAL SEO & VISIBILITY",
+      description: "Profile optimization, location pages, and review workflows that put the business on the map — literally.",
+      href: "/services/local-seo",
+      tag: "Local Search",
     },
   ];
 
@@ -51,7 +75,8 @@ export function Services() {
               /SERVICE
             </h2>
             <p className="mt-3 max-w-lg text-base sm:text-lg leading-relaxed text-muted-foreground">
-              Comprehensive growth and development services tailored for ambitious businesses and modern digital products.
+              One connected capability set for growing businesses — strategy, web, search,
+              paid media, and measurement that support each other instead of competing.
             </p>
           </div>
 

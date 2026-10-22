@@ -1,4 +1,5 @@
 import type { Service, ServiceContentSection } from "@/types";
+import { servicePageContent } from "@/data/servicePageContent";
 
 type EditorialContent = Pick<ServiceContentSection, "heading" | "paragraphs">[];
 
@@ -396,5 +397,9 @@ function fallbackEditorial(service: Service): EditorialContent {
 }
 
 export function getServiceContent(service: Service): ServiceContentSection[] {
-  return [...(editorial[service.slug] ?? []), ...fallbackEditorial(service), ...(service.contentSections ?? [])];
+  return [
+    ...(servicePageContent[service.slug] ?? editorial[service.slug] ?? []),
+    ...fallbackEditorial(service),
+    ...(service.contentSections ?? []),
+  ];
 }

@@ -6,27 +6,27 @@ import { CheckCircle2, Shield, Sparkles, Award } from "lucide-react";
 
 const values = [
   {
-    title: "Excellence",
+    title: "Standard of craft",
     description:
-      "We hold every deliverable to rigorous commercial and technical standards, from keyword research through production code.",
+      "Every deliverable — from the first keyword map to production code — has to clear a commercial and technical bar before it ships.",
     icon: Award,
   },
   {
-    title: "Transparency",
+    title: "Nothing hidden",
     description:
-      "Open communication, honest attribution, and clear reporting are at the heart of our relationships with clients.",
+      "Clear reporting, honest attribution, and straight answers about what is working, what isn't, and what it will take.",
     icon: Shield,
   },
   {
-    title: "Innovation",
+    title: "Ahead of the curve",
     description:
-      "We adapt ahead of search engine updates and embrace generative AI discovery tools to keep clients consistently visible.",
+      "Search behaviour keeps shifting — updates, AI answers, new surfaces. The playbook is reviewed ahead of those changes, not after.",
     icon: Sparkles,
   },
   {
-    title: "Integrity",
+    title: "Built to last",
     description:
-      "We build campaigns and websites with ethical, sustainable methods that protect brand equity and produce dependable returns.",
+      "Only sustainable, ethical methods — they protect the brand, survive algorithm shifts, and keep producing returns.",
     icon: CheckCircle2,
   },
 ];
@@ -40,10 +40,10 @@ export function AboutValues() {
             Operating Principles
           </span>
           <h2 className="mt-3 text-[length:var(--text-h2)] font-display font-bold tracking-tight text-foreground">
-            Our Core Values
+            Operating Principles
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
-            The fundamental principles that guide our strategic choices, project delivery, and client relationships every day.
+            The non-negotiables behind every strategy, build, and client decision.
           </p>
         </Reveal>
 

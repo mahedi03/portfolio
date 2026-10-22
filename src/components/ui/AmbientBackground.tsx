@@ -32,7 +32,7 @@ export function AmbientBackground() {
       {/* Video-matched atmospheric cloud background with subtle animated drift */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30 cloud-drift-bg mix-blend-screen"
-        style={{ backgroundImage: "url('/cloud-bg.jpg')" }}
+        style={{ backgroundImage: "url('/cloud-bg.webp')" }}
       />
       <div className="absolute inset-0 bg-background/70 backdrop-blur-[2px]" />
 

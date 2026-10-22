@@ -37,17 +37,59 @@ export interface ServiceContentSection {
   paragraphs: string[];
 }
 
+export interface ServiceOffering {
+  title: string;
+  description: string;
+  bullets?: string[];
+}
+
+export interface ServiceWhyMatter {
+  title?: string;
+  description: string;
+}
+
+export interface ServicePricingItem {
+  label: string;
+  price?: string;
+}
+
+/** Normalized by src/lib/service-page.ts before it reaches components. */
+export interface ServicePricingTable {
+  headers: string[];
+  items: ServicePricingItem[];
+  note?: string;
+}
+
+export interface ServicePricingPackage {
+  name: string;
+  price: string;
+  period?: string;
+  description?: string;
+  features: string[];
+  recommended?: boolean;
+}
+
 export interface Service {
   slug: string;
   title: string;
   shortTitle: string;
   tagline: string;
   overview: string;
+  heroHook?: string;
+  quote?: string;
   image?: string;
   icon: string;
   category: "development" | "seo" | "ads" | "strategy";
   benefits: { title: string; description: string; icon: string }[];
   features: { title: string; description: string; icon: string }[];
+  offerings?: ServiceOffering[];
+  whyMatters?: (string | ServiceWhyMatter)[];
+  whyChooseUs?: string[];
+  pricingTable?: ServicePricingTable;
+  pricingPackages?: ServicePricingPackage[];
+  serviceAreas?: string | string[];
+  timeline?: string;
+  guarantee?: string;
   process: ServiceProcessStep[];
   deliverables: ServiceDeliverable[];
   technologies: string[];
@@ -172,34 +214,6 @@ export interface CaseStudy {
     strategy: string;
     execution: string;
   };
-}
-
-// ---------------------------------------------------------------------------
-// Blog
-// ---------------------------------------------------------------------------
-
-export interface Author {
-  name: string;
-  avatar: string;
-  bio: string;
-}
-
-export interface BlogPost {
-  slug: string;
-  title: string;
-  excerpt: string;
-  content: string; // markdown or rich text
-  coverImage: string;
-  category: string;
-  tags: string[];
-  author: Author;
-  publishedAt: string; // ISO date
-  updatedAt?: string; // ISO date
-  readingTime: number; // minutes
-  featured: boolean;
-  relatedPosts: string[]; // slugs
-  metaTitle: string;
-  metaDescription: string;
 }
 
 // ---------------------------------------------------------------------------

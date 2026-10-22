@@ -98,3 +98,58 @@ export const generalFAQs: FAQItem[] = [
     category: "chatgpt-ads",
   },
 ];
+
+/**
+ * About-page FAQs ? due-diligence questions about how the engagement works.
+ * Original copy, kept separate from the general home FAQs.
+ */
+export const aboutFAQs: FAQItem[] = [
+  {
+    question: "Who do you usually work with?",
+    answer:
+      "Founders, SMEs, and marketing leads who need one person to own the whole growth stack ? website, search, paid media, and analytics ? instead of coordinating four separate providers.",
+    category: "general",
+  },
+  {
+    question: "What does a typical engagement look like?",
+    answer:
+      "Most work starts with an audit and a short planning phase, then moves into a fixed-price build (website, tracking, content foundation) followed by an optional monthly retainer for SEO, ads, or CRO. Scope is documented before anything starts.",
+    category: "pricing",
+  },
+  {
+    question: "Do you handle both strategy and execution?",
+    answer:
+      "Yes. Recommendations always come with implementation ? code shipped, pages published, campaigns launched, tracking validated ? because advice without build capacity keeps projects stuck.",
+    category: "general",
+  },
+  {
+    question: "How do we communicate during a project?",
+    answer:
+      "Usually through a shared channel plus a short weekly update covering what shipped, what's next, and the numbers that moved. For larger builds, milestones are agreed upfront and reviewed at each stage.",
+    category: "general",
+  },
+  {
+    question: "What time zone do you work from?",
+    answer:
+      "Dhaka, Bangladesh (GMT+6). International clients are routinely supported across time zones with overlapping hours agreed at the start of the project.",
+    category: "general",
+  },
+  {
+    question: "Who owns the assets you build?",
+    answer:
+      "You do ? code, content, accounts, and data are handed over with access and documentation. Nothing important is locked inside a tool only I can reach.",
+    category: "general",
+  },
+  {
+    question: "Can you take over an existing website or campaign?",
+    answer:
+      "Yes. The first step is a health review of what's already there ? technical state, tracking, rankings, campaign structure ? so improvements build on existing assets instead of restarting.",
+    category: "general",
+  },
+  {
+    question: "What happens after launch?",
+    answer:
+      "Launch ends the build phase, not the relationship. Post-launch options include monitoring, iterative SEO, campaign management, and CRO experiments ? sized to whatever the business actually needs next.",
+    category: "general",
+  },
+];

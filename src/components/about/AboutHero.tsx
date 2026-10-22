@@ -29,7 +29,7 @@ export function AboutHero() {
           <div className="relative mx-auto max-w-md overflow-hidden rounded-3xl border border-border/80 bg-gradient-to-b from-card to-muted/40 p-4 shadow-elevated">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-muted/30">
               <Image
-                src="/Mahedi Hasan-transparent.png"
+                src="/Mahedi Hasan-transparent.webp"
                 alt={`${siteConfig.author.name} — Founder of FrameCipher`}
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"

@@ -10,16 +10,16 @@ export const portfolioProjects: PortfolioProject[] = [
     category: "seo",
     tags: ["Local SEO", "On-Page SEO", "Technical SEO", "Content Strategy"],
     summary: "A five-month SEO campaign for an Australian locksmith business that grew search visibility to 2.1M impressions and 12.2K clicks across the tracked period.",
-    coverImage: "/case-studies/border-locksmiths/border-locksmiths-1.png",
+    coverImage: "/case-studies/border-locksmiths/border-locksmiths-1.webp",
     gallery: [
-      "/case-studies/border-locksmiths/border-locksmiths-1.png",
-      "/case-studies/border-locksmiths/border-locksmiths-2.png",
-      "/case-studies/border-locksmiths/border-locksmiths-3.png",
-      "/case-studies/border-locksmiths/border-locksmiths-4.png",
-      "/case-studies/border-locksmiths/border-locksmiths-5.png",
-      "/case-studies/border-locksmiths/border-locksmiths-6.png",
-      "/case-studies/border-locksmiths/border-locksmiths-7.png",
-      "/case-studies/border-locksmiths/border-locksmiths-8.png",
+      "/case-studies/border-locksmiths/border-locksmiths-1.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-2.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-3.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-4.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-5.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-6.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-7.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-8.webp",
     ],
     technologies: ["Google Search Console", "Semrush", "Technical SEO", "On-page SEO"],
     timeline: "5 months active campaign",
@@ -43,8 +43,8 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["Web Development", "Business Website", "Responsive Design"],
     summary:
       "A responsive business website built to present Alfis Ltd's services and establish a clear, professional online presence.",
-    coverImage: "/website design development portfolio/alfisltd.png",
-    gallery: ["/website design development portfolio/alfisltd.png"],
+    coverImage: "/website design development portfolio/alfisltd.webp",
+    gallery: ["/website design development portfolio/alfisltd.webp"],
     technologies: ["Responsive Design", "UI/UX", "Web Development"],
     timeline: "Project delivery",
     challenge:
@@ -67,8 +67,8 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["Web Development", "Nonprofit Website", "Responsive Design"],
     summary:
       "A purpose-driven website designed to present BD for Palestine's mission, information, and initiatives through an accessible digital experience.",
-    coverImage: "/website design development portfolio/bd pro palestine.png",
-    gallery: ["/website design development portfolio/bd pro palestine.png"],
+    coverImage: "/website design development portfolio/bd pro palestine.webp",
+    gallery: ["/website design development portfolio/bd pro palestine.webp"],
     technologies: ["Responsive Design", "UI/UX", "Web Development"],
     timeline: "Project delivery",
     challenge:
@@ -91,8 +91,8 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["Personal Website", "Web Development", "Responsive Design"],
     summary:
       "A modern personal website created to present Muhsin Mashkur's profile, work, and online presence through a focused responsive experience.",
-    coverImage: "/website design development portfolio/Muhsinmashkur.png",
-    gallery: ["/website design development portfolio/Muhsinmashkur.png"],
+    coverImage: "/website design development portfolio/Muhsinmashkur.webp",
+    gallery: ["/website design development portfolio/Muhsinmashkur.webp"],
     technologies: ["Responsive Design", "UI/UX", "Web Development"],
     timeline: "Project delivery",
     challenge:
@@ -115,8 +115,8 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["E-commerce", "Web Development", "UX Design"],
     summary:
       "A fashion e-commerce website designed to present traditional Punjabi and Burka collections through a clean, responsive, conversion-focused shopping experience.",
-    coverImage: "/website design development portfolio/Stitch.png",
-    gallery: ["/website design development portfolio/Stitch.png"],
+    coverImage: "/website design development portfolio/Stitch.webp",
+    gallery: ["/website design development portfolio/Stitch.webp"],
     technologies: ["E-commerce", "Responsive Design", "UI/UX"],
     timeline: "Project delivery",
     challenge:
@@ -138,13 +138,19 @@ export const portfolioProjects: PortfolioProject[] = [
     category: "seo",
     tags: ["Local SEO", "Technical SEO", "Content Strategy"],
     summary:
-      "A local SEO campaign that built a 34-page service architecture and expanded organic search visibility for a device repair business in Ocala, Florida.",
-    coverImage: "/case-studies/phone-fashion-fix/image-4.png",
+      "A local SEO campaign that built a 34-page service architecture and grew organic visibility for a device repair business in Ocala, Florida, reaching 226 clicks and 20.5K impressions in the latest six-month Search Console view.",
+    coverImage: "/case-studies/phone-fashion-fix/image-10.png",
     gallery: [
-      "/case-studies/phone-fashion-fix/image-1.png",
-      "/case-studies/phone-fashion-fix/image-2.png",
-      "/case-studies/phone-fashion-fix/image-3.png",
-      "/case-studies/phone-fashion-fix/image-4.png",
+      "/case-studies/phone-fashion-fix/image-1.webp",
+      "/case-studies/phone-fashion-fix/image-2.webp",
+      "/case-studies/phone-fashion-fix/image-3.webp",
+      "/case-studies/phone-fashion-fix/image-4.webp",
+      "/case-studies/phone-fashion-fix/image-5.webp",
+      "/case-studies/phone-fashion-fix/image-6.webp",
+      "/case-studies/phone-fashion-fix/image-7.webp",
+      "/case-studies/phone-fashion-fix/image-8.webp",
+      "/case-studies/phone-fashion-fix/image-9.webp",
+      "/case-studies/phone-fashion-fix/image-10.png",
     ],
     technologies: ["Google Search Console", "Local SEO", "Content Architecture", "Internal Linking"],
     timeline: "Phased campaign, 2026",
@@ -154,11 +160,12 @@ export const portfolioProjects: PortfolioProject[] = [
       "Built a hub-and-spoke local SEO structure across iPhone, iPad, Android, tablet, and common repair issue silos, supported by service pages, semantic content, internal linking, and local search signals.",
     results: [
       { label: "Service architecture", value: "34 pages" },
-      { label: "Search Console impressions", value: "263 to 6,980" },
-      { label: "Search Console clicks", value: "12 to 196" },
+      { label: "Six-month impressions", value: "20.5K" },
+      { label: "Six-month clicks", value: "226" },
+      { label: "Topical silos built", value: "5" },
     ],
     featured: true,
-    relatedProjects: ["stitchbd-ecommerce-website"],
+    relatedProjects: ["stitchbd-ecommerce-website", "jarixo-website"],
     metaTitle: "Phone Fashion Fix Local SEO Project",
     metaDescription:
       "A 34-page local SEO architecture for Phone Fashion Fix that expanded Ocala search visibility through technical SEO, content, and internal linking.",
@@ -171,11 +178,11 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["Global SEO", "Content Strategy", "Technical SEO"],
     summary:
       "A global SEO campaign for a professional photo editing and retouching brand competing across e-commerce, fashion, real estate, and portrait search categories.",
-    coverImage: "/case-studies/pixc-retouch/image-1.png",
+    coverImage: "/case-studies/pixc-retouch/image-1.webp",
     gallery: [
-      "/case-studies/pixc-retouch/image-1.png",
-      "/case-studies/pixc-retouch/image-2.png",
-      "/case-studies/pixc-retouch/image-3.png",
+      "/case-studies/pixc-retouch/image-1.webp",
+      "/case-studies/pixc-retouch/image-2.webp",
+      "/case-studies/pixc-retouch/image-3.webp",
     ],
     technologies: ["Google Search Console", "GA4", "Semrush", "Content Architecture"],
     timeline: "8 months, August 2025 to March 2026",
@@ -203,8 +210,8 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["Web Development", "Responsive Design", "Digital Agency"],
     summary:
       "A modern agency website designed to present Riha WebTech services, project capabilities, and digital solutions through a clear responsive experience.",
-    coverImage: "/website design development portfolio/rihawebtech.png",
-    gallery: ["/website design development portfolio/rihawebtech.png"],
+    coverImage: "/website design development portfolio/rihawebtech.webp",
+    gallery: ["/website design development portfolio/rihawebtech.webp"],
     technologies: ["Responsive Design", "UI/UX", "Web Development"],
     timeline: "Project delivery",
     challenge:
@@ -227,8 +234,8 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["Personal Website", "Web Development", "Responsive Design"],
     summary:
       "A professional personal website designed to present Dr. Shafiul Islam Kawsar's profile, information, and online presence in a clear and accessible format.",
-    coverImage: "/website design development portfolio/dr shafiul islam kawsar.png",
-    gallery: ["/website design development portfolio/dr shafiul islam kawsar.png"],
+    coverImage: "/website design development portfolio/dr shafiul islam kawsar.webp",
+    gallery: ["/website design development portfolio/dr shafiul islam kawsar.webp"],
     technologies: ["Responsive Design", "UI/UX", "Web Development"],
     timeline: "Project delivery",
     challenge:
@@ -251,8 +258,8 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["E-commerce", "Web Development", "Online Store"],
     summary:
       "An online store experience designed to present products with a bold visual identity, clear browsing paths, and a straightforward shopping journey.",
-    coverImage: "/website design development portfolio/dontvalidatelabels.png",
-    gallery: ["/website design development portfolio/dontvalidatelabels.png"],
+    coverImage: "/website design development portfolio/dontvalidatelabels.webp",
+    gallery: ["/website design development portfolio/dontvalidatelabels.webp"],
     technologies: ["E-commerce", "Responsive Design", "UI/UX"],
     timeline: "Project delivery",
     challenge:
@@ -275,8 +282,8 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["Website Development", "Healthcare", "Responsive Design"],
     summary:
       "A responsive healthcare website designed to make Pharmacity information easier to browse across desktop and mobile devices.",
-    coverImage: "/website design development portfolio/pharmacity.png",
-    gallery: ["/website design development portfolio/pharmacity.png"],
+    coverImage: "/website design development portfolio/pharmacity.webp",
+    gallery: ["/website design development portfolio/pharmacity.webp"],
     technologies: ["Responsive Design", "UI/UX", "Web Development"],
     timeline: "Project delivery",
     challenge:
@@ -299,8 +306,8 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["Website Development", "Education", "Responsive Design"],
     summary:
       "A responsive education and study-abroad website designed to present international planning information through a clear, user-focused experience.",
-    coverImage: "/website design development portfolio/plan abroad.png",
-    gallery: ["/website design development portfolio/plan abroad.png"],
+    coverImage: "/website design development portfolio/plan abroad.webp",
+    gallery: ["/website design development portfolio/plan abroad.webp"],
     technologies: ["Responsive Design", "UI/UX", "Web Development"],
     timeline: "Project delivery",
     challenge:
@@ -323,8 +330,8 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["Personal Website", "Web Development", "Responsive Design"],
     summary:
       "A professional personal website designed to present Nazmulhoq's online identity, information, and services through a focused digital presence.",
-    coverImage: "/website design development portfolio/Nazmulhoq.png",
-    gallery: ["/website design development portfolio/Nazmulhoq.png"],
+    coverImage: "/website design development portfolio/Nazmulhoq.webp",
+    gallery: ["/website design development portfolio/Nazmulhoq.webp"],
     technologies: ["Responsive Design", "UI/UX", "Web Development"],
     timeline: "Project delivery",
     challenge:
@@ -347,8 +354,8 @@ export const portfolioProjects: PortfolioProject[] = [
     tags: ["Website Development", "Business Website", "Responsive Design"],
     summary:
       "A business-focused website designed to present the organization, its information, and its online presence through a structured responsive layout.",
-    coverImage: "/website design development portfolio/businessclub.png",
-    gallery: ["/website design development portfolio/businessclub.png"],
+    coverImage: "/website design development portfolio/businessclub.webp",
+    gallery: ["/website design development portfolio/businessclub.webp"],
     technologies: ["Responsive Design", "UI/UX", "Web Development"],
     timeline: "Project delivery",
     challenge:
@@ -362,6 +369,287 @@ export const portfolioProjects: PortfolioProject[] = [
     metaTitle: "Business Club Website Project",
     metaDescription:
       "A responsive business website project with organized content, clear navigation, and a professional user experience.",
+  },
+  {
+    slug: "jarixo-website",
+    title: "Jarixo Wellness Store",
+    client: "Jarixo",
+    category: "website",
+    tags: ["E-commerce", "Shopify", "Wellness Store", "Web Development"],
+    summary:
+      "A premium wellness storefront built around calm visual storytelling, product discovery, and a smoother path to purchase for an 11-SKU device-based relief catalog.",
+    coverImage: "/website design development portfolio/jarixo.webp",
+    gallery: ["/website design development portfolio/jarixo.webp", "/case-studies/Jarixo/Jarixo Website.webp"],
+    technologies: ["Shopify", "E-commerce", "Product Discovery", "UX Design"],
+    timeline: "Shopify store build",
+    challenge:
+      "Jarixo needed a wellness storefront that could present an 11-product at-home relief catalog clearly and guide visitors from body-area problems to the right device.",
+    solution:
+      "Built a Shopify storefront around calm visual storytelling, organized product discovery, and collection pages that connect each product to a clear purchase path.",
+    results: [
+      { label: "Products live", value: "11 SKUs" },
+      { label: "Collection pages", value: "Device and use-case categories" },
+    ],
+    liveUrl: "https://jarixo.com/",
+    featured: true,
+    relatedProjects: ["jarixo-topical-map-seo-visibility", "derma-ghor-website", "stitchbd-ecommerce-website"],
+    metaTitle: "Jarixo Wellness Store Project",
+    metaDescription:
+      "A Shopify wellness e-commerce storefront for Jarixo built around product discovery, visual storytelling, and conversion-focused UX.",
+  },
+  {
+    slug: "jarixo-topical-map-seo-visibility",
+    title: "Jarixo Topical Map SEO",
+    client: "Jarixo",
+    category: "seo",
+    tags: ["Topical Authority", "Content Strategy", "Internal Linking", "Shopify SEO"],
+    summary:
+      "A 10-pillar topical-authority framework that turned an 11-SKU wellness catalog into a structured content and internal-linking system built for organic search growth.",
+    coverImage: "/case-studies/Jarixo/Jarixo Website.webp",
+    gallery: ["/case-studies/Jarixo/Jarixo Website.webp"],
+    technologies: ["Topical Authority Framework", "Semrush", "Ahrefs", "Shopify"],
+    timeline: "Topical map and content strategy project",
+    challenge:
+      "Jarixo had 11 live products and Shopify collection pages, but no blog, internal linking system, or defined search intent connecting the product catalog to content.",
+    solution:
+      "Mapped the catalog into 10 topical pillars and three content layers, separated commercial collection intent from informational hub intent, and produced roughly 100 content opportunities with a built-in internal-link structure.",
+    results: [
+      { label: "Topical pillars", value: "10" },
+      { label: "Content layers", value: "3" },
+      { label: "Content opportunities mapped", value: "100+" },
+    ],
+    liveUrl: "https://jarixo.com/",
+    featured: false,
+    relatedProjects: ["jarixo-website", "pixc-retouch-global-seo", "phone-fashion-fix-local-seo"],
+    metaTitle: "Jarixo Topical Map SEO Project",
+    metaDescription:
+      "A 10-pillar topical authority framework that structured Jarixo's 11-SKU wellness catalog for organic search growth.",
+  },
+  {
+    slug: "ferdoush-saleheen-website",
+    title: "Dr. Ferdoush Saleheen Website",
+    client: "Dr. Ferdoush Saleheen",
+    category: "website",
+    tags: ["Personal Website", "Next.js", "Web Development"],
+    summary:
+      "A bilingual personal platform presenting an academic and supply-chain leader's profile, books, audiobooks, podcasts, research, and public thought leadership.",
+    coverImage: "/website design development portfolio/ferdoush-saleheen.webp",
+    gallery: ["/website design development portfolio/ferdoush-saleheen.webp"],
+    technologies: ["React / Next.js", "Responsive Design", "Content Architecture"],
+    timeline: "Personal brand website build",
+    challenge:
+      "An academic leader entering personal branding needed a credible bilingual platform to consolidate his profile, publications, and media presence in one place.",
+    solution:
+      "Built a Next.js personal platform with a clear structure for profile, books, audiobooks, podcasts, and research, designed to grow alongside his content and media work.",
+    results: [
+      { label: "Content sections", value: "Profile, books, audiobooks, podcasts, research" },
+    ],
+    liveUrl: "https://ferdoushsaleheen.com/",
+    featured: true,
+    relatedProjects: ["dr-ferdoush-saleheen-personal-brand", "dr-shafiul-islam-kawsar-website", "muhsin-mashkur-website"],
+    metaTitle: "Dr. Ferdoush Saleheen Website Project",
+    metaDescription:
+      "A bilingual personal brand platform for Dr. Ferdoush Saleheen built with Next.js and structured for profile, media, and research content.",
+  },
+  {
+    slug: "dr-ferdoush-saleheen-personal-brand",
+    title: "Dr. Ferdoush Saleheen Personal Brand Launch",
+    client: "Dr. Ferdoush Saleheen",
+    category: "branding",
+    tags: ["Personal Branding", "Content Strategy", "Video Production", "Short-Form Video"],
+    summary:
+      "A personal brand launch that shaped academic and supply-chain expertise into short-form video. The very first YouTube Short earned 350K+ views and his content scaled to over 7.2 million views on Facebook.",
+    coverImage: "/case-studies/ferdoush-saleheen/proof-1m-views.webp",
+    gallery: [
+      "/case-studies/ferdoush-saleheen/proof-1m-views.webp",
+      "/case-studies/ferdoush-saleheen/proof-447k-views.webp",
+      "/case-studies/ferdoush-saleheen/proof-390k-views.webp",
+    ],
+    technologies: ["Content Strategy", "Video Shooting", "High-Retention Editing", "YouTube Shorts", "Facebook Reels"],
+    timeline: "April to May 2026",
+    challenge:
+      "Dr. Ferdoush Saleheen had strong professional credibility and industry knowledge but had never published personal brand content, starting from zero previous presence and a 5-subscriber channel.",
+    solution:
+      "Built a content direction around his professional identity, converted academic depth into accessible short-form concepts, and handled concept planning, shooting, retention-focused editing, and simultaneous distribution across YouTube Shorts and Facebook Reels.",
+    results: [
+      { label: "Facebook views", value: "7.2M+" },
+      { label: "First YouTube Short views", value: "350K+" },
+      { label: "Breakout reels", value: "1M+ views each" },
+    ],
+    liveUrl: "https://ferdoushsaleheen.com/",
+    featured: true,
+    relatedProjects: ["ferdoush-saleheen-website", "facebook-instagram-ads-portfolio"],
+    metaTitle: "Dr. Ferdoush Saleheen Personal Brand Project",
+    metaDescription:
+      "Personal brand content strategy and short-form video production that scaled Dr. Ferdoush Saleheen from 5 subscribers to 7.2M+ Facebook views.",
+  },
+  {
+    slug: "hotel-ashrafee-website",
+    title: "Hotel Ashrafee Website",
+    client: "Hotel Ashrafee",
+    category: "website",
+    tags: ["Hospitality", "Web Development", "Next.js", "Responsive Design"],
+    summary:
+      "A hospitality website presentation for rooms, location, and direct guest trust, built to turn browsing visitors into booking inquiries.",
+    coverImage: "/website design development portfolio/hotel-ashrafee.webp",
+    gallery: ["/website design development portfolio/hotel-ashrafee.webp"],
+    technologies: ["React / Next.js", "Responsive Design", "Hospitality UX"],
+    timeline: "Project delivery",
+    challenge:
+      "The hotel needed a website that presented rooms and location clearly while building enough direct trust for guests to inquire without going through third-party platforms.",
+    solution:
+      "Created a responsive hotel website with a clear room and facilities presentation, location context, and booking-oriented calls to action for direct guest contact.",
+    results: [],
+    liveUrl: "https://www.hotelashrafee.com/",
+    featured: false,
+    relatedProjects: ["pharmacity-website", "plan-abroad-website", "alfis-ltd-website"],
+    metaTitle: "Hotel Ashrafee Website Project",
+    metaDescription:
+      "A hospitality website for Hotel Ashrafee presenting rooms, location, and direct booking trust across devices.",
+  },
+  {
+    slug: "derma-ghor-website",
+    title: "Derma Ghor Website",
+    client: "Derma Ghor",
+    category: "website",
+    tags: ["E-commerce", "Next.js", "Skincare", "Web Development"],
+    summary:
+      "A Next.js skincare e-commerce platform for authentic imported products from France, Korea, USA, UK, and Japan, with guided product discovery and nationwide delivery.",
+    coverImage: "/website design development portfolio/derma-ghor.webp",
+    gallery: ["/website design development portfolio/derma-ghor.webp"],
+    technologies: ["React / Next.js", "E-commerce", "Product Discovery", "Conversion UX"],
+    timeline: "Project delivery",
+    challenge:
+      "An imported skincare store needed to communicate product authenticity and origin while organizing a growing catalog and keeping mobile shopping friction low.",
+    solution:
+      "Built a Next.js storefront with guided product discovery, clear country-of-origin presentation, category navigation, and a direct checkout or order path with nationwide delivery messaging.",
+    results: [],
+    liveUrl: "https://dermaghor.com/",
+    featured: true,
+    relatedProjects: ["jarixo-website", "dont-validate-labels-store", "stitchbd-ecommerce-website"],
+    metaTitle: "Derma Ghor Website Project",
+    metaDescription:
+      "A Next.js skincare e-commerce platform for Derma Ghor with guided product discovery, authenticity presentation, and nationwide delivery.",
+  },
+  {
+    slug: "thrive-clothing-website",
+    title: "Thrive Clothing Website",
+    client: "Thrive Clothing",
+    category: "website",
+    tags: ["E-commerce", "WordPress", "Fashion Store"],
+    summary:
+      "A WordPress fashion storefront for apparel collections, built around clean product browsing, category discovery, and a straightforward path to checkout.",
+    coverImage: "/website design development portfolio/thrive-clothing.webp",
+    gallery: ["/website design development portfolio/thrive-clothing.webp"],
+    technologies: ["WordPress", "E-commerce", "WooCommerce", "Responsive Design"],
+    timeline: "Project delivery",
+    challenge:
+      "The fashion brand needed to move its apparel collections online with a storefront that made browsing simple and checkout straightforward.",
+    solution:
+      "Built a WordPress fashion storefront with clean category structure, product browsing, and a direct path from collection discovery to checkout.",
+    results: [],
+    liveUrl: "https://thriveclothing.online/",
+    featured: false,
+    relatedProjects: ["stitchbd-ecommerce-website", "dont-validate-labels-store"],
+    metaTitle: "Thrive Clothing Website Project",
+    metaDescription:
+      "A WooCommerce-powered WordPress fashion storefront for Thrive Clothing with clean product browsing and simple checkout.",
+  },
+  {
+    slug: "business-byte-website",
+    title: "Business Byte Website",
+    client: "Business Byte",
+    category: "website",
+    tags: ["Web Product", "Next.js", "Web Development"],
+    summary:
+      "A digital business resource presented as a lightweight, fast web experience for readers and researchers.",
+    coverImage: "/website design development portfolio/business-byte.webp",
+    gallery: ["/website design development portfolio/business-byte.webp"],
+    technologies: ["React / Next.js", "Responsive Design", "Content Presentation"],
+    timeline: "Project delivery",
+    challenge:
+      "The project needed a lightweight web presence that could present business information clearly without heavy page weight.",
+    solution:
+      "Built a fast, responsive web experience with focused content structure and clean reading paths.",
+    results: [],
+    liveUrl: "https://businessbyte-rakin.vercel.app/",
+    featured: false,
+    relatedProjects: ["businessclub-website", "alfis-ltd-website"],
+    metaTitle: "Business Byte Website Project",
+    metaDescription:
+      "A lightweight Next.js web experience for Business Byte with focused structure and clean reading paths.",
+  },
+  {
+    slug: "real-estate-platform-demo",
+    title: "Real Estate Platform Demo",
+    client: "Frame Cipher Demo",
+    category: "website",
+    tags: ["Real Estate", "Platform Demo", "Next.js", "Property Portal"],
+    summary:
+      "A premium real estate platform demo designed for high-value property showcases, virtual walkthroughs, neighborhood insights, and direct buyer inquiry capture.",
+    coverImage: "/website design development portfolio/real-estate-demo.webp",
+    gallery: ["/website design development portfolio/real-estate-demo.webp"],
+    technologies: ["React / Next.js", "Property Search UX", "Lead Capture", "Responsive Design"],
+    timeline: "Product demo build",
+    challenge:
+      "High-value property buyers expect listing depth, walkthrough media, neighborhood context, and fast inquiry paths in one platform.",
+    solution:
+      "Designed a premium demo platform combining property showcases, virtual walkthrough sections, neighborhood insight modules, and direct buyer inquiry capture.",
+    results: [],
+    liveUrl: "https://realestate.framecipher.info/",
+    featured: false,
+    relatedProjects: ["ecommerce-store-demo", "mahedi-hasan-portfolio"],
+    metaTitle: "Real Estate Platform Demo Project",
+    metaDescription:
+      "A premium real estate platform demo with property showcases, virtual walkthroughs, neighborhood insights, and buyer inquiry capture.",
+  },
+  {
+    slug: "ecommerce-store-demo",
+    title: "E-Commerce Store Demo",
+    client: "Frame Cipher Demo",
+    category: "website",
+    tags: ["E-commerce", "Storefront Demo", "Next.js"],
+    summary:
+      "A modern lifestyle and beauty e-commerce storefront engineered for seamless mobile browsing, dynamic product catalogs, and high-conversion checkouts.",
+    coverImage: "/website design development portfolio/ecommerce-demo.webp",
+    gallery: ["/website design development portfolio/ecommerce-demo.webp"],
+    technologies: ["React / Next.js", "E-commerce", "Product Catalog UX", "Conversion UX"],
+    timeline: "Product demo build",
+    challenge:
+      "The demo needed to show how a small beauty or lifestyle brand could run a storefront with mobile-first browsing and clean conversion paths.",
+    solution:
+      "Built a demo storefront with dynamic product catalogs, mobile-first browsing, and a streamlined high-conversion checkout experience.",
+    results: [],
+    liveUrl: "https://ecommerce.framecipher.info/",
+    featured: false,
+    relatedProjects: ["real-estate-platform-demo", "jarixo-website"],
+    metaTitle: "E-Commerce Store Demo Project",
+    metaDescription:
+      "A modern e-commerce storefront demo for a beauty brand with dynamic catalogs and high-conversion checkout flows.",
+  },
+  {
+    slug: "mahedi-hasan-portfolio",
+    title: "Mahedi Hasan Portfolio Website",
+    client: "Mahedi Hasan",
+    category: "website",
+    tags: ["Personal Portfolio", "Next.js", "Web Development"],
+    summary:
+      "Personal portfolio showcasing technical SEO campaigns, full-stack web platforms, performance marketing systems, and agency growth engineering.",
+    coverImage: "/website design development portfolio/mahedi-hasan-portfolio.webp",
+    gallery: ["/website design development portfolio/mahedi-hasan-portfolio.webp"],
+    technologies: ["React / Next.js", "SEO", "Content Architecture", "Responsive Design"],
+    timeline: "Project delivery",
+    challenge:
+      "The portfolio needed to present campaigns, platforms, and results in a structure engineers and clients could scan quickly.",
+    solution:
+      "Built a personal portfolio site organizing SEO campaigns, web platforms, and performance-marketing work into clear, navigable sections.",
+    results: [],
+    liveUrl: "https://mahedi.framecipher.info/",
+    featured: false,
+    relatedProjects: ["real-estate-platform-demo", "business-byte-website"],
+    metaTitle: "Mahedi Hasan Portfolio Website Project",
+    metaDescription:
+      "A personal portfolio website showcasing technical SEO campaigns, web platforms, and performance marketing systems.",
   },
 ];
 

@@ -45,9 +45,9 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="pointer-events-none relative z-20 mx-auto -mt-12 sm:-mt-20 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-0 w-[min(300px,78vw)] sm:w-[360px] lg:w-[clamp(300px,44vw,600px)]"
         >
-          <div className="relative w-full aspect-[2/3]">
+          <div className="relative w-full aspect-square">
             <Image
-              src="/Mahedi Hasan-transparent.png"
+              src="/Mahedi Hasan-transparent.webp"
               alt={`${siteConfig.author.name} — Portfolio`}
               fill
               priority
@@ -58,6 +58,15 @@ export function Hero() {
         </motion.div>
 
         {/* ══ 3. Content row — on mobile sits below portrait; on desktop flanks portrait left & right ══ */}
+        {/* Quick metrics — displayed as one series directly beneath the portrait */}
+        <div className="relative z-30 mt-5 flex items-center justify-center gap-3 whitespace-nowrap text-[11px] font-semibold text-muted-foreground sm:gap-5 sm:text-xs lg:absolute lg:left-0 lg:right-0 lg:top-[clamp(450px,52vw,720px)] lg:mt-0">
+          <span><span className="font-bold text-white">4+ Years</span> Exp</span>
+          <span className="text-border" aria-hidden>•</span>
+          <span><span className="font-bold text-white">50+</span> Projects</span>
+          <span className="text-border" aria-hidden>•</span>
+          <span><span className="font-bold text-white">৳15L+</span> Revenue</span>
+        </div>
+
         <div className="relative z-10 flex flex-col lg:flex-row items-center lg:items-start justify-between gap-8 pt-4 lg:pt-8">
 
           {/* ── Left: Badge + Role + Bio + CTA ── */}
@@ -80,7 +89,7 @@ export function Hero() {
               Growth Strategist &amp; Web Architect
             </h2>
             <p className="mt-4 text-sm sm:text-base leading-relaxed text-muted-foreground">
-              Designing digital products, high-converting Next.js applications, and semantic SEO frameworks built to turn search visibility into scalable revenue.
+              I build and connect the pieces that make a business grow online — high-performance websites, search systems, and paid-media funnels treated as one revenue engine, not five separate hires.
             </p>
 
             <div className="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-3">
@@ -93,8 +102,7 @@ export function Hero() {
               </Link>
               <a
                 href="/cv/mahedi-hasan-cv.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                download="mahedi-hasan-cv.pdf"
                 className="inline-flex items-center gap-2 rounded-full border border-border/80 bg-surface/60 backdrop-blur-sm px-5 py-3 text-sm font-medium text-foreground transition-all duration-300 hover:bg-surface hover:text-white hover:border-white/40"
               >
                 <span>Download CV</span>
@@ -102,20 +110,6 @@ export function Hero() {
               </a>
             </div>
 
-            {/* Quick Metrics */}
-            <div className="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs font-semibold text-muted-foreground">
-              <span className="flex items-center gap-1.5">
-                <span className="text-white font-bold">4+ Years</span> Exp
-              </span>
-              <span className="text-border">•</span>
-              <span className="flex items-center gap-1.5">
-                <span className="text-white font-bold">50+</span> Projects
-              </span>
-              <span className="text-border">•</span>
-              <span className="flex items-center gap-1.5">
-                <span className="text-white font-bold">৳15L+</span> Revenue
-              </span>
-            </div>
           </motion.div>
 
           {/* ── Center spacer — invisible, reserves portrait width so left/right don't go behind portrait ── */}

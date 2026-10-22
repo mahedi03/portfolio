@@ -8,12 +8,13 @@ import { caseStudies } from "@/data/caseStudies";
 import { Container } from "@/components/ui/container";
 import { motion } from "framer-motion";
 
-type CategoryFilter = "all" | "seo" | "paid-ads";
+type CategoryFilter = "all" | "seo" | "paid-ads" | "branding";
 
 const filterOptions: { id: CategoryFilter; label: string }[] = [
   { id: "all", label: "All Studies" },
   { id: "seo", label: "SEO & Organic" },
   { id: "paid-ads", label: "Paid Media & Ads" },
+  { id: "branding", label: "Personal Brand" },
 ];
 
 export function CaseStudiesList() {

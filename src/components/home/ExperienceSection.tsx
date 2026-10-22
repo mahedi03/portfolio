@@ -24,7 +24,7 @@ export function ExperienceSection() {
       company: "FrameCipher",
       role: "Founder & Web Architect",
       period: "2021 - Present",
-      previewImage: "/portfolio/portfolio-2.jpg",
+      previewImage: "/website design development portfolio/mahedi-hasan-portfolio.webp",
       description: "Building high-performance Next.js web applications, digital systems, and client delivery engines.",
     },
     {
@@ -32,7 +32,7 @@ export function ExperienceSection() {
       company: "Riha Web Tech",
       role: "Co-Founder & Digital Marketing Lead",
       period: "2022 - July 2025",
-      previewImage: "/portfolio/portfolio-1.jpg",
+      previewImage: "/website design development portfolio/rihawebtech.webp",
       description: "Directing agency growth campaigns, paid advertising strategies, and technical SEO architecture until stepping down in July 2025.",
     },
     {
@@ -40,7 +40,7 @@ export function ExperienceSection() {
       company: "Tuval Semantic SEO Scaling",
       role: "Semantic SEO & Organic Strategy Lead",
       period: "2023 - 2024",
-      previewImage: "/portfolio/portfolio-3.jpg",
+      previewImage: "/case-studies/pixc-retouch/image-1.webp",
       description: "Topical authority roadmap implementation using Koray Gübür's framework with 300%+ traffic growth.",
     },
     {
@@ -48,7 +48,7 @@ export function ExperienceSection() {
       company: "Sumon's Aroma E-Commerce",
       role: "Full-Funnel Paid Advertising Strategist",
       period: "2023 - 2024",
-      previewImage: "/portfolio/portfolio-4.jpg",
+      previewImage: "/case-studies/facebook-ads/sumons-aroma.webp",
       description: "Omnichannel Meta ads, messenger commerce scaling, and ROAS optimization.",
     },
   ];

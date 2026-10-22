@@ -13,6 +13,7 @@ const categories: { label: string; value: PortfolioCategory | "all" }[] = [
   { label: "SEO", value: "seo" },
   { label: "Website", value: "website" },
   { label: "Paid Ads", value: "paid-ads" },
+  { label: "Branding", value: "branding" },
   { label: "All", value: "all" },
 ];
 

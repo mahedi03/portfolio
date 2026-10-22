@@ -16,7 +16,7 @@ export const caseStudies: CaseStudy[] = [
     industry: "Locksmith Services",
     category: "seo",
     summary: "How targeted on-page, technical, and content SEO grew organic visibility for Border Locksmiths from a near-zero footprint to over 2 million monthly search impressions.",
-    coverImage: "/case-studies/border-locksmiths/border-locksmiths-1.png",
+    coverImage: "/case-studies/border-locksmiths/border-locksmiths-1.webp",
     timeline: "5 months active campaign, with reporting tracked into late 2023",
     tools: ["Google Search Console", "Semrush", "Google Analytics", "Technical SEO", "On-page SEO", "Content SEO"],
     problem: "",
@@ -25,14 +25,14 @@ export const caseStudies: CaseStudy[] = [
     strategy: "",
     execution: "",
     screenshots: [
-      "/case-studies/border-locksmiths/border-locksmiths-1.png",
-      "/case-studies/border-locksmiths/border-locksmiths-2.png",
-      "/case-studies/border-locksmiths/border-locksmiths-3.png",
-      "/case-studies/border-locksmiths/border-locksmiths-4.png",
-      "/case-studies/border-locksmiths/border-locksmiths-5.png",
-      "/case-studies/border-locksmiths/border-locksmiths-6.png",
-      "/case-studies/border-locksmiths/border-locksmiths-7.png",
-      "/case-studies/border-locksmiths/border-locksmiths-8.png",
+      "/case-studies/border-locksmiths/border-locksmiths-1.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-2.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-3.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-4.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-5.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-6.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-7.webp",
+      "/case-studies/border-locksmiths/border-locksmiths-8.webp",
     ],
     metrics: [],
     lessonsLearned: [],
@@ -49,7 +49,7 @@ export const caseStudies: CaseStudy[] = [
     category: "seo",
     summary:
       "How a 10-pillar topical authority framework turned an 11-SKU wellness catalog into a structured content and internal-linking system built for organic search growth.",
-    coverImage: "/case-studies/Jarixo/Jarixo Website.png",
+    coverImage: "/case-studies/Jarixo/Jarixo Website.webp",
     timeline: "Topical map and content strategy project",
     tools: ["Topical Authority Framework", "Semrush", "Ahrefs", "Shopify"],
     problem:
@@ -82,8 +82,8 @@ export const caseStudies: CaseStudy[] = [
     industry: "Mobile Device & Electronics Repair",
     category: "seo",
     summary:
-      "A local and technical SEO programme built a 34-page service architecture for an Ocala, Florida repair business, growing Search Console impressions from 263 to 6,980 and clicks from 12 to 196 across the trailing three-month comparison.",
-    coverImage: "/case-studies/phone-fashion-fix/image-4.png",
+      "A local and technical SEO programme built a 34-page service architecture for an Ocala, Florida repair business, growing Search Console impressions from 263 to 6,980 and clicks from 12 to 196 in the first three-month comparison, and reaching 226 clicks and 20.5K impressions in the latest six-month view.",
+    coverImage: "/case-studies/phone-fashion-fix/image-4.webp",
     timeline: "Phased campaign, 2026",
     tools: ["Google Search Console", "Semrush", "Schema markup", "Local SEO", "Internal linking"],
     problem:
@@ -97,15 +97,23 @@ export const caseStudies: CaseStudy[] = [
     execution:
       "Execution moved through foundation research, service-page rollout, semantic blog clusters, off-page campaigns, and ongoing Search Console monitoring. The latest three-month snapshot recorded 196 clicks and 6.98K impressions compared with 12 clicks and 263 impressions in the previous period. The blended average position increased as the site began ranking for a much wider keyword universe, including newer pages still moving upward.",
     screenshots: [
-      "/case-studies/phone-fashion-fix/image-1.png",
-      "/case-studies/phone-fashion-fix/image-2.png",
-      "/case-studies/phone-fashion-fix/image-3.png",
-      "/case-studies/phone-fashion-fix/image-4.png",
+      "/case-studies/phone-fashion-fix/image-1.webp",
+      "/case-studies/phone-fashion-fix/image-2.webp",
+      "/case-studies/phone-fashion-fix/image-3.webp",
+      "/case-studies/phone-fashion-fix/image-4.webp",
+      "/case-studies/phone-fashion-fix/image-5.webp",
+      "/case-studies/phone-fashion-fix/image-6.webp",
+      "/case-studies/phone-fashion-fix/image-7.webp",
+      "/case-studies/phone-fashion-fix/image-8.webp",
+      "/case-studies/phone-fashion-fix/image-9.webp",
+      "/case-studies/phone-fashion-fix/image-10.png",
     ],
     metrics: [
       { label: "Service pages ranked", before: "0 meaningful pages", after: "34 pages", change: "34" },
       { label: "3-month impressions", before: "263", after: "6,980", change: "+2,554%" },
       { label: "3-month clicks", before: "12", after: "196", change: "+1,533%" },
+      { label: "Latest 6-month impressions", before: "18.7K (earlier view)", after: "20.5K", change: "20.5K" },
+      { label: "Latest 6-month clicks", before: "224 (earlier view)", after: "226", change: "226" },
       { label: "Topical silos", before: "0", after: "5", change: "5 built" },
     ],
     lessonsLearned: [
@@ -162,11 +170,85 @@ export const caseStudies: CaseStudy[] = [
       "28-day comparison, July 3, 2026: 103 clicks versus 31 in the prior 28 days.",
       "3-month snapshot, July 24, 2026: 194 clicks and 4.61K impressions as the semantic layer rolled out.",
       "3-month comparison, August 4, 2026: 196 clicks and 6.98K impressions versus 12 clicks and 263 impressions.",
+      "Updated visibility snapshot after the service architecture expanded.",
+      "Updated Google Analytics engagement and active-user snapshot.",
+      "Six-month Search Console view: 224 clicks and 18.7K impressions.",
+      "Updated Search Console comparison across the latest reporting window.",
+      "Updated domain overview with authority, organic keyword, traffic, and backlink data.",
+      "Latest six-month Search Console comparison: 226 clicks and 20.5K impressions.",
     ],
-    relatedCaseStudies: ["pixc-retouch-global-seo", "example-seo-growth"],
+    relatedCaseStudies: ["pixc-retouch-global-seo", "dr-ferdoush-saleheen-personal-brand"],
     metaTitle: "Phone Fashion Fix Local SEO Case Study",
     metaDescription:
       "How a 34-page local SEO architecture helped Phone Fashion Fix grow Ocala search visibility from 263 to 6,980 impressions.",
+  },
+  {
+    slug: "dr-ferdoush-saleheen-personal-brand",
+    title: "Launching Dr. Ferdoush Saleheen's Personal Brand From Zero",
+    client: "Dr. Ferdoush Saleheen",
+    industry: "Personal Branding & Executive Presence",
+    category: "branding",
+    summary:
+      "A personal brand launch that shaped academic and supply-chain expertise into short-form video. The very first YouTube Short gained 350K+ views, scaling to over 7.2 million views on Facebook.",
+    coverImage: "/case-studies/ferdoush-saleheen/proof-1m-views.webp",
+    timeline: "April to May 2026",
+    tools: ["Content Strategy", "Video Shooting", "High-Retention Video Editing", "YouTube Shorts", "Facebook Reels", "Audience Retention"],
+    problem:
+      "Dr. Ferdoush Saleheen had strong professional credibility, academic expertise, and industry knowledge, but had never actively created or published personal brand content. The goal was to enter content creation in a credible way while building trust from a very small starting base.",
+    research:
+      "Positioning and knowledge extraction converted maritime and supply-chain academic depth into accessible themes centered on leadership, career frameworks, and industry insight that could arrest attention in the first three seconds.",
+    planning:
+      "Each topic was structured with hook discovery and concept scripting: strong tension in the opening, conversational delivery, and relatable questions, planned for simultaneous distribution across YouTube Shorts and Facebook Reels.",
+    strategy:
+      "The strategy focused on credibility, clarity, and natural on-camera presence, with retention-first editing and clear, single-concept ideas that could introduce Dr. Ferdoush Saleheen to a wider audience quickly.",
+    execution:
+      "Studio shooting and camera coaching avoided rigid scripted delivery in favor of authoritative conversation. Rapid pacing, punch-ins, and kinetic captions were engineered for retention. His very first YouTube Short reached 350K+ views from a channel with only 5 subscribers, and his content has generated over 7.2 million views on Facebook with individual breakout reels crossing 1 million views.",
+    screenshots: [
+      "/case-studies/ferdoush-saleheen/proof-1m-views.webp",
+      "/case-studies/ferdoush-saleheen/proof-447k-views.webp",
+      "/case-studies/ferdoush-saleheen/proof-390k-views.webp",
+    ],
+    metrics: [
+      { label: "Facebook views", before: "No account presence", after: "7.2M+", change: "7.2M+" },
+      { label: "First YouTube Short views", before: "5 subscribers", after: "350K+", change: "350K+" },
+      { label: "Breakout reels", before: "0", after: "Multiple 1M+ reels", change: "1M+ each" },
+      { label: "Previous content presence", before: "5 subscribers", after: "Launched from zero", change: "0 to scale" },
+    ],
+    snapshot: [
+      { label: "Client", value: "Dr. Ferdoush Saleheen" },
+      { label: "Industry", value: "Personal Branding" },
+      { label: "Role", value: "Head of Supply Chain Department, Sharjah Maritime University" },
+      { label: "Timeline", value: "April to May 2026" },
+      { label: "Services", value: "Content Strategy, Video Shooting, Video Editing" },
+      { label: "Goal", value: "Build trust and establish a credible personal brand" },
+    ],
+    whyItWorked: [
+      "Retention and hook engineering outperformed channel subscriber count.",
+      "Natural, conversational delivery built trust faster than corporate scripted videos.",
+      "Short-form platforms reward clear, single-concept ideas with immediate value.",
+      "Simultaneous distribution across YouTube Shorts and Facebook Reels compounded reach.",
+    ],
+    screenshotCaptions: [
+      "Breakout video crossing 1M views: 1M, 128K, 100K, 81K view counts on the verified Facebook Reels feed.",
+      "Compound Facebook distribution: 447K, 378K, 287K, 267K, 151K, 109K views across diverse leadership topics.",
+      "Sustained algorithm authority: 390K, 333K, 209K, 187K, 119K views proving repeatable retention.",
+    ],
+    lessonsLearned: [
+      "Retention and hook engineering outperform channel subscriber count.",
+      "Natural, conversational delivery builds trust faster than corporate scripted videos.",
+      "Short-form platforms reward clear, single-concept ideas with immediate value.",
+    ],
+    relatedCaseStudies: ["facebook-instagram-ads-portfolio", "border-locksmiths-local-seo", "jarixo-topical-map-seo-visibility"],
+    metaTitle: "Dr. Ferdoush Saleheen Personal Brand Case Study",
+    metaDescription:
+      "How a personal brand launch scaled Dr. Ferdoush Saleheen from a 5-subscriber channel to 7.2M+ Facebook views and a 350K-view first YouTube Short.",
+    sectionLabels: {
+      problem: "The Challenge",
+      research: "Positioning & Knowledge Extraction",
+      planning: "Hook Discovery & Concept Scripting",
+      strategy: "Content Strategy",
+      execution: "Documented Results",
+    },
   },
   {
     slug: "pixc-retouch-global-seo",
@@ -176,7 +258,7 @@ export const caseStudies: CaseStudy[] = [
     category: "seo",
     summary:
       "A global organic SEO campaign built service verticals, 40+ supporting articles, geo-layered real-estate content, and a diversified authority programme, producing 203% click growth and 91% top-10 visibility across tracked keywords.",
-    coverImage: "/case-studies/pixc-retouch/image-1.png",
+    coverImage: "/case-studies/pixc-retouch/image-1.webp",
     timeline: "8 months, August 2025 to March 2026",
     tools: ["Google Search Console", "GA4", "Semrush", "Content architecture", "Technical SEO"],
     problem:
@@ -190,9 +272,9 @@ export const caseStudies: CaseStudy[] = [
     execution:
       "The campaign rolled out in stages from August 2025 through March 2026. Core vertical pages came first, followed by catalog expansion, specialty technique pages, semantic blog clusters, Washington DC and New York real-estate content, and a refresh cycle on the highest-value pages. The six-month Search Console comparison grew clicks from 413 to 1,250, impressions from 58.7K to 99.8K, and average position from 55 to 38. GA4 active users grew 148% year over year.",
     screenshots: [
-      "/case-studies/pixc-retouch/image-1.png",
-      "/case-studies/pixc-retouch/image-2.png",
-      "/case-studies/pixc-retouch/image-3.png",
+      "/case-studies/pixc-retouch/image-1.webp",
+      "/case-studies/pixc-retouch/image-2.webp",
+      "/case-studies/pixc-retouch/image-3.webp",
     ],
     metrics: [
       { label: "Tracked keywords in top 10", before: "3 of 32", after: "29 of 32", change: "91%" },

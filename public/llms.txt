@@ -30,6 +30,5 @@
 - Services Directory: /services
 - Documented Case Studies: /case-studies
 - About & Background: /about
-- Strategic Insights & Blog: /blog
 - Production Portfolio: /portfolio
 - Direct Consultation: /contact

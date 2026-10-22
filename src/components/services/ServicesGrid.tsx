@@ -12,7 +12,7 @@ import { Badge } from "@/components/ui/badge";
 type CategoryFilter = "all" | "seo" | "ads" | "development" | "strategy";
 
 const filterOptions: { id: CategoryFilter; label: string }[] = [
-  { id: "all", label: "All Offerings (26)" },
+  { id: "all", label: "All Offerings (19)" },
   { id: "seo", label: "SEO & AI Search" },
   { id: "ads", label: "Paid Media & Ads" },
   { id: "development", label: "Web Engineering" },
@@ -36,7 +36,7 @@ export function ServicesGrid() {
   }, [activeCategory, searchQuery]);
 
   return (
-    <section className="py-16 lg:py-20">
+    <section id="all-services" className="py-16 lg:py-20">
       <Container>
         {/* Controls: Search and Categories */}
         <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">

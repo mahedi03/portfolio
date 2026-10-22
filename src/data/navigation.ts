@@ -167,7 +167,6 @@ export const mainNav: NavItem[] = [
   },
   { label: "Portfolio", href: "/portfolio" },
   { label: "Case Studies", href: "/case-studies" },
-  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -178,7 +177,6 @@ export const footerNav: { title: string; items: NavItem[] }[] = [
       { label: "About", href: "/about" },
       { label: "Portfolio", href: "/portfolio" },
       { label: "Case Studies", href: "/case-studies" },
-      { label: "Blog", href: "/blog" },
       { label: "Contact", href: "/contact" },
     ],
   },

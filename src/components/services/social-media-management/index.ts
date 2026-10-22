@@ -1,9 +1,0 @@
-export { SocialMediaManagementHero } from "./SocialMediaManagementHero";
-export { SocialMediaManagementOffer } from "./SocialMediaManagementOffer";
-export { SocialMediaManagementWhyItMatters } from "./SocialMediaManagementWhyItMatters";
-export { SocialMediaManagementWhyChooseMe } from "./SocialMediaManagementWhyChooseMe";
-export { SocialMediaManagementProcess } from "./SocialMediaManagementProcess";
-export { SocialMediaManagementPricing } from "./SocialMediaManagementPricing";
-export { SocialMediaManagementServiceAreas } from "./SocialMediaManagementServiceAreas";
-export { SocialMediaManagementFAQ } from "./SocialMediaManagementFAQ";
-export { SocialMediaManagementCTA } from "./SocialMediaManagementCTA";

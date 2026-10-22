@@ -5,7 +5,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t1",
     name: "Aisha Rahman",
-    avatar: "/testimonials/placeholder-1.jpg",
+    avatar: "/testimonials/placeholder-1.webp",
     quote:
       "The SEO strategy gave our website a clear direction. The technical SEO improvements, keyword research, and content strategy helped us build stronger organic visibility and attract more qualified enquiries.",
     rating: 5,
@@ -14,7 +14,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t2",
     name: "Daniel Morgan",
-    avatar: "/testimonials/placeholder-1.jpg",
+    avatar: "/testimonials/placeholder-1.webp",
     quote:
       "The local SEO work made our service area much easier to understand in search. Our Google Business Profile, on-page SEO, local landing pages, and conversion-focused website content now work together as one growth system.",
     rating: 5,
@@ -23,7 +23,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t3",
     name: "Nadia Karim",
-    avatar: "/testimonials/placeholder-1.jpg",
+    avatar: "/testimonials/placeholder-1.webp",
     quote:
       "We received a fast, professional website that looks polished and loads quickly. The Next.js development, responsive design, technical SEO, and clear user experience gave our brand a much stronger digital foundation.",
     rating: 5,
@@ -32,7 +32,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t4",
     name: "Michael Foster",
-    avatar: "/testimonials/placeholder-1.jpg",
+    avatar: "/testimonials/placeholder-1.webp",
     quote:
       "The digital marketing plan connected SEO, content marketing, Google Ads, and conversion tracking in a way that finally made performance easier to understand. Every recommendation was practical and focused on measurable growth.",
     rating: 5,
@@ -41,7 +41,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t5",
     name: "Sofia Ahmed",
-    avatar: "/testimonials/placeholder-1.jpg",
+    avatar: "/testimonials/placeholder-1.webp",
     quote:
       "The content marketing and SEO recommendations made our website much more useful for potential customers. Our service pages are clearer, our content strategy is more consistent, and our organic search foundation is stronger.",
     rating: 5,
@@ -50,7 +50,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t6",
     name: "James Wilson",
-    avatar: "/testimonials/placeholder-1.jpg",
+    avatar: "/testimonials/placeholder-1.webp",
     quote:
       "The Google Ads and conversion tracking setup gave us a much clearer view of campaign performance. From keyword targeting to landing page improvements, the work was focused on qualified leads and measurable return on investment.",
     rating: 5,
@@ -68,35 +68,35 @@ export const agencyRatings = [
     rating: "5.0",
     stars: "★★★★★",
     tag: "Top B2B Company",
-    logo: "/listed-in/clutch.png",
+    logo: "/listed-in/clutch.webp",
   },
   {
     platform: "Google",
     rating: "4.8",
     stars: "★★★★★",
     tag: "Verified Business",
-    logo: "/listed-in/google.png",
+    logo: "/listed-in/google.webp",
   },
   {
     platform: "GoodFirms",
     rating: "4.8",
     stars: "★★★★★",
     tag: "Top Rated Agency",
-    logo: "/listed-in/goodfirms.png",
+    logo: "/listed-in/goodfirms.webp",
   },
   {
     platform: "Trustpilot",
     rating: "4.5",
     stars: "★★★★★",
     tag: "Excellent Rating",
-    logo: "/listed-in/trustpilot.png",
+    logo: "/listed-in/trustpilot.webp",
   },
   {
     platform: "ShortList",
     rating: "4.9",
     stars: "★★★★★",
     tag: "Top Digital Partner",
-    logo: "/listed-in/shortlist.png",
+    logo: "/listed-in/shortlist.webp",
   },
 ];
 

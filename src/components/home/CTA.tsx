@@ -30,7 +30,7 @@ export function CTA() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-base sm:text-lg leading-relaxed text-muted-foreground">
-            Together, we can build high-performance web systems and scale search visibility. Let&apos;s collaborate to turn your digital presence into measurable business revenue.
+            Tell me where the numbers stall — traffic, enquiries, or revenue — and we&apos;ll map the smallest connected system that unstalls them. One partner, one plan, measurable steps.
           </p>
 
           <div className="mt-8 flex justify-center">

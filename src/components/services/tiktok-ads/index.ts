@@ -1,9 +1,0 @@
-export { TiktokAdsHero } from "./TiktokAdsHero";
-export { TiktokAdsOffer } from "./TiktokAdsOffer";
-export { TiktokAdsWhyItMatters } from "./TiktokAdsWhyItMatters";
-export { TiktokAdsWhyChooseMe } from "./TiktokAdsWhyChooseMe";
-export { TiktokAdsProcess } from "./TiktokAdsProcess";
-export { TiktokAdsPricing } from "./TiktokAdsPricing";
-export { TiktokAdsServiceAreas } from "./TiktokAdsServiceAreas";
-export { TiktokAdsFAQ } from "./TiktokAdsFAQ";
-export { TiktokAdsCTA } from "./TiktokAdsCTA";
