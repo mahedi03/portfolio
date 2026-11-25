@@ -13,7 +13,7 @@ export const SITE_URL: string =
 export const SITE_LOCALE: string = siteConfig.locale;
 export const SITE_TWITTER: string = "@mahedi_perves";
 export const SITE_OG_IMAGE: string = siteConfig.ogImage;
-export const SITE_ICON: string = "/Mahedi Hasan-transparent.webp";
+export const SITE_ICON: string = "/favicon.ico";
 
 /** Absolute URL helper that also hard-truncates trailing slashes. */
 export const absoluteSiteUrl = absoluteUrl;

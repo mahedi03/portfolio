@@ -18,4 +18,3 @@ export { ServiceFAQ } from "./ServiceFAQ";
 export { RelatedServices } from "./RelatedServices";
 export { ServiceCTA } from "./ServiceCTA";
 export { AnimatedServiceIcon } from "./AnimatedServiceIcon";
-export { SeoServicesContent } from "./SeoServicesContent";

@@ -62,26 +62,26 @@ export function ExperienceSection() {
   };
 
   return (
-    <section id="experience" className="relative py-20 lg:py-28 overflow-hidden">
+    <section id="experience" className="relative py-14 sm:py-20 lg:py-24 overflow-hidden">
       <Container className="relative z-10">
         {/* Sleek Dark Obsidian Card matching frame_06 of video */}
         <div
           onMouseMove={handleMouseMove}
           onMouseLeave={() => setHoveredIndex(null)}
-          className="relative overflow-hidden rounded-3xl border border-white/10 bg-[#121318] p-8 sm:p-12 lg:p-16 shadow-2xl"
+          className="relative overflow-hidden rounded-3xl border border-white/10 bg-[#121318] p-5 sm:p-10 lg:p-14 shadow-2xl"
         >
           {/* Giant Faint Watermark behind the card */}
           <div
             aria-hidden
-            className="pointer-events-none absolute -top-4 left-6 sm:left-10 select-none text-[clamp(4.2rem,11vw,11rem)] font-display font-black uppercase tracking-[-0.05em] text-white/[0.03] leading-none z-0"
+            className="pointer-events-none absolute -top-4 left-4 sm:left-10 select-none text-[clamp(3.25rem,11vw,11rem)] font-display font-black uppercase tracking-[-0.05em] text-white/[0.03] leading-none z-0"
           >
             EXPERIENCE
           </div>
 
           <div className="relative z-10">
             {/* Header with /EXPERIENCE and Right Badge */}
-            <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 border-b border-white/10 pb-8">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-black tracking-tight text-white uppercase">
+            <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 border-b border-white/10 pb-6 sm:pb-8">
+              <h2 className="text-2xl sm:text-4xl lg:text-[2.75rem] xl:text-5xl font-display font-black tracking-tight text-white uppercase">
                 /EXPERIENCE
               </h2>
               <span className="text-sm sm:text-base font-semibold text-muted-foreground">
@@ -95,10 +95,10 @@ export function ExperienceSection() {
                 <div
                   key={item.id}
                   onMouseEnter={() => setHoveredIndex(index)}
-                  className="group flex flex-col sm:flex-row sm:items-center justify-between py-7 sm:py-9 transition-colors cursor-pointer"
+                  className="group flex flex-col sm:flex-row sm:items-center justify-between gap-2 py-5 sm:py-8 transition-colors cursor-pointer"
                 >
                   <div>
-                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-display font-bold text-white transition-colors group-hover:text-emerald-400">
+                    <h3 className="text-lg sm:text-2xl lg:text-3xl font-display font-bold text-white transition-colors group-hover:text-emerald-400">
                       {item.company === "FrameCipher" ? (
                         <a
                           href="https://framecipher.info"

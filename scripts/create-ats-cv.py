@@ -1,151 +1,437 @@
-from reportlab.lib.enums import TA_CENTER
+# pyright: reportMissingImports=false, reportMissingTypeStubs=false
+
+import shutil
+from reportlab.lib import colors
+from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT, TA_RIGHT
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
-from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, HRFlowable
-from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
-from reportlab.lib import colors
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.platypus import (
+    HRFlowable,
+    Paragraph,
+    SimpleDocTemplate,
+    Spacer,
+    Table,
+    TableStyle,
+)
+
+OUTPUT_PRIMARY = "public/cv/mahedi-hasan-cv.pdf"
+OUTPUT_ATS = "public/cv/mahedi-hasan-cv-ats.pdf"
+
+NAVY = colors.HexColor("#0F172A")
+ACCENT = colors.HexColor("#1D4ED8")
+BODY = colors.HexColor("#1E293B")
+MUTED = colors.HexColor("#475569")
+RULE = colors.HexColor("#CBD5E1")
 
 
-OUTPUT = "public/cv/mahedi-hasan-cv-ats.pdf"
-
-
-def register_font():
+def register_fonts():
     candidates = [
-        (r"C:\Windows\Fonts\arial.ttf", r"C:\Windows\Fonts\arialbd.ttf"),
-        (r"C:\Windows\Fonts\segoeui.ttf", r"C:\Windows\Fonts\segoeuib.ttf"),
+        (
+            r"C:\Windows\Fonts\calibri.ttf",
+            r"C:\Windows\Fonts\calibrib.ttf",
+            r"C:\Windows\Fonts\calibrii.ttf",
+        ),
+        (
+            r"C:\Windows\Fonts\segoeui.ttf",
+            r"C:\Windows\Fonts\segoeuib.ttf",
+            r"C:\Windows\Fonts\segoeuii.ttf",
+        ),
+        (
+            r"C:\Windows\Fonts\arial.ttf",
+            r"C:\Windows\Fonts\arialbd.ttf",
+            r"C:\Windows\Fonts\ariali.ttf",
+        ),
     ]
-    for regular_path, bold_path in candidates:
+    for reg, bold, italic in candidates:
         try:
-            pdfmetrics.registerFont(TTFont("CVSans", regular_path))
-            pdfmetrics.registerFont(TTFont("CVSans-Bold", bold_path))
-            return "CVSans", "CVSans-Bold"
+            pdfmetrics.registerFont(TTFont("CVFont", reg))
+            pdfmetrics.registerFont(TTFont("CVFont-Bold", bold))
+            pdfmetrics.registerFont(TTFont("CVFont-Italic", italic))
+            pdfmetrics.registerFontFamily(
+                "CVFont",
+                normal="CVFont",
+                bold="CVFont-Bold",
+                italic="CVFont-Italic",
+                boldItalic="CVFont-Bold",
+            )
+            return "CVFont", "CVFont-Bold", "CVFont-Italic"
         except Exception:
             continue
-    return "Helvetica", "Helvetica-Bold"
+    return "Helvetica", "Helvetica-Bold", "Helvetica-Oblique"
 
 
-FONT, FONT_BOLD = register_font()
+FONT, FONT_BOLD, FONT_ITALIC = register_fonts()
 
+PAGE_W, PAGE_H = letter
+MARGIN_X = 0.54 * inch
+MARGIN_Y = 0.36 * inch
+CONTENT_W = PAGE_W - 2 * MARGIN_X
 
-styles = getSampleStyleSheet()
+base = getSampleStyleSheet()
+
 name_style = ParagraphStyle(
-    "Name", parent=styles["Normal"], fontName=FONT_BOLD, fontSize=19,
-    leading=22, alignment=TA_CENTER, textColor=colors.black, spaceAfter=3,
+    "Name",
+    parent=base["Normal"],
+    fontName=FONT_BOLD,
+    fontSize=20,
+    leading=23,
+    alignment=TA_CENTER,
+    textColor=NAVY,
+    spaceAfter=2,
 )
+
+headline_style = ParagraphStyle(
+    "Headline",
+    parent=base["Normal"],
+    fontName=FONT_BOLD,
+    fontSize=9.3,
+    leading=12,
+    alignment=TA_CENTER,
+    textColor=ACCENT,
+    spaceAfter=3,
+)
+
 contact_style = ParagraphStyle(
-    "Contact", parent=styles["Normal"], fontName=FONT, fontSize=8.2,
-    leading=10.5, alignment=TA_CENTER, textColor=colors.black, spaceAfter=7,
+    "Contact",
+    parent=base["Normal"],
+    fontName=FONT,
+    fontSize=8.5,
+    leading=11.5,
+    alignment=TA_CENTER,
+    textColor=MUTED,
+    spaceAfter=5,
 )
+
 section_style = ParagraphStyle(
-    "Section", parent=styles["Heading2"], fontName=FONT_BOLD, fontSize=10.5,
-    leading=12.5, textColor=colors.black, spaceBefore=6, spaceAfter=4,
+    "Section",
+    parent=base["Normal"],
+    fontName=FONT_BOLD,
+    fontSize=9.8,
+    leading=12,
+    textColor=NAVY,
+    spaceBefore=5.5,
+    spaceAfter=1.5,
 )
+
 body_style = ParagraphStyle(
-    "Body", parent=styles["Normal"], fontName=FONT, fontSize=8.3,
-    leading=10.4, textColor=colors.black, spaceAfter=2,
+    "Body",
+    parent=base["Normal"],
+    fontName=FONT,
+    fontSize=8.8,
+    leading=11.6,
+    alignment=TA_JUSTIFY,
+    textColor=BODY,
+    spaceAfter=2,
 )
-job_style = ParagraphStyle(
-    "Job", parent=body_style, fontName=FONT_BOLD, fontSize=9,
-    leading=11, spaceBefore=4, spaceAfter=1,
+
+body_left_style = ParagraphStyle(
+    "BodyLeft",
+    parent=body_style,
+    alignment=TA_LEFT,
+    spaceAfter=0,
 )
-sub_style = ParagraphStyle(
-    "Sub", parent=body_style, fontSize=8.2, leading=10.2, spaceAfter=1,
-)
+
 bullet_style = ParagraphStyle(
-    "Bullet", parent=body_style, leftIndent=10, firstLineIndent=-7,
-    bulletIndent=0, spaceAfter=1,
+    "Bullet",
+    parent=body_style,
+    alignment=TA_JUSTIFY,
+    leftIndent=13,
+    firstLineIndent=0,
+    bulletIndent=3,
+    bulletFontName=FONT_BOLD,
+    bulletFontSize=8.8,
+    spaceAfter=1.6,
+)
+
+job_company_style = ParagraphStyle(
+    "JobCompany",
+    parent=body_left_style,
+    fontName=FONT_BOLD,
+    fontSize=9.5,
+    leading=12,
+    textColor=NAVY,
+    spaceAfter=0,
+)
+
+job_role_style = ParagraphStyle(
+    "JobRole",
+    parent=body_left_style,
+    fontName=FONT_ITALIC,
+    fontSize=8.7,
+    leading=11,
+    textColor=MUTED,
+    spaceAfter=0,
+)
+
+right_meta_style = ParagraphStyle(
+    "RightMeta",
+    parent=body_left_style,
+    fontName=FONT_BOLD,
+    fontSize=8.7,
+    leading=12,
+    alignment=TA_RIGHT,
+    textColor=NAVY,
+    spaceAfter=0,
+)
+
+right_sub_style = ParagraphStyle(
+    "RightSub",
+    parent=body_left_style,
+    fontName=FONT,
+    fontSize=8.5,
+    leading=11,
+    alignment=TA_RIGHT,
+    textColor=MUTED,
+    spaceAfter=0,
+)
+
+skill_label_style = ParagraphStyle(
+    "SkillLabel",
+    parent=body_left_style,
+    fontName=FONT_BOLD,
+    fontSize=8.7,
+    leading=11.4,
+    textColor=NAVY,
+    spaceAfter=0,
+)
+
+skill_val_style = ParagraphStyle(
+    "SkillVal",
+    parent=body_style,
+    fontName=FONT,
+    fontSize=8.7,
+    leading=11.4,
+    textColor=BODY,
+    spaceAfter=0,
 )
 
 
-def p(text, style=body_style):
-    return Paragraph(text, style)
+def add_section(story, title):
+    story.append(Paragraph(title.upper(), section_style))
+    story.append(HRFlowable(width="100%", thickness=0.7, color=RULE, spaceAfter=4))
 
 
-def bullet(text):
-    return Paragraph("- " + text, bullet_style)
+def add_bullet(story, text):
+    story.append(Paragraph(f"<bullet>&bull;</bullet>{text}", bullet_style))
+
+
+def add_job(story, company, role, location, dates, bullets):
+    header_table = Table(
+        [
+            [
+                Paragraph(company, job_company_style),
+                Paragraph(dates, right_meta_style),
+            ],
+            [
+                Paragraph(role, job_role_style),
+                Paragraph(location, right_sub_style),
+            ],
+        ],
+        colWidths=[CONTENT_W * 0.70, CONTENT_W * 0.30],
+    )
+    header_table.setStyle(
+        TableStyle(
+            [
+                ("LEFTPADDING", (0, 0), (-1, -1), 0),
+                ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                ("TOPPADDING", (0, 0), (-1, -1), 0),
+                ("BOTTOMPADDING", (0, 0), (-1, 0), 0.5),
+                ("BOTTOMPADDING", (0, 1), (-1, 1), 3),
+                ("VALIGN", (0, 0), (-1, -1), "BOTTOM"),
+            ]
+        )
+    )
+    story.append(header_table)
+    for item in bullets:
+        add_bullet(story, item)
+    story.append(Spacer(1, 4))
+
+
+def add_edu_row(story, degree, school, dates):
+    tbl = Table(
+        [
+            [
+                Paragraph(f"<b>{degree}</b>, {school}", body_left_style),
+                Paragraph(dates, right_sub_style),
+            ]
+        ],
+        colWidths=[CONTENT_W * 0.76, CONTENT_W * 0.24],
+    )
+    tbl.setStyle(
+        TableStyle(
+            [
+                ("LEFTPADDING", (0, 0), (-1, -1), 0),
+                ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                ("TOPPADDING", (0, 0), (-1, -1), 0),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 2.5),
+                ("VALIGN", (0, 0), (-1, -1), "BOTTOM"),
+            ]
+        )
+    )
+    story.append(tbl)
 
 
 story = []
-story.append(p("MAHEDI HASAN", name_style))
-story.append(p(
-    "Founder, FrameCipher | Digital Marketing Strategist | Technical SEO Specialist | Media Buyer | Web Developer<br/>"
-    "Dhaka, Bangladesh | +880 1636-407711 | pervesmahedi@gmail.com<br/>"
-    "LinkedIn: linkedin.com/in/mahedi-hasan003 | Portfolio: mahedi.framecipher.info | Agency: framecipher.info",
-    contact_style,
-))
-story.append(HRFlowable(width="100%", thickness=0.6, color=colors.black, spaceAfter=5))
 
-story.append(p("PROFESSIONAL SUMMARY", section_style))
-story.append(p(
-    "Digital Marketing Strategist, Technical SEO Consultant, and Full-Stack Web Developer with 4+ years of hands-on experience and 50+ completed projects. Founder of FrameCipher and Co-Founder of Riha Web Tech. Experienced in SEO, semantic search, AEO/GEO, paid acquisition, conversion tracking, and web development. Built campaigns and web platforms with sub-2-second load times, 95+ Google Lighthouse scores, and 3.5x to 5.2x ROAS results.",
-))
+# Header
+story.append(Paragraph("MAHEDI HASAN", name_style))
+story.append(
+    Paragraph(
+        "Growth Strategist  &bull;  Technical SEO Consultant  &bull;  Full-Stack Web Developer",
+        headline_style,
+    )
+)
+story.append(
+    Paragraph(
+        'Dhaka, Bangladesh  &bull;  +880 1636-407711  &bull;  '
+        '<a href="mailto:pervesmahedi@gmail.com" color="#1D4ED8">pervesmahedi@gmail.com</a><br/>'
+        '<a href="https://www.linkedin.com/in/mahedi-hasan003/" color="#1D4ED8">linkedin.com/in/mahedi-hasan003</a>'
+        '  &bull;  '
+        '<a href="https://mahedi.framecipher.info" color="#1D4ED8">mahedi.framecipher.info</a>'
+        '  &bull;  '
+        '<a href="https://framecipher.info" color="#1D4ED8">framecipher.info</a>',
+        contact_style,
+    )
+)
+story.append(HRFlowable(width="100%", thickness=1.2, color=NAVY, spaceAfter=4))
 
-story.append(p("CORE COMPETENCIES", section_style))
-for line in [
-    "SEO: Technical SEO audits, on-page SEO, off-page SEO, semantic SEO, topical maps, content clusters, entity optimization, schema markup, local SEO, Google Business Profile optimization, AEO/GEO.",
-    "Performance Marketing: Google Ads, Performance Max, Display, YouTube, Meta Ads, Facebook, Instagram, Advantage+, TikTok Ads, Pinterest Ads, LinkedIn Ads, retargeting, creative strategy, ROAS optimization.",
-    "Web Development: Next.js, React, TypeScript, Tailwind CSS, WordPress, custom themes, Elementor, Shopify, PHP, HTML5, CSS3, REST APIs, Git, GitHub, Core Web Vitals optimization.",
-    "Analytics and CRO: Meta Conversions API, Google Analytics 4, Google Tag Manager, Google Search Console, Semrush, Ahrefs, conversion rate optimization, first-party attribution.",
+# Professional Summary
+add_section(story, "Professional Summary")
+story.append(
+    Paragraph(
+        "Growth Strategist, Technical SEO Consultant, and Full-Stack Web Developer with 4+ years of hands-on experience delivering 50+ projects and generating BDT 15 Lakh+ in attributed client revenue. Founder of FrameCipher and former Co-Founder of Riha Web Tech. Specialized in semantic SEO, AI search optimization (AEO/GEO), full-funnel paid acquisition, server-side conversion tracking, and high-speed Next.js web platforms achieving 95+ Lighthouse scores and 3.5x to 5.2x ROAS.",
+        body_style,
+    )
+)
+
+# Core Competencies (clean 2-column table)
+add_section(story, "Core Competencies")
+skills_rows = [
+    (
+        "SEO & AI Search",
+        "Technical SEO audits, on-page & off-page SEO, Semantic SEO, topical maps, entity optimization, schema markup, Local SEO, Google Business Profile, AEO & GEO.",
+    ),
+    (
+        "Paid Advertising",
+        "Google Ads (Search, Shopping, PMax, YouTube), Meta Ads (Facebook, Instagram, Advantage+), TikTok Ads, Pinterest Ads, LinkedIn Ads, retargeting, ROAS optimization.",
+    ),
+    (
+        "Web Engineering",
+        "Next.js, React, TypeScript, Tailwind CSS, WordPress, custom themes, Shopify, PHP, HTML5, CSS3, REST APIs, Git/GitHub, Core Web Vitals optimization.",
+    ),
+    (
+        "Analytics & CRO",
+        "Meta Conversions API (CAPI), Google Analytics 4 (GA4), Google Tag Manager, Google Search Console, Semrush, Ahrefs, conversion rate optimization, attribution.",
+    ),
+]
+skills_table = Table(
+    [
+        [Paragraph(label, skill_label_style), Paragraph(val, skill_val_style)]
+        for label, val in skills_rows
+    ],
+    colWidths=[1.18 * inch, CONTENT_W - 1.18 * inch],
+)
+skills_table.setStyle(
+    TableStyle(
+        [
+            ("LEFTPADDING", (0, 0), (-1, -1), 0),
+            ("RIGHTPADDING", (0, 0), (0, -1), 8),
+            ("RIGHTPADDING", (1, 0), (1, -1), 0),
+            ("TOPPADDING", (0, 0), (-1, -1), 1.5),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 2.5),
+            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ]
+    )
+)
+story.append(skills_table)
+
+# Professional Experience
+add_section(story, "Professional Experience")
+
+add_job(
+    story,
+    "FrameCipher",
+    "Founder & Principal Web Architect",
+    "Dhaka, Bangladesh",
+    "2021 - Present",
+    [
+        "Founded and lead a digital growth and software engineering studio serving startups, SMEs, and international brands across the US, UK, UAE, and Bangladesh.",
+        "Architect scalable Next.js, WordPress, and Shopify platforms achieving sub-2-second load times and 95+ Google Lighthouse performance scores.",
+        "Deploy full-funnel Meta Ads and Google Ads campaigns wired with server-side Meta Conversions API (CAPI) and GA4 event deduplication.",
+        "Implement Semantic SEO and AEO/GEO frameworks so client sites rank cleanly on Google Search and earn citations across AI answer engines.",
+    ],
+)
+
+add_job(
+    story,
+    "Riha Web Tech",
+    "Co-Founder & Head of Growth Marketing",
+    "Mirpur, Dhaka, Bangladesh",
+    "2022 - July 2025",
+    [
+        "Directed organic search and paid acquisition across 50+ client projects, contributing to more than BDT 15 Lakh in attributed commercial revenue.",
+        "Executed Semantic SEO roadmaps using the Koray Tugberk Gubur framework, scaling client organic search impressions past 2 million per month.",
+        "Managed cross-channel Google Ads, Meta Ads, TikTok Ads, and Pinterest Ads campaigns consistently delivering 3.5x to 5.2x ROAS.",
+        "Engineered conversion-focused WordPress and Next.js landing architectures integrated with CRM pipelines and first-party lead attribution.",
+    ],
+)
+
+add_job(
+    story,
+    "WebTech - Website Design & Development",
+    "SEO Specialist & WordPress Developer",
+    "Dhaka, Bangladesh",
+    "Dec 2024 - Nov 2025",
+    [
+        "Led technical and on-page SEO audits, resolving crawl bottlenecks, canonical conflicts, and indexation issues for corporate client sites.",
+        "Built and optimized responsive WordPress websites focused on clean UX, Core Web Vitals speed, and lead conversion.",
+        "Partnered with design and engineering teams to align content architecture, search visibility, and clean production deployments.",
+    ],
+)
+
+# Education
+add_section(story, "Education")
+add_edu_row(
+    story,
+    "B.Sc. in Electrical and Electronic Engineering",
+    "American International University-Bangladesh (AIUB)",
+    "2024 - Present",
+)
+add_edu_row(
+    story,
+    "Higher Secondary Certificate (Science)",
+    "Adamjee Cantonment College, Dhaka",
+    "Feb 2021 - Aug 2023",
+)
+add_edu_row(
+    story,
+    "Secondary School Certificate (Science)",
+    "Adamjee Cantonment Public School, Dhaka",
+    "Jan 2016 - May 2020",
+)
+
+# Certifications
+add_section(story, "Certifications")
+for title, detail in [
+    ("Digital Marketing Certified", "Full-Funnel Acquisition, Strategy, and Attribution"),
+    ("SEO Certified", "Technical SEO, Semantic Search, and Topical Authority"),
+    ("Performance Advertising Certified", "Meta Ads, Google Ads, and TikTok Ads"),
 ]:
-    story.append(bullet(line))
-
-story.append(p("PROFESSIONAL EXPERIENCE", section_style))
-story.append(p("FrameCipher - Dhaka, Bangladesh", job_style))
-story.append(p("Founder and Principal Digital Growth Architect | January 2026 - Present", sub_style))
-for line in [
-    "Founded and operate a digital growth agency and software development company serving startups, small and medium-sized businesses, and enterprise brands.",
-    "Lead work across software engineering, UX/UI, semantic search optimization, SEO, and performance marketing.",
-    "Build scalable platforms with Next.js, WordPress, and Shopify while targeting sub-2-second load times and 95+ Google Lighthouse scores.",
-    "Deploy full-funnel Meta Ads and Google Ads campaigns with server-side Meta Conversions API tracking.",
-    "Implement AEO/GEO strategies to improve how client content and brand entities are discovered and cited by AI search systems.",
-]:
-    story.append(bullet(line))
-
-story.append(p("Riha Web Tech - Mirpur, Dhaka, Bangladesh", job_style))
-story.append(p("Co-Founder and Head of Growth Marketing | May 2025 - July 2026", sub_style))
-for line in [
-    "Directed performance marketing and organic search campaigns across 50+ client projects, contributing to more than BDT 15 Lakh in attributed commercial revenue.",
-    "Executed semantic SEO strategies using the Koray Tugberk Gubur Framework and built topical authority maps that grew organic search impressions to more than 2 million per month.",
-    "Managed Google Ads, Meta Ads, TikTok Ads, and Pinterest Ads campaigns producing 3.5x to 5.2x ROAS results.",
-    "Built topical authority clusters, pillar pages, and conversion-focused service landing pages for competitive global markets.",
-    "Engineered WordPress and Next.js platforms with lead attribution pipelines and CRM integrations.",
-]:
-    story.append(bullet(line))
-
-story.append(p("WebTech - Website Design and Development - Dhaka, Bangladesh", job_style))
-story.append(p("Search Engine Optimization Specialist and WordPress Developer | December 2024 - November 2025", sub_style))
-for line in [
-    "Led technical and on-page SEO audits, resolving crawl errors, canonical mismatches, and indexation issues for corporate clients.",
-    "Built and maintained high-performance WordPress websites focused on user experience, responsive design, and conversion optimization.",
-    "Coordinated with design and engineering teams to connect content marketing, search visibility, and clean code deployment.",
-]:
-    story.append(bullet(line))
-
-story.append(p("EDUCATION", section_style))
-story.append(p("Bachelor of Science in Electrical and Electronic Engineering, American International University-Bangladesh (AIUB) | 2024 - Present", body_style))
-story.append(p("Higher Secondary Certificate, Science, Adamjee Cantonment College, Dhaka | February 2021 - August 2023", body_style))
-story.append(p("Secondary School Certificate, Science, Adamjee Cantonment Public School, Dhaka | January 2016 - May 2020", body_style))
-
-story.append(p("CERTIFICATIONS", section_style))
-for line in [
-    "Digital Marketing Certified - Full-Funnel Acquisition, Strategy, and Attribution",
-    "SEO Certified - Technical SEO, Semantic Search, and Topical Authority",
-    "Social Media and Performance Advertising Certified - Meta, Google, and TikTok Ads",
-]:
-    story.append(bullet(line))
-
+    add_bullet(story, f"<b>{title}:</b> {detail}")
 
 doc = SimpleDocTemplate(
-    OUTPUT,
+    OUTPUT_PRIMARY,
     pagesize=letter,
-    rightMargin=0.62 * inch,
-    leftMargin=0.62 * inch,
-    topMargin=0.4 * inch,
-    bottomMargin=0.4 * inch,
-    title="Mahedi Hasan ATS Resume",
+    rightMargin=MARGIN_X,
+    leftMargin=MARGIN_X,
+    topMargin=MARGIN_Y,
+    bottomMargin=MARGIN_Y,
+    title="Mahedi Hasan - Resume",
     author="Mahedi Hasan",
 )
 doc.build(story)
-print(OUTPUT)
+shutil.copyfile(OUTPUT_PRIMARY, OUTPUT_ATS)
+print("Generated:", OUTPUT_PRIMARY, "and", OUTPUT_ATS)

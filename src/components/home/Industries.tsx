@@ -29,23 +29,23 @@ const outcomes = [
 
 export function Industries() {
   return (
-    <section className="relative py-20 lg:py-28 overflow-hidden">
+    <section className="relative py-14 sm:py-20 lg:py-24 overflow-hidden">
       {/* Watermark */}
       <div
         aria-hidden
-        className="pointer-events-none absolute -top-4 left-4 sm:left-12 select-none text-[clamp(4.5rem,12vw,12rem)] font-display font-black uppercase tracking-[-0.05em] text-white/[0.025] leading-none z-0"
+        className="pointer-events-none absolute -top-4 left-4 sm:left-12 select-none text-[clamp(3.5rem,12vw,12rem)] font-display font-black uppercase tracking-[-0.05em] text-white/[0.025] leading-none z-0"
       >
         INDUSTRIES
       </div>
 
       <Container className="relative z-10">
-        <Reveal className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
-          <h2 className="max-w-2xl text-3xl sm:text-4xl lg:text-5xl font-display font-black tracking-tight text-white uppercase leading-tight">
-            /INDUSTRIES — BUILT FOR AMBITIOUS TEAMS
+        <Reveal className="flex flex-col items-start justify-between gap-5 sm:gap-6 lg:flex-row lg:items-end">
+          <h2 className="max-w-2xl text-2xl sm:text-4xl lg:text-[2.75rem] xl:text-5xl font-display font-black tracking-tight text-white uppercase leading-tight">
+            /INDUSTRIES: BUILT FOR AMBITIOUS TEAMS
           </h2>
           <p className="max-w-xl text-sm leading-relaxed text-muted-foreground sm:text-base lg:pb-1">
             The vertical changes; the system doesn&apos;t. Strategy, website, content, and
-            media always work as one machine — here&apos;s how it translates per industry.
+            media always work as one machine. Here&apos;s how it translates per industry.
           </p>
         </Reveal>
 

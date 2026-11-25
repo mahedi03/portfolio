@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Search } from "lucide-react";
 import { caseStudies } from "@/data/caseStudies";
 import { Container } from "@/components/ui/container";
 import { motion } from "framer-motion";
@@ -19,11 +19,21 @@ const filterOptions: { id: CategoryFilter; label: string }[] = [
 
 export function CaseStudiesList() {
   const [activeFilter, setActiveFilter] = useState<CategoryFilter>("all");
+  const [search, setSearch] = useState("");
 
   const filteredStudies = useMemo(() => {
-    if (activeFilter === "all") return caseStudies;
-    return caseStudies.filter((cs) => cs.category === activeFilter);
-  }, [activeFilter]);
+    return caseStudies.filter((cs) => {
+      const matchesCategory = activeFilter === "all" || cs.category === activeFilter;
+      const q = search.trim().toLowerCase();
+      const matchesSearch =
+        q === "" ||
+        cs.title.toLowerCase().includes(q) ||
+        cs.client.toLowerCase().includes(q) ||
+        cs.industry.toLowerCase().includes(q) ||
+        cs.summary.toLowerCase().includes(q);
+      return matchesCategory && matchesSearch;
+    });
+  }, [activeFilter, search]);
 
   return (
     <section className="relative py-12 lg:py-20 overflow-hidden">
@@ -71,8 +81,16 @@ export function CaseStudiesList() {
             })}
           </div>
 
-          <div className="text-xs text-muted-foreground">
-            Displaying <span className="text-white font-semibold">{filteredStudies.length}</span> proven case studies
+          <div className="relative w-full sm:w-72">
+            <Search className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
+            <input
+              type="search"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search client, industry, or topic..."
+              aria-label="Search case studies"
+              className="w-full rounded-full border border-border/80 bg-surface/60 pl-10 pr-4 py-2.5 text-xs sm:text-sm text-foreground placeholder:text-muted-foreground backdrop-blur-md focus:border-white/50 focus:outline-none focus:ring-1 focus:ring-white/50 transition-all"
+            />
           </div>
         </div>
 

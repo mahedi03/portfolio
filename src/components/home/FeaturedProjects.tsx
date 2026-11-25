@@ -30,20 +30,20 @@ export function FeaturedProjects() {
   });
 
   return (
-    <section id="work" className="relative py-20 lg:py-28 overflow-hidden">
+    <section id="work" className="relative py-14 sm:py-20 lg:py-24 overflow-hidden">
       {/* 1. Giant Faint Watermark behind the section */}
       <div
         aria-hidden
-        className="pointer-events-none absolute -top-4 left-4 sm:left-12 select-none text-[clamp(4.5rem,12vw,12rem)] font-display font-black uppercase tracking-[-0.05em] text-white/[0.025] leading-none z-0"
+        className="pointer-events-none absolute -top-4 left-4 sm:left-12 select-none text-[clamp(3.75rem,12vw,12rem)] font-display font-black uppercase tracking-[-0.05em] text-white/[0.025] leading-none z-0"
       >
         PORTFOLIO
       </div>
 
       <Container className="relative z-10">
         {/* 2. Top Header Row with /SELECTED WORK and View All Work Button */}
-        <Reveal className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+        <Reveal className="flex flex-col items-start justify-between gap-5 sm:gap-6 sm:flex-row sm:items-end">
           <div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-black tracking-tight text-white uppercase">
+            <h2 className="text-2xl sm:text-4xl lg:text-[2.75rem] xl:text-5xl font-display font-black tracking-tight text-white uppercase">
               /SELECTED WORK
             </h2>
             <p className="mt-3 max-w-lg text-base sm:text-lg leading-relaxed text-muted-foreground">
@@ -53,7 +53,7 @@ export function FeaturedProjects() {
 
           <Link
             href="/portfolio"
-            className="group inline-flex items-center gap-2 rounded-full border border-border/80 bg-surface/80 backdrop-blur-md px-5 py-2.5 text-sm font-semibold text-foreground transition-all duration-300 hover:border-white/40 hover:bg-white hover:text-black hover:scale-105 shadow-sm"
+            className="group inline-flex shrink-0 items-center gap-2 rounded-full border border-border/80 bg-surface/80 backdrop-blur-md px-5 py-2.5 text-sm font-semibold text-foreground transition-all duration-300 hover:border-white/40 hover:bg-white hover:text-black hover:scale-105 shadow-sm"
           >
             <span>View All Work</span>
             <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

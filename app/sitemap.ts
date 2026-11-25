@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
 
   const staticRoutes: MetadataRoute.Sitemap = [
-    { url: `${base}/`, lastModified: routeLastmod("/"), changeFrequency: "weekly", priority: 1 },
+    { url: base, lastModified: routeLastmod("/"), changeFrequency: "weekly", priority: 1 },
     { url: `${base}/about`, lastModified: routeLastmod("/about"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/services`, lastModified: routeLastmod("/services"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/portfolio`, lastModified: routeLastmod("/portfolio"), changeFrequency: "weekly", priority: 0.8 },

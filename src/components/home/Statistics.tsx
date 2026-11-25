@@ -34,9 +34,9 @@ function AnimatedCounter({ value, suffix, prefix }: { value: number; suffix?: st
 
 export function Statistics() {
   return (
-    <section className="border-y border-border bg-surface py-16">
+    <section className="border-y border-border bg-surface py-12 sm:py-16">
       <Container>
-        <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-6 sm:gap-8 lg:grid-cols-4">
           {statistics.map((stat, i) => (
             <motion.div
               key={stat.label}
@@ -46,10 +46,10 @@ export function Statistics() {
               transition={{ duration: 0.4, delay: i * 0.08 }}
               className="text-center"
             >
-              <div className="font-display text-3xl font-bold text-primary lg:text-4xl">
+              <div className="font-display text-2xl sm:text-3xl font-bold text-primary lg:text-4xl">
                 <AnimatedCounter value={stat.value} suffix={stat.suffix} prefix={stat.prefix} />
               </div>
-              <div className="mt-2 text-base leading-7 text-muted-foreground">
+              <div className="mt-1.5 sm:mt-2 text-sm sm:text-base leading-6 sm:leading-7 text-muted-foreground">
                 {stat.label}
               </div>
             </motion.div>

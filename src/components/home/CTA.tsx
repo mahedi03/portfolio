@@ -5,9 +5,9 @@ import { Reveal } from "@/components/shared/Reveal";
 
 export function CTA() {
   return (
-    <section className="relative py-20 lg:py-28 overflow-hidden">
+    <section className="relative py-14 sm:py-20 lg:py-24 overflow-hidden">
       <Container>
-        <Reveal className="relative overflow-hidden rounded-3xl border border-white/10 bg-surface/50 backdrop-blur-xl px-8 py-16 sm:py-20 lg:py-24 text-center shadow-2xl">
+        <Reveal className="relative overflow-hidden rounded-3xl border border-white/10 bg-surface/50 backdrop-blur-xl px-5 sm:px-8 py-12 sm:py-16 lg:py-20 text-center shadow-2xl">
           {/* Subtle glow */}
           <div
             aria-hidden
@@ -25,18 +25,18 @@ export function CTA() {
             </div>
           </div>
 
-          <h2 className="mt-6 text-3xl sm:text-4xl lg:text-6xl font-display font-black tracking-tight text-white uppercase">
+          <h2 className="mt-6 text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-black tracking-tight text-white uppercase">
             HAVE A PROJECT IN MIND?
           </h2>
 
-          <p className="mx-auto mt-4 max-w-2xl text-base sm:text-lg leading-relaxed text-muted-foreground">
-            Tell me where the numbers stall — traffic, enquiries, or revenue — and we&apos;ll map the smallest connected system that unstalls them. One partner, one plan, measurable steps.
+          <p className="mx-auto mt-4 max-w-2xl text-sm sm:text-base lg:text-lg leading-relaxed text-muted-foreground">
+            Tell me where the numbers stall (traffic, enquiries, or revenue) and we&apos;ll map the smallest connected system that unstalls them. One partner, one plan, measurable steps.
           </p>
 
-          <div className="mt-8 flex justify-center">
+          <div className="mt-7 sm:mt-8 flex justify-center">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-4 text-sm font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-white/90 shadow-[0_8px_25px_rgba(255,255,255,0.25)]"
+              className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 sm:py-4 text-sm font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-white/90 shadow-[0_8px_25px_rgba(255,255,255,0.25)]"
             >
               <span>Contact Me</span>
               <ArrowUpRight className="size-4" />

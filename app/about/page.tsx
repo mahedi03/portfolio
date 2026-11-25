@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { faqSchema, breadcrumbSchema, webPageSchema } from "@/lib/seo";
+import { absoluteSiteUrl } from "@/lib/seo/site";
 import { aboutFAQs } from "@/data/faq";
 import { AboutHero } from "@/components/about/AboutHero";
 import { LeadershipRole } from "@/components/about/LeadershipRole";
@@ -36,6 +37,13 @@ export default function AboutPage() {
             breadcrumbPath: "/about",
           }),
           faqSchema(aboutFAQs),
+          {
+            "@context": "https://schema.org",
+            "@type": "ProfilePage",
+            "@id": `${absoluteSiteUrl("/about")}#profilepage`,
+            url: absoluteSiteUrl("/about"),
+            mainEntity: { "@id": `${absoluteSiteUrl("/about")}#person` },
+          },
         ]}
       />
       <AboutHero />

@@ -39,30 +39,30 @@ export default function ContactPage() {
       />
       <ContactHero />
 
-      <section className="py-16 lg:py-24">
-        <Container className="grid grid-cols-1 gap-12 lg:grid-cols-3">
-          <Reveal className="lg:col-span-2">
+      <section className="py-12 sm:py-16 lg:py-20">
+        <Container className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-10">
+          <Reveal className="lg:col-span-7 xl:col-span-8">
             <ContactForm />
           </Reveal>
 
-          <Reveal delay={0.1}>
+          <Reveal delay={0.1} className="lg:col-span-5 xl:col-span-4">
             <OfficeLocationCard />
           </Reveal>
         </Container>
       </section>
 
-      <section className="border-t border-border bg-surface/50 py-20 lg:py-24">
+      <section className="border-t border-border/80 bg-surface/40 py-14 sm:py-20 lg:py-24">
         <Container className="max-w-3xl">
           <Reveal className="text-center">
-            <h2 className="text-[length:var(--text-h2)] font-display font-bold tracking-tight text-foreground">
+            <h2 className="text-2xl sm:text-4xl font-display font-black tracking-tight text-white">
               Frequently Asked Questions
             </h2>
-            <p className="mt-3 text-sm text-muted-foreground">
+            <p className="mt-3 text-sm sm:text-base text-muted-foreground">
               Common questions about working together, timelines, project handoffs, and deliverables.
             </p>
           </Reveal>
-          <Reveal delay={0.1} className="mt-10">
-            <FAQAccordion items={generalFAQs} />
+          <Reveal delay={0.1} className="mt-8 sm:mt-10">
+            <FAQAccordion items={generalFAQs} large />
           </Reveal>
         </Container>
       </section>

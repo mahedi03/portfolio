@@ -80,7 +80,7 @@ export function Header() {
                 <Link
                   href={item.href}
                   onClick={() => setOpenMegaMenu(null)}
-                  className="flex items-center gap-1 rounded-md px-4 py-2 text-base font-medium text-foreground/80 transition-colors hover:bg-muted hover:text-foreground"
+                  className="flex items-center gap-1 whitespace-nowrap rounded-md px-3 xl:px-4 py-2 text-sm xl:text-base font-medium text-foreground/80 transition-colors hover:bg-muted hover:text-foreground"
                   aria-expanded={item.children ? openMegaMenu === item.label : undefined}
                   aria-haspopup={item.children ? "true" : undefined}
                 >
@@ -104,7 +104,7 @@ export function Header() {
                       transition={{ duration: 0.15 }}
                       className="fixed left-1/2 top-[4.5rem] z-50 w-[min(1120px,calc(100vw-2rem))] -translate-x-1/2 overflow-hidden rounded-2xl border border-border bg-card p-3 shadow-elevated"
                     >
-                      <div className="grid min-h-[420px] grid-cols-[0.85fr_1.15fr_0.9fr] gap-3">
+                      <div className="grid min-h-[380px] grid-cols-[0.85fr_1.15fr] xl:grid-cols-[0.85fr_1.15fr_0.9fr] gap-3">
                         <div className="max-h-[min(70vh,620px)] overflow-y-auto rounded-xl bg-muted/50 p-2">
                           <div className="px-3 pb-2 pt-2 text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">Explore services</div>
                           <div className="space-y-1">
@@ -156,7 +156,7 @@ export function Header() {
                           );
                         })()}
 
-                        <div className="relative hidden overflow-hidden rounded-xl bg-gradient-to-br from-primary/10 via-primary/5 to-accent/20 p-6 lg:block">
+                        <div className="relative hidden overflow-hidden rounded-xl bg-gradient-to-br from-primary/10 via-primary/5 to-accent/20 p-6 xl:block">
                           <div className="absolute -right-10 -top-10 size-36 rounded-full bg-primary/15 blur-2xl" />
                           <div className="relative flex h-full flex-col justify-between">
                             <div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export function AmbientBackground() {
   const [mousePosition, setMousePosition] = useState<{ x: number; y: number } | null>(null);
@@ -55,6 +56,20 @@ export function AmbientBackground() {
       <div className="ambient-orb ambient-orb-1 opacity-40" />
       <div className="ambient-orb ambient-orb-2 opacity-40" />
       <div className="ambient-orb ambient-orb-3 opacity-40" />
+
+      {/* Subtle atmospheric personal silhouette shadow centered across the page */}
+      <div
+        aria-hidden="true"
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[min(640px,90vw)] aspect-square [mask-image:radial-gradient(circle_closest-side_at_50%_50%,#000_20%,transparent_100%)]"
+      >
+        <Image
+          src="/mahedi-hasan-transparent.webp"
+          alt=""
+          fill
+          sizes="(max-width: 640px) 90vw, 640px"
+          className="object-contain object-center brightness-0 invert opacity-[0.03] blur-[2px]"
+        />
+      </div>
 
       {/* Modern subtle tech grid overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.015)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.015)_1px,transparent_1px)] bg-[size:48px_48px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />

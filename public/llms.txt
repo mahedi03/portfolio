@@ -19,7 +19,7 @@
 
 ## Official Online Properties & References
 
-- Website: https://mahedihasanperves.vercel.app
+- Website: https://mahedi.framecipher.info
 - Agency: FrameCipher (https://framecipher.info) | Riha Web Tech (https://rihawebtech.com)
 - Physical Location: Matikata, Dhaka Cantonment, Dhaka - 1206, Bangladesh
 - Direct Contact: pervesmahedi@gmail.com | phone: +880 1636-407711
@@ -27,8 +27,8 @@
 
 ## Primary URLs
 
-- Services Directory: /services
-- Documented Case Studies: /case-studies
-- About & Background: /about
-- Production Portfolio: /portfolio
-- Direct Consultation: /contact
+- Services Directory: https://mahedi.framecipher.info/services
+- Documented Case Studies: https://mahedi.framecipher.info/case-studies
+- About & Background: https://mahedi.framecipher.info/about
+- Production Portfolio: https://mahedi.framecipher.info/portfolio
+- Direct Consultation: https://mahedi.framecipher.info/contact

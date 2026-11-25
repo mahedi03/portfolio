@@ -8,13 +8,18 @@ export default function manifest(): MetadataRoute.Manifest {
     description: siteConfig.description,
     start_url: "/",
     display: "standalone",
-    background_color: "#ffffff",
+    background_color: "#0a0a0f",
     theme_color: "#0a0a0f",
     icons: [
       {
-        src: "/Mahedi Hasan-transparent.webp",
-        sizes: "any",
-        type: "image/webp",
+        src: "/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+      {
+        src: "/favicon.ico",
+        sizes: "48x48",
+        type: "image/x-icon",
       },
     ],
   };

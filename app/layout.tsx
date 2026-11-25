@@ -69,7 +69,7 @@ export default function RootLayout({
         <Script
           id="firebase-analytics"
           type="module"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               import { initializeApp } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js";

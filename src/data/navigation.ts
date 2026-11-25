@@ -23,6 +23,7 @@ export const serviceMegaMenuGroups = [
       { label: "Technical SEO", href: "/services/technical-seo", description: "Crawlability, indexation, and site health" },
       { label: "Local SEO", href: "/services/local-seo", description: "Rank in local maps and searches" },
       { label: "Off-Page SEO", href: "/services/off-page-seo", description: "Relevant links, digital PR, and authority growth" },
+      { label: "Guest Post Services", href: "/services/guest-post-services", description: "White-hat editorial guest posts on real sites" },
       { label: "SEO Content Writing", href: "/services/seo-content-writing", description: "Pages, blogs, and topical authority content" },
       { label: "Content Marketing", href: "/services/content-marketing", description: "Content clusters that rank and convert" },
     ],

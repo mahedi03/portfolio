@@ -106,7 +106,7 @@ export const caseStudies: CaseStudy[] = [
       "/case-studies/phone-fashion-fix/image-7.webp",
       "/case-studies/phone-fashion-fix/image-8.webp",
       "/case-studies/phone-fashion-fix/image-9.webp",
-      "/case-studies/phone-fashion-fix/image-10.png",
+      "/case-studies/phone-fashion-fix/image-10.webp",
     ],
     metrics: [
       { label: "Service pages ranked", before: "0 meaningful pages", after: "34 pages", change: "34" },

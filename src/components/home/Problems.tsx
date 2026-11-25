@@ -22,7 +22,7 @@ const problems = [
   {
     title: "AD BUDGET LEAKS QUIETLY",
     description:
-      "Campaigns go live before tracking, creative testing, and audience discipline are in place — spend keeps rising, signal keeps dropping.",
+      "Campaigns go live before tracking, creative testing, and audience discipline are in place. Spend keeps rising while signal keeps dropping.",
   },
   {
     title: "PUBLISHING RHYTHM KEEPS BREAKING",
@@ -43,43 +43,43 @@ const problems = [
 
 export function Problems() {
   return (
-    <section className="relative py-20 lg:py-28 overflow-hidden">
+    <section className="relative py-14 sm:py-20 lg:py-24 overflow-hidden">
       {/* Watermark */}
       <div
         aria-hidden
-        className="pointer-events-none absolute -top-4 left-4 sm:left-12 select-none text-[clamp(4.5rem,12vw,12rem)] font-display font-black uppercase tracking-[-0.05em] text-white/[0.025] leading-none z-0"
+        className="pointer-events-none absolute -top-4 left-4 sm:left-12 select-none text-[clamp(3.75rem,12vw,12rem)] font-display font-black uppercase tracking-[-0.05em] text-white/[0.025] leading-none z-0"
       >
         PROBLEM
       </div>
 
       <Container className="relative z-10">
         <Reveal>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-black tracking-tight text-white uppercase max-w-4xl leading-tight">
+          <h2 className="text-2xl sm:text-4xl lg:text-[2.75rem] xl:text-5xl font-display font-black tracking-tight text-white uppercase max-w-4xl leading-tight">
             /PROBLEM
           </h2>
           <p className="mt-4 max-w-3xl text-base sm:text-lg leading-relaxed text-muted-foreground">
-            You don&apos;t need another service subscription — you need one connected system
+            You don&apos;t need another service subscription. You need one connected system
             that carries strategy, website, content, and media in the same direction. These
             are the bottlenecks I&apos;m hired to remove.
           </p>
         </Reveal>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 sm:mt-12 grid gap-4 sm:gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {problems.map((problem, index) => (
             <Reveal key={problem.title} delay={index * 0.06}>
-              <article className="group flex h-full min-h-56 flex-col justify-between rounded-2xl border border-border bg-surface/60 p-6 backdrop-blur-md transition-all duration-300 hover:border-white/30 hover:bg-surface sm:p-8 shadow-sm">
+              <article className="group flex h-full min-h-48 sm:min-h-56 flex-col justify-between rounded-2xl border border-border bg-surface/60 p-5 sm:p-7 backdrop-blur-md transition-all duration-300 hover:border-white/30 hover:bg-surface shadow-sm">
                 <div>
                   <p
                     aria-hidden
-                    className="font-display text-5xl font-bold leading-none tracking-tighter text-white/10 transition-colors duration-300 group-hover:text-white/25 sm:text-6xl"
+                    className="font-display text-4xl sm:text-5xl font-bold leading-none tracking-tighter text-white/10 transition-colors duration-300 group-hover:text-white/25 lg:text-6xl"
                   >
                     {String(index + 1).padStart(2, "0")}
                   </p>
-                  <h3 className="mt-5 text-xl sm:text-2xl font-display font-black uppercase leading-tight tracking-tight text-white">
+                  <h3 className="mt-4 sm:mt-5 text-lg sm:text-xl xl:text-2xl font-display font-black uppercase leading-tight tracking-tight text-white">
                     {problem.title}
                   </h3>
                 </div>
-                <p className="mt-5 text-sm sm:text-base leading-relaxed text-muted-foreground">
+                <p className="mt-4 sm:mt-5 text-sm sm:text-base leading-relaxed text-muted-foreground">
                   {problem.description}
                 </p>
               </article>
@@ -87,9 +87,9 @@ export function Problems() {
           ))}
         </div>
 
-        <Reveal className="mt-12 flex flex-col items-start justify-between gap-5 border-t border-border/60 pt-10 sm:flex-row sm:items-center">
+        <Reveal className="mt-10 sm:mt-12 flex flex-col items-start justify-between gap-5 border-t border-border/60 pt-8 sm:pt-10 sm:flex-row sm:items-center">
           <p className="max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Fragmented execution is the expensive part — all the pieces exist, they just
+            Fragmented execution is the expensive part. All the pieces exist; they just
             never point at one result. One partner keeps the message, the build, and the
             campaigns pulling together.
           </p>

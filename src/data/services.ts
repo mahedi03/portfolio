@@ -132,20 +132,52 @@ export const services = [
     ],
     "metaTitle": "Website Development Services",
     "metaDescription": "Custom Next.js website development focused on speed, SEO, and conversions. Built for businesses that need a fast, scalable web presence.",
-    "heroHook": "Website Design & Development Services in Bangladesh\n\nCustom websites that load fast, look professional, and turn visitors into customers built by one in-house team for businesses across Bangladesh and worldwide. Get a free quote and see what we'd build for you.\n\nGet a Free Website Quote → \n\nWebsite Design & Development for Growing Businesses",
+    "heroHook": "Fast, conversion-focused websites built in Next.js, WordPress, or Shopify by one accountable developer, engineered for mobile speed, clean SEO architecture, and measurable lead generation.",
     "offerings": [
       {
-        "title": "Website design and development covers everything needed to plan, design, build, and launch a functional website for businesses that need a new site, a platform migration, or a full redesign of an underperforming one. It typically includes UI/UX design, front-end and back-end development, platform setup, content integration, and testing, and is best suited for businesses that want one accountable team rather than separate designers, developers, and platform specialists working in isolation.",
-        "description": "Business Website Development A structured, conversion-focused website for service businesses, professional firms, and local companies that need to establish credibility and generate inquiries. Includes homepage, service pages, about/contact pages, and a content structure built around what your customers actually search for, not a generic template with your logo swapped in. Ecommerce Website Development A store built to handle product catalogs, payment processing, and order management on Shopify, WooCommerce, Magento, or custom infrastructure, depending on catalog size and growth plans. For Bangladeshi merchants, this includes reviewing bKash and Nagad checkout compatibility as part of the build, not as an afterthought. Landing Page Development A single-purpose, high-conversion page built for a specific campaign, product launch, or ad traffic source. Stripped of navigation distractions and built around one clear action not a scaled-down version of your main site. WordPress Development Custom WordPress builds and theme development for businesses that want ongoing content control without depending on a developer for every update. Including plugin selection and security hardening, WordPress's flexibility is also why poorly configured sites become common attack targets. Wix Development Wix builds for businesses that want a fast, cost-effective launch with straightforward self-editing afterward. Best suited for smaller sites without complex custom functionality requirements. Magento Development Magento builds for larger product catalogs and businesses with complex inventory, multi-currency, or B2B pricing needs. Not recommended for small catalogs. Magento's overhead outweighs its benefits below a certain scale, and we'll tell you that directly rather than sell you infrastructure you don't need. Webflow Development Visually flexible, code-clean builds for design-forward businesses that want more creative control than WordPress templates typically allow, without needing a fully custom framework. Shopify Development Store builds and theme customization on Shopify's infrastructure are a strong fit for merchants who want reliable uptime and simplified backend management over full custom control. Custom / Next.js Development Fully custom-coded websites and web applications for businesses with specific performance, integration, or scalability needs that pre-built platforms can't accommodate. This is the more expensive, longer-timeline option appropriate when a template genuinely can't do what you need, not as a default recommendation. Website Redesign Rebuilding an existing site that's underperforming outdated design, poor mobile experience, slow load times, or a structure that's stopped matching how the business actually operates. Includes a review of what's worth keeping (rankings, content, backlinks) versus what needs to be rebuilt from scratch. Website Maintenance Ongoing updates, security monitoring, backups, and technical fixes after launch. Not included: content strategy or SEO campaign work, which fall under separate marketing services. Maintenance keeps the site running; it doesn't grow its traffic. UI/UX Design Interface and experience design wireframes, user flow mapping, and visual design are done before or alongside development so the site is planned around how real users navigate, not just how it looks in a mockup.",
-        "bullets": []
+        "title": "Custom Next.js & Modern Web Apps",
+        "description": "High-performance custom builds engineered for sub-2-second load times, Core Web Vitals 95+, and scalable integrations.",
+        "bullets": [
+          "Server-rendered Next.js & TypeScript architecture",
+          "Clean semantic HTML, structured data, and technical SEO baked in",
+          "Headless CMS, API, and custom conversion flow integrations"
+        ]
+      },
+      {
+        "title": "Conversion-Focused Business Websites",
+        "description": "Structured websites for service companies, startups, and B2B firms designed to establish credibility and turn visitors into qualified enquiries.",
+        "bullets": [
+          "Buyer-journey page architecture and clear service hierarchy",
+          "Mobile-first responsive design tested across breakpoints",
+          "Lead capture forms, WhatsApp/booking handoffs, and GA4 tracking"
+        ]
+      },
+      {
+        "title": "eCommerce Storefronts (Shopify & WooCommerce)",
+        "description": "Fast, friction-free online stores built around product discovery, clean checkout flows, and reliable order management.",
+        "bullets": [
+          "Shopify and WooCommerce store builds and theme customization",
+          "Local (bKash/Nagad/COD) and international payment gateway integration",
+          "Product feed, Meta CAPI, and purchase event tracking setup"
+        ]
+      },
+      {
+        "title": "Landing Pages & Website Redesigns",
+        "description": "High-converting campaign landing pages and full redesigns that fix outdated UX while protecting your existing SEO equity.",
+        "bullets": [
+          "Single-goal ad landing pages built for paid traffic ROAS",
+          "Full URL redirect mapping to preserve rankings during redesigns",
+          "Speed optimization, image compression, and Core Web Vitals remediation"
+        ]
       }
     ],
     "whyMatters": [
-      "A slow or confusing website doesn't just look unprofessional; it actively loses visitors before they see your offer, and that gap widens the longer it's left unaddressed, since competitors with better sites keep capturing the traffic and trust is missing. Mobile performance matters more than most businesses assume: a large share of Bangladeshi traffic is mobile-first, and a site that isn't built for that loses customers before they scroll past the homepage.",
-      "A common misunderstanding is treating a website as a one-time project rather than infrastructure that needs occasional updates, security patches, and periodic review as your business changes. Skipping maintenance doesn't save money; it usually costs more later, when a small fix becomes an emergency rebuild."
+      "Speed directly impacts revenue: a slow or confusing mobile website loses high-intent visitors before they ever read your offer, wasting both organic and paid traffic.",
+      "SEO and conversion start in the code: clean architecture, structured data, and clear user flows turn your website into a compounding sales asset rather than a static brochure."
     ],
     "whyChooseUs": [
-      "We work across WordPress, Shopify, Webflow, Magento, Wix, and custom Next.js development, so platform recommendations are based on what fits your business, not on which single platform we're limited to building on. We also serve both Bangladeshi businesses and international clients in the US, UK, Australia, and Canada, which means our process accounts for different market expectations and compliance needs, not a single template applied everywhere."
+      "Platform recommendations are based on your business goals across Next.js, WordPress, and Shopify, never forced into one rigid template.",
+      "Web development, technical SEO, and analytics tracking are engineered together so every launch is immediately ready for search and paid campaigns."
     ],
     "pricingTable": {
       "headers": [
@@ -329,20 +361,52 @@ export const services = [
     ],
     "metaTitle": "SEO Services for Business Growth",
     "metaDescription": "Grow organic traffic and qualified leads with data-driven SEO services built for sustainable search visibility and business growth.",
-    "heroHook": "Short Description (under H1): Rankings that actually convert, built on technical fixes, real content strategy, and visibility across both Google and AI search engines, handled by one in-house team. Get a free audit and see where you actually stand.\n\nA Website Nobody Finds Is a Website That Isn't Working\n\nTraffic doesn't show up because a website exists, it shows up because search engines can find it, trust it, and decide it deserves to rank above the competitor down the street. Mahedi Hasan provides SEO services for SMEs, startups, and ecommerce businesses in Bangladesh, and for international clients across the US, UK, Australia, Canada, and UAE, covering everything from technical fixes to AI search visibility, handled by one in-house team instead of a rotating cast of freelancers. Curious where your site currently stands? A free audit will tell you exactly what's holding it back.",
+    "heroHook": "Rankings that convert, built on technical health, topical authority, and visibility across both Google Search and AI answer engines, executed directly by one specialist.",
     "offerings": [
       {
-        "title": "Search engine optimization covers the technical, content, and authority work needed to get a website found on Google and increasingly cited by AI search tools, and it typically includes technical fixes, keyword strategy, content and link-building work, and local or international visibility depending on where your customers actually are. It's built for businesses that want sustainable, compounding visibility rather than a short-term traffic spike that disappears the moment work stops.",
-        "description": "Technical SEO The infrastructure work behind rankings site speed, crawlability, indexation, mobile performance, and structured data fixed at the source instead of patched around. On-Page SEO Content, headings, metadata, and internal linking optimized around what your customers actually search for, not keyword-stuffed guesswork. Off-Page SEO & Link Building Earning backlinks through outreach and relevance-based placements is the slow, defensible kind of authority-building that doesn't put your site at risk of a future penalty. Local SEO Visibility for businesses that serve a specific city or service area, including Google Business Profile management and the Google Map Pack. Ecommerce SEO Product and category page optimization built around buyer-intent search terms, not just informational traffic that never converts. International SEO Structuring a site to rank across multiple countries or languages, without the technical conflicts that come from doing it carelessly. SEO Audit A full technical, on-page, and backlink review delivered as a prioritized action plan, not a raw data dump you have to interpret yourself. SEO Strategy & Consulting Planning and guidance for businesses that want an expert-built roadmap, whether they're executing it in-house or through us. Keyword Research Identifying the terms your customers actually search, filtered by what your site can realistically compete for right now. AI Search Optimization (AEO/GEO) Structuring content so it gets cited by ChatGPT, Gemini, Perplexity, and other AI tools that are increasingly answering search queries directly. Google AdSense Approval Reviewing and fixing the site issues that most commonly cause AdSense rejection, before or after you've already applied. Penalty Recovery Diagnosing and reversing a Google penalty or algorithmic traffic drop, with a documented path back to where your rankings were.",
-        "bullets": []
+        "title": "Technical SEO & Site Health",
+        "description": "Fixing the underlying infrastructure that governs crawlability, indexation, site speed, mobile usability, and structured data.",
+        "bullets": [
+          "Full crawl, indexation, canonical, and redirect audits",
+          "Core Web Vitals optimization and render-blocking remediation",
+          "JSON-LD schema markup for organizations, services, products, and FAQs"
+        ]
+      },
+      {
+        "title": "Semantic SEO & Topical Authority",
+        "description": "Building structured topical maps, pillar pages, and internal link architectures that signal clear subject-matter authority to search engines.",
+        "bullets": [
+          "Entity-driven keyword research and search-intent clustering",
+          "Hub-and-spoke internal linking that strengthens commercial pages",
+          "Content briefs mapped to buyer questions and competitive gaps"
+        ]
+      },
+      {
+        "title": "On-Page & Commercial Page Optimization",
+        "description": "Aligning service pages, category pages, headings, and metadata with high-intent buyer searches so organic clicks turn into enquiries.",
+        "bullets": [
+          "Service and eCommerce category page optimization",
+          "Title tags, meta descriptions, and heading hierarchy refinement",
+          "Conversion path alignment so organic visitors take clear next steps"
+        ]
+      },
+      {
+        "title": "Local, Authority & AI Search (GEO/AEO)",
+        "description": "Expanding visibility across Google Map Packs, credible external mentions, and AI answer engines like ChatGPT, Gemini, and Perplexity.",
+        "bullets": [
+          "Answer-first content structuring for Google AI Overviews and LLMs",
+          "Ethical digital PR and relevance-based authority building",
+          "Google Search Console and GA4 conversion-focused monthly reporting"
+        ]
       }
     ],
     "whyMatters": [
-      "Every month a site stays technically broken or invisible to AI search tools, competitors who are already investing in SEO widen the gap, rankings compound the way debt does, just in the other direction, and catching up gets harder the longer it's left unaddressed. The payoff isn't abstract either: organic traffic converts at a meaningfully higher rate than most paid channels, because the person searching already has intent, not just curiosity.",
-      "A common misunderstanding treats SEO like a paid ad campaign, flip it on, see results, flip it off, results stop. It doesn't work that way. Organic visibility builds gradually and keeps producing results even in months you're not actively running other marketing, but it needs patience and consistent work, not a one-time setup you forget about."
+      "High-intent organic traffic compounds: unlike paid ads that stop the day spend pauses, strong technical and topical SEO keeps capturing buyer demand month after month.",
+      "Search now spans Google and AI answers: structuring your site for both classic SERPs and generative engines ensures competitors do not own the recommendations in your category."
     ],
     "whyChooseUs": [
-      "We work with Bangladeshi businesses and international clients across the US, UK, Australia, Canada, and UAE, which means our process accounts for different search behaviors and competitive landscapes rather than applying one market's playbook everywhere. AI search optimization is treated as a core service here, not an afterthought bolted onto traditional SEO, a growing share of queries now get answered without a click, and most agencies still haven't caught up to that shift."
+      "Built on semantic SEO and entity architecture rather than outdated keyword stuffing or risky link schemes.",
+      "Technical fixes are implemented cleanly alongside content and conversion optimization so rankings actually produce qualified leads."
     ],
     "pricingTable": {
       "headers": [
@@ -546,7 +610,7 @@ export const services = [
       "seo",
       "website-development"
     ],
-    "metaTitle": "Technical SEO Services",
+    "metaTitle": "Technical SEO Audit & Core Web Vitals Fixes",
     "metaDescription": "Technical SEO audits and fixes for crawlability, indexation, and Core Web Vitals — the foundation your rankings depend on.",
     "heroHook": "A technically strong website gives search engines a clearer path to crawl, understand, and index your important pages. Mahedi Hasan provides technical SEO services that identify and fix crawlability, indexation, performance, structured data, rendering, and architecture issues that can limit organic visibility. We work with businesses across Bangladesh and international markets, including the US, UK, Australia, Canada, and UAE.",
     "quote": "Most sites don't have a content problem. They have a foundation problem that content work can't fix, no matter how good the writing is.",
@@ -2972,7 +3036,7 @@ export const services = [
       "creative-content",
       "marketing-strategy"
     ],
-    "metaTitle": "Content Marketing",
+    "metaTitle": "Content Marketing & Topical Authority Strategy",
     "metaDescription": "Strategic content marketing built on pillar-and-cluster architecture — content that builds topical authority and ranks in search.",
     "heroHook": "Writing built to do something specific: rank, explain, persuade, sell, or build trust. Mahedi Hasan provides content writing services for SMEs, startups, ecommerce businesses, and established brands in Bangladesh and international markets. Our in-house team handles research, writing, editing, SEO integration, and revisions around the purpose of each piece.",
     "whyChooseUs": [
@@ -3107,7 +3171,7 @@ export const services = [
       "content-marketing",
       "analytics-tracking"
     ],
-    "metaTitle": "Marketing Strategy",
+    "metaTitle": "Full-Funnel Digital Marketing Strategy",
     "metaDescription": "Full-funnel marketing strategy connecting SEO, paid ads, content, and CRO into one aligned growth roadmap.",
     "heroHook": "Growth breaks down when marketing is fragmented across multiple uncoordinated vendors. Without an aligned 360 growth operating system, ad spend leaks from unoptimized landing pages, creative fails to convert, and attribution remains impossible. We build cohesive growth engines connecting strategy, creative, tech, and media.",
     "quote": "Tactics without strategy is the noise before defeat. Sustainable growth requires a predictable engine connecting brand offer, traffic acquisition, and customer retention.",
@@ -3266,7 +3330,7 @@ export const services = [
       "cro",
       "media-buying"
     ],
-    "metaTitle": "Analytics & Tracking",
+    "metaTitle": "GA4, GTM & Server-Side Analytics Tracking",
     "metaDescription": "GA4, Google Tag Manager, and server-side tracking implementation for accurate, privacy-resilient marketing data.",
     "heroHook": "Accurate tracking is the bedrock of profitable advertising and organic conversion. Without server-side tracking and verified conversion attribution, algorithms optimize blindly and ad budgets bleed. Mahedi Hasan engineers resilient tracking infrastructure using Google Tag Manager, GA4, Meta Conversions API (CAPI), and offline conversion imports.",
     "quote": "You cannot scale what you cannot accurately measure. In a post-iOS14 world, client-side browser pixels lose 20-40% of conversion signals. Server-side tracking restores truth to your ad spend.",
@@ -3807,36 +3871,54 @@ export const services = [
     ],
     "metaTitle": "Full-Stack Media Buying Services | Mahedi Hasan",
     "metaDescription": "Cross-channel media buying across Meta, Google, TikTok, LinkedIn, Pinterest, and ChatGPT Ads. Coordinated ad spend and conversion tracking.",
-    "heroHook": "Short Description (under H1): Ad spend should be accountable. Mahedi Hasan provides paid advertising services across Google, Meta, LinkedIn, TikTok, Microsoft, Amazon, and other relevant platforms, with campaigns built around leads, sales, bookings, and measurable business outcomes. We connect campaign strategy with creative, landing pages, conversion tracking, and ongoing optimization for businesses in Bangladesh and international markets.",
-    "quote": "Get Your Free Ad Account Audit",
+    "heroHook": "Accountable cross-channel media buying across Google, Meta, TikTok, LinkedIn, and Pinterest, connecting creative testing, landing pages, and server-side conversion tracking to real revenue.",
+    "quote": "The number that matters is never how many clicks happened; it is what those clicks turned into in qualified pipeline and revenue.",
     "offerings": [
       {
-        "title": "Paid advertising covers the strategy, creative, and ongoing management needed to turn ad spend into actual leads or sales, and it typically includes platform strategy, campaign setup, ad creative, landing page alignment, and continuous optimization based on real performance data, not just platform-reported vanity metrics. It's built for businesses that want spend treated as an investment with a measurable return, not a monthly line item nobody's fully accountable for.",
-        "description": "Google Ads Management Search and Shopping campaigns that capture people actively looking for what you sell, built around the terms and intent that actually drive purchases. Meta Ads Management Facebook and Instagram campaigns built around genuine buyer behavior and interest data, not just broad demographic guessing. LinkedIn Ads Management B2B-focused campaigns targeted by job title, industry, and company size, where the buyer research and decision-making around higher-consideration purchases actually happens. Pinterest Ads Management Visual discovery campaigns for businesses whose products or content fit how Pinterest users actually browse and plan purchases. ChatGPT Ads Management Advertising placements within ChatGPT and similar AI assistants as sponsored formats open up, an early-mover channel worth testing before it gets more competitive. TikTok Ads Management Short-form video campaigns built around the platform's specific content style and audience behavior, not a repurposed Instagram ad. Microsoft Ads Management Search campaigns on Bing and the Microsoft Search Network, often less competitive and lower-cost than Google Ads for the same search terms. Amazon Ads Management Sponsored product and brand campaigns built around Amazon's own search and buying behavior, for businesses selling directly on the platform. Remarketing Re-engaging people who've already shown interest, visited your site, added to cart, started a form, before that intent quietly disappears. Lead Generation Ads Campaigns built specifically around form fills and direct inquiries rather than ecommerce checkout, with lead quality treated as seriously as lead volume.",
-        "bullets": []
+        "title": "Paid Search (Google & Microsoft Ads)",
+        "description": "High-intent Search and Shopping campaigns structured to capture buyers actively searching for your product or service.",
+        "bullets": [
+          "Tight keyword clustering and ongoing negative keyword mining",
+          "Google Shopping feed optimization and Performance Max control",
+          "Landing page message alignment to boost Quality Score and lower CPC"
+        ]
+      },
+      {
+        "title": "Paid Social (Meta & TikTok Ads)",
+        "description": "Full-funnel social acquisition built around creative angle testing, audience discipline, and verified conversion signals.",
+        "bullets": [
+          "Structured prospecting, creative testing, and scaling campaigns",
+          "Native short-form video and static creative direction",
+          "Meta Conversions API (CAPI) and event deduplication setup"
+        ]
+      },
+      {
+        "title": "B2B & Discovery (LinkedIn, Pinterest & AI Ads)",
+        "description": "Precision channel expansion for B2B decision-makers, visual purchase planners, and emerging conversational AI placements.",
+        "bullets": [
+          "LinkedIn job-title, industry, and account-based lead campaigns",
+          "Pinterest visual discovery funnels for eCommerce and lifestyle brands",
+          "ChatGPT Ads readiness and context-hint campaign planning"
+        ]
+      },
+      {
+        "title": "Remarketing & Blended Attribution",
+        "description": "Closing the loop with high-intent site visitors while tracking true cost per acquisition across every active channel.",
+        "bullets": [
+          "Segmented retargeting for cart abandoners and warm visitors",
+          "Unified GA4, GTM, and Looker Studio performance dashboards",
+          "Weekly budget reallocation based on blended ROAS and lead quality"
+        ]
       }
     ],
     "whyMatters": [
-      "Every platform charges for something slightly different, and understanding that changes how a campaign should actually be built.",
-      "Search Platforms: Paying for Intent",
-      "Google Ads and Microsoft Ads charge when someone actively searching for what you offer clicks through, you're paying to reach people who've already expressed intent, which is why search campaigns often convert at a higher rate than platforms built around passive scrolling.",
-      "Social & Discovery Platforms: Paying for Attention",
-      "Meta, TikTok, and Pinterest charge based on reach and engagement among people who weren't necessarily looking for you, the campaign's job is to interrupt attention convincingly enough to create the intent search ads get to assume already exists.",
-      "LinkedIn: Paying for Precision",
-      "LinkedIn's targeting costs more per click than most platforms, but it buys access to job titles, industries, and company sizes that are hard to reach accurately anywhere else; the premium is for precision, not volume.",
-      "Amazon: Paying for Purchase-Ready Traffic",
-      "Amazon Ads put your product in front of people already in a buying mindset on the platform itself, competing directly against similar listings at the exact moment someone's deciding what to buy.",
-      "Remarketing: Paying to Close the Loop",
-      "Remarketing budgets are typically smaller but often carry the highest return, since you're spending to bring back someone who already showed real interest rather than trying to create interest from nothing.",
-      "AI Platform Ads: Paying for a Conversation",
-      "ChatGPT and similar AI assistants are early in monetizing sponsored placements, and the mechanic looks less like a search results page and more like being recommended inside an answer someone's actively asking for, a genuinely different kind of attention than a scroll feed or a search results list.",
-      "Most effective strategies blend a few of these deliberately, rarely all nine at once, based on where your specific buyers actually spend their attention, not which platforms happen to be trending.",
-      "Why This Service Matters",
-      "Every week a poorly structured campaign keeps running, budget keeps flowing toward clicks that were never going to convert, and unlike organic SEO, paid advertising doesn't compound in your favor if it's set up wrong, it just keeps costing money at the same rate until someone actually fixes it. The upside cuts the same way: a properly optimized campaign can start producing results almost immediately, which is the real advantage paid advertising has over slower-building organic channels.",
-      "A common misunderstanding treats ad platforms' own reported metrics, clicks, impressions, reach, as proof of success. A campaign can look excellent by every number the platform shows you and still be losing money once you check what actually happened after the click. The number that matters is what a click turned into, not how many happened."
+      "Search vs. social economics: search captures existing intent while social creates demand; blending channels deliberately prevents wasted spend and lowers blended acquisition cost.",
+      "Unmonitored campaigns leak budget fast: without clean conversion tracking and weekly query/creative pruning, ad platforms happily spend budget on clicks that never convert.",
+      "Platform metrics are not business profit: clicks and impressions can look strong while real margin drops, so every campaign must be judged on qualified leads and verified sales."
     ],
     "whyChooseUs": [
-      "We work with Bangladeshi businesses and international clients across the US, UK, Australia, Canada, and UAE, which means campaign strategy accounts for real differences in platform costs, competition, and buyer behavior between markets rather than applying one region's playbook everywhere. Conversion tracking gets set up properly from day one here, not treated as an afterthought once someone finally asks where the budget actually went."
+      "Conversion tracking (GA4, GTM, Meta CAPI) is verified before ad spend scales, so decisions rely on real conversion data.",
+      "You keep 100% ownership of your ad accounts and pay platforms directly, with transparent reporting tied to revenue."
     ],
     "pricingTable": {
       "headers": [
@@ -4087,26 +4169,53 @@ export const services = [
     ],
     "metaTitle": "Social Media Management Services | Mahedi Hasan",
     "metaDescription": "Platform-specific social media management for Facebook, Instagram, LinkedIn, and Pinterest. Content calendars, bilingual community care, and monthly analytics.",
-    "heroHook": "Short Description (under H1): A social presence that actually looks after itself, content planned, posted, and engaged consistently across every platform that matters, handled by one in-house team. Get a free social audit and see what's actually working right now.\n\nAn Inactive Profile Says Something About a Business, Whether That's the Intended Message or Not\n\nA business page that hasn't posted in six weeks, hasn't responded to a comment in longer, tells a visitor something about the business behind it before they've read a single word of actual content. Mahedi Hasan manages social media presence for SMEs, startups, and personal brands in Bangladesh, and for international clients across the US, UK, Australia, Canada, UAE, and 20+ countries across Facebook, Instagram, LinkedIn, TikTok, and YouTube, handled by one in-house team instead of a single overworked person trying to keep five platforms simultaneously alive. Curious what your current profiles are actually communicating? A free audit will tell you.",
-    "quote": "See What Your Profiles Say About You",
+    "heroHook": "Consistent, platform-native social media management across Facebook, Instagram, LinkedIn, and TikTok, pairing structured content calendars with responsive community care and clear analytics.",
+    "quote": "An active, well-managed social profile builds buyer trust before a prospect ever clicks your website or sends an enquiry.",
     "offerings": [
       {
-        "title": "Social media management covers the ongoing content, community engagement, and platform-specific strategy needed to maintain an active, consistent presence, and it typically includes content planning, platform-specific posting, community response, and monthly performance reporting, not just a content calendar handed over and left unmanaged. It's built for businesses that want their social presence to actually reflect well on them, not just technically exist.",
-        "description": "Facebook Management Page management, content posting, and community engagement built around how Facebook audiences actually use the platform today, less about broad organic reach, which has declined significantly for business pages over the years, and more about community building, customer service, local discovery, and serving as a trust signal buyers check before purchasing. Includes post scheduling, Facebook Group management where relevant, event promotion, and review monitoring. Instagram Management Feed posts, Stories, Reels, and Guides managed around Instagram's visual-first culture and its algorithm's current preference for short-form video and genuine engagement over follower count alone. Includes content planning across formats, hashtag and caption strategy, Stories interaction features (polls, questions, links), and coordination with influencer or creator partnerships where relevant. LinkedIn Management Company page management alongside, where relevant, ghostwriting and posting support for founder or executive personal profiles, since LinkedIn's algorithm still favors personal profile content over company pages for reach. Includes thought leadership content, industry commentary, employee advocacy encouragement, and positioning built around B2B credibility rather than consumer-style engagement tactics. TikTok Management Short-form video content built around TikTok's specific format conventions, native editing style, trending audio and formats used deliberately, and a posting cadence suited to how the platform's discovery algorithm actually surfaces content to new audiences, not just existing followers. Includes trend monitoring, content concepting, and captions written for how TikTok users actually search and browse. YouTube Management Channel management, upload strategy, and on-platform optimization for a channel that rewards long-term consistency and search-optimized metadata more than almost any other platform. Includes title, description, and tag optimization for YouTube's own search function, thumbnail strategy, playlist organization, and community tab engagement, alongside a realistic upload schedule your team or ours can actually sustain. Content Calendar & Strategy The planning layer underneath everything else, deciding what gets posted where, in what format, and why, before content gets created under time pressure. Includes content pillar development, platform-specific format planning, key date and campaign alignment, and a documented calendar your team can review and provide input on ahead of time, not a plan revealed only as posts go live. Community Management Responding to comments, direct messages, and mentions across platforms in a timely, on-brand way, including flagging genuine customer service issues to your team and moderating spam or inappropriate content. An unanswered question or complaint sitting publicly for days reflects on the business as much as any post does, and response time is itself a signal both platforms and potential customers notice. Monthly Reporting & Analytics Clear reporting on engagement rate, follower growth, reach, and content performance by format and platform, with context explaining what the numbers actually mean for your business rather than a raw export of platform-native metrics. Includes identifying which content types are genuinely working, so strategy adjusts based on real performance rather than assumption.",
-        "bullets": []
+        "title": "Content Strategy & Monthly Calendars",
+        "description": "Structured content pillars and platform-specific publishing schedules planned ahead of time around your offers and campaigns.",
+        "bullets": [
+          "Brand voice, content pillars, and visual direction",
+          "Monthly calendar approved upfront before publishing",
+          "Campaign alignment with launches, offers, and seasonal peaks"
+        ]
       },
       {
-        "title": "Where This Fits Next to Paid Advertising",
-        "description": "Social media management and paid social advertising sound similar and solve genuinely different problems. Organic: Building a Presence Over Time Social media management is about the ongoing, unpaid presence, the content, the community responses, the consistency that builds an audience gradually and keeps existing followers engaged. Paid: Buying Specific, Immediate Reach Paid social advertising, covered under our separate Paid Advertising services, targets specific audiences with a budget behind it, built for faster, more controllable results tied to a campaign objective. Why Most Businesses Eventually Need Both An active, well-managed organic presence makes paid ads perform better, since a visitor who clicks an ad and lands on an inactive, poorly maintained profile often loses trust immediately, the two genuinely reinforce each other rather than competing for the same budget.",
-        "bullets": []
+        "title": "Instagram, Facebook & Short-Form Formats",
+        "description": "Consistent feed posts, carousels, Stories, and short-form video concepts tailored to how audiences engage on Meta and TikTok.",
+        "bullets": [
+          "Platform-native captions, hooks, and visual formatting",
+          "Facebook page optimization, trust signals, and review monitoring",
+          "Instagram Reels, Stories interaction, and highlight organization"
+        ]
+      },
+      {
+        "title": "LinkedIn & Executive Brand Positioning",
+        "description": "Company page management and founder thought-leadership support built for B2B credibility and inbound enquiries.",
+        "bullets": [
+          "Founder and company profile optimization",
+          "Authority-building industry commentary and case breakdowns",
+          "Consistent B2B cadence designed for organic reach"
+        ]
+      },
+      {
+        "title": "Community Care & Performance Reporting",
+        "description": "Timely responses to comments and DMs paired with monthly reporting on reach, engagement quality, and website clicks.",
+        "bullets": [
+          "On-brand comment and inbox moderation",
+          "Escalation workflow for sales enquiries and customer support",
+          "Monthly format-by-format performance review and next-month plan"
+        ]
       }
     ],
     "whyMatters": [
-      "Every week a social profile sits inactive, the businesses actively posting and engaging keep building an audience relationship that's harder to catch up to later, social growth compounds through consistency in a way that's difficult to shortcut once a gap has opened up. The cost of neglect isn't always obvious either: a potential customer checking a business's Instagram before deciding to reach out, seeing nothing posted in months, forms an impression before any actual product or service quality gets a chance to matter.",
-      "A common misunderstanding treats social media as something that runs itself once a few posts go up. It doesn't. Each platform has its own rhythm, its own content conventions, and its own audience expectations, a strategy that ignores those differences and posts the same content everywhere usually underperforms on every platform at once, rather than succeeding broadly."
+      "Buyers check social profiles before purchasing: an inactive feed or unanswered comments quietly erode trust even when your ads or website are strong.",
+      "Organic social reinforces paid performance: prospects who click an ad and see an active, credible brand profile convert at a noticeably higher rate."
     ],
     "whyChooseUs": [
-      "We work with Bangladeshi businesses and international clients across the US, UK, Australia, Canada, and UAE, which means content strategy accounts for real platform and audience differences between markets rather than one region's posting habits applied everywhere. Community management here means actual timely responses, not a monthly content drop with nobody watching the comments in between."
+      "Every platform gets content formatted for its actual audience behavior rather than copy-pasting the same post everywhere.",
+      "Community responsiveness and analytics are built into the monthly workflow, not treated as an afterthought."
     ],
     "pricingTable": {
       "headers": [
@@ -4355,95 +4464,54 @@ export const services = [
     ],
     "metaTitle": "Website Marketing Services in Bangladesh | Mahedi Hasan",
     "metaDescription": "Integrated website marketing in Bangladesh: SEO, Local SEO, Google Business Profile, eCommerce optimization, and Answer Engine Optimization (AEO).",
-    "heroHook": "Mahedi Hasan builds business websites for SMEs, startups, and corporate brands that need a site that actually generates leads, not a digital brochure. Whether you're a growing business in Dhaka or an international company across the US, UK, Australia, Canada, or UAE, our development services deliver a site built to work as part of your sales process.",
-    "quote": "If you're tired of a website that looks fine but doesn't generate a single lead, Mahedi Hasan builds sites meant to work, not just display.",
+    "heroHook": "A website only becomes a growth asset when the right buyers find it and have a clear path to enquire. Integrated website marketing unites SEO, Local SEO, CRO, and analytics so your site consistently generates qualified leads.",
+    "quote": "Traffic without a conversion path is wasted spend; website marketing aligns search visibility, messaging, and user experience around one measurable goal.",
     "offerings": [
       {
-        "title": "STRATEGY & ARCHITECTURE",
-        "description": "Every business website starts with a plan built around your sales funnel, not a generic template sitemap. Good architecture means visitors find what they need without friction and take the next step.",
+        "title": "Organic Search & Local Visibility",
+        "description": "Turning your core service and category pages into dependable acquisition channels across Google Search and Maps.",
         "bullets": [
-          "Buyer Journey Mapping: Structuring pages around how customers actually decide.",
-          "Site Architecture: Clear navigation built for conversion, not just aesthetics.",
-          "Competitor Review: Identifying what's missing from sites you're up against.",
-          "Content Planning: Defining what each page needs to say and do."
+          "On-page SEO, internal linking, and topical content alignment",
+          "Google Business Profile and local landing page optimization",
+          "Entity-rich schema markup for search engines and AI answers"
         ]
       },
       {
-        "title": "UI/UX DESIGN",
-        "description": "Design that looks professional while guiding visitors toward an inquiry, not just scrolling past. Design isn't decoration here; every layout choice is tied to a reason a visitor should act.",
+        "title": "Landing Page & Funnel Optimization",
+        "description": "Refining offer placement, headlines, proof blocks, and calls-to-action so visitors move smoothly from landing to enquiry.",
         "bullets": [
-          "Wireframing: Mapping layout and flow before visual design begins.",
-          "Conversion-Focused Layout: CTAs and forms placed where decisions happen.",
-          "Brand-Aligned Visuals: Design that matches how your business presents itself.",
-          "Mobile-First Design: Built for the device most visitors actually use."
+          "Buyer-journey messaging audit and headline hierarchy tuning",
+          "Form, WhatsApp, and booking flow friction removal",
+          "Mobile UX and page-speed tuning for higher engagement"
         ]
       },
       {
-        "title": "DEVELOPMENT & CRM INTEGRATION",
-        "description": "The technical build that connects your website to the tools your sales team already uses. A website that doesn't talk to your CRM is a website your sales team has to work around.",
+        "title": "Conversion Rate Optimization (CRO)",
+        "description": "Systematic experiments and behavior analysis that lift the conversion rate of the traffic you already earn.",
         "bullets": [
-          "Custom Development: Clean, maintainable code, not bloated page-builder output.",
-          "CRM Integration: Connecting forms and lead capture to your existing systems.",
-          "Analytics Setup: Tracking visitor behavior and conversion points from day one.",
-          "Third-Party Integrations: Booking tools, live chat, or marketing platforms as needed."
+          "Scroll-depth, click, and drop-off analysis on key pages",
+          "Structured A/B hypotheses for offers, layouts, and CTAs",
+          "Checkout and lead-form optimization for eCommerce and B2B"
         ]
       },
       {
-        "title": "TECHNICAL PERFORMANCE",
-        "description": "Speed and stability that keep visitors on the page long enough to convert. Technical performance is invisible when it works, and costly when it doesn't.",
+        "title": "Analytics, Attribution & AEO Readiness",
+        "description": "Clean measurement connecting every channel to real leads and sales while preparing your pages for AI answer engines.",
         "bullets": [
-          "Speed Optimization: Fast load times across devices and connection speeds.",
-          "Mobile Responsiveness: Full functionality on every screen size.",
-          "Security Setup: SSL, secure hosting practices, and basic hardening.",
-          "Clean Code Structure: Built to be maintained and extended, not rebuilt in a year."
-        ]
-      },
-      {
-        "title": "ONGOING SUPPORT & MAINTENANCE",
-        "description": "A website's job isn't done at launch it needs regular attention to stay secure, fast, and current as your business changes. Available as a separate ongoing service - see our [Website Maintenance] page for full details, since this isn't included by default in a development engagement.",
-        "bullets": [
-          "Security Monitoring & Updates: Keeping core software, plugins, and dependencies current and patched.",
-          "Backup & Recovery: Regular backups so a recoverable version of the site always exists.",
-          "Performance Checks: Monitoring speed and uptime, and fixing issues before visitors notice them.",
-          "Content & Feature Updates: Small changes and additions handled without a full redevelopment project."
+          "GA4, Google Tag Manager, and verified conversion event setup",
+          "Channel-by-channel performance dashboards without vanity noise",
+          "Answer-first page structuring for Google AI Overviews and LLMs"
         ]
       }
     ],
     "whyMatters": [
-      "A website isn't a one-time project; it's infrastructure your business depends on every day.",
-      "Organic Search Still Drives Most Traffic",
-      "A well-built site supports SEO from the ground up, so the visibility you build through content and search doesn't get undercut by a slow or poorly structured site.",
-      "Visitors judge a business by its website within seconds. A site that looks and functions professionally signals that the business behind it is, too.",
-      "Leads That Actually Convert",
-      "A site built around your buyer journey turns visits into inquiries traffic without a conversion path is traffic you paid for and lost.",
-      "One-Time Build, Long-Term Asset",
-      "Unlike ad spend, a well-built website keeps working after launch, it's infrastructure, not a recurring cost with no lasting value."
+      "A silent website costs you twice: you pay to build it and then lose buyers every day to competitors who rank higher and convert cleaner.",
+      "Small conversion lifts compound across every channel: improving landing page conversion rate makes both your SEO and paid ad budgets dramatically more profitable.",
+      "Connected measurement removes guesswork: when SEO, UX, and analytics share the same conversion scoreboard, every monthly update moves real revenue."
     ],
     "whyChooseUs": [
-      "\"If you're tired of a website that looks fine but doesn't generate a single lead, Mahedi Hasan builds sites meant to work, not just display.\" Lead-Focused | In-House Team | Global & Local Experience",
-      "We offer end-to-end website development tailored to how your business actually sells.",
-      "Every business website starts with a plan built around your sales funnel, not a generic template sitemap.",
-      "* Buyer Journey Mapping: Structuring pages around how customers actually decide. * Site Architecture: Clear navigation built for conversion, not just aesthetics. * Competitor Review: Identifying what's missing from sites you're up against. * Content Planning: Defining what each page needs to say and do. Good architecture means visitors find what they need without friction and take the next step.",
-      "Design that looks professional while guiding visitors toward an inquiry, not just scrolling past.",
-      "* Wireframing: Mapping layout and flow before visual design begins. * Conversion-Focused Layout: CTAs and forms placed where decisions happen. * Brand-Aligned Visuals: Design that matches how your business presents itself. * Mobile-First Design: Built for the device most visitors actually use. Design isn't decoration here; every layout choice is tied to a reason a visitor should act.",
-      "The technical build that connects your website to the tools your sales team already uses.",
-      "* Custom Development: Clean, maintainable code, not bloated page-builder output. * CRM Integration: Connecting forms and lead capture to your existing systems. * Analytics Setup: Tracking visitor behavior and conversion points from day one. * Third-Party Integrations: Booking tools, live chat, or marketing platforms as needed. A website that doesn't talk to your CRM is a website your sales team has to work around.",
-      "Speed and stability that keep visitors on the page long enough to convert.",
-      "* Speed Optimization: Fast load times across devices and connection speeds. * Mobile Responsiveness: Full functionality on every screen size. * Security Setup: SSL, secure hosting practices, and basic hardening. * Clean Code Structure: Built to be maintained and extended, not rebuilt in a year. Technical performance is invisible when it works, and costly when it doesn't.",
-      "A website's job isn't done at launch it needs regular attention to stay secure, fast, and current as your business changes.",
-      "* Security Monitoring & Updates: Keeping core software, plugins, and dependencies current and patched. * Backup & Recovery: Regular backups so a recoverable version of the site always exists. * Performance Checks: Monitoring speed and uptime, and fixing issues before visitors notice them. * Content & Feature Updates: Small changes and additions handled without a full redevelopment project. Available as a separate ongoing service - see our [Website Maintenance] page for full details, since this isn't included by default in a development engagement. Why Your Business Needs a Real Development Partner A website isn't a one-time project; it's infrastructure your business depends on every day.",
-      "A well-built site supports SEO from the ground up, so the visibility you build through content and search doesn't get undercut by a slow or poorly structured site.",
-      "Visitors judge a business by its website within seconds. A site that looks and functions professionally signals that the business behind it is, too.",
-      "A site built around your buyer journey turns visits into inquiries traffic without a conversion path is traffic you paid for and lost. One-Time Build, Long-Term Asset Unlike ad spend, a well-built website keeps working after launch, it's infrastructure, not a recurring cost with no lasting value. Why We're Different We're not positioning ourselves as the biggest agency, we're built to be the most accountable one.",
-      "Strategy, design, development, and integration handled by one team, not handed off between freelancers who've never spoken to each other.",
-      "We don't start with a template. We start with how your business actually gets leads, then build the site around that.",
-      "Based in Dhaka, working with clients across Bangladesh and internationally, including the US, UK, Australia, Canada, and UAE. Transparent, Review-Based Process Every stage of architecture, design, and development goes through your review and approval before we move forward.",
-      "We start by understanding your business goals, current site gaps, and sales process before any design begins.",
-      "Structured navigation and page planning built around your buyer journey, not a generic template.",
-      "Conversion-focused layouts that balance professional appearance with a clear path to action.",
-      "Clean custom development with CRM and marketing-tool integration built in, not bolted on later.",
-      "Speed, mobile responsiveness, and security are handled as standard, not an upsell.",
-      "Review checkpoints at every stage, so you approve the direction before it's built, not after."
+      "Technical web development, SEO, CRO, and tracking are handled under one roof so marketing improvements ship immediately instead of waiting in a developer queue.",
+      "Every recommendation is tied to real lead quality, enquiry volume, and conversion rate rather than surface-level traffic counts."
     ],
     "pricingTable": {
       "headers": [
@@ -4899,133 +4967,43 @@ export const services = [
     ],
     "metaTitle": "Creative Content Services That Rank & Convert | Mahedi Hasan",
     "metaDescription": "Research-led creative content writing across ten specialized formats: articles, product descriptions, website copy, PR, and email newsletters.",
-    "heroHook": "Your brand needs more than a content plan. It needs content that actually gets made.\n\nMahedi Hasan provides Content Creation Services for businesses that need professional video, photography, motion graphics, branding, and design produced under one coordinated creative team.\n\nWe create content for businesses in Bangladesh and international clients across the US, UK, Australia, Canada, and UAE. Every project is planned around your brand, audience, platform, and production requirements.",
-    "quote": "Get a Free Production Consultation",
+    "heroHook": "Research-led creative content writing that turns your expertise into words buyers trust and search engines cite, covering pillar articles, conversion copy, product descriptions, and email sequences.",
+    "quote": "Great copy removes buyer hesitation while giving Google and AI answer engines clear, structured reasons to recommend your brand.",
     "offerings": [
       {
-        "title": "Video Production",
-        "description": "We produce promotional, corporate, product, brand, campaign, and other commercial videos from concept through final delivery. Depending on the project, production can include creative direction, scripting or outlines, shot planning, filming, editing, sound work, color correction, motion graphics, captions, and platform-specific exports. The exact production setup depends on the project's goals, locations, talent, equipment, duration, and required output.",
+        "title": "Topical Pillar Articles & SEO Guides",
+        "description": "In-depth, entity-rich articles structured around real search intent to build lasting topical authority and earn AI Overview citations.",
         "bullets": [
-          "Promotional, corporate, product, and campaign videos",
-          "Creative direction, scripting, and shot planning",
-          "Studio and on-location filming with high-end optics",
-          "Video editing, color grading, sound design, and captions",
-          "Platform-specific exports in 16:9, 9:16, 1:1, and 4:5"
+          "Answer-first structure engineered for Google Search and AI engines",
+          "Semantic entity mapping and internal link anchor planning",
+          "100% human-edited clarity, accuracy, and brand-voice alignment"
         ]
       },
       {
-        "title": "Short-Form Video for Reels, Shorts & TikTok",
-        "description": "Short-form content needs a different production approach from longer video. We create vertical videos designed around fast openings, clear messaging, strong pacing, visual variety, and platform-ready delivery. Production can include concept development, hook development, filming or footage sourcing, editing, captions, text overlays, motion elements, music, sound effects, and multiple versions where required.",
+        "title": "Website & Landing Page Copywriting",
+        "description": "Clear, persuasive service pages, homepages, and campaign landing pages written to turn visitors into qualified enquiries.",
         "bullets": [
-          "Hook and concept development for high viewer retention",
-          "Vertical 9:16 filming and mobile-native framing",
-          "Fast-paced editing, text overlays, sound effects, and dynamic captions",
-          "Multiple opening hooks and cut variations for A/B testing",
-          "Ready for Instagram Reels, YouTube Shorts, and TikTok"
+          "Value-proposition sharpening and objection-handling sections",
+          "Conversion-focused headline hierarchy and micro-copy",
+          "Aligned directly with ad messaging and buyer intent"
         ]
       },
       {
-        "title": "YouTube Video Production",
-        "description": "Long-form video needs more than simply extending a short clip. We produce YouTube content with attention to structure, pacing, audio quality, visual continuity, editing, thumbnails, and the viewing experience across longer videos.",
+        "title": "eCommerce Product & Category Copy",
+        "description": "Benefit-driven product descriptions, buying guides, and category copy that rank for commercial terms and lift add-to-cart rates.",
         "bullets": [
-          "Video concept and outline",
-          "Script development or script support",
-          "Filming",
-          "Video editing",
-          "Color correction or grading",
-          "Sound editing",
-          "Motion graphics",
-          "Captions",
-          "Thumbnail design",
-          "Platform-ready exports"
+          "Scannable feature-to-benefit bullets and spec formatting",
+          "Unique category introductions built for non-duplicate SEO",
+          "Localized messaging for both Bangladesh and global buyers"
         ]
       },
       {
-        "title": "Motion Graphics & Animation",
-        "description": "Some ideas are easier to explain through movement than live footage. We create motion graphics and animation for product explanations, processes, statistics, presentations, social content, advertisements, brand assets, and other communication needs.",
+        "title": "Email Sequences, PR & Brand Storytelling",
+        "description": "Consistent editorial assets across newsletters, nurture flows, press releases, and social captions that keep your audience engaged.",
         "bullets": [
-          "Kinetic typography",
-          "Animated graphics",
-          "2D animation",
-          "Explainer visuals",
-          "Product animations",
-          "Logo animation",
-          "Data visualization",
-          "Social motion graphics"
-        ]
-      },
-      {
-        "title": "Commercial & Brand Photography",
-        "description": "Professional photography helps businesses present products, people, places, and experiences with greater consistency. Our photography production can cover product, ecommerce, lifestyle, corporate, campaign, food, fashion, or other commercial requirements depending on the project. The process can include shoot planning, styling direction, location planning, photography, editing, retouching, and final delivery.",
-        "bullets": [
-          "Product and ecommerce catalog photography",
-          "Commercial, lifestyle, and brand storytelling visuals",
-          "Corporate headshots, office environments, and team photography",
-          "Shoot planning, styling direction, and set coordination",
-          "High-end retouching, color grading, and web/print optimization"
-        ]
-      },
-      {
-        "title": "Graphic Design & Marketing Assets",
-        "description": "Graphic design supports the everyday visual needs of a business. Every design is created within an agreed visual direction so individual assets remain part of the same brand system.",
-        "bullets": [
-          "Social media graphics",
-          "Advertising creatives",
-          "Presentations",
-          "Pitch decks",
-          "Brochures",
-          "Flyers",
-          "One-pagers",
-          "Banners",
-          "Marketing materials",
-          "Campaign assets",
-          "Business materials"
-        ]
-      },
-      {
-        "title": "Logo Design",
-        "description": "A logo needs to work across more than a presentation mockup. We design logos that can be used across websites, social profiles, packaging, business materials, advertising, print, and other real-world applications. Depending on the project, the process includes concept development, initial directions, refinement, and final files in appropriate formats and color variations.",
-        "bullets": [
-          "Versatile logo marks designed for real-world readability",
-          "Concept development and multiple initial design directions",
-          "Refinement cycles based on structured feedback",
-          "Comprehensive exports: vector (AI, SVG, EPS) and raster (PNG, JPG)",
-          "Full color, monochrome, and reversed colorway variations"
-        ]
-      },
-      {
-        "title": "Branding & Visual Identity",
-        "description": "A logo is only one part of a brand identity. Our branding work can establish the broader visual system that guides future content. If your business already has a brand identity, we work within it. If the identity needs development, branding can establish the foundation before production begins.",
-        "bullets": [
-          "Color direction",
-          "Typography",
-          "Imagery style",
-          "Graphic elements",
-          "Visual consistency",
-          "Brand applications",
-          "Usage guidance"
-        ]
-      },
-      {
-        "title": "Social Media Graphics",
-        "description": "Social media graphics need to work within the format and context of each platform. We create custom and recurring graphics for announcements, promotions, educational content, campaigns, product launches, offers, and other social content requirements. Where appropriate, we can also create reusable templates so recurring content can be produced more efficiently while maintaining visual consistency.",
-        "bullets": [
-          "Custom announcement, promotion, and campaign graphics",
-          "Educational carousels and multi-slide infographics",
-          "Platform-optimized aspect ratios (1:1, 4:5, 9:16)",
-          "Reusable Figma and Canva template systems",
-          "Brand-aligned typography, spacing, and iconography"
-        ]
-      },
-      {
-        "title": "UGC & Creator-Style Content",
-        "description": "For businesses that use creator-led or user-generated-style content, we can support production requirements such as concepts, creative direction, editing, platform formatting, and branded variations. The exact scope depends on whether the project requires supplied footage, creator coordination, original filming, or editing-only production.",
-        "bullets": [
-          "Creator-style video concepts and hook direction",
-          "Editing and pacing for user-generated source clips",
-          "Branded captions, dynamic stickers, and audio syncing",
-          "Creator coordination or in-house talent capture",
-          "Multiple ad variation testing formats"
+          "Welcome, nurture, and launch email copywriting",
+          "Press releases, founder stories, and case study write-ups",
+          "CMS-ready markdown or Google Docs delivery with metadata included"
         ]
       }
     ],

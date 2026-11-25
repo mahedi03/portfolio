@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
+
+export const metadata: Metadata = {
+  title: "Page Not Found | Mahedi Hasan",
+  description: "The requested page could not be found.",
+  robots: { index: false, follow: false },
+};
 
 export default function NotFound() {
   return (

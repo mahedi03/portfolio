@@ -1,5 +1,3 @@
-"use client";
-
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/shared/Reveal";
 import { CheckCircle2, Shield, Sparkles, Award } from "lucide-react";
@@ -8,7 +6,7 @@ const values = [
   {
     title: "Standard of craft",
     description:
-      "Every deliverable — from the first keyword map to production code — has to clear a commercial and technical bar before it ships.",
+      "Every deliverable, from the first keyword map to production code, has to clear a commercial and technical bar before it ships.",
     icon: Award,
   },
   {
@@ -20,49 +18,53 @@ const values = [
   {
     title: "Ahead of the curve",
     description:
-      "Search behaviour keeps shifting — updates, AI answers, new surfaces. The playbook is reviewed ahead of those changes, not after.",
+      "Search behaviour keeps shifting across algorithm updates and AI answers. The playbook is reviewed ahead of those changes, not after.",
     icon: Sparkles,
   },
   {
     title: "Built to last",
     description:
-      "Only sustainable, ethical methods — they protect the brand, survive algorithm shifts, and keep producing returns.",
+      "Only sustainable, ethical methods that protect the brand, survive algorithm shifts, and keep producing returns.",
     icon: CheckCircle2,
   },
 ];
 
 export function AboutValues() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="border-y border-border/80 bg-surface/40 py-14 sm:py-20 lg:py-24">
       <Container>
-        <Reveal className="mx-auto max-w-3xl text-center">
-          <span className="inline-block rounded-full bg-primary/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
-            Operating Principles
-          </span>
-          <h2 className="mt-3 text-[length:var(--text-h2)] font-display font-bold tracking-tight text-foreground">
-            Operating Principles
-          </h2>
-          <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
-            The non-negotiables behind every strategy, build, and client decision.
-          </p>
+        <Reveal className="flex flex-col items-start justify-between gap-4 lg:flex-row lg:items-end">
+          <div>
+            <h2 className="text-2xl sm:text-4xl lg:text-[2.75rem] font-display font-black tracking-tight text-white uppercase">
+              /OPERATING PRINCIPLES
+            </h2>
+            <p className="mt-3 max-w-2xl text-sm sm:text-base lg:text-lg leading-relaxed text-muted-foreground">
+              The non-negotiables behind every strategy, build, and client decision.
+            </p>
+          </div>
         </Reveal>
 
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {values.map((v, i) => {
             const Icon = v.icon;
             return (
               <Reveal key={v.title} delay={i * 0.08}>
-                <div className="flex h-full flex-col justify-between rounded-2xl border border-border/80 bg-card p-6 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:border-primary/50 hover:shadow-elevated">
+                <article className="group flex h-full flex-col justify-between rounded-2xl border border-border bg-card/80 p-6 backdrop-blur-md shadow-soft transition-all duration-300 hover:-translate-y-1 hover:border-white/30 hover:bg-surface">
                   <div>
-                    <div className="inline-flex size-11 items-center justify-center rounded-xl bg-primary/10 text-primary">
-                      <Icon className="size-5" />
+                    <div className="flex items-center justify-between">
+                      <div className="inline-flex size-11 items-center justify-center rounded-xl border border-primary/20 bg-primary/10 text-primary">
+                        <Icon className="size-5" />
+                      </div>
+                      <span className="font-display text-2xl font-black text-white/10 transition-colors group-hover:text-white/25">
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
                     </div>
-                    <h3 className="mt-5 text-lg font-bold text-foreground">{v.title}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                    <h3 className="mt-5 text-lg font-display font-bold text-white">{v.title}</h3>
+                    <p className="mt-2.5 text-sm leading-relaxed text-muted-foreground">
                       {v.description}
                     </p>
                   </div>
-                </div>
+                </article>
               </Reveal>
             );
           })}

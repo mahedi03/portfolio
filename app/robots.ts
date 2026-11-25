@@ -20,7 +20,7 @@ export default function robots(): MetadataRoute.Robots {
           "Applebot-Extended",
           "cohere-ai",
         ],
-        allow: ["/", "/services", "/case-studies", "/about", "/portfolio"],
+        allow: ["/", "/services", "/case-studies", "/about", "/portfolio", "/contact"],
         disallow: ["/api/"],
       },
     ],

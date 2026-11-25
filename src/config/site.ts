@@ -8,10 +8,10 @@
 export const siteConfig = {
   name: "Mahedi Hasan",
   shortName: "MAHEDI",
-  title: "Mahedi Hasan — Marketing Strategist & SEO Consultant | Web Developer",
+  title: "Mahedi Hasan | Growth Strategist, SEO & Web Developer",
   description:
     "Founder at FrameCipher and former Co-Founder at Riha Web Tech (2022–July 2025). Over 4+ years helping businesses scale through high-performance Next.js websites, data-driven Semantic SEO, and conversion-focused paid advertising.",
-  url: "https://mahedihasanperves.vercel.app",
+  url: "https://mahedi.framecipher.info",
   ogImage: "/og/og-default.webp",
   locale: "en_US",
   language: "en",
@@ -48,7 +48,7 @@ export const siteConfig = {
     jobTitle: "Founder of FrameCipher | Former Co-Founder, Riha Web Tech | SEO & Growth Strategist",
     company: "FrameCipher (Former Co-Founder, Riha Web Tech)",
     bio: "Founder of FrameCipher and former Co-Founder at Riha Web Tech (2022 – July 2025). Over 4+ years connecting Semantic SEO (Koray Gübür Framework), full-funnel paid advertising, and Next.js web applications into high-converting revenue systems.",
-    image: "/Mahedi Hasan-transparent.webp",
+    image: "/mahedi-hasan-transparent.webp",
     email: "pervesmahedi@gmail.com",
     phone: "+880 1636-407711",
     whatsapp: "https://wa.me/8801636407711",

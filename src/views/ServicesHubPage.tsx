@@ -1,18 +1,13 @@
 // ============================================================================
 // VIEW: ServicesHubPage
-// Composition of the /services hub page. Sections live in
-// src/components/services/* (hub components).
+// Focused, conversion-oriented composition of the /services hub page.
 // ============================================================================
 
 import {
   ServicesHero,
-  ServicesProblemSelector,
-  ServicesBusinessGoals,
-  ServicesSystem,
   ServicesGrid,
+  ServicesProblemSelector,
   ServicesBundles,
-  ServicesProcessOverview,
-  ServicesIndustries,
   ServicesComparison,
   ServicesPricingTiers,
 } from "@/components/services";
@@ -22,15 +17,11 @@ export function ServicesHubPage() {
   return (
     <>
       <ServicesHero />
-      <ServicesProblemSelector />
-      <ServicesBusinessGoals />
-      <ServicesSystem />
       <ServicesGrid />
+      <ServicesProblemSelector />
       <ServicesBundles />
-      <ServicesProcessOverview />
-      <ServicesIndustries />
-      <ServicesComparison />
       <ServicesPricingTiers />
+      <ServicesComparison />
       <CTA />
     </>
   );

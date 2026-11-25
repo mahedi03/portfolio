@@ -10,15 +10,15 @@ import { Container } from "@/components/ui/container";
 import { ArrowUpRight, Search } from "lucide-react";
 
 const categories: { label: string; value: PortfolioCategory | "all" }[] = [
+  { label: "All", value: "all" },
   { label: "SEO", value: "seo" },
   { label: "Website", value: "website" },
   { label: "Paid Ads", value: "paid-ads" },
   { label: "Branding", value: "branding" },
-  { label: "All", value: "all" },
 ];
 
 export function PortfolioGrid() {
-  const [active, setActive] = useState<PortfolioCategory | "all">("seo");
+  const [active, setActive] = useState<PortfolioCategory | "all">("all");
   const [search, setSearch] = useState("");
 
   const filtered = useMemo(() => {

@@ -42,25 +42,45 @@ const timeline: TimelineEntry[] = [
 
 export function Journey() {
   return (
-    <section className="py-20 lg:py-28">
-      <Container className="max-w-3xl">
+    <section className="relative overflow-hidden py-14 sm:py-20 lg:py-24">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -top-4 left-4 sm:left-12 select-none text-[clamp(3.75rem,12vw,12rem)] font-display font-black uppercase tracking-[-0.05em] text-white/[0.025] leading-none z-0"
+      >
+        JOURNEY
+      </div>
+
+      <Container className="relative z-10 max-w-4xl">
         <Reveal>
-          <h2 className="text-[length:var(--text-h2)] font-display font-bold tracking-tight">
-            My journey
+          <h2 className="text-2xl sm:text-4xl lg:text-[2.75rem] font-display font-black tracking-tight text-white uppercase">
+            /MY JOURNEY
           </h2>
+          <p className="mt-3 text-sm sm:text-base lg:text-lg text-muted-foreground">
+            Key milestones across web engineering, semantic search, and performance marketing.
+          </p>
         </Reveal>
 
-        <div className="mt-12 space-y-8 border-l border-border pl-8">
+        <div className="relative mt-10 space-y-5 pl-7 sm:pl-9">
+          {/* Vertical gradient rail */}
+          <div
+            aria-hidden
+            className="absolute bottom-2 left-2.5 top-2 w-px bg-gradient-to-b from-primary via-white/20 to-transparent sm:left-3"
+          />
+
           {timeline.map((entry, i) => (
             <Reveal key={entry.year} delay={i * 0.06} className="relative">
-              <div className="absolute -left-[2.35rem] top-1 size-3 rounded-full border-2 border-primary bg-background" />
-              <div className="text-sm font-semibold text-primary">
-                {entry.year}
+              <div className="absolute -left-[1.6rem] top-6 size-3.5 rounded-full border-2 border-primary bg-background shadow-[0_0_12px_rgba(124,58,237,0.6)] sm:-left-[2.05rem]" />
+              <div className="rounded-2xl border border-border bg-surface/60 p-5 sm:p-6 backdrop-blur-md transition-colors hover:border-white/25 hover:bg-surface/90">
+                <span className="inline-block rounded-full border border-primary/25 bg-primary/10 px-3 py-0.5 font-mono text-xs font-bold text-primary">
+                  {entry.year}
+                </span>
+                <h3 className="mt-3 text-lg sm:text-xl font-display font-bold text-white">
+                  {entry.title}
+                </h3>
+                <p className="mt-2 text-sm sm:text-base leading-relaxed text-muted-foreground">
+                  {entry.description}
+                </p>
               </div>
-              <h3 className="mt-1 text-lg font-semibold">{entry.title}</h3>
-              <p className="mt-1.5 text-sm text-muted-foreground">
-                {entry.description}
-              </p>
             </Reveal>
           ))}
         </div>

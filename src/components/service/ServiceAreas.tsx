@@ -1,76 +1,67 @@
 import type { Service } from "@/types";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/shared/Reveal";
-import { Globe, MapPin, CheckCircle2 } from "lucide-react";
+import { MapPin, CheckCircle2 } from "lucide-react";
+
+const defaultPills = [
+  "Dhaka (Gulshan, Banani, Dhanmondi, Uttara, Mirpur)",
+  "Chittagong & Sylhet",
+  "United States & Canada",
+  "United Kingdom & Europe",
+  "Australia & UAE",
+];
 
 export function ServiceAreas({ service }: { service: Service }) {
   const areas = service.serviceAreas;
   if (!areas) return null;
 
   const isString = typeof areas === "string";
-  const defaultPills = [
-    "Dhaka (Gulshan, Banani, Dhanmondi, Uttara, Mirpur)",
-    "Chittagong & Sylhet Commercial Hubs",
-    "Bangladesh-wide Remote Delivery",
-    "United States & Canada",
-    "United Kingdom & Europe",
-    "Australia & New Zealand",
-    "United Arab Emirates & Gulf Region"
-  ];
 
   return (
-    <section className="border-t border-border/60 bg-surface/30 py-20 lg:py-28">
+    <section className="py-12 sm:py-16">
       <Container className="max-w-6xl">
-        <Reveal className="max-w-3xl">
-          <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
-            <Globe className="size-3.5" />
-            Local Depth &amp; Worldwide Execution
-          </div>
-          <h2 className="mt-4 text-[length:var(--text-h2)] font-display font-bold tracking-tight text-foreground">
-            Service Reach &amp; Regional Expertise
-          </h2>
-          <p className="mt-2 text-[length:var(--text-body-lg)] leading-relaxed text-muted-foreground">
-            Trusted by fast-growing startups and enterprises across Bangladesh and international markets worldwide.
-          </p>
-        </Reveal>
-
-        <Reveal delay={0.1} className="mt-10">
-          <div className="rounded-2xl border border-border/80 bg-card/60 p-6 md:p-8 backdrop-blur-sm">
-            {isString ? (
-              <div className="max-w-3xl text-sm md:text-base leading-relaxed text-muted-foreground whitespace-pre-line">
-                {areas}
-              </div>
-            ) : (
-              <div className="space-y-4">
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  Available for strategic advisory, technical engineering, and managed retainers across the following primary markets:
+        <Reveal>
+          <div className="rounded-3xl border border-white/10 bg-surface/50 p-6 sm:p-8 backdrop-blur-md">
+            <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+              <div className="max-w-xl">
+                <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">
+                  Local Depth &amp; Global Delivery
                 </p>
-                <div className="flex flex-wrap gap-2.5 pt-2">
-                  {(Array.isArray(areas) ? areas : defaultPills).map((loc, idx) => (
-                    <span
-                      key={idx}
-                      className="inline-flex items-center gap-1.5 rounded-lg border border-border bg-surface/70 px-3.5 py-2 text-xs font-medium text-foreground"
-                    >
-                      <MapPin className="size-3.5 text-primary shrink-0" />
-                      {loc}
-                    </span>
-                  ))}
-                </div>
+                <h2 className="mt-2 text-xl sm:text-2xl font-display font-black text-white uppercase">
+                  Where This Service Is Delivered
+                </h2>
+                {isString ? (
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground whitespace-pre-line">
+                    {areas}
+                  </p>
+                ) : (
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    {(Array.isArray(areas) ? areas : defaultPills).map((loc, idx) => (
+                      <span
+                        key={idx}
+                        className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-background/60 px-3.5 py-1.5 text-xs font-medium text-foreground"
+                      >
+                        <MapPin className="size-3.5 text-primary shrink-0" />
+                        {loc}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
-            )}
 
-            <div className="mt-8 border-t border-border/60 pt-6 grid grid-cols-1 gap-4 sm:grid-cols-3 text-xs text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="size-4 text-emerald-500 shrink-0" />
-                <span>Async-friendly communication</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="size-4 text-emerald-500 shrink-0" />
-                <span>Local payment &amp; currency support</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="size-4 text-emerald-500 shrink-0" />
-                <span>NDA &amp; IP ownership guaranteed</span>
+              <div className="flex flex-col gap-2.5 text-xs sm:text-sm text-muted-foreground lg:min-w-[260px] lg:border-l lg:border-white/10 lg:pl-8">
+                <div className="flex items-center gap-2.5">
+                  <CheckCircle2 className="size-4 text-emerald-400 shrink-0" />
+                  <span>Async-friendly across time zones</span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <CheckCircle2 className="size-4 text-emerald-400 shrink-0" />
+                  <span>Local &amp; international billing support</span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <CheckCircle2 className="size-4 text-emerald-400 shrink-0" />
+                  <span>Full NDA &amp; IP ownership guaranteed</span>
+                </div>
               </div>
             </div>
           </div>
